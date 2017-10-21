@@ -1,0 +1,391 @@
+## 恶魔 - DEMO - GOSSIPS - ENGLISH
+
+
+###################### Legend to special markers in this document #################
+###################### !!!! - DO NOT CHANGE THOSE MARKERS - !!!! ##################
+
+## text after "#"" is a comment (like those here)
+## \m - means special enter, for example: \m1.1 is an enter that is 10% higher than normal (110%)
+## \s - sprite (a flat image) with its id (id in ASCII; do not modify!), for example: \szz5, \sd or \s6
+## \1-9 - variable (do not touch!)
+## \n - end of line (text after the marker will appear in the line below)
+## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
+## "m", "f" or "n" designates gender used for params names of !magic! 变种: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## What is written in capital letters must stay that way
+## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
+
+## There is a special section just for you to list all translated sections at the end of that file (named "Translator's Changelog")
+
+
+wnd_gossips_overview_title = "你想了解什么呢？"
+
+###################### Gossips ###########################
+
+gtit_0 = "欢迎" ## 酒吧侍女
+gtxt_0_0 = "    真的是你吗？过了这么久再次见到你真是太开心了！你好像已经离开我们镇很久了。我真希望我们不是在这样可怕的情况下见面。"
+gtxt_0_1 = "    你还没离开的时候我们镇多和平啊，但是现在这个小镇正被整片土地上四处蔓延的恶魔一样的东西所扰乱，我们的朋友大多都走了——逃的逃，自杀的自杀。还有的就像凭空消失了一样。剩下还留在这儿的，要不失了心智，要不害怕过度，房门都不敢出。"
+gtxt_0_2 = "    我在尽我最大的努力让大家都振作起来，但事实上，如果没有帮助，我们活不了多久的。欸！别告诉任何人我说过这话哦。"
+gtxt_0_3 = "    我知道，你现在肯定有很多疑问，但恐怕我了解的也不多。如果你想找人问问，去跟智者聊聊吧。兴许他能帮上忙。"
+
+gtit_1 = "黑暗" ## 智者
+gtxt_1_0 = "    你的到来给我灰冷的心带来了一缕曙光。没有什么比旅行更锻炼一个人的了—我就知道！—但是我恳求你不要走。我们需要你！一些黑暗的东西潜藏在老教堂的深处。我在旅行中已经见过了很多恶魔，不过这倒让我穿越龙之废墟的旅程增色几分。"
+gtxt_1_1 = "    这一切都是从我们主教的失踪开始的。我担心他是不是被拖到了教堂深处的地下墓穴。我也不知道是什么造就了对这个圣地的亵渎，这仍是个未解之谜。但我知道你一定有办法弄清楚！不过请记得千万小心，那些冒险造访黑暗的人几乎无人生还，少数归来者也无一活到今日。"
+
+gtit_2 = "介绍" ## 治愈者
+gtxt_2_0 = "    感谢天堂聆听我的祷告，赐予我们一位光明斗士！我将尽我所能助你战斗。如果你需要治疗身心疾病，请随时来找我。但是，万勿大意，面对邪恶军团可不是小打小闹。愿信念与你同在！"
+gtxt_2_1 = "    There is no better protection against darkness. If you allow yourself to falter you shall become defenseless and even risk losing your immortal soul. I saw what happened to those who went astray in their spiritual vocation and... No, it's better not to dwell on such things lest darkness overcome us."
+
+gtit_3 = "简介" ## 预言家
+gtxt_3_0 = "    Greetings, traveller! People call me the 预言家. I'm pleased to see there are souls courageous enough to visit a place like this and stay. In truth, I came here recently myself, as I had to leave the royal capital."
+gtxt_3_1 = "    I am certain you have already heard about me and my excellent skills from the lovely 酒吧侍女 I'm tutoring. Believe me when I say you will find my craft most useful in your adventures. Feel free to talk to me should you need any assistance."
+gtxt_3_2 = "    The townsfolk are good but simple people, and know little about the arcane. That 智者 may be an exception, but his wit - not to mention his social skills - are clearly dulled by age. We're all lucky that cranky old men tend to be harmless."
+
+gtit_4 = "坩埚" ## 酒吧侍女
+gtxt_4_0 = "    I've been busy too, while you were away. The 预言家 is teaching me her craft, and I don't mean her skill with cards. It's called \"Prize Brewing\" and it's the art of producing powerful magical elixirs that someone like you should find useful. All you need to do is collect the ingredients. I'll take care of the rest."
+gtxt_4_1 = "    Now, this is magical stuff I'm talking about, so there are some rules. First, the more ingredients I mix, the greater the potion's power will be. Second, you can drink it and enjoy a little magic any time you want, but the process will get more expensive each time. Third, if monsters slay you in the dungeons, the potion will weaken. It's because I'm making them just for you, so they have to be magically linked to your essence."
+
+gtit_5 = "小镇" ## 预言家
+gtxt_5_0 = "    Welcome back, my friend. I'm sure you have already noticed how things changed for the better around here while you were travelling around the world? Apart from the demonic presence, of course. One as smart as yourself surely realizes that this mostly is due to my beneficial presence in this small town."
+gtxt_5_1 = "    Take 酒吧侍女 as an example. A simple girl, to be sure, but surprisingly talented when it comes to Prize Brewing. Her potential would surely go to waste if it wasn't for me. Her focus and strong will remind me of myself in youth."
+gtxt_5_2 = "    Then there's the 智者, whose stories are nothing but half-truths. Simple folk are easily swayed by men like him, so I have to correct him all the time. As for the 治愈者, I helped him a lot and even offered to read his fortune for free, but he ran away. Most curious! Make no mistake, he's hiding something."
+
+gtit_6 = "卡牌" # 预言家
+gtxt_6_0 = "    Magical cards are my specialty. They represent a novel approach to magic, offering a superior alternative to clunky weaponry and verbose spell-casting. Unfortunately, new things are often frowned upon, even more so in... quaint places, like this town. Can you imagine not so long ago those people traded with a local blacksmith? This is so Middle Ages... No wonder he went bankrupt!"
+gtxt_6_1 = "    But let's get back to business. Cards are universal magical items, which can manifest properties of weapons, spells and other artifacts. Some consume magical essence once used, but they can be recharged using objects found in the dungeons or with my help - at a reasonable price!"
+gtxt_6_2 = "    Just like with playing cards, the trick is to find the right combination of magical properties that gives you the best advantage."
+##
+
+gtit_7 = "预言家" # 预言家
+gtxt_7_0 = "    So you want to know more about me? How flattering! Nowadays I may seem like a mere merchant to you, but before I left the capital I was the jewel of high society. Poets praised my beauty, scholars were in awe of my knowledge, and hot-blooded heirs of the most noble families duelled to earn my attention. Like so many others, our good King often sought my counsel and lamented when I had no time for him."
+gtxt_7_1 = "    You must wonder why I left that world behind. Let me just say that too much attention eventually becomes tiring. I prefer to use my talents on those who are truly helpless. Do you know what happens to ordinary people if those with great gifts abandon them? They fall prey to fallacies and misconceptions. Just listen to some of the 智者's stories. You'll know what I mean."
+
+gtit_8 = "法术卡牌" ## 智者
+gtxt_8_0 = "    Finally, a challenge and a chance to use my knowledge for the good! These mystical cards aren't used to cheat and get money from the hopeless and naive, so of course the fortune-telling woman knows nothing about them. However, the true scholars of the arcane - like the hermits of the Eastern Wilds - sometimes pass their secrets to those they deem worthy - like myself."
+gtxt_8_1 = "    You should know that, despite their modest look, such objects can hold powerful enchantments with remarkable properties. Still, as long as their wondrous attributes remain unknown, they are completely useless. Consider yourself fortunate, as I will identify them for you."
+
+gtit_9 = "观察" ##治愈者
+gtxt_9_0 = "    Perhaps you have noticed there seems to be some antipathy between the 智者 and the 预言家? You would do well to pay no heed to what they say about each other. Old age brings many burdens that can make one's heart bitter."
+gtxt_9_1 = "    As for their adventurous tales... I have yet to see any evidence of their deeds, so I'm afraid the passing years might have weakened their minds, which now drift towards the fantastical. Who knows, they might even believe in the things they're describing so vividly."
+gtxt_9_2 = "    Hmm, now that I think of it, their quarrels might be a facade. Years spent in the monastery made me quite observant, so either I'm growing old too, or they might have something more going on."
+
+gtit_10 = "符文" ## 预言家
+gtxt_10_0 = "    Ah, so you came across a runic card? You're wise to ask me about it. Let me explain. Cards like these have no inherent properties of their own, but professionals like myself can still use them to enhance other cards."
+gtxt_10_1 = "    Now, this kind of craft requires subtlety and caution. So whenever you find more of these, keep up that resolute attitude of yours and bring them straight to me. Don't bother talking to the 智者 about them - his methods are as ancient as his jokes."
+
+gtit_11 = "迷宫" ## 酒吧侍女
+gtxt_11_0 = "    Remember how when we were kids we used to sneak into the cathedral and bother the monks in the scriptorium? Poor guys were completely helpless and couldn't even yell at us until they chased us outside. Those were happier times - but now, with all the evil creatures down there..."
+gtxt_11_1 = "    Remember the smith? People think he left because of the 预言家, but I know the true story. You see, monsters snatched his wife and son and dragged them into the dungeons. He followed them and found a terrible place: a kitchen where 恶魔 cook human flesh for their master! Can you imagine seeing your loved ones prepared into a stew, or even worse - black pudding?"
+gtxt_11_2 = "    He managed to come back and tell us all about it, but his mind was unhinged by grief. The next night he vanished for good."
+
+gtit_12 = "酒吧侍女" ## 智者
+gtxt_12_0 = "    酒吧侍女 is as kind as she is strong, and these two qualities rarely go hand-in-hand. She's been caring for me as if we were family, and not once has she complained. I visited dozens of inns and believe me, such places are to any village what a hearth is to a house. If the innkeeper has a stout heart, none despair, even if the times are dire. That's what she does for this community, if you ask me. "
+gtxt_12_1 = "    Unfortunately, she seems to have befriended that woman and even learns her craft. That witch corrupts everything she touches! So just to be on the safe side, I'm guarding this well."
+
+gtit_13 = "地狱厨房" # 酒吧侍女
+gtxt_13_0 = "    So you slew the man-eating demon? That's terrific news! It means you can beat them, and there's still hope."
+gtxt_13_1 = "    Still, as 智者 tells me \"when it comes to devils and such, death is a blurry thing. Their living essence is not like ours and sometimes they endure death, hiding in the shadows.\" Evil can be stubborn like that, you know."
+gtxt_13_2 = "    I can't tell you how I know this, but there are magical keys that force them to become flesh and blood again. If you stumble upon such things, you'll be able to fight them again, and maybe even kill them for good. Sounds convoluted, I know. I'm not an expert on these things - I just sell them."
+
+gtit_14 = "治愈者" ##酒吧侍女
+gtxt_14_0 = "    The 治愈者 is the most cowardly person I've ever met! Nowadays we're all frightened - but I swear, a loud barking dog would give that man a heart attack. But you know what? I respect him more because he stayed. That must have been very difficult for him. Makes me think he must have other reasons to be here. Sometimes I get the feeling he feels guilty about something he had done and decided to stay to make amends."
+gtxt_14_1 = "    I also noticed how he changed after the bishop vanished and folk started talking about strange rituals happening in the cathedral. Of course, he wouldn't tell me anything. Maybe you'll have more luck talking to him."
+
+gtit_15 = "地下墓穴" ## 治愈者
+gtxt_15_0 = "    There can be no doubt about it. The bishop and his foul rituals are the source of this evil scourge. When he proclaimed himself the Antipope, he not only committed sacrilege but also gained unholy power that allowed him to unleash the infernal hordes upon this land. But it was only possible because of... me."
+gtxt_15_1 = "    It was I who found the Manuscript with forbidden knowledge and gave it to him. Oh, I should have kept it hidden! As soon as I showed it to him, I saw his spirit crumbling as he struggled with dark temptations. But I did nothing, so I too must carry the weight of his sins. There, I've finally said it."
+gtxt_15_2 = "    What I lack in courage, I try to make up for with prayer. That's why I believe you are our champion and I must help you. Each day I conquer my fear and remain here. It is my penance."
+
+gtit_16 = "伪教皇" ## 治愈者
+gtxt_16_0 = "    So the Antipope is dead... Thank you for ending his reign. I'm sure the Heavens would prefer me to be the one who brought him down and balanced the scales of justice, but I would never be brave enough to carry out such a courageous quest."
+gtxt_16_1 = "    Moreover, I vowed to help and protect life, so taking one - even one so twisted by evil as his - goes against that oath. I shall thank the Heavens for sending you to our aid!"
+
+gtit_17 = "地狱" ## 预言家
+gtxt_17_0 = "    I'm afraid I have troubling news that I need to discuss with you. First, you must know that since I came to this town I've been having the most gruesome dreams. At first I suspected rural cuisine was to blame, but lately these visions became too horrid to ignore. Now, it would be a basic mistake to take dreams literally, so I consulted my crystal ball to be certain."
+gtxt_17_1 = "    What I saw terrified me to the bone. There's a mighty will behind the infernal hordes that attack us - the Archdemon himself. The most vile and cruel creature, one with immense dark power. I peered into his fate and saw a glimpse of the past. He used to slumber in his hellish realm until the Antipope awakened him. With each passing hour, the Archdemon's army of horrors is crawling ever closer to the surface. If they succeed, the shadow of darkness will fall on us for all eternity. "
+
+gtit_18 = "我的英雄!" ## 酒吧侍女
+gtxt_18_0 = "    你做到了！ The king of 恶魔 has fallen, and at the hand of my friend! I never doubted you. You can't imagine how happy I am. Maybe now the cows will stop breathing fire and giving sour milk. You should know that I will never forget what you did for us. You've earned a very special place in my heart."
+
+gtit_19 = "光明" ## 智者
+gtxt_19_0 = "    So the Archdemon has been slain? Now that is something truly unheard of! At least I've never heard anything like, which amounts to about the same thing. Congratulations, you are a true hero! However, remember that, unlike earthly realms, Hell isn't bound by the laws of nature, and its infernal dungeons stretch into infinity. If your spirit is as steadfast as your hand, you can venture deeper still, face more evil creatures and collect fabulous treasures and powerful artifacts. This adventure isn't over yet."
+
+gtit_20 = "胜利" ## 预言家
+gtxt_20_0 = "    So the Archdemon has fallen? Please accept my congratulations - but also hear this warning. Immortal beings do not succumb to death the way we do, and you must always be wary of their inevitable return. Still, let not this grim truth overshadow this victory. Your actions brought a triumph of light over darkness, and for that I owe you countless thanks!"
+gtxt_20_1 = "    True strength lies not in arms and spells, but in a steadfast spirit. Without it, no challenge can be tackled. This is what makes you a hero worthy of praise. Your story will be written down and sung. I'll make sure of that as soon as I return to the capital."
+
+gtit_21 = "结束了?" ## 治愈者
+gtxt_21_0 = "    My prayers have been answered - the Archdemon is defeated! There are no words that can express my gratitude. The story of your deeds is already spreading throughout the land and bringing hope to the ones who saved their lives."
+gtxt_21_1 = "    But I must caution you, champion. Wrestling with darkness stains the soul, and yours has been marked as well. You walk a righteous path, and Heavens love you for that, but Hell's fury knows no limits. True evil can never be entirely destroyed, as it feeds on fear, anger, hate and suffering."
+gtxt_21_2 = "    Now that you've brought it down, it is already licking its wounds. It is the duty of the champion to never lower one's defenses and always be prepared to face the darkness. For it shall return one day, you can be certain of that. Be ready!"
+
+gtit_22 = "药剂"  ## 治愈者
+gtxt_22_0 = "    When I was still a young monk, we used to jest that dull brothers excel in copying holy texts and those with any wit left become master brewers. It does not sound very amusing now, but it would bring us to tears back then. Monastic life can be very monotonous, you see."
+gtxt_22_1 = "    Regardless, potion brewing was our specialty. It required hours of prayer and meditation. Nowadays, even a 酒吧侍女 can procure a potent mixture with one hand while stuffing a turkey with the other. And the magical cards allow you to use objects that you don't even have to carry!"
+gtxt_22_2 = "    You might think that as a man devoted to matters of the spirit I may object to the methods of the 预言家. Normally this would be true, but in such dire times, when darkness threatens the light, we need all to use their talents to oppose evil. I believe her gifts are a godsend."
+##
+
+gtit_23 = "生意" ## 酒吧侍女
+gtxt_23_0 = "    Do you remember how we used to play, lying in the grass, watching the clouds and guessing our future from their shapes? We saw many strange things, but I never suspected what fate had in store for us..."
+gtxt_23_1 = "    Running an inn isn't that bad. At least, it wasn't until the dark rituals. Now everyone's afraid of being eaten by some nasty creature and some people even ponder suicide. And just look at our garden! We used to grow all sorts of vegetables and herbs, but now the soil is poisoned with dark magic and 恶魔 trample everything with their hoofs! Ah, but complaining doesn't make anything better."
+gtxt_23_2 = "    I still get a lot of help from the 智者. He may be cranky at times, but he's always treated me like a daughter. Then there's the fortune-teller. She's a fascinating woman, and I'm very lucky to learn from her. And now you're back!"
+##
+
+gtit_24 = "死亡" ## 治愈者
+gtxt_24_0= "    When evil strikes you down in the dungeons, it takes a lot of my effort to deliver your soul from the clutches of darkness. Death always takes its toll, so any equipped cards remain at your grave and so will grant you no aid until you retrieve them. Also, some ingredients collected in the arcane cauldron perish, as spells and elixirs are mere tricks in the light of the divine."
+gtxt_24_1= "    Some things cannot be explained, they must be believed... Many scholars devoted their lives of prayer hoping for illumination and understanding of the nature of the soul, but very few succeeded. In the scriptures, they usually compared spiritual links to threads of yarn being cut, and souls to little pots being broken... Then again, holy men are not very skilled when it comes to similes, as their virtue stems from... other qualities."
+
+gtit_25 = "Something Special" ## fortune-teller
+gtxt_25_0 = "Remember how I said that your deeds will be written down and sung? As a matter of fact, we already started preparing something special. We didn't expect you to become victorious so soon, so it's a bit rough. I'm sure this will be a hit in the capital and the King will love it. He literally cried with joy the last time I sang for him. Anyway, ready or not, here it comes... \nWhere have all the good men gone and where are all the gods?\nWhere's the streetwise Hercules to fight the rising odds?"
+
+#################################### 智者的恶魔图鉴 - 系 ##########################
+
+mgtit_1 = "恶魔"
+mgcnt_1 = "恶魔：\^FFFFFF\1/\2\^^"
+mgtxt_1 = "遭遇恶魔无疑是个坏消息。因为这样的生物无法远离它们地狱般的圈子，成群结队的恶魔在大教堂下的地牢中任意漫游，这说明：地道之深，远超我们的想象。他们必须下地狱！如果地道真的如此深入，那么，不可避免地，黑暗将会蔓延，最终抵达地面……恶魔的形态大小各异，它们靠着恐惧与人性的弱点生存。一如我们的预言家朋友。"
+mgtit_2 = "山羊怪"
+mgcnt_2 = "山羊怪：\^FFFFFF\1/\2\^^"
+mgtxt_2 = "Among all monstrosities that plague this world, 山羊怪 must be the acme of perversion. These nightmarish creatures were banished from the worlds of animals and mankind alike. It is fitting that they seem to enjoy nesting, and possibly breeding in the most unholy ways imaginable, in dark places, close to the abodes of 恶魔. Beware if you hear their blood-curdling call-the infernal bleat! Unfortunately, they are also known to wander above ground. Probably reading cards and scrying with a crystal ball."
+mgtit_3 = "鬼魂"
+mgcnt_3 = "鬼魂：\^FFFFFF\1/\2\^^"
+mgtxt_3 = "Even the strongest minds must unravel under the burden of everlasting loneliness and despair - that's where the pining 鬼魂 come from. Such spirits are driven by their thirst for the vital energies of the living and can feed on their magical essence. Their most enigmatic and terrifying attribute, however, is their ability to possess the bodies of weak-minded individuals and prey on them. Come to think of it, such behavior reminds me of a certain person we both know."
+mgtit_4 = "骷髅"
+mgcnt_4 = "骷髅：\^FFFFFF\1/\2\^^"
+mgtxt_4 = "Few living souls venture into the depths under the cathedral, as this is the realm where the dead rest, or at least should be resting. Countless 战士s, men of the cloth, mages, and even kings of old were buried there with troves of 金币 and gems. But the dead are now restless. Quickened by some unholy powers, they are haunting the corridors like wild animals, and their courage, virtue, and talents have been replaced with mindless violence. Ending their painful existence will be an act of mercy, if you ask me."
+mgtit_5 = "蜘蛛"
+mgcnt_5 = "蜘蛛：\^FFFFFF\1/\2\^^"
+mgtxt_5 = "Here's a riddle: what has hairy legs, bulging eyes, and smells worse than the feet of a sorcerer's apprentice? No, it's not the fortune-teller, my child, though I admit I find the dungeon arachnids just as vicious. Their olfactory receptors are very sensitive, so I'm guessing they were drawn out by the reek of death permeating the dungeons. Not unlike the creatures I met in my travels through the Spider Pass, they are hunters who ambush and immobilize their victims with secretions from their... Well, you get my point."
+mgtit_6 = "僵尸"
+mgcnt_6 = "僵尸：\^FFFFFF\1/\2\^^"
+mgtxt_6 = "Animated cadavers are capable of experiencing only the most base effect: hunger. Who can imagine a less meaningful existence? Their bodies are still decomposing, so it's recommended to keep them at a distance as the gases they produce are of the deadliest kind. Fortunately, they also smell awful, which serves as a warning. Just like the stench of charlatanry emanating from the fortune-teller's wagon."
+mgtit_7 = "石像鬼"
+mgcnt_7 = "石像鬼：\^FFFFFF\1/\2\^^"
+mgtxt_7 = "These creatures are made of stone, which makes them extremely resilient to elements. Fire, frost, or poison cannot harm them. Their abilities are fascinating. When harmed, they petrify and lie in slumber for thousands of years, slowly regenerating. All adventurers should be warned that statues may not be what they seem. Some scholars claim that gargoyles carry a trace of demonic blood. Like that charlatan woman ... although it's much more obvious in her case."
+
+########################### Monster names #################################
+
+monster_unknown_name = "Unknown Beast"
+monster_0_name = "Fallen Imp"
+monster_1_name = "Fire Imp"
+monster_2_name = "Slithering Bowman"
+monster_3_name = "Slithering Magus"
+monster_4_name = "Slithering Soldier"
+monster_5_name = "Slithering Horror"
+monster_6_name = "Succubus"
+monster_7_name = "Glutton"
+monster_8_name = "Slith. Horror Magus"
+monster_9_name = "Incubus"
+monster_10_name = "Diabolist"
+monster_11_name = "Goatman"
+monster_12_name = "Chaotic Goat"
+monster_13_name = "Goatchanter"
+monster_14_name = "Battering Goat"
+monster_15_name = "Schizo Fargoat"
+monster_16_name = "Battering Flamegoat"
+monster_17_name = "Elder Goatchanter"
+monster_18_name = "Loony 鬼魂"
+monster_19_name = "Tiny Spectre"
+monster_20_name = "Spectre"
+monster_21_name = "Mirage Lancer"
+monster_22_name = "Spect. Whopper"
+monster_23_name = "Mirage 法师"
+monster_24_name = "Skull Spook"
+monster_25_name = "Phantom Beast"
+monster_26_name = "Skeleton 战士"
+monster_27_name = "Shielded Skeleton"
+monster_28_name = "Skeleton Archer"
+monster_29_name = "Skelserker"
+monster_30_name = "Cool Archer"
+monster_31_name = "Cool Skeleton"
+monster_32_name = "Skeleton Templar"
+monster_33_name = "Skeletomancer"
+monster_34_name = "Whopper"
+monster_35_name = "Hyper Skelserker"
+monster_36_name = "Corrupted Templar"
+monster_37_name = "Burning Whopper"
+monster_38_name = "Horror Archer"
+monster_39_name = "Horror Templar"
+monster_40_name = "Horror Whopper"
+monster_41_name = "Arachnid"
+monster_42_name = "Arachnad"
+monster_43_name = "Arachnod"
+monster_44_name = "Wicked Longlegs"
+monster_45_name = "Arachgod"
+monster_46_name = "Corrupted Arachnod"
+monster_47_name = "Cool Crawler"
+monster_48_name = "Arachnoleton"
+monster_49_name = "Hot Crawler"
+monster_50_name = "Burning Arachnoleton"
+monster_51_name = "Zombie Corpse"
+monster_52_name = "Flying Wild Hog"
+monster_53_name = "Plowing Corpse"
+monster_54_name = "Corrupted Priest"
+monster_55_name = "Hungry Corpse"
+monster_56_name = "Hopping Corpse"
+monster_57_name = "Hungry Plant"
+monster_58_name = "Puffy Corpse"
+monster_59_name = "Slimy Spore"
+monster_60_name = "Elemental Corpse"
+monster_61_name = "Voracious Corpse"
+monster_62_name = "Voracious Plant"
+monster_63_name = "Elemental Lord"
+monster_64_name = "Petit Gargoyle"
+monster_65_name = "Gargoyle"
+monster_66_name = "Hammer Gargoyle"
+monster_67_name = "Uber Gargoyle"
+monster_68_name = "Horror Gargoyle"
+
+monster_unknown_title = "  UNKNOWN BEAST  "
+monster_0_title = "  FALLEN IMP  "
+monster_1_title = "  FIRE IMP  "
+monster_2_title = "  SLITHERING BOWMAN  "
+monster_3_title = "  SLITHERING MAGUS  "
+monster_4_title = "  SLITHERING SOLDIER  "
+monster_5_title = "  SLITHERING HORROR  "
+monster_6_title = "  SUCCUBUS  "
+monster_7_title = "  GLUTTON  "
+monster_8_title = "  SLITH. HORROR MAGUS  "
+monster_9_title = "  INCUBUS  "
+monster_10_title = "  DIABOLIST  "
+monster_11_title = "  GOATMAN  "
+monster_12_title = "  CHAOTIC GOAT  "
+monster_13_title = "  GOATCHANTER  "
+monster_14_title = "  BATTERING GOAT  "
+monster_15_title = "  SCHIZO FARGOAT  "
+monster_16_title = "  BATTERING FLAMEGOAT  "
+monster_17_title = "  ELDER GOATCHANTER  "
+monster_18_title = "  LOONY 鬼魂  "
+monster_19_title = "  TINY SPECTRE  "
+monster_20_title = "  SPECTRE  "
+monster_21_title = "  MIRAGE LANCER  "
+monster_22_title = "  SPECT. WHOPPER  "
+monster_23_title = "  MIRAGE 法师  "
+monster_24_title = "  SKULL SPOOK  "
+monster_25_title = "  PHANTOM BEAST  "
+monster_26_title = "  SKELETON 战士  "
+monster_27_title = "  SHIELDED SKELETON  "
+monster_28_title = "  SKELETON ARCHER  "
+monster_29_title = "  SKELSERKER  "
+monster_30_title = "  COOL ARCHER  "
+monster_31_title = "  COOL SKELETON  "
+monster_32_title = "  SKELETON TEMPLAR  "
+monster_33_title = "  SKELETOMANCER  "
+monster_34_title = "  WHOPPER  "
+monster_35_title = "  HYPER SKELSERKER  "
+monster_36_title = "  CORRUPTED TEMPLAR  "
+monster_37_title = "  BURNING WHOPPER  "
+monster_38_title = "  HORROR ARCHER  "
+monster_39_title = "  HORROR TEMPLAR  "
+monster_40_title = "  HORROR WHOPPER  "
+monster_41_title = "  ARACHNID  "
+monster_42_title = "  ARACHNAD  "
+monster_43_title = "  ARACHNOD  "
+monster_44_title = "  WICKED LONGLEGS  "
+monster_45_title = "  ARACHGOD  "
+monster_46_title = "  CORRUPTED ARACHNOD  "
+monster_47_title = "  COOL CRAWLER  "
+monster_48_title = "  ARACHNOLETON  "
+monster_49_title = "  HOT CRAWLER  "
+monster_50_title = "  BURNING ARACHNOLETON  "
+monster_51_title = "  ZOMBIE CORPSE  "
+monster_52_title = "  FLYING WILD HOG  "
+monster_53_title = "  PLOWING CORPSE  "
+monster_54_title = "  CORRUPTED PRIEST  "
+monster_55_title = "  HUNGRY CORPSE  "
+monster_56_title = "  HOPPING CORPSE  "
+monster_57_title = "  HUNGRY PLANT  "
+monster_58_title = "  PUFFY CORPSE  "
+monster_59_title = "  SLIMY SPORE  "
+monster_60_title = "  ELEMENTAL CORPSE  "
+monster_61_title = "  VORACIOUS CORPSE  "
+monster_62_title = "  VORACIOUS PLANT  "
+monster_63_title = "  ELEMENTAL LORD  "
+monster_64_title = "  PETIT GARGOYLE  "
+monster_65_title = "  GARGOYLE  "
+monster_66_title = "  HAMMER GARGOYLE  "
+monster_67_title = "  UBER GARGOYLE  "
+monster_68_title = "  HORROR GARGOYLE  "
+
+################################### 智者的怪物图鉴 ##########################
+
+monster_unknown_txt = "你还没见过此怪物"
+monster_0_txt = "恶作剧小恶魔，喜欢玩耍和挖人的眼睛。尽快处理掉它，因为它在本质上是懦弱的，在受伤的时候会逃跑。"
+monster_1_txt = "Just like his fallen brethren, this little demon loves mischief and killing. However, this one is on fire."
+monster_2_txt = "What is worse than an upright, six-foot-high snake with a sword? An upright six-foot-high snake with a bow."
+monster_3_txt = "That demonic snake has mastered offensive spells."
+monster_4_txt = "The demonic snake slithering in the dark corners. Formidable foe for an unprepared adventurer, best kept at distance."
+monster_5_txt = "It's burning with desire to cause pain and suffering. Literally. "
+monster_6_txt = "Although most skilled in interesting and exotic arts, this demon too has to be slain, sadly. "
+monster_7_txt = "Truly demonic in nature, this burning monster is fascinated with Far East weaponry. Spins and throws some kind of ninja metal discs at its victims."
+monster_8_txt = "Even when ablaze with the hottest flames of hell, this monster can still focus enough to cast powerful spells."
+monster_9_txt = "Similar in nature to a succubus, although I have some bad memories with this one. Better to kill on sight."
+monster_10_txt = "Steer clear of those most powerful of demon wizards. Monsters and 恶魔 alike heed their calls."
+monster_11_txt = "Stubborn, loud and sadistic beasts that prefer blunt weapons. Thank god, also rather dumb."
+monster_12_txt = "Goat twisted by chaotic magic. Every one has different strength. All are similarly foul and smelly. Many carry spears and strike at a distance."
+monster_13_txt = "Imagine a goat that somehow learned simple magic and forgot what it knew of hygiene in the process."
+monster_14_txt = "While all 山羊 struggle for wits, this one fancies charging at enemies and occasionally hitting walls head-on. It doesn't help."
+monster_15_txt = "One of the few underworld dwellers to use enchanted weapons, these 山羊 carry elemental spears and try to keep enemies at distance."
+monster_16_txt = "There is only one thing more terrifying than seeing 山羊怪 charge at you - seeing 山羊怪 charging at you while they're on fire."
+monster_17_txt = "Some young 山羊 with a grasp on the arcane that manage not to kill themselves in the process become more powerful and fearsome elders. Do not underestimate them, or their smell."
+monster_18_txt = "Dejected, wistful soul that desperately seeks to bask in the warmth of living, bringing only cold death. Keep them at bay or they will freeze the blood in your veins. "
+monster_19_txt = "Most pitiful of the wandering 鬼魂, and easiest to dispatch. Probably remnant souls of some bigger rodents or lawyers."
+monster_20_txt = "However this might sound, this is the most common and ordinary of the 鬼魂 you can meet."
+monster_21_txt = "鬼魂 of a skilled spearman. Curiously, the spears he tosses are real and, sadly, can make you into shish kebab if you stand still for too long."
+monster_22_txt = "Judging by its great size and significant power, a soul that belonged to some very spiritual man. No wonder it's angry - had I spent life in meditation and afterlife in dungeons, I would be mad, too."
+monster_23_txt = "Elusive soul of bitter 法师. While retaining some of its magic skills, it gained the ability to jaunt through the ether. Teleport in other words. So annoying."
+monster_24_txt = "This one is particularly annoying. Bodiless skull that used to belong to someone called Murray. It covers ground with ice, rendering travel difficult and finds itself very amusing. No wonder it ended in hell."
+monster_25_txt = "No idea which animal this is a 鬼魂 of, but it surely was furious and projected bouncing orbs of arcane cold."
+monster_26_txt = "I never thought I would say it, but compared to other dwellers of the underground this is just a plain old walking skeleton."
+monster_27_txt = "Some walking skeletons still carry shields in different stages of decay. Before you can harm them, you must first break through their defences."
+monster_28_txt = "Walking skeleton with a bow. Surprisingly effective archer. Have you ever tried to hold an arrow without flesh on your fingertips?"
+monster_29_txt = "This is one angry skeleton. Jabs, slashes and cuts. Very aggressive and dangerous."
+monster_30_txt = "Some skeletal archers carry enchanted arrows that can chill your blood and make you sluggish. I call them Cool Archers, get it?"
+monster_31_txt = "My hypothesis is that this must be a skeleton from ancient times, when the world was bound in ice. Uses primitive tools and not very refined tactics. Still, a formidable enemy due to its freezing touch."
+monster_32_txt = "Others tried to defeat Archdemon before you and failed. Their animated powerful corpses now wander the dungeons. By the force of habit, they still stick to paths and rarely wash. "
+monster_33_txt = "Some necromancers eventually fade away and become powerful skeletal wizards. They can call more skeletal minions to their aid and even bar death herself from reclaiming them. "
+monster_34_txt = "Lumbering skeleton of fallen giant. To kill him again is no small feat, for his bones do not break easily. "
+monster_35_txt = "Some skeleton 战士s are so enraged and mad at the living that I decided to create a special category just for them. What kind of person resorts to ambush, even after death?"
+monster_36_txt = "As I mentioned before, fallen heroes retain some of their habits, including poor hygiene. This, and rot, sometimes makes them... a bit too ripe to withstand."
+monster_37_txt = "Huge skeleton of a fallen giant. And it's on fire. Needless to say, try to keep your distance and prepare for a difficult fight."
+monster_38_txt = "These cold-boned skeletons with their burning arrows can really make your day bad. And by that I mean they can kill you."
+monster_39_txt = "Undead remains of heroes fallen by burning 恶魔. Violence is their sole vocation, dead eyes filled with hatred. At least fires kill the smell."
+monster_40_txt = "Raging undead giant with enough strength remaining to toss boulders at his enemies. At least it's not on fire. Oh, wait. It is."
+monster_41_txt = "A spider of the larger variety. Still, I have seen larger ones in 预言家's wagon."
+monster_42_txt = "This spider is rather big and also pretty sneaky - attacks exclusively from ambush. When killed, it bursts open and smaller spiders emerge. Nothing special really, just regular spider stuff."
+monster_43_txt = "This is a spider that would be considered dangerous even by Australian standards. Well, maybe a bit too small for that. But still, it will burst open when killed and release huge offspring."
+monster_44_txt = "Ever wondered what would you get if you infused a regular Daddy longlegs with pure evil? Apparently you would get cobweb-spitting murder machine on eight legs. "
+monster_45_txt = "Even among arachnids, this one is considered god-tier repulsive. Its abdomen is full of sticky goo, so expect a horror piñata when you cut it open."
+monster_46_txt = "A very persistent arachnid, will never leave you alone once it catches your scent. One has to wonder what kind of flies they have in hell to nurse such monstrosities."
+monster_47_txt = "Apparently, having ancient dungeons infested with man-eating spiders is not enough. We also have partially immortal ice scorpions to spice things up."
+monster_48_txt = "You heard right. Undead skeletal spider. Actually, spiders have exoskeletons, so this one doesn't make much sense. My guess is that they are assembled in hell from loose bones and random parts."
+monster_49_txt = "Burning scorpion the size of a horse. When killed it somehow summons fire imps . Not sure what advice I can give you on that. I would run, but that's why you're the hero and not me. And why I'm still alive."
+monster_50_txt = "Burning gigantic spider. Yes. But there is good news, too! At least we haven't encountered flying spiders. Yet."
+monster_51_txt = "Pretty much the same thing as a skeleton, just still covered in rotting meat. And stronger. Also tends to explode in a poisonous miasma when killed. But otherwise it's just a skeleton."
+monster_52_txt = "Hogs have been disappearing from our forest for some time now... Turns out their bloated corpses are floating in the dungeons. I guess pigs can fly after all. Just don't be around when one bursts."
+monster_53_txt = "Undead farmer, still wielding his pitchfork. Probably last thing he did before death was fork manure, because even a small cut from his improvised weapon results in serious poisoning."
+monster_54_txt = "Zombie priest. Can convert others to his zombie faith and seep poison into the ears of the living."
+monster_55_txt = "Famished corpse, slowly lumbering after its prey. Has a way with words and can make other zombies burst with laughter. Poisonous miasma mixed with rotten guts. That, too."
+monster_56_txt = "Straight from the deadliest place in the world comes another zombie. This one can jump and has mastered boxing moves. Beware of its legwork."
+monster_57_txt = "Forget everything you ever heard of carnivorous plants. Not only can this one sprout in seconds, it also spits slimy seeds that burst into terrible things. In case you were wondering, no weed-killer works against it."
+monster_58_txt = "Huge rotting zombie that rips infested spores out of his own flesh and tosses them like slimy projectiles. At this point not much can probably move you - but you must admit, this is pretty hardcore."
+monster_59_txt = "An undead slimy egg that explodes, releasing undead creatures, foul miasma or worse. Smash it quickly before it hatches or risk being overrun."
+monster_60_txt = "You can think of this one as the kitchen-sink zombie, or the 预言家's wagon - it has every element in it, and smells funny. You'll be amazed at what's inside when you strike it down."
+monster_61_txt = "Like most of the living, zombies become aggressive and angry when hungry. Huh, that rhyme could work in a song! Anyway, this one is particularly big and hungry."
+monster_62_txt = "Like all carnivorous plants, this one uses neat evolutionary mechanisms to catch prey. In this case it is not sweet viscous nectar, but rather venomous fangs, slimy spores and mind- controlled zombies. Good luck."
+monster_63_txt = "Just like a piñata, but filled with 恶魔, zombies and ice. And it kicks like a real horse. And looks like a big, walking dead man. Okay, maybe it's not entirely like a piñata, but it has stuff inside, too! Just not candy."
+monster_64_txt = "Often called living statues, these magical beasts can turn to stone and slowly heal themselves. Just like stone, they resist poison and elements."
+monster_65_txt = "Rather imposing stone creature. Resists elements and poison. Make sure to finish it off before leaving, as it can heal itself. And also because they are rather ugly."
+monster_66_txt = "Stone creature with powerful wings - they can even fly while carrying a huge hammer. By the way - don't let that hammer hit you. It packs quite a punch."
+monster_67_txt = "Astonishingly mobile for a creature made of stone, this one can dance around you as it sets you on fire."
+monster_68_txt = "Although it's made of burning brimstone, it shoots frozen missiles and can freeze you in place."
+
+################################## Translator's Changelog ######################################
+# Using # sign create a list of already translated items/sections
+## 1.
+## 2.
+## 3.
+## 4.
+## etc
+##
+
+## file cannot end with comment ##
+end_of_gossips = ""

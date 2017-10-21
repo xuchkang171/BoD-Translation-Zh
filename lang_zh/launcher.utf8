@@ -1,0 +1,1252 @@
+﻿## 恶魔 - DEMO - LAUNCHER - ENGLISH
+
+###################### Legend to special markers in this document #################
+###################### !!!! - DO NOT CHANGE THOSE MARKERS - !!!! ##################
+
+## text after "#"" is a comment (like those here)
+## \m - means special enter, for example: \m1.1 is an enter that is 10% higher than normal (110%)
+## \s - sprite (a flat image) with its id (id in ASCII; do not modify!), for example: \szz5, \sd or \s6
+## \1-9 - variable (do not touch!)
+## \n - end of line (text after the marker will appear in the line below)
+## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
+## "m", "f" or "n" designates gender used for !params! names of !magic! 变种: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## What is written in capital letters must stay that way
+## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
+
+## There is a special section just for you to list all translated sections at the end of that file (named "Translator's Changelog")
+
+
+##################################
+## Archive of Awesome  
+##################################
+
+#welcome_player = "Welcome \1" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
+
+############################ 产品 ##############################
+
+product_unknown = "未解之谜"
+product_launcher = "史诗档案馆"
+product_bod = "恶魔之书"
+
+product_boa = "异客之书"
+player = "玩家"
+
+############################ 基础 ##############################
+
+lclick = "\s0点击左键开始游戏"
+lclick_pad = "点击\s0开始游戏"
+rclick = "\s1点击右键打开选项"
+rclick_pad = "点击\s1打开选项"
+
+rclick_beta = "\s0点击阅读抢先体验说明"
+rclick_beta_pad = "点击\s0阅读抢先体验说明"
+rclick_demo = "\s1点击了解更多信息"
+rclick_demo_pad = "点击\s1了解更多信息"
+loading = "正在载入"
+
+wnd_btn_ok = "好"
+wnd_btn_accept = "接受"
+wnd_btn_reject = "拒绝"
+wnd_btn_apply = "应用"
+wnd_btn_cancel = "取消"
+wnd_btn_yes = "是"
+wnd_btn_no = "否"
+wnd_btn_back = "后退"
+wnd_btn_close = "关闭"
+wnd_btn_sel_and_close = "选择"
+wnd_btn_continue = "继续"
+wnd_btn_retry = "重试"
+wnd_btn_abort = "放弃"
+
+############################ 选项 ##############################
+
+wnd_opt_title = "选项"
+wnd_opt_sfx_volume = "音效音量"
+wnd_opt_music_volume = "音乐音量"
+wnd_opt_graphics_options = "图像选项"
+wnd_opt_btn_caption_lang = "语言："
+wnd_opt_btn_caption_sel_lang = "语言"
+wnd_opt_btn_caption_resolution = "分辨率："
+wnd_opt_btn_caption_window_mode = "显示："
+wnd_opt_cb_vsync = "垂直同步"
+wnd_opt_cb_caption_screen_prop = "修复屏幕比例"
+wnd_opt_cb_pause_unfocused = "失去焦点时暂停游戏"
+wnd_opt_tip_window_mode_unavailable = "要切换为窗口模式须先选择较低分辨率"
+wnd_opt_tip_proportional_scalling = "这会修复某些设备上不正确的屏幕宽高比"
+wnd_opt_tip_vsync = "启用垂直同步。如遇鼠标延迟，请尝试关闭本选项。"
+wnd_opt_tip_pause_unfocused = "当游戏窗口失去焦点时，暂停游戏。"
+
+wnd_opt_mode_title = "显示"
+wnd_opt_mode_fullscreen = "全屏模式"
+wnd_opt_mode_window = "窗口模式"
+wnd_opt_mode_borderless = "无边框窗口"
+under_construction = "即将推出"
+
+wnd_res_title = "游戏分辨率"
+wnd_res_caption_available_res = "可用分辨率"
+wnd_res_suggested = "\^30FF30推荐\^^"
+wnd_res_unadvised = "\^FFC000不推荐\^^"
+wnd_res_show_all = "显示全部"
+wnd_res_confirm_title = "确认视频设置"
+wnd_res_confirm_question = "确定使用当前视频设置吗？"
+wnd_res_reverting_beg = "自动恢复至此前视频设置："
+wnd_res_reverting_end = "秒。"
+
+wnd_lang_title = "选择语言"
+
+wnd_feedback_agr_title = "游戏统计"
+wnd_feedback_agr_accept = "接受"
+wnd_feedback_agr_deny = "拒绝"
+wnd_feedback_agr_text = "您是否希望通过将游戏统计信息发送到我们的服务器来帮助我们调试和平衡游戏？\n这对我们很有用。感谢！"
+
+wnd_langs_title = "语言"
+wnd_langs_btn_more = "更多语言"
+wnd_langs_confirm_title = "确认语言更改"
+wnd_langs_confirm_msg = "为了应用设置，游戏需要重新启动。\n确认使用当前设置并重新启动游戏？"
+
+############################ 存档管理器 ##############################
+
+wnd_prof_title_mng = "管理存档"
+wnd_prof_title_new = "新存档"
+wnd_prof_title_new_beta = "新的抢先体验存档"
+wnd_prof_title_ren = "重命名存档"
+wnd_prof_btn_new = "新建存档"
+wnd_prof_btn_rename = "重命名存档"
+wnd_prof_btn_del = "删除存档"
+wnd_prof_lbl_info = "选择你想使用的存档"
+wnd_prof_msg_new = "输入一个独一无二的名字以创建新存档"
+wnd_prof_msg_new_beta = "输入一个独一无二得名自已以创建新的抢先体验存档"
+wnd_prof_msg_rename = "给这个存档取一个新的独一无二的名字"
+wnd_prof_msg_name_empty = "名字必须至少包含一个字母"
+wnd_prof_msg_name_too_long = "名字过长"
+wnd_prof_msg_exists = "已存在同名存档"
+wnd_prof_msgbox_confirm_delete_title = "确定删除"
+wnd_prof_msgbox_confirm_delete_msg = "确定删除所选存档吗？"
+
+wnd_betaprof_title = "抢先体验存档"
+wnd_betaprof_msg = "为开始抢先体验版游戏，你需要先切换至一个抢先体验存档"
+wnd_betaprof_btn_change = "切换存档"
+wnd_betaprof_btn_create = "新建抢先体验存档"
+
+wnd_nobeta_title = "抢先体验不可用"
+wnd_nobeta_msg = "抱歉，你必须先联网才能开始\1抢先体验版游戏。"
+
+wnd_betawarn_title = "测试版警告"
+wnd_betawarn_msg = "请注意，在试玩抢先体验版游戏将发送游戏相关数据至我们的服务器。数据将用于游戏分析和错误修复。不会收集个人数据或敏感数据。"
+
+wnd_share_avatar = "分享头像"
+wnd_share_death = "分享死亡"
+share_facebook = "Facebook"
+share_twitter = "Twitter"
+share_reddit = "Reddit"
+
+############################ 语言 ##############################
+
+##Default bitmap font used by the game
+lang_en = "英国英语"
+lang_en_us = "美国英语"
+lang_cs = "捷克语"
+lang_de = "德语"
+lang_pl = "波兰语"
+lang_sv = "瑞典语"
+lang_sw = "斯瓦希里语"
+lang_es = "西班牙语"
+lang_pt = "葡萄牙语"
+lang_pt_br = "巴西葡萄牙语"
+lang_no = "挪威语"
+lang_it = "意大利语"
+lang_fi = "芬兰语"
+lang_nl = "荷兰语"
+lang_da = "丹麦语"
+lang_fr = "法语"
+lang_hu = "匈牙利语"
+lang_tr = "土耳其语"
+
+## Special megafont that covers thousands of characters and hundreds of languages
+## Use with care and check in game if everything is OK
+lang_af = "南非荷兰语"
+lang_be = "比利时语"
+lang_bg = "保加利亚语"
+lang_ab = "阿布哈西亚语"
+lang_lv = "拉脱维亚语"
+lang_lt = "立陶宛语"
+lang_uk = "乌克兰语"
+lang_vi = "越南语"
+lang_ku = "库尔德语"
+lang_el = "希腊语"
+lang_id = "印度尼西亚语"
+lang_eo = "世界语"
+lang_fil = "菲律宾语"
+lang_ko = "韩语"
+lang_th = "泰语"
+lang_ru = "俄语"
+lang_zh = "简体中文"
+lang_ja = "日语"
+
+############################ 主菜单 ##############################
+
+mmenu_awards = "查看奖杯"
+mmenu_awards_ttip = "点击查看当前存档的奖杯"
+mmenu_profile = "切换存档"
+mmenu_options = "选项"
+mmenu_options_ttip = "点击管理R2G产品"
+mmenu_credits = "制作人员"
+mmenu_update = "作品"
+mmenu_website = "访问网站"
+mmenu_website_ttip = "在外部浏览器中打开R2G网站"
+mmenu_website_offline_ttip="您处于脱机状态"
+mmenu_key = "激活密钥"
+mmenu_what_is = "R2G是什么？"
+mmenu_changelog = "更新日志"
+mmenu_sandbox = "弹出沙盒"
+mmenu_sandbox_ttip = "该功能正在制作中，点击了解更多。"
+mmenu_exit = "退出"
+menu_updates_available_label = "有可用更新"
+menu_up_to_date_label = "当前为最新版本"
+
+rank_menu_text = "排名级别: \1"
+rank_holder = "\s0 \1"
+
+menu_button_unava = "当前版本中该功能不可用"
+
+msg_sorry = "抱歉"
+msg_not_yet_impl = "此功能尚未实现。敬请关注。"
+
+showLang = "显示语言"
+label_installing_prod = "安装 \1.\n选择语言和附加内容。"
+btnClose = "关闭"
+
+prod_list_button_disable = "禁用"
+prod_list_button_enable = "启用"
+
+prod_list_status_disabled = "\^D3D3D3已禁用\^^"
+prod_list_status_uptodate = "\^D3D3D3最新\^^"
+
+wnd_credits_title = "制作人员"
+prod_changelog_btn = "更新日志"
+
+
+wnd_manage_game = "游戏选项"
+btn_replay_intro = "重新播放简介视频"
+btn_config_prod = "配置"
+btn_uninstall = "卸载"
+btn_update_in_options = "更新"
+btn_read_beta_notes = "阅读测试版笔记"
+btn_prod_about = "关于游戏"
+lbl_game_mnager_not_installed = "\^FF0000游戏未安装\^^"
+btn_prod_unlock_full_beta = "解锁完整测试版"
+btn_prod_play = "开始"
+btn_prod_install_demo = "安装试玩版本"
+btn_prod_unlock = "抢先体验"
+btn_demo_play = "开始试玩"
+btn_demo_tip_opens_in_browser = "在浏览器中打开网站"
+btn_prod_join_ea = "解锁完整版本"
+
+prod_configure_single_wnd_label = "配置游戏"
+lbl_configure_single_product = "在下方您可以选择语言并安装/卸载组件 \1"
+
+
+################################################## 消息框 ############################################
+
+msg_tit_info = "重要消息"
+msg_dung_recreated = "你之前在此地牢中的进度已被重置。原因可能是：游戏更新、存档损坏或存档未完成。你无需采取任何应对措施。玩得愉快！"
+msg_corrupt_save = "保存文件已损坏，所以已还原至之前存档。如果您可以将保存文件夹的内容压缩并发送到support@thingtrunk.com，这将极大地有助于我们解决问题。在「运行」窗口（Win+R）或文件资源管理器中输入 %AppData%/\1_\2 即可打开保存文件夹。\n\n感谢您的帮助，抱歉给您带来不便！\nThing Trunk 团队"
+msg_corrupt_files = "看起来游戏文件已损坏或不完整。\n请重新安装游戏或者在Steam中游戏属性内验证游戏缓存的完整性。如果问题仍未解决，请通过support@thingtrunk.com与我们联系\n\n感谢您的帮助，抱歉给您带来不便！\nThing Trunk 团队"
+
+## 试玩版
+mbox_game_launch_error_title = "无法运行游戏"
+mbox_game_launch_error_msg = "似乎您已在完整版游戏中使用过当前存档。如欲开始试玩，请创建一个新的存档并选择它（点击右下角的按钮以选择存档）。"
+
+################################################## 调查 ############################################
+
+btn_survey_show = "R2G调查"
+btn_survey_hide = "隐藏"
+
+mbox_survey_title = "Return 2 Games"
+mbox_survey_text = "你想花一分钟来做个调查吗？"
+mbox_survey_accept = "填写调查问卷"
+mbox_survey_never = "永不"
+mbox_survey_not_now = "稍后再说"
+mbox_survey_desert_text = "请问可否说说为何离开这个游戏？"
+
+# FEEDBACK
+feedback = "反馈"
+feedback_no_internet = "未连接至互联网。请联网后再发送反馈。"
+survey = "调查"
+survey_no_internet = "未连接至互联网。请联网后再发送反馈。"
+
+##################################### 分享 / 推荐 #####################################
+
+share_window_title = "分享"
+share_window_note ="通过以下方式推荐「R2G：恶魔之书」给你的朋友们："
+share_window_facebook = "Facebook"
+share_window_twitter = "Twitter"
+share_window_reddit = "Reddit"
+share_window_email = "电子邮件"
+
+recommend_button_label = "推荐"
+recommend_button_ttip = "通过Twitter，Facebook，Reddit或者发电子邮件推荐「R2G：恶魔之书」给你的朋友们。"
+
+# 支持者
+supporter_ack_title = "谢谢"
+supporter_ack_text = "感谢您成为一名「Return 2 Games」的官方支持者！\n\n如果您希望被列入制作人员名单的「R2G支持者」部分请提供您的姓名（或昵称）和您的电子邮件地址。您的电子邮件不会被公开，若我们需要就你提交的名称与您取得进一步联系，将需要您的电子邮件地址。每个条目都是手动处理的，因为我们不能向制作人员名单中添加淫秽或不当的字词，抱歉！\n\n如果你有任何问题，请随时通过\^18BDE6support@thingtrunk.com\^^与我们联系。谢谢！"
+supporter_ack_nick = "名称："
+supporter_ack_email = "电子邮件："
+supporter_ack_send = "发送"
+supporter_ack_deny = "不，谢谢/已经完成"
+supporter_ack_postpone = "稍后再说"
+supporter_ack_sent_title = "发送"
+supporter_ack_sent_text = "已发送。"
+
+# Twitch
+twitch_login_title = "登录到Twitch"
+twitch_login_user = "用户名"
+twitch_login_pass = "密码"
+twitch_login_channel = "频道"
+twitch_login_paste = "粘贴"
+twitch_login_connect = "连接"
+twitch_login_user_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+twitch_login_pass_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+twitch_login_channel_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`"
+
+############################################## 窗口名称 ###########################
+
+msgbox_offline_title = "离线"
+
+wnd_wir2g_title = "R2G是什么"
+wnd_about_boa = "异客之书"
+
+wnd_about_bod = "恶魔之书"
+wnd_name_betanotes = "测试版说明"
+wnd_name_changelog = "更新日志"
+wnd_name_sandbox = "沙盒"
+
+wnd_name_about = "关于"
+
+score_upcase = "得分"
+
+# 更新日志
+changelog_title = "更新日志"
+
+
+###############################
+## 成就窗口
+###############################
+
+achiev_total_score = "总成就点："
+achiev_num_to_next_lvl = "升级还需\1成就点"
+achiev_lvl_gold = "黄金级"
+achiev_lvl_silver = "白银级"
+achiev_lvl_bronze = "青铜级"
+achiev_golden_locase = "黄金"
+achiev_silver_locase = "白银"
+achiev_bronze_locase = "青铜"
+wnd_achiev_title = "奖杯"
+wnd_achiev_rank_text = "\^FCDA92等级：\^FFFFFF\1 \s0 \2\^^"
+wnd_achiev_rank_next = "\^FCDA92下一等级：\^FFFFFF\1 \^FCDA92/\^FFFFFF \2\^^"
+wnd_achiev_rank_progress_tooltip = "解锁下一等级还需\1成就点"
+wnd_achieve_chalice_tooltip = "已解锁\3成就的\1/\2"
+
+wnd_achieve_badge_stars_label = "\s0\1"
+wnd_achieve_badge_score_label = "\^FCDA92成就点：\^FFFFFF \1\^^"
+
+wnd_achieve_badge_1_tip = "钢铁之心"
+wnd_achieve_badge_2_tip = "一网打尽"
+wnd_achieve_badge_3_tip = "冷酷刀锋"
+wnd_achieve_badge_to_1 = "\^FCDA92\1\^^ more to 青铜徽章"
+wnd_achieve_badge_to_2 = "\^FCDA92\1\^^ more to 白银徽章"
+wnd_achieve_badge_to_3 = "\^FCDA92\1\^^ more to 黄金徽章"
+wnd_achieve_badge_stars_tip = "Collected stars"
+wnd_achieve_badge_score_tip = "游戏总得分"
+
+##################################### 恶魔之书 成就 #####################################
+
+achiev_0_01_1 = "跋涉" #1级
+achiev_0_01_1_desc = "Unlock 中等自定义游戏规模"
+achiev_0_01_2 = "游历" #2级
+achiev_0_01_2_desc = "Unlock 大型 flexiscope game size"
+achiev_0_01_3 = "漫游" #3级
+achiev_0_01_3_desc = "Unlock 巨大 flexiscope game size"
+
+achiev_0_02_3 = "乌鸦的游戏"
+achiev_0_02_3_desc = "乌鸦歌唱，凛东降至……"
+
+achiev_0_03_3 = "Captain Planet"
+achiev_0_03_3_desc = "By your powers combined I am Captain Planet"
+
+achiev_0_04_3 = "Eeny, meeny, miny, moe"
+achiev_0_04_3_desc = "桶，桶，僵尸，桶。桶，桶，僵尸，废话！"
+
+achiev_0_05_3 = "炼金术士"
+achiev_0_05_3_desc = "Only 5 ingredients and the achievement might be yours!"
+
+achiev_0_06_1 = "熟练骨头收集者"
+achiev_0_06_1_desc = "击败骷髅10次"
+achiev_0_06_1_max ="10"
+achiev_0_06_2 = "大师骨头收集者"
+achiev_0_06_2_desc = "击败骷髅100次"
+achiev_0_06_2_max ="100"
+achiev_0_06_3 = "传奇骨头收集者"
+achiev_0_06_3_desc = "击败骷髅1000次"
+achiev_0_06_3_max = "1000"
+
+achiev_0_07_1 = "熟练驱魔师"
+achiev_0_07_1_desc = "击败恶魔10次"
+achiev_0_07_1_max = "10"
+achiev_0_07_2 = "大师驱魔师"
+achiev_0_07_2_desc = "击败恶魔100次"
+achiev_0_07_2_max = "100"
+achiev_0_07_3 = "传奇驱魔师"
+achiev_0_07_3_desc = "击败恶魔1000次"
+achiev_0_07_3_max = "1000"
+
+achiev_0_08_1 = "熟练驱虫师"
+achiev_0_08_1_desc = "击败蜘蛛10次"
+achiev_0_08_1_max = "10"
+achiev_0_08_2 = "大师驱虫师"
+achiev_0_08_2_desc = "击败蜘蛛100次"
+achiev_0_08_2_max = "100"
+achiev_0_08_3 = "传奇驱虫师"
+achiev_0_08_3_desc = "击败蜘蛛1000次"
+achiev_0_08_3_max = "1000"
+
+achiev_0_09_1 = "熟练鬼魂克星"
+achiev_0_09_1_desc = "击败鬼魂10次"
+achiev_0_09_1_max = "10"
+achiev_0_09_2 = "大师鬼魂克星"
+achiev_0_09_2_desc = "击败鬼魂100次"
+achiev_0_09_2_max = "100"
+achiev_0_09_3 = "传奇鬼魂克星"
+achiev_0_09_3_desc = "击败鬼魂1000次"
+achiev_0_09_3_max = "1000"
+
+achiev_0_10_1 = "熟练幸存者"
+achiev_0_10_1_desc = "击败僵尸10次"
+achiev_0_10_1_max = "10"
+achiev_0_10_2 = "大师幸存者"
+achiev_0_10_2_desc = "击败僵尸100次"
+achiev_0_10_2_max = "100"
+achiev_0_10_3 = "传奇幸存者"
+achiev_0_10_3_desc = "击败僵尸1000次"
+achiev_0_10_3_max = "1000"
+
+achiev_0_11_1 = "熟练牧羊人"
+achiev_0_11_1_desc = "击败山羊怪10次"
+achiev_0_11_1_max = "10"
+achiev_0_11_2 = "大师牧羊人"
+achiev_0_11_2_desc = "击败山羊怪100次"
+achiev_0_11_2_max = "100"
+achiev_0_11_3 = "传奇牧羊人"
+achiev_0_11_3_desc = "击败山羊怪1000次"
+achiev_0_11_3_max = "1000"
+
+achiev_0_12_1 = "熟练石匠"
+achiev_0_12_1_desc = "击败石像鬼10次"
+achiev_0_12_1_max = "10"
+achiev_0_12_2 = "大师石匠"
+achiev_0_12_2_desc = "击败石像鬼100次"
+achiev_0_12_2_max = "100"
+achiev_0_12_3 = "传奇石匠"
+achiev_0_12_3_desc = "击败石像鬼1000次"
+achiev_0_12_3_max = "1000"
+
+achiev_0_13_1 = "Heartbreaker"
+achiev_0_13_1_desc = "累计毁灭1000颗怪物心脏"
+achiev_0_13_1_max = "1000"
+achiev_0_13_2 = "Heartcracker"
+achiev_0_13_2_desc = "累计毁灭10000颗怪物心脏"
+achiev_0_13_2_max = "10000"
+achiev_0_13_3 = "Heartripper"
+achiev_0_13_3_desc = "累计毁灭100000颗怪物心脏"
+achiev_0_13_3_max = "100000"
+
+achiev_0_14_1 = "地狱小径"
+achiev_0_14_1_desc = "在地牢中留下10000个脚印"
+achiev_0_14_1_max = "10000"
+achiev_0_14_2 = "地狱之路"
+achiev_0_14_2_desc = "在地牢中留下100000个脚印"
+achiev_0_14_2_max = "100000"
+achiev_0_14_3 = "地狱高速"
+achiev_0_14_3_desc = "在地牢中留下1000000个脚印"
+achiev_0_14_3_max = "1000000"
+
+achiev_0_15_1 = "完整军火库"
+achiev_0_15_1_desc = "找到战士的所有卡牌"
+achiev_0_15_1_max = "32"
+achiev_0_15_2 = "豪华军火库"
+achiev_0_15_2_desc = "升级战士的所有卡牌到2级"
+achiev_0_15_2_max = "32"
+achiev_0_15_3 = "史诗军火库"
+achiev_0_15_3_desc = "升级战士的所有卡牌到3级"
+achiev_0_15_3_max = "32"
+
+achiev_0_16_1 = "完整图书馆"
+achiev_0_16_1_desc = "找到法师的所有卡牌"
+achiev_0_16_1_max = "32"
+achiev_0_16_2 = "秘传图书馆"
+achiev_0_16_2_desc = "升级法师的所有卡牌到2级"
+achiev_0_16_2_max = "32"
+achiev_0_16_3 = "荒诞图书馆"
+achiev_0_16_3_desc = "升级法师的所有卡牌到3级"
+achiev_0_16_3_max = "32"
+
+achiev_0_17_1 = "完整贮藏"
+achiev_0_17_1_desc = "找到盗贼的所有卡牌"
+achiev_0_17_1_max = "32"
+achiev_0_17_2 = "豪华贮藏"
+achiev_0_17_2_desc = "升级盗贼的所有卡牌到2级"
+achiev_0_17_2_max = "32"
+achiev_0_17_3 = "传奇贮藏"
+achiev_0_17_3_desc = "升级盗贼的所有卡牌到3级"
+achiev_0_17_3_max = "32"
+
+achiev_0_18_1 = "Hell's Kitchen"
+achiev_0_18_1_desc = "Defeat the Cook with any hero"
+achiev_0_18_2 = "Cutthroat Kitchen"
+achiev_0_18_2_desc = "Defeat the Cook with any second hero"
+achiev_0_18_3 = "Kitchen Nightmare"
+achiev_0_18_3_desc = "Defeat the Cook with all three heroes"
+
+achiev_0_19_1 = "Breaking the Ritual"
+achiev_0_19_1_desc = "Defeat the Antipope with any hero"
+achiev_0_19_2 = "Averting the Sacrilege"
+achiev_0_19_2_desc = "Defeat the Antipope with any second hero"
+achiev_0_19_3 = "Ending the Blasphemy"
+achiev_0_19_3_desc = "Defeat the Antipope with all three heroes"
+
+achiev_0_20_1 = "All hail new king"
+achiev_0_20_1_desc = "Defeat the Archdemon with any hero"
+achiev_0_20_2 = "Twice the fun"
+achiev_0_20_2_desc = "Defeat the Archdemon with any second hero"
+achiev_0_20_3 = "Third time's a charm"
+achiev_0_20_3_desc = "Defeat the Archdemon with all three heroes"
+
+achiev_0_21_1 = "Who's the boss?"
+achiev_0_21_1_desc = "Defeat 5 boss monsters"
+achiev_0_21_1_max = "5"
+achiev_0_21_2 = "Don't boss around"
+achiev_0_21_2_desc = "Defeat 50 boss monsters"
+achiev_0_21_2_max = "50"
+achiev_0_21_3 = "Not the boss of me"
+achiev_0_21_3_desc = "Defeat 500 boss monsters"
+achiev_0_21_3_max = "500"
+
+achiev_0_22_1 = "Inter-raptor"
+achiev_0_22_1_desc = "Interrupt 10 enemies' spells or skills"
+achiev_0_22_1_max = "10"
+achiev_0_22_2 = "Inter-raptor evolved"
+achiev_0_22_2_desc = "Interrupt 100 enemies' spells or skills"
+achiev_0_22_2_max = "100"
+achiev_0_22_3 = "Inter-raptor Rex"
+achiev_0_22_3_desc = "Interrupt 500 enemies' spells or skills"
+achiev_0_22_3_max = "500"
+
+achiev_0_23_1 = "Crash!"
+achiev_0_23_1_desc = "Destroy 100 enemies' shields"
+achiev_0_23_1_max = "100"
+achiev_0_23_2 = "Smash!"
+achiev_0_23_2_desc = "Destroy 500 enemies' shields"
+achiev_0_23_2_max = "500"
+achiev_0_23_3 = "Bash!"
+achiev_0_23_3_desc = "Destroy 1000 enemies' shields"
+achiev_0_23_3_max = "1000"
+
+achiev_0_24_1 = "Heartpicker"
+achiev_0_24_1_desc = "Pick 50 hearts from the ground"
+achiev_0_24_1_max = "50"
+achiev_0_24_2 = "Heart hoarder"
+achiev_0_24_2_desc = "Pick 500 hearts from the ground"
+achiev_0_24_2_max = "500"
+achiev_0_24_3 = "Organ harvester"
+achiev_0_24_3_desc = "Pick 1000 hearts from the ground"
+achiev_0_24_3_max = "1000"
+
+achiev_0_25_1 = "Magic sweep"
+achiev_0_25_1_desc = "Pick 50 mana globes from the ground"
+achiev_0_25_1_max = "50"
+achiev_0_25_2 = "Mystic sweep"
+achiev_0_25_2_desc = "Pick 500 mana globes from the ground"
+achiev_0_25_2_max = "500"
+achiev_0_25_3 = "Arcane sweep"
+achiev_0_25_3_desc = "Pick 1000 mana globes from the ground"
+achiev_0_25_3_max = "1000"
+
+achiev_0_26_1 = "Fast & Furious"
+achiev_0_26_1_desc = "Defeat 100 monsters in 20 seconds"
+achiev_0_26_1_max = "100"
+achiev_0_26_2 = "Faster & Furier"
+achiev_0_26_2_desc = "Defeat 150 monsters in 15 seconds"
+achiev_0_26_2_max = "150"
+achiev_0_26_3 = "The Fastest & the Furiest"
+achiev_0_26_3_desc = "Defeat 200 monsters in 10 seconds"
+achiev_0_26_3_max = "200"
+
+achiev_0_27_1 = "Badger"
+achiev_0_27_1_desc = "Finish a big Freeplay game in Hard difficulty or higher, receiving all the badges"
+achiev_0_27_2 = "Badger, badger"
+achiev_0_27_2_desc = "Finish a big Freeplay game in Nightmare difficulty or higher, receiving all the badges"
+achiev_0_27_3 = "Badger, badger, badger"
+achiev_0_27_3_desc = "Finish a big Freeplay game in Massacre difficulty receiving all the badges"
+
+achiev_0_28_1 = "Wearing only a smile"
+achiev_0_28_1_desc = "Finish a medium or big Freeplay game in Hard difficulty or higher, without equipping any card"
+achiev_0_28_2 = "Birthday suit"
+achiev_0_28_2_desc = "Finish a medium or big Freeplay game in Nightmare difficulty or higher, without equipping any card"
+achiev_0_28_3 = "Hardcore nudist"
+achiev_0_28_3_desc = "Finish a medium or big Freeplay game in Massacre difficulty without equipping any card"
+
+achiev_0_29_1 = "Quest Master"
+achiev_0_29_1_desc = "Master all level 1 quests"
+achiev_0_29_1_max = "3"
+achiev_0_29_2 = "Quest Champion"
+achiev_0_29_2_desc = "Master all level 2 quests"
+achiev_0_29_2_max = "3"
+achiev_0_29_3 = "Quest Genius"
+achiev_0_29_3_desc = "Master all level 3 quests"
+achiev_0_29_3_max = "3"
+
+achiev_0_30_1 = "Unlucky"
+achiev_0_30_1_desc = "Destroy 50 empty barrels in the dungeon"
+achiev_0_30_1_max = "50"
+achiev_0_30_2 = "Jinxed"
+achiev_0_30_2_desc = "Destroy 500 empty barrels in the dungeon"
+achiev_0_30_2_max = "500"
+achiev_0_30_3 = "Cursed"
+achiev_0_30_3_desc = "Destroy 5000 empty barrels in the dungeon"
+achiev_0_30_3_max = "5000"
+
+achiev_0_31_1 = "Smelly fingers"
+achiev_0_31_1_desc = "Pick up 10 crap"
+achiev_0_31_1_max = "10"
+achiev_0_31_2 = "Dirty hands"
+achiev_0_31_2_desc = "Pick up 100 crap"
+achiev_0_31_2_max = "100"
+achiev_0_31_3 = "I'll never wash it off"
+achiev_0_31_3_desc = "Pick up 1000 crap"
+achiev_0_31_3_max = "1000"
+
+achiev_0_32_1 = "In Good Hands"
+achiev_0_32_1_desc = "Let the 治愈者 heal you 30 times"
+achiev_0_32_1_max = "30"
+achiev_0_32_2 = "Frequent patient"
+achiev_0_32_2_desc = "Let the 治愈者 heal you 100 times"
+achiev_0_32_2_max = "100"
+achiev_0_32_3 = "Hypochondriac"
+achiev_0_32_3_desc = "Let the 治愈者 heal you 300 times"
+achiev_0_32_3_max = "300"
+
+achiev_0_33_1 = "Tasty Soup"
+achiev_0_33_1_desc = "Buy content of the 魔法坩埚 for the first time"
+achiev_0_33_2 = "Yummy Brew"
+achiev_0_33_2_desc = "Buy content of the 魔法坩埚 5 times"
+achiev_0_33_2_max = "5"
+achiev_0_33_3 = "Delicious Stew"
+achiev_0_33_3_desc = "Buy content of the 魔法坩埚 10 times"
+achiev_0_33_3_max = "10"
+
+achiev_0_34_1 = "Occasional Buyer"
+achiev_0_34_1_desc = "Charge your cards 10 times at the 预言家's"
+achiev_0_34_1_max = "10"
+achiev_0_34_2 = "Frequent Client"
+achiev_0_34_2_desc = "Charge your cards 50 times at the 预言家's"
+achiev_0_34_2_max = "50"
+achiev_0_34_3 = "Loyal Customer"
+achiev_0_34_3_desc = "Charge your cards 100 times at the 预言家's"
+achiev_0_34_3_max = "100"
+
+achiev_0_35_1 = "First riddle"
+achiev_0_35_1_desc = "Identify your first card with 智者"
+achiev_0_35_2 = "Shrouded in mysteries"
+achiev_0_35_2_desc = "Identify 20 cards with 智者"
+achiev_0_35_2_max = "20"
+achiev_0_35_3 = "No more secrets"
+achiev_0_35_3_desc = "Identify 50 cards with 智者"
+achiev_0_35_3_max = "50"
+
+achiev_0_36_1 = "Deck shuffle"
+achiev_0_36_1_desc = "Equip a slot with a card 10 times in total"
+achiev_0_36_1_max = "10"
+achiev_0_36_2 = "Deck tactics"
+achiev_0_36_2_desc = "Equip a slot with a card 100 times in total"
+achiev_0_36_2_max = "100"
+achiev_0_36_3 = "Deck strategy"
+achiev_0_36_3_desc = "Equip a slot with a card 500 times in total"
+achiev_0_36_3_max = "500"
+
+achiev_0_37_1 = "Stayin' Alive"
+achiev_0_37_1_desc = "Finish 5 games in a row without dying"
+achiev_0_37_1_max = "5"
+achiev_0_37_2 = "Stayin' Alive, stayin' alive"
+achiev_0_37_2_desc = "Finish 10 games in a row without dying"
+achiev_0_37_2_max = "10"
+achiev_0_37_3 = "A! A! A! A! Stayin' Alive"
+achiev_0_37_3_desc = "Finish 20 games in a row without dying"
+achiev_0_37_3_max = "20"
+
+achiev_0_38_1 = "Cleansing Spark"
+achiev_0_38_1_desc = "Burn 30 monsters to ashes"
+achiev_0_38_1_max = "30"
+achiev_0_38_2 = "Cleansing Flame"
+achiev_0_38_2_desc = "Burn 100 monsters to ashes"
+achiev_0_38_2_max = "100"
+achiev_0_38_3 = "Cleansing Fire"
+achiev_0_38_3_desc = "Burn 300 monsters to ashes"
+achiev_0_38_3_max = "300"
+
+achiev_0_39_1 = "Breaking the ice"
+achiev_0_39_1_desc = "Defeat 30 monsters that are frozen"
+achiev_0_39_1_max = "30"
+achiev_0_39_2 = "Keep it cool"
+achiev_0_39_2_desc = "Defeat 100 monsters that are frozen"
+achiev_0_39_2_max = "100"
+achiev_0_39_3 = "Ice ice Baby"
+achiev_0_39_3_desc = "Defeat 300 monsters that are frozen"
+achiev_0_39_3_max = "300"
+
+achiev_0_40_1 = "Poison Ivy"
+achiev_0_40_1_desc = "Defeat 30 monsters with poison"
+achiev_0_40_1_max = "30"
+achiev_0_40_2 = "Venomous Spider"
+achiev_0_40_2_desc = "Defeat 100 monsters with poison"
+achiev_0_40_2_max = "100"
+achiev_0_40_3 = "King Cobra"
+achiev_0_40_3_desc = "Defeat 300 monsters with poison"
+achiev_0_40_3_max = "300"
+
+achiev_0_41_1 = "Easy come, easy go"
+achiev_0_41_1_desc = "Spent 1000 金币"
+achiev_0_41_1_max = "1000"
+achiev_0_41_2 = "Money isn't everything"
+achiev_0_41_2_desc = "Spent 100000 金币"
+achiev_0_41_2_max = "100000"
+achiev_0_41_3 = "Riches have wings"
+achiev_0_41_3_desc = "Spent 1000000 金币"
+achiev_0_41_3_max = "1000000"
+
+achiev_0_42_1 = "Nightmare on Elm Street"
+achiev_0_42_1_desc = "Unlock a Hard difficulty with all heroes"
+achiev_0_42_2 = "Hellraiser"
+achiev_0_42_2_desc = "Unlock a Nightmare difficulty with all heroes"
+achiev_0_42_3 = "Texas Massacre"
+achiev_0_42_3_desc = "Unlock a Massacre difficulty with all heroes"
+
+achiev_0_43_1 = "Nothing more to learn"
+achiev_0_43_1_desc = "Reach a level cap (level 50) with any hero"
+achiev_0_43_2 = "Magnificent Duo"
+achiev_0_43_2_desc = "Reach a level cap with two different class heroes"
+achiev_0_43_3 = "Fantastic Three"
+achiev_0_43_3_desc = "Reach a level cap with all three class heroes"
+
+achiev_0_44_1 = "Cleanser"
+achiev_0_44_1_desc = "Clear 5 dungeon levels"
+achiev_0_44_1_max = "5"
+achiev_0_44_2 = "Pedantic"
+achiev_0_44_2_desc = "Clear 50 dungeon levels"
+achiev_0_44_2_max = "50"
+achiev_0_44_3 = "Obsessive-compulsive"
+achiev_0_44_3_desc = "Clear 500 dungeon levels"
+achiev_0_44_3_max = "500"
+
+achiev_0_45_1 = "Slow as a turtle"
+achiev_0_45_1_desc = "Miss 50 times"
+achiev_0_45_1_max = "50"
+achiev_0_45_2 = "Clumsy as an ox"
+achiev_0_45_2_desc = "Miss 500 times"
+achiev_0_45_2_max = "500"
+achiev_0_45_3 = "Blind as a bat"
+achiev_0_45_3_desc = "Miss 5000 times"
+achiev_0_45_3_max = "5000"
+
+achiev_0_46_1 = "Commando"
+achiev_0_46_1_desc = "Finish a big Freeplay game on Hard difficulty or higher, without any form of healing"
+achiev_0_46_2 = "Predator"
+achiev_0_46_2_desc = "Finish a big Freeplay game on Nightmare difficulty or higher, without any form of healing"
+achiev_0_46_3 = "Terminator"
+achiev_0_46_3_desc = "Finish a big Freeplay game on Massacre difficulty without any form of healing"
+
+achiev_0_47_1 = "Ready for action"
+achiev_0_47_1_desc = "Equip all the card slots with at least level 1 cards"
+achiev_0_47_2 = "Ready for war"
+achiev_0_47_2_desc = "Equip all the card slots with at least level 2 cards"
+achiev_0_47_3 = "Ready for anything"
+achiev_0_47_3_desc = "Equip all the card slots with at least level 3 cards"
+
+achiev_0_48_1 = "Bronze division"
+achiev_0_48_1_desc = "Gain all other bronze level achievements in Book of 恶魔"
+achiev_0_48_1_max = "55"
+achiev_0_48_2 = "Silver Division"
+achiev_0_48_2_desc = "Gain all other silver level achievements in Book of 恶魔"
+achiev_0_48_2_max = "55"
+achiev_0_48_3 = "Golden Division"
+achiev_0_48_3_desc = "Gain all other 金币 level achievements in Book of 恶魔"
+achiev_0_48_3_max = "60"
+
+achiev_0_49_1 = "Don't look back"
+achiev_0_49_1_desc = "Finish a dungeon level without backtracking your steps"
+achiev_0_49_2 = "Straight to the point"
+achiev_0_49_2_desc = "Finish 3 dungeon levels without backtracking your steps"
+achiev_0_49_2_max = "3"
+achiev_0_49_3 = "Always ahead"
+achiev_0_49_3_desc = "Finish 5 dungeon levels without backtracking your steps"
+achiev_0_49_3_max = "5"
+
+achiev_0_50_1 = "Loads of ammo"
+achiev_0_50_1_desc = "Shoot 100 equipped arrows (盗贼 only)"
+achiev_0_50_1_max = "100"
+achiev_0_50_2 = "Piles of ammo"
+achiev_0_50_2_desc = "Shoot 1000 equipped arrows (盗贼 only)"
+achiev_0_50_2_max = "1000"
+achiev_0_50_3 = "Tons of ammo"
+achiev_0_50_3_desc = "Shoot 10000 equipped arrows (盗贼 only)"
+achiev_0_50_3_max = "10000"
+
+achiev_0_51_1 = "Blast!"
+achiev_0_51_1_desc = "Throw bombs 10 times (战士 only)"
+achiev_0_51_1_max = "10"
+achiev_0_51_2 = "Boom!"
+achiev_0_51_2_desc = "Throw bombs 100 times (战士 only)"
+achiev_0_51_2_max = "100"
+achiev_0_51_3 = "KABOOM!"
+achiev_0_51_3_desc = "Throw bombs 500 times (战士 only)"
+achiev_0_51_3_max = "500"
+
+achiev_0_52_1 = "Magic Friend"
+achiev_0_52_1_desc = "Summon a golem 5 times (法师 only)"
+achiev_0_52_1_max = "5"
+achiev_0_52_2 = "法师's Companion"
+achiev_0_52_2_desc = "Summon a golem 50 times (法师 only)"
+achiev_0_52_2_max = "50"
+achiev_0_52_3 = "Wizard's BFF"
+achiev_0_52_3_desc = "Summon a golem 200 times (法师 only)"
+achiev_0_52_3_max = "200"
+
+achiev_0_53_1 = "Gatherer"
+achiev_0_53_1_desc = "Collect 3 stars in a single game"
+achiev_0_53_2 = "Collector"
+achiev_0_53_2_desc = "Collect 7 stars in a single game"
+achiev_0_53_3 = "Hoarder"
+achiev_0_53_3_desc = "Collect 13 stars in a single game"
+
+achiev_0_54_1 = "Tick, tock"
+achiev_0_54_1_desc = "Collect 5 timed stars"
+achiev_0_54_1_max = "5"
+achiev_0_54_2 = "Time is of the essence"
+achiev_0_54_2_desc = "Collect 50 timed stars"
+achiev_0_54_2_max = "50"
+achiev_0_54_3 = "Time of your life"
+achiev_0_54_3_desc = "Collect 100 timed stars"
+achiev_0_54_3_max = "100"
+
+achiev_0_55_1 = "Scary"
+achiev_0_55_1_desc = "Scare 5 monsters with a single Fear card use (盗贼 only)"
+achiev_0_55_2 = "Horrifying"
+achiev_0_55_2_desc = "Scare 10 monsters with a single Fear card use (盗贼 only)"
+achiev_0_55_3 = "Terrifying"
+achiev_0_55_3_desc = "Scare 20 monsters with a single Fear card use (盗贼 only)"
+
+achiev_0_56_1 = "Battering ram"
+achiev_0_56_1_desc = "Bash 3 monsters with a single Charge card use (战士 only)"
+achiev_0_56_2 = "With all one's strength"
+achiev_0_56_2_desc = "Bash 6 monsters with a single Charge card use (战士 only)"
+achiev_0_56_3 = "Push it to the limit"
+achiev_0_56_3_desc = "Bash 9 monsters with a single Charge card use (战士 only)"
+
+achiev_0_57_1 = "Wave of Silence"
+achiev_0_57_1_desc = "Dispell 3 spells and skills with a single Mass Dispell card use (法师 only)"
+achiev_0_57_2 = "Storm of Silence"
+achiev_0_57_2_desc = "Dispell 6 spells and skills with a single Mass Dispell card use (法师 only)"
+achiev_0_57_3 = "Tsunami of Silence"
+achiev_0_57_3_desc = "Dispell 9 spells and skills with a single Mass Dispell card use (法师 only)"
+
+achiev_0_58_1 = "Stomp harder"
+achiev_0_58_1_desc = "Destroy 5 Slimy Spores before they explode"
+achiev_0_58_1_max = "5"
+achiev_0_58_2 = "Stomp better"
+achiev_0_58_2_desc = "Destroy 50 Slimy Spores before they explode"
+achiev_0_58_2_max = "50"
+achiev_0_58_3 = "Stomp stronger!"
+achiev_0_58_3_desc = "Destroy 500 Slimy Spores before they explode"
+achiev_0_58_3_max = "500"
+
+achiev_0_59_1 = "So far so good"
+achiev_0_59_1_desc = "Finish 5 games"
+achiev_0_59_1_max = "5"
+achiev_0_59_2 = "Getting better"
+achiev_0_59_2_desc = "Finish 25 games"
+achiev_0_59_2_max = "25"
+achiev_0_59_3 = "The fun goes on"
+achiev_0_59_3_desc = "Finish 100 games"
+achiev_0_59_3_max = "100"
+
+achiev_0_60_1 = "Warming up"
+achiev_0_60_1_desc = "Unlock fourth card slot"
+achiev_0_60_2 = "Lucky 7"
+achiev_0_60_2_desc = "Unlock the 7th cards slot"
+achiev_0_60_3 = "Bull's eye!"
+achiev_0_60_3_desc = "Unlock all 10 card slots"
+
+achiev_0_61_1 = "Chit chat"
+achiev_0_61_1_desc = "Talk 5 times with villagers"
+achiev_0_61_1_max = "5"
+achiev_0_61_2 = "流言 Girl"
+achiev_0_61_2_desc = "Talk 25 times with villagers"
+achiev_0_61_2_max = "25"
+achiev_0_61_3 = "You have your way with words!"
+achiev_0_61_3_desc = "Talk 50 times with villagers"
+achiev_0_61_3_max = "50"
+
+#achiev_0_06_1_max = "10"
+
+
+################################
+## 头像
+################################
+
+avatar_ttip_researched =  "Researched avatar"
+avatar_ttip_current = "当前头像"
+avatar_ttip_next = "下一个头像"
+avatar_ttip_click = "\s0点击更换头像"
+avatar_ttip_click_pad = "点击\s0更换头像"
+avatar_ttip_unknown = "未知头像"
+
+avatar_origin = "\^E8BC82来源：\^^\1"
+
+avatar_ttip_click_to_assign = "\s0点击设置为您的存档头像"
+avatar_ttip_click_to_assign_pad = "点击\s0设置为您的存档头像"
+avatar_ttip_this_is_current = "\s2\^00FF00这是当前存档的头像\^^"
+
+avt_screen_cur_cap = "可获取头像上限"
+avt_screen_cap_bar_ttip = "每当你拥有一款新的R2G游戏，可获取头像上限将上调。"
+avt_screen_cap_bar_no_game_ttip = "在下一款R2G游戏发布之前，可获取头像上限将无法上调。"
+
+
+avt_screen_cap_own_game_ttip = "To unlock you must own \1"
+avt_screen_cap_reveal_ttip = "To reveal research any neighbour"
+
+avt_screen_cap_cost_ttip = "Research cost: \1"
+avt_screen_research_prg_bar = "Research progress: \1%"
+avt_screen_research_prg_ttip = "To unlock this avatar you need this much score: \1"
+avatar_click_to_research_ttip = "Press \s0 to select for research"
+avatar_resrch_progress_ttip = "\s3\^00FF00Research in progress\^^"
+btnSendToWebsite = "分享"
+btnSendToWebsite_ttip = "点击分享当前头像"
+
+wnd_avt_unckd = "解锁新头像！"
+wnd_avt_unckd_set = "分享"
+wnd_avt_unckd_close = "好\s5"
+wnd_avt_unckd_nfo = "您解锁了新头像，是否立即使用？"
+wnd_avt_unckd_set_as_cur = "使用该头像\s4"
+
+wnd_avt_rese = "调查头像"
+wnd_avt_rese_nfo = "This avatar will be researched next. You cannot change it once you close this window."
+wnd_avt_rese_set = "更改"
+wnd_avt_rese_close = "关闭"
+
+################################## Player Ranks ##################################
+
+rank_0 = "一无所知"
+rank_1 = "初学者"
+rank_2 = "初级玩家"
+rank_3 = "初级流浪者"
+rank_4 = "熟练流浪者"
+rank_5 = "流浪者"
+rank_6 = "流浪汉长老"
+rank_7 = "流浪者之主"
+rank_8 = "初级朝圣者"
+rank_9 = "骄傲的朝圣者"
+rank_10 = "朝圣者"
+rank_11 = "朝拜者长老"
+rank_12 = "朝圣者之主"
+rank_13 = "初级旅行家"
+rank_14 = "娴熟的旅行家"
+rank_15 = "旅行家"
+rank_16 = "资深旅行家"
+rank_17 = "旅行大师"
+rank_18 = "初级探险家"
+rank_19 = "内行探险家"
+rank_20 = "探险家"
+rank_21 = "资深探险家"
+rank_22 = "探险大师"
+rank_23 = "初级冒险家"
+rank_24 = "内行冒险家"
+rank_25 = "冒险家"
+rank_26 = "资深冒险家"
+rank_27 = "冒险大师"
+rank_28 = "初级财富猎手"
+rank_29 = "熟练的财富猎人"
+rank_30 = "财富猎人"
+rank_31 = "资深财富猎人"
+rank_32 = "财富猎人宗师"
+rank_33 = "初级学徒"
+rank_34 = "熟练学徒"
+rank_35 = "学徒"
+rank_36 = "学徒前辈"
+rank_37 = "学徒大师"
+rank_38 = "初级学者"
+rank_39 = "内行学者"
+rank_40 = "学者"
+rank_41 = "资深学者"
+rank_42 = "大师学者"
+rank_43 = "初级顾问"
+rank_44 = "熟练顾问"
+rank_45 = "顾问"
+rank_46 = "资深顾问"
+rank_47 = "大师顾问"
+rank_48 = "初级导师"
+rank_49 = "娴熟导师"
+rank_50 = "导师"
+rank_51 = "资深导师"
+rank_52 = "硕士导师"
+rank_53 = "小圣人"
+rank_54 = "善良的圣人"
+rank_55 = "圣人"
+rank_56 = "圣人先辈"
+rank_57 = "圣人大师"
+rank_58 = "入门哲学家"
+rank_59 = "娴熟哲学家"
+rank_60 = "哲学家"
+rank_61 = "资深哲学家"
+rank_62 = "哲学家大师"
+rank_63 = "初级宗师"
+rank_64 = "内行宗师"
+rank_65 = "宗师"
+rank_66 = "宗师先辈"
+rank_67 = "宗师之主"
+rank_68 = "初级先驱"
+rank_69 = "进阶先驱"
+rank_70 = "先驱"
+rank_71 = "先驱长者"
+rank_72 = "先驱大师"
+rank_73 = "小勇者"
+rank_74 = "进阶勇者"
+rank_75 = "勇者"
+rank_76 = "勇者前辈"
+rank_77 = "勇者大师"
+rank_78 = "初级艺术家"
+rank_79 = "娴熟的艺术家"
+rank_80 = "艺术家"
+rank_81 = "资深艺术家"
+rank_82 = "艺术大师"
+rank_83 = "小鉴赏家"
+rank_84 = "娴熟的鉴赏家"
+rank_85 = "鉴赏家"
+rank_86 = "资深鉴赏家"
+rank_87 = "大师鉴赏家"
+
+############################### 头像 and their descriptions ###########################
+
+avatar_1 ="萤火虫"
+avatar_2 ="蛇"
+avatar_3 ="旅鼠"
+avatar_4 = "黑乌鸦"
+avatar_6 ="偏执青蛙"
+avatar_10 ="刺猬"
+avatar_14 ="愤怒的小鸟"
+avatar_18 ="流浪汉"
+avatar_19 ="猴王"
+avatar_24 ="穴居人"
+avatar_26 ="神秘主义者"
+avatar_28 ="酒吧侍女"
+avatar_29 ="猎巫人"
+avatar_30 ="治愈者"
+avatar_32 ="冰冻忍者"
+avatar_35 ="扫雷艇"
+avatar_38 ="餐厅业主"
+avatar_41 ="花花公子"
+avatar_43 ="墓作家"
+avatar_47 ="幸运贝吉拉"
+avatar_48 ="预言家"
+avatar_51 ="智者"
+avatar_53 ="波斯王子"
+
+avatar_quote_1 ="Those Archives are Awesome!"
+avatar_quote_2 ="Careful, wouldn't like to bite off my own tail!"
+avatar_quote_3 ="This looks perfectly safe"
+avatar_quote_4 = "Caw, cah"
+avatar_quote_6 ="Always check both sides when crossing the street."
+avatar_quote_10 ="I have a need for speed"
+avatar_quote_14 ="Sure, just shoot me out of a slingshot."
+avatar_quote_18 ="Wrapped in the guise of man, shall he walk amongst the innocent"
+avatar_quote_19 ="When you're a king, you should dress as one."
+avatar_quote_24 ="Search food... Hit dinosaurs..."
+avatar_quote_26 ="No, I don't need a helping hand..."
+avatar_quote_28 ="Forget about all the 恶魔 and feast!"
+avatar_quote_29 ="I hope nobody here has a pitchfork"
+avatar_quote_30 = "Please tell me the nature of your medical condition"
+avatar_quote_32 ="At least there are no Scorpions in the snow"
+avatar_quote_35 ="Mind your steps"
+avatar_quote_38 ="Maybe I should start a diner?"
+avatar_quote_41 ="Let's talk about that time I met this lady FBI agent at the airport..."
+avatar_quote_43 ="I should write an adventure book"
+avatar_quote_47 = "Need just two more of those..."
+avatar_quote_48 = "Who needs a Grandfather sword when you can have the Emperor tarot card"
+avatar_quote_51 = "Listen awhile and stay"
+avatar_quote_53 ="Before starting a fight, you should get a sword!"
+
+product_book2 = "卷二"
+product_book3 = "卷三"
+product_book4 = "卷四"
+product_book5 = "卷五"
+product_book6 = "卷六"
+product_book7 = "卷七"
+
+
+#########################
+## CREDITS
+#########################
+
+cred00_head = "制作人员"
+cred01_head = ""
+cred02_head = "\m0.3"
+cred03_head = "\m1.3协助人员"
+cred04_head = "\m1.3配音人员"
+cred05_head = "\m1.3特别致谢"
+cred06_head = "\m1.3支持人员"
+cred07_head = "\m1.3翻译人员"
+cred08_head = "\m1.3测试人员"
+
+cred_desc_0 = "制片，设计，附带编程"
+cred_desc_1 = "编程，附带设计与写作"
+cred_desc_2 = "概念和设计，艺术和声音方向，编程"
+cred_desc_3 = "网站开发，附带绘图"
+cred_desc_4 = "附带编程"
+cred_desc_5 = "编程"
+cred_desc_6 = "测试，级别内容"
+cred_desc_7 = "概念艺术，2D绘图和插图"
+cred_desc_8 = "级别内容，剧本，附加声音和图像"
+cred_desc_9 = "公关，市场营销"
+
+cred_desc_10 = "艺术风格开发与GFX原型"
+cred_desc_11 = "绘图"
+cred_desc_12 = "绘图"
+cred_desc_13 = "音乐和声音"
+cred_desc_14 = "附带声音"
+cred_desc_15 = "附带声音"
+cred_desc_16 = "对话与文本"
+
+cred_desc_17 = "智者"
+cred_desc_18 = "R2G旁白, 法师"
+cred_desc_19 = "治愈者, 厨师, 伪教皇"
+cred_desc_20 = "酒吧侍女"
+cred_desc_21 = "战士, 恶魔之祖"
+cred_desc_22 = "盗贼, 天使"
+cred_desc_23 = "预言家"
+
+cred_desc_24 = "以及Steam抢先体验小组中的每一位玩家"
+cred_desc_25 = "波兰语 - 校正"
+
+###################################
+## Narration
+###################################
+
+skip_intro = "长按任意键以跳过"
+
+############################### Archive Opening ###############################
+
+intro_0 = "时空的某处"
+intro_1 = "有个地方，叫做史诗档案馆。"
+intro_2 = "那是一个，守护着那些最神奇的故事与神话的远古密室。"
+intro_3 = "每本书，都是通往一段诗篇的神奇法门。"
+intro_4 = "穿越七部杰作，让我带你踏上旅途。"
+intro_5 = "It's time to Return 2 Games!"
+
+## Timing - DO NOT EDIT unless everything has exploded
+intro_0_in = "10.5"
+intro_0_out = "14.0"
+
+intro_1_in = "14.0"
+intro_1_out = "18.0"
+
+intro_2_in = "18.1"
+intro_2_out = "23.5"
+
+intro_3_in = "23.5"
+intro_3_out = "27.5"
+
+intro_4_in = "28.0"
+intro_4_out = "32.8"
+
+intro_5_in = "32.9"
+intro_5_out = "37"
+
+############################### Book of 恶魔 Opening ###############################
+
+bod_intro_0 = "啊。恶魔之书！"
+bod_intro_1 = "我们的藏品中，一个真正可怕的故事。"
+bod_intro_2 = "胆小勿入……"
+bod_intro_3 = "一位流浪的英雄回归故乡"
+bod_intro_4 = "却发现一切都已物是人非"
+bod_intro_5 = "一股可怕的邪恶从地狱深处而来"
+bod_intro_6 = "吞噬了勇士，以绝望荼毒生灵。"
+bod_intro_7 = "因为某个昔日圣地的深处"
+bod_intro_8 = "一个黑暗的仪式刚刚结束"
+bod_intro_9 = "啊！"
+bod_intro_10 = "终极恶魔已觉醒"
+bod_intro_11 ="冒险！"
+bod_intro_12 = "黑暗！"
+bod_intro_13 = "恐怖！"
+bod_intro_14 = "所有这些都在地底静候"
+bod_intro_15 = "祝你好运"
+
+## Timing - DO NOT EDIT unless everything has exploded
+bod_intro_0_in = "3"
+bod_intro_0_out = "5.5"
+
+bod_intro_1_in = "5.5"
+bod_intro_1_out = "8"
+
+bod_intro_2_in = "9"
+bod_intro_2_out = "11"
+
+bod_intro_3_in = "13"
+bod_intro_3_out = "15.4"
+
+bod_intro_4_in = "16"
+bod_intro_4_out = "20"
+
+bod_intro_5_in = "22"
+bod_intro_5_out = "25.5"
+
+bod_intro_6_in = "25.5"
+bod_intro_6_out = "29"
+
+bod_intro_7_in = "31"
+bod_intro_7_out = "34"
+
+bod_intro_8_in = "34"
+bod_intro_8_out = "37"
+
+bod_intro_9_in = "42"
+bod_intro_9_out = "44"
+
+bod_intro_10_in = "44"
+bod_intro_10_out = "46"
+
+bod_intro_11_in = "48"
+bod_intro_11_out = "50"
+
+bod_intro_12_in = "51.7"
+bod_intro_12_out = "53.5"
+
+bod_intro_13_in = "55.6 "
+bod_intro_13_out = "58"
+
+bod_intro_14_in = "63.7"
+bod_intro_14_out = "66.5"
+
+bod_intro_15_in = "72"
+bod_intro_15_out = "75"
+
+################################## Translator's Changelog ######################################
+# Using # sign create a list of already translated items/sections
+## 1.
+## 2.
+## 3.
+## 4.
+## etc
+##
+
+######################## !!! DO NOT CHANGE !!! #########################
+test_font = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789\nFrench\nÙÛÜŸÀÂÆÇÉÈÊËÏÎÔŒ\nùûüÿàâæçéèêëïîôœ\nGerman\nÄÖÜẞ\näöüß\nItalian\nÀÈÉÌÒÓÙ\nàèéìòóù\nPolish\nĄĆĘŁŃÓŚŹŻ\nąćęłńóśźż\nPortuguese\nÃÁÀÂÇÉÊÍÕÓÔÚÜ\nãáàâçéêíõóôúü\nSpanish\nÁÉÍÑÓÚÜ\náéíñóúü\nSPECIALS\n!\"#$%&'()*+,-./:;<=>?@[]^_`{}~¡©®¿\nCzech\nÚŮÝŽÁČĎÉĚÍŇÓŘŠŤ\núůýžáčďéěíňóřšť\nDutch\nÉËÏÓÖÜ\néëïóöü\nSwedish\nÄÅÉÖ\näåéö\nDanish\nÅÆÉØ\nåæéø\nFinnish\nÄÅÖ\näåö\nHungarian\nÁÉÍÖÓŐÜÚŰ\náéíöóőüúű\nNorwegian\nÅÆÂÉÈÊØÓÒÔ\nåæâéèêøóòô\n\nTurkish\nÇĞIİÖŞÜ\nçğıİöşü"
+
+welcome_player = "你好 \1"

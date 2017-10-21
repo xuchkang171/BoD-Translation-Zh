@@ -1,0 +1,2837 @@
+## 恶魔 - DEMO - MAIN - ENGLISH
+
+
+###################### Legend to special markers in this document #################
+###################### !!!! - DO NOT CHANGE THOSE MARKERS - !!!! ##################
+
+## text after "#"" is a comment (like those here)
+## \m - means special enter, for example: \m1.1 is an enter that is 10% higher than normal (110%)
+## \s - sprite (a flat image) with its id (id in ASCII; do not modify!), for example: \szz5, \sd or \s6
+## \1-9 - variable (do not touch!)
+## \n - end of line (text after the marker will appear in the line below)
+## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
+## "m", "f" or "n" designates gender used for !params! names of !magic! 变种: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## What is written in capital letters must stay that way
+## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
+
+## There is a special section just for you to list all translated sections at the end of that file (named "Translator's Changelog")
+
+
+##############################
+## 主菜单
+##############################
+
+##################################################### 游戏内菜单 ###########################################
+
+igm_title = "菜单"
+igm_resume = "回到游戏"
+igm_back = "返回"
+igm_help = "教程"
+igm_controls = "控制"
+igm_tobii = "Tobii眼球跟踪"
+igm_tobii_soon_ttip = "即将推出"
+igm_tobii_ttip = "如需启用眼睛跟踪功能，请连接Tobii EyeX设备后再启动游戏。"
+igm_exit = "退出游戏回到桌面"
+igm_menu = "退出当前进度"
+igm_options = "选项"
+igm_awards = "查看奖杯"
+igm_paused = "~ 游戏已暂停 ~"
+igm_options_title = "选项"
+igm_settings = "视频，音频和语言"
+igm_disable_tips = "取消屏幕提示"
+igm_disable_tips_info = "生成地牢时，取消提示语的显示。"
+
+igm_eyetracking_title = "眼球跟踪设置"
+igm_eyetracking_ttip = "「恶魔之书」中的眼球跟踪功能需要无边框全屏窗口模式"
+btn_eyetrack_set_mode = "启用眼球跟踪"
+igm_eytr_gold = "通过眼睛注视，拾取金币与掉落物品"
+igm_eytr_look = "通过眼睛注视，查看周围物品"
+
+##################################################### 对话框 ################################################
+
+wnd_btn_yes = "是"
+wnd_btn_no = "否"
+
+
+##############################
+## 设置
+##############################
+
+################################################## 设置中的控件 #############################################
+
+bod_ctrl_frame_reset = "重置为默认值"
+bod_ctrl_frame_confirm = "应用"
+bod_key_conf_title = "控制设置"
+bod_ctrl_frame_keyboard = "键盘和鼠标"
+bod_ctrl_frame_gamepad = "手柄"
+bod_ctrl_frame_steam_info = "Steam摇杆配置可于Steam设置中修改"
+bod_ctrl_frame_xbox_info = "摇杆配置可于Steam设置中修改"
+bod_ctrl_hld_ttip = "停止移动时无法移动或自动攻击"
+chk_mouse_walk = "鼠标点击控制移动"
+chk_mouse_swap = "鼠标左右键功能互换"
+ch_smart_walk_ttip = "游戏人物试图直接穿过路口"
+ch_click_walk_ttip = "点击鼠标左键移动游戏人物"
+chk_smart_walk = "智能键盘移动控制"
+chk_mouse_emu = "摇杆模拟鼠标"
+ch_mouse_emu_ttip = "In windows and GUI controller emulates mouse"
+
+bod_select_key = "请按键"
+bod_used_key = "按键已被使用！"
+bod_ctrl_map_section = "操作"
+bod_act_0 = "LMB"
+bod_act_1 = "双击LMB"
+bod_act_2 = "RMB"
+bod_act_3 = "双击RMB"
+bod_act_4 = "向上移动"
+bod_act_5 = "向左移动"
+bod_act_6 = "向下移动"
+bod_act_7 = "向右移动"
+bod_act_8 = "停止移动"
+bod_act_9 = "查看战利品名称"
+bod_act_10 = "战利品名称显示开关"
+bod_act_11 = "使用卡槽1"
+bod_act_12 = "使用卡槽2"
+bod_act_13 = "使用卡槽3"
+bod_act_14 = "使用卡槽4"
+bod_act_15 = "使用卡槽5"
+bod_act_16 = "使用卡槽6"
+bod_act_17 = "使用卡槽7"
+bod_act_18 = "使用卡槽8"
+bod_act_19 = "使用卡槽9"
+bod_act_20 = "使用卡槽10"
+bod_act_21 = "打开人物"
+bod_act_22 = "打开卡牌"
+bod_act_23 = "打开人物（辅键）"
+bod_act_24 = "打开卡牌（辅键）"
+bod_act_25 = "关闭所有窗口"
+bod_act_26 = "打开菜单"
+bod_act_27 = "下一个特殊导弹"
+bod_act_28 = "保持静止"
+
+bod_ctrl_map_pad_lmb = "主要操作"
+bod_ctrl_map_pad_rmb = "次要操作"
+bod_ctrl_map_pad_special_l = "上一个特殊攻击"
+bod_ctrl_map_pad_special_r = "下一个特殊攻击"
+bod_ctrl_map_pad_dispel = "消除"
+bod_ctrl_map_pad_card_left = "切换到左侧卡牌"
+bod_ctrl_map_pad_card_right = "切换到右侧卡牌"
+bod_ctrl_map_pad_cast = "施放法术"
+bod_ctrl_map_pad_open_char = "打开人物窗口"
+bod_ctrl_map_pad_open_card = "打开卡牌窗口"
+bod_ctrl_map_pad_movement = "移动"
+bod_ctrl_map_pad_targetting = "选择目标"
+bod_ctrl_map_pad_use = "使用"
+bod_ctrl_map_pad_lt = "固定攻击"
+bod_ctrl_map_pad_rt = "特殊攻击"
+
+## Key codes/names - should be short; codes will be displayed in limited space
+
+bod_generic_key = "Key code:\1"
+bod_now_allowed_key = "Reserved"
+
+bod_key_1 = "MOUSE 1"
+bod_key_2 = "MOUSE 2"
+bod_key_4 = "MOUSE 3"
+bod_key_5 = "MOUSE 4"
+bod_key_6 = "MOUSE 5"
+
+bod_key_3 = "CANCEL"
+bod_key_8 = "退格键"
+bod_key_9 = "TAB"
+bod_key_12 = "CLEAR"
+bod_key_13 = "RETURN"
+bod_key_32 = "空格"
+bod_key_16 = "SHIFT"
+bod_key_17 = "CONTROL"
+##bod_key_18 = "MENU"
+bod_key_18 = "ALT"
+bod_key_19 = "PAUSE"
+bod_key_20 = "CAPS LOCK"
+bod_key_21 = "KANA"
+
+bod_key_22 = "JUNJA"
+bod_key_23 = "FINAL"
+bod_key_24 = "FINAL"
+bod_key_25 = "HANJA"
+
+bod_key_26 = "KANJI"
+bod_key_27 = "ESCAPE"
+bod_key_28 = "CONVERT"
+bod_key_29 = "NONCONVERT"
+bod_key_30 = "ACCEPT"
+bod_key_31 = "MODECHANGE"
+
+bod_key_33 = "PRIOR"
+bod_key_34 = "NEXT"
+bod_key_35 = "END"
+bod_key_36 = "HOME"
+bod_key_37 = "LEFT"
+bod_key_38 = "UP"
+bod_key_39 = "RIGHT"
+bod_key_40 = "DOWN"
+bod_key_41 = "SELECT"
+bod_key_42 = "PRINT"
+bod_key_43 = "EXECUTE"
+bod_key_44 = "SNAPSHOT"
+bod_key_45 = "INSERT"
+bod_key_46 = "DELETE"
+bod_key_47 = "HELP"
+
+bod_key_91 = "L WIN"
+bod_key_92 = "R WIN"
+bod_key_93 = "APPS"
+bod_key_94 = "SLEEP"
+bod_key_96 = "N_0"
+bod_key_97 = "N_1"
+bod_key_98 = "N_2"
+bod_key_99 = "N_3"
+bod_key_100 = "N_4"
+bod_key_101 = "N_5"
+bod_key_102 = "N_6"
+bod_key_103 = "N_7"
+bod_key_104 = "N_8"
+bod_key_105 = "N_9"
+
+bod_key_106 = "MULTIPLY"
+bod_key_107 = "ADD"
+bod_key_108 = "SEPARATOR"
+bod_key_109 = "SUBSTRACT"
+bod_key_110 = "DECIMAL"
+bod_key_111 = "DIVIDE"
+bod_key_112 = "F1"
+bod_key_113 = "F2"
+bod_key_114 = "F3"
+bod_key_115 = "F4"
+bod_key_116 = "F5"
+bod_key_117 = "F6"
+bod_key_118 = "F7"
+bod_key_119 = "F8"
+bod_key_120 = "F9"
+bod_key_121 = "F10"
+bod_key_122 = "F11"
+bod_key_123 =  "F12"
+bod_key_124 =  "F13"
+bod_key_125 =  "F14"
+bod_key_126=   "F15"
+bod_key_127 =  "F16"
+bod_key_128 =  "F17"
+bod_key_129 =  "F18"
+bod_key_130 =  "F19"
+bod_key_131 =  "F20"
+bod_key_132 =  "F21"
+bod_key_133 =  "F22"
+bod_key_134 =  "F23"
+bod_key_135 =  "F24"
+
+bod_key_144 = "NUMLOCK"
+bod_key_145 = "SCROLL"
+
+bod_key_160 = "左 SHIFT"
+bod_key_161 = "右 SHIFT"
+bod_key_162 = "左 CTRL"
+bod_key_163 = "右 CTRL"
+bod_key_166 = "BROW. BCK"
+bod_key_167 = "BROW. FWD"
+bod_key_168 = "BROW. REFRESH"
+bod_key_169 = "BROW. STOP"
+bod_key_170 = "BROW. SEARCH"
+bod_key_171 = "BROW. FAV"
+bod_key_172 = "BROW. HOME"
+
+bod_key_173 = "VOL. MUTE"
+bod_key_174 = "VOL. DOWN"
+bod_key_175 = "VOL. UP"
+bod_key_176 = "NEXT TRACK"
+bod_key_177 = "PREV TRACK"
+bod_key_178 = "MEDIA STOP"
+bod_key_179 = "PLAY/PAUSE"
+bod_key_180 = "MAIL"
+bod_key_181 = "MEDIA SELECT"
+bod_key_182 = "APP1"
+bod_key_183 = "APP2"
+
+bod_key_186 = ";"
+bod_key_187 = "+"
+bod_key_188 = "逗号"
+bod_key_189 = "-"
+bod_key_190 = "句号"
+bod_key_191 = "/"
+bod_key_192 = "~"
+bod_key_219 = "["
+bod_key_220 = "BACKSLASH"
+bod_key_221 = "]"
+bod_key_222 = "'"
+
+bod_key_229 = "PROCESS"
+
+bod_key_246 = "ATTN"
+bod_key_247 = "CRSEL"
+bod_key_248 = "EXSEL"
+bod_key_249 = "EREOF"
+bod_key_250 = "PLAY"
+
+bod_key_251 = "ZOOM"
+
+bod_key_253 = "PA1"
+bod_key_254 = "CLEAR"
+bod_key_255 = "未分配"
+
+
+##############################
+## 人物选择屏幕
+##############################
+
+###################################### 名称「生成器」 #####################################
+## 战士
+name_war_1 = "Anwend"
+name_war_2 = "Askell"
+name_war_3 = "Asrodr"
+name_war_4 = "Bauger"
+name_war_5 = "Bjarki"
+name_war_6 = "Brattr"
+name_war_7 = "Eyvindr"
+name_war_8 = "Fjalar"
+name_war_9 = "Gautr"
+name_war_10 = "Geiri"
+name_war_11 = "Halldor"
+name_war_12 = "Heimir"
+name_war_13 = "Hialmolfr"
+name_war_14 = "Hodor"
+name_war_15 = "Hrodolfr"
+name_war_16 = "Hroi"
+name_war_17 = "Illugi"
+name_war_18 = "Ivar"
+name_war_19 = "Kadall"
+name_war_20 = "Ketil"
+name_war_21 = "Modolfr"
+name_war_22 = "Odinn"
+name_war_23 = "Osvif"
+name_war_24 = "Sigvaldi"
+name_war_25 = "Sokkolfr"
+name_war_26 = "Ulf"
+name_war_27 = "Vethorn"
+name_war_28 = "Vigsterkr"
+name_war_29 = "Vikar"
+name_war_30 = "Yngvar"
+name_war_max = "30"
+## 盗贼
+name_rog_1 = "Acacia"
+name_rog_2 = "Allison"
+name_rog_3 = "Anastasia"
+name_rog_4 = "Anemone"
+name_rog_5 = "Arcadia"
+name_rog_6 = "Artemisia"
+name_rog_7 = "Athena"
+name_rog_8 = "Christobel"
+name_rog_9 = "Ebony"
+name_rog_10 = "Elissa"
+name_rog_11 = "Helena"
+name_rog_12 = "Isaura"
+name_rog_13 = "Kathleen"
+name_rog_14 = "Katniss"
+name_rog_15 = "Kolina"
+name_rog_16 = "Leah"
+name_rog_17 = "Maeve"
+name_rog_18 = "Merida"
+name_rog_19 = "Muriel"
+name_rog_20 = "Nora"
+name_rog_21 = "Pandora"
+name_rog_22 = "Persephone"
+name_rog_23 = "Persis"
+name_rog_24 = "Rhoda"
+name_rog_25 = "Sandrine"
+name_rog_26 = "Tauriel"
+name_rog_27 = "Theresa"
+name_rog_28 = "Vesna"
+name_rog_29 = "Xenia"
+name_rog_30 = "Yalena"
+name_rog_max = "30"
+## 法师
+name_mag_1 = "Adaraphos"
+name_mag_2 = "Arynno"
+name_mag_3 = "Ballicho"
+name_mag_4 = "Brachos"
+name_mag_5 = "Draqarro"
+name_mag_6 = "Garradhor"
+name_mag_7 = "Gyllero"
+name_mag_8 = "Horicho"
+name_mag_9 = "Horidos"
+name_mag_10 = "Innonar"
+name_mag_11 = "Irrenno"
+name_mag_12 = "Jaqadhor"
+name_mag_13 = "Jaqys"
+name_mag_14 = "Joradhor"
+name_mag_15 = "Joryrio"
+name_mag_16 = "Laranzello"
+name_mag_17 = "Lazonos"
+name_mag_18 = "Lysero"
+name_mag_19 = "Maerrynno"
+name_mag_20 = "Malenhor"
+name_mag_21 = "Marodos"
+name_mag_22 = "Nakenno"
+name_mag_23 = "Norys"
+name_mag_24 = "Nyessar"
+name_mag_25 = "Sallorno"
+name_mag_26 = "Stallan"
+name_mag_27 = "Thorynno"
+name_mag_28 = "Varen"
+name_mag_29 = "Vargor"
+name_mag_30 = "Vyrar"
+name_mag_max = "30"
+
+######################################### Slot/Character Selection Screen ###############################################
+
+char_slot_close = "关闭"
+char_slot_unused = "空"
+char_slot_title = "选择\1人物"
+char_slot_rem_title = "删除人物"
+char_slot_rem_bod = "确定永久删除该人物吗？"
+
+#back_to_menu = "Back To The Archive" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
+enter_town = "进入小镇"
+create_char = "创建人物"
+sel_cont = "继续游戏"
+unlock_full_version = "解锁完整版本"
+
+class_0 = "战士"
+class_1 = "盗贼"
+class_2 = "法师"
+
+class_0_rank_0 = "新手战士"
+class_0_rank_1 = "战士"
+class_0_rank_2 = "大师战士"
+class_0_rank_3 = "传奇战士"
+class_1_rank_0 = "新手盗贼"
+class_1_rank_1 = "盗贼"
+class_1_rank_2 = "大师盗贼"
+class_1_rank_3 = "传奇盗贼"
+class_2_rank_0 = "新手法师"
+class_2_rank_1 = "法师"
+class_2_rank_2 = "大师法师"
+class_2_rank_3 = "传奇法师"
+
+class_0_lev = "\1（\2级战士）"
+class_1_lev = "\1（\2级盗贼）"
+class_2_lev = "\1（\2级法师）"
+
+class_0_lev_rank_0 = "\1级新手战士"
+class_0_lev_rank_1 = "\1级战士"
+class_0_lev_rank_2 = "\1级大师战士"
+class_0_lev_rank_3 = "\1级传奇战士"
+
+class_1_lev_rank_0 = "\1级新手盗贼"
+class_1_lev_rank_1 = "\1级盗贼"
+class_1_lev_rank_2 = "\1级大师盗贼"
+class_1_lev_rank_3 = "\1级传奇盗贼"
+
+class_2_lev_rank_0 = "\1级新手法师"
+class_2_lev_rank_1 = "\1级法师"
+class_2_lev_rank_2 = "\1级大师法师"
+class_2_lev_rank_3 = "\1级传奇法师"
+
+char_locked = "战士达到5级即可解锁"
+char_demo = "人物在试玩版中不可用。"
+char_unav = "人物即将推出！"
+char_locked_tip = "战士达到5级可解锁。约耗时20分钟。"
+
+#################################### 选择画面 - 创建新人物 ##########################
+
+war_title = "扮演战士"
+mag_title = "扮演法师"
+rog_title = "扮演盗贼"
+
+start_game = "开始游戏"
+disabled_start_tooltip = "人物名称无效"
+char_name = "人物名称"
+char_daredevil = "亡命之徒"
+char_daredevil_tip = "亡命之徒的人物可于名人堂中查看进度排行，但是当他们死亡时，无法再复活，你需要从头来过。"
+roll_tooltip = "生成随机人物名称"
+sig_cards = "  专属卡牌  "
+char_daredevil_title = "亡命之徒"
+char_daredevil_confirm = "确认"
+char_daredevil_back = "返回"
+char_daredevil_info = "当你在\^FFFFFF亡命之徒\^^模式中死亡，将再无生还可能，您的进度将记录于\^FFFFFF名人堂\^^中。在该模式中请务必小心。\n\n另外，在自由模式中，你只能玩已解锁的最高难度。"
+
+###################################### 新人物解锁窗口 ###################################
+
+wnd_char_unlock_title = "新人物"
+
+wnd_char_unlock_congrat_rogue = "恭喜！您的人物已达5级！\n解锁了两个新的职业！"
+wnd_char_unlock_visit_rogue = "请在人物选择界面查看新职业"
+wnd_char_unlock_check_rogue = "现在，你可以选择这些新职业了。"
+
+wnd_char_unlock_congrat = "恭喜！您的人物已达5级\n新的可选职业：\^fcda92法师\^^"
+wnd_char_unlock_visit = "访问人物选择界面以查看新职业\n（盗贼即将推出）"
+wnd_char_unlock_check = "现在，你可以选择法师职业了\n（盗贼即将推出）"
+
+wnd_char_unlock_rogue = "\sz> 盗贼"
+wnd_char_unlock_mage = "\sz? 法师"
+
+############################# 职业描述 ###########################
+
+# 战士
+war_description = "一位勇猛的冒险家，相信钢铁的强大力量。他精通各种武器铠甲。有时，当他冲向一大群怪物，你会发现他眼神中的疯狂。"
+# 匕首
+war_sign_card_tooltip_0 = "对攻击范围内的其他敌人施予额外伤害"
+# poison bomb
+war_sign_card_tooltip_1 = "在你周围投掷剧毒炸弹，对怪物造成持续性中毒伤害"
+# Mighty Blow
+war_sign_card_tooltip_2 = "造成巨大伤害并击晕一名敌人"
+
+#法师
+mag_description = "一位强大的神秘主义者，精通各种魔法。他只披一袭长袍，召唤仆从与敌人直面战斗, 自己则保持安全距离发动袭击。"
+# Book of Ice
+mag_sign_card_tooltip_0 = "借冰之魔力提高你的魔法, 减速、冻结你的敌人。"
+# Hourglass
+mag_sign_card_tooltip_1 = "减慢你周围的时间，给你打击敌人的战术优势。"
+# Golem
+mag_sign_card_tooltip_2 = "召唤一个强大的石头傀儡在你身边战斗"
+
+#盗贼
+rog_description = "一位狡猾的盗贼，总是在追寻名利与财富。她使一把弓箭，漫步地牢，留下一堆被她毒箭刺穿的尸体。戏剧性与诡计是她最强大的盟友。"
+# Fire Arrow
+rog_sign_card_tooltip_0 = "装配毁灭性的火箭，对冰属性怪物造成额外伤害"
+# Vamp Gloves
+rog_sign_card_tooltip_1 = "一定机率从你杀死的怪物吸取生命能量"
+# Intuition
+rog_sign_card_tooltip_2 = "你敏锐的感官让你可以发现盾牌的薄弱点，并可用箭头中断法术施放。"
+
+
+################################
+## 小镇
+################################
+
+# NPC 特写
+npc_btn_previous = "上一个"
+npc_btn_next = "下一个"
+npc_btn_back = "返回"
+npc_btn_close = "关闭"
+npc_btn_next_gossip = "下一个流言"
+npc_btn_continue_gossip = "继续"
+npc_btn_collect_all = "全部取出"
+npc_btn_fuse = "熔合符文"
+npc_btn_upgr = "升级"
+npc_gossips_section_title = "流言（\1/\2）"
+npc_button_gold_amount = "\1 \s0"
+npc_button_gossip_tip = "与\1交谈"
+
+# 治愈者
+npc_name_0 = "治愈者"
+npc_description_0 = "朋友你好。有什么我能帮你的吗？"
+npc_button1_0 = "流言"
+npc_button2_0 = "治愈"
+npc_button3_0 = "死亡愤怒"
+npc_button3_0_gold = "\1 \s0"
+npc_description_heal_0 = "不客气"
+npc_description_heal_1 = "以后就要收费了"
+npc_healer_heal_ttip_0 = "让我治愈你的身体和心灵！"
+npc_healer_heal_ttip_1 = "你看起来很好！"
+npc_healer_char_ttip = "嗨，你好！要万金油吗？开个玩笑，早都卖完了。"
+npc_healer_death_rage_ttip_charged = "你已充满愤怒"
+npc_healer_death_rage_ttip_not_enough_gold = "越是强大的力量，代价越高。等你金币充足了再来吧。"
+npc_healer_death_rage_ttip_buy = "要给死亡愤怒充能吗？"
+npc_healer_death_rage_ttip_locked = "每次升级，死亡愤怒都将充能，达到等级上限后，你可在此花费金币为其充能。"
+
+# 酒吧侍女
+npc_name_1 = "酒吧侍女"
+npc_description_1 = "你好呀！要吃点什么喝点什么？"
+npc_button1_1 = "流言"
+npc_button2_1 = "魔法坩埚"
+npc_button3_1 = "金钥匙"
+npc_button2_1_empty = "魔法坩埚 - 空的"
+npc_button2_1_empty_ttip = "坩埚现在是空，去地牢寻寻宝再回来看看吧。\m2.0下次提取坩埚奖品将花费\1\s0。"
+npc_barmaid_char_ttip = "别喝了酒就找事！"
+npc_barmaid_cauldron_desc = "每当你在地牢找到一个原料，坩埚的魔力就会增强。"
+npc_barmaid_cauldron_btn_collect_lbl = "提取奖品"
+npc_barmaid_cauldron_btn_collect_empty = "坩埚是空的"
+npc_barmaid_cauldron_ttip_not_enough_gold = "金币不足"
+npc_barmaid_cauldron_ttip_help = "\s9 左键点击以了解更多"
+npc_barmaid_cauldron_ttip_help_pad = "按\s9以了解更多"
+npc_barmaid_cauldron_count_life = "\s0生命：\1"
+npc_barmaid_cauldron_count_mana = "\s0法力：\1"
+npc_barmaid_cauldron_count_prizes = "\s0奖品：\1"
+npc_barmaid_cauldron_collect_desc = "点击奖品来收集！"
+npc_barmaid_cauldron_collect_desc_pad = "按\s9奖品来收集！"
+npc_barmaid_cauldron_collect_next_cost = "下一次提取坩埚需花费：\1\s0"
+npc_barmaid_cauldron_collect_empty = "坩埚是空的"
+npc_barmaid_cauldron_confirm_title = "魔法坩埚"
+npc_barmaid_cauldron_confirm_msg = "你想现在收集坩埚的奖品吗？还是冒着失去奖励的风险再等等？"
+npc_barmaid_cauldron_confirm_help = "每次收集奖励之后，坩埚的价格都会提升。如果你死了，这里没购买的奖品都将消失。"
+npc_barmaid_cauldron_confirm_btn_yes = "收集"
+npc_barmaid_cauldron_confirm_btn_no = "稍后再说"
+npc_barmaid_cauldron_confirm_chk_not_again = "不再显示"
+npc_barmaid_cauldron_ttip_locked = "此选项尚不可用"
+npc_barmaid_cauldron_ttip_buy = "购买坩埚产物"
+npc_barmaid_cauldron_prize_tip_bronze = "\^FFFFFF铜奖\^^"
+npc_barmaid_cauldron_prize_tip_silver = "\^FFFFFF银奖\^^, 包含3个铜奖"
+npc_barmaid_cauldron_prize_tip_gold = "\^FFFFFF金奖\^^, 包含3个银奖和9个铜奖"
+npc_barmaid_key_ttip_not_enough_gold = "金币不足无法购买"
+npc_barmaid_key_ttip_buy = "购买1个任务钥匙（你已有\1个）。"
+npc_barmaid_key_ttip_locked = "此选项尚不可用"
+
+# 智者
+npc_name_2 = "智者"
+npc_description_2 = "请留步，听我一言。哪里有黑暗，哪里就有光。你，是我们在这黑暗时光中的希望。"
+npc_button1_2 = "流言"
+npc_button2_2 = "鉴定卡牌"
+npc_button2_2_with_num = "鉴定卡牌（\1/\2）"
+npc_button3_2 = "解锁卡牌插槽"
+npc_button3_2_gold = "\1 \s0"
+npc_sage_unlock_ttip_0 = "这样您就能用更多的卡了！"
+npc_sage_unlock_ttip_1 = "你没有足够的金币来解锁下一个插槽"
+npc_sage_unlock_ttip_2 = "都给你了！"
+npc_sage_all_unlocked = "已解锁所有卡牌槽"
+npc_sage_gossips_section_title = "怪物图鉴（\1/\2）"
+npc_sage_char_ttip = "你在寻求神秘的知识吗？最好去图书馆试试"
+npc_sage_identify_tip = "你的金币够鉴定卡牌：\1/\2"
+npc_sage_identify_none_tip = "你没有未鉴定的卡牌"
+npc_sage_identify_btn_empty_ttip = "你没有未鉴定的卡牌"
+npc_sage_identify_title = "请选择一张希望我鉴定的卡牌，我很乐意仔细瞧瞧"
+npc_sage_identify_cards_header = "\s0你的未鉴定卡牌"
+npc_sage_identify_card_btn_label = "鉴定卡牌"
+npc_sage_identify_card_btn_no_gold_ttip = "金币不足，无法鉴定卡牌"
+npc_sage_identify_card_btn_not_sel_ttip = "选择要解锁的卡牌"
+
+npc_sage_monster_unmet_ttip = "未遭遇的怪物"
+npc_sage_monster_kills_info = "击杀：\^FFFFFF\1\^^"
+npc_sage_monster_click_info = "\s9左键单击以了解更多"
+npc_sage_monster_click_info_pad = "按\s9以了解更多"
+
+# Gypsy
+npc_name_3 = "预言家"
+npc_description_3 = "你！等等！我能看到你的未来，充满凶险。除非，你能用上几张我的魔法卡牌。"
+npc_button1_3 = "流言"
+npc_button2_3 = "升级卡牌"
+npc_button2_3_with_num = "升级卡牌 (\1)"
+npc_button3_3 = "补充卡牌"
+npc_button3_3_with_num = "补充卡牌 (\1/\2)"
+npc_button4_3 = "熔合符文"
+npc_button5_3 = "出售符文"
+npc_gypsy_char_ttip = "你要什么我都能卖给你，但我只收有用的卡。"
+
+npc_gypsy_upgrade_tip = "增强你的卡牌"
+npc_gypsy_upgrade_locked_tip = "卡牌升级功能将在你找到符文卡牌后开放"
+npc_gypsy_fuse_tip = "熔合低价符文可变成高级符文"
+npc_gypsy_fuse_locked_tip = "你还没有找到任何符文"
+
+npc_gypsy_upgrade_desc = "请选择要升级的卡牌并将符文放入适当的卡槽"
+npc_gypsy_upgrade_upgrade = "升级"
+npc_gypsy_upgrade_tip_no_card = "请先选择你想升级的卡牌"
+npc_gypsy_upgrade_tip_no_gold = "没有足够的金币升级卡牌"
+npc_gypsy_upgrade_tip_no_runes = "用适当的符文卡放入上方插槽"
+npc_gypsy_upgrade_tip_max = "此卡无法再升级"
+npc_gypsy_upgrade_tip_ready = "点击升级此卡"
+npc_gypsy_upgrade_tip_ready_pad = "点击升级此卡"
+npc_gypsy_upgrade_downgrade_btn = "降级"
+npc_gypsy_upgrade_downgrade_tip = "降级卡牌并回收符文"
+npc_gypsy_upgrade_fuse_tip = "熔合符文"
+
+npc_gypsy_charge_tip = "充能你的物品卡牌"
+
+npc_gypsy_fuse_fuse = "熔合"
+npc_gypsy_fuse_not_ready = "请用符文填满下方卡槽以熔合它们"
+npc_gypsy_fuse_no_gold = "你没有足够的金币来熔合该等级的符文"
+npc_gypsy_fuse_active = "点击以将下面的卡熔化到更高级别的符文卡（\^FCDA92\1\^^）" #FCDA92
+npc_gypsy_fuse_active_pad = "点击升级下方符文 (\^FCDA92\1\^^)" #FCDA92
+
+npc_gypsy_sell_tip = "出售符文换取金币"
+npc_gypsy_sell_locked_tip = "你尚无任何符文"
+npc_gypsy_sell_runes_desc = "请选择你想卖的符文"
+npc_gypsy_sell_runes_sell = "出售"
+npc_gypsy_sell_runes_pick = "选择一个符文"
+npc_gypsy_sell_runes_sell_tip = "点击出售所选符文换取金币"
+npc_gypsy_sell_runes_sell_tip_pad = "点击出售所选符文换取金币"
+npc_gypsy_sell_runes_pick_tip = "选择您要出售的卡牌"
+npc_gypsy_charge_card_anavailable_tip = "你尚无物品卡牌"
+npc_gypsy_charge_all_full = "所有物品卡牌都已完全充能"
+
+cathedral_ttip_title = "大教堂"
+cathedral_ttip = "有组织地压迫与受苦的地方。已经被恶魔之主接管了。"
+
+############################ Charging cards (预言家) ######################
+
+wnd_charge_title = "卡牌充能"
+wnd_charge_quote = "请选择您要付费充能的卡片。"
+wnd_charge_cards_sep = "\sA 物品卡牌"
+wnd_charge_checkbox = "显示全部"
+wnd_charge_apply_btn = "充能卡牌"
+wnd_charge_apply_btn_pick = "选择卡牌"
+wnd_charge_card_price = "\1\s=" # nothing to translate here, move along
+wnd_charge_card_price_red = "\^FF4832\1\^^\s=" # nothing to translate here, move along
+wnd_charge_back = "返回"
+wnd_charge_max = "\^00FF00MAX\^^\s>"   #translate only MAX
+crd_charge_select_ttip = "\s9 左键点击以选择"
+crd_charge_deselect_ttip = "\s9 左键点击以取消"
+crd_charge_buy_ttip = "\s: 右键充满"
+
+crd_charge_select_pad_ttip = "按\s9以选择"
+crd_charge_deselect_pad_ttip = "按\s9以取消选择"
+crd_charge_buy_pad_ttip = "按\s:充满"
+
+crd_charge_full_ttip = "卡牌已达充能上限"
+wnd_charge_btn_nocash_ttip = "金币不足无法充能"
+wnd_charge_btn_allmax_ttip = "所有卡牌均已充能"
+wnd_charge_chk_ttip = "显示完全充能卡牌"
+
+###################################### 升级卡牌 ###########################
+
+wnd_upgrade_title = "升级卡牌"
+wnd_upgrade_cardinality = "升级卡牌：\^FFFFFF\1\^^\s?"
+wnd_upgrade_quote = "请选择您要升级的卡片"
+wnd_upgrade_card_price = "\1\s=\2\s?" # nothing to translate here, move along
+wnd_upgrade_btn_label = "升级卡牌"
+wnd_upgrade_btn_label_pick = "选择卡牌"
+wnd_upgrade_lvl2_cards_sep = "升到3级"
+wnd_upgrade_lvl1_cards_sep = "升到2级"
+wnd_upgrade_others_cards_sep = "暂无可升级卡牌"
+wnd_upgrade_empty_grp_no_unupgradable = "这里没有卡牌"
+wnd_upgrade_empty_grp_no_content = "无该等级卡牌"
+wnd_upgrade_empty_grp_no_cash = "金币不足"
+wnd_upgrade_empty_grp_no_cards = "符文不足"
+wnd_upgrade_dialog_box = "确认升级"
+wnd_upgrade_no_cards_in_grp = "暂无可升级卡牌"
+
+crd_upgrade_select_ttip = "\s9 左键点击以选择卡牌"
+crd_upgrade_deselect_ttip = "\s9 左键点击以取消选择"
+
+crd_upgrade_select_pad_ttip = "按 \s9 以选择卡牌"
+crd_upgrade_deselect_pad_ttip = "按 \s9 以取消选择"
+
+crd_upgrade_max_ttip = "最高级别卡"
+wnd_upgrade_warning_item = "这张卡的充能费用将从 \1\s= 升至 \2\s=\n，确定升级？"
+wnd_upgrade_warning_artifact = "装备这张卡需消耗的绿色法力将从 \1\s5 升至 \2\s5。\3\n 确定升级？"
+wnd_upgrade_warning_spell = "使用这张卡的法力消耗将从 \1\s4 升至 \2\s4。\n 确定升级？"
+wnd_upgrade_warning_now_equipped = "这张卡牌已被装备"
+wnd_upgrade_warning_y= "升级"
+wnd_upgrade_warning_n= "取消"
+
+########################## Slot unlock confirmation dialog - 智者 #####################
+
+confirm_slot_unlock_title = "卡牌插槽"
+confirm_slot_unlock_label = "确定花费 \1 \s0 解锁新的卡牌插槽？"
+confirm_slot_yes = "是"
+confirm_slot_no = "否"
+
+########################################## Cauldron (酒吧侍女) ##################################
+
+cauldron_ttip_title = "魔法坩埚"
+cauldron_ttip_desc = "去镇上跟酒吧侍女了解一下坩埚吧。"
+
+
+###################################################
+# Crosscut Screen
+###################################################
+
+cc_back_to_town = "回到小镇"
+
+cc_begin_game = "开始游戏 \si"
+cc_begin_quest = "开始任务！"
+cc_master_quest = "主任务！"
+cc_replay_quest = "重玩任务！"
+cc_quest_not_discovered = "未发现"
+cc_go_down = "继续深入 \si"
+cc_go_down_quest_close = "放弃任务"
+cc_go_down_quest_0 = "进入地下墓穴"
+cc_go_down_quest_1 = "进入地狱"
+cc_go_down_quest_2 = "完成探险并解锁自由模式"
+cc_go_down_quest_complete = "完成任务"
+cc_go_down_ttip = "Close this game and progress deeper"
+cc_go_down_ttip_dis = "You can't go down until you finish this part of the dungeon"
+cc_go_down_quest_ttip_dis = "Close the quest without finishing."
+
+cc_close_game_frame = "离开这个地牢?"
+cc_cgf_txt = "你即将离开这地牢当前阶段。确定现在继续深入吗？"
+cc_cgf_warn = "When you leave this dungeon, you can't go back. If you leave any treasures behind, it might take a while before you encounter them again."
+cc_cgf_yes = "继续深入！\si"
+cc_cgf_no = "再等等"
+
+cc_close_quest_title = "Abandon This Quest?"
+cc_close_game_title = "Abandon This Game?"
+cc_abandon_quest_txt = "You are about to quit the quest. Have in mind your key will not be recovered!"
+cc_abandon_game_txt = "You are about to reset current Flexigame to the beginning. This game will not count to your progress, but you won't lose your exp points and loot.\n\^FF4832This is a debug feature. Please use it only if you are stuck!\^^ "
+cc_abandon_quest_corpse_txt = "Don't worry though about valuables in your tombstone. You will have them back."
+cc_abandon_quest_yes = "Abandon"
+cc_abandon_game_yes = "Abandon"
+
+cc_close_game_corpse_frame = "Cannot leave dungeon"
+cc_cgf_corpse_warn = "You cannot leave this dungeon until you recover your tombstone and your lost possessions."
+cc_cgf_go_back = "Go Back"
+
+cc_quest_0_title = "Quest I - The Cook"
+cc_quest_1_title = "Quest II - The Antipope"
+cc_quest_2_title = "Quest III - The Archdemon"
+cc_quest_est_playtime = "\s0Estimated play time ~ \1 min"
+cc_quest_start_ttip_master = "This will allow you to choose quest level to master."
+cc_quest_start_ttip_no_key = "You cannot start the quest now.\n\^FF4832You don't have a key\^^"
+cc_quest_start_ttip_locked = "You cannot start the quest now.\n\^FF4832Another game is open.\^^"
+cc_quest_start_ttip_locked_no_keys = "You cannot start the quest now.\n\^FF4832Another game is open.\nYou don't have a key\^^"
+cc_quest_start_ttip_disabled = "Mastering quests is disabled in this version"
+
+cc_ts_0_first_game_label = "Labyrinth start here"
+cc_ts_1_first_game_label = "Catacombs start here"
+cc_ts_2_first_game_label = "Hell starts here"
+
+########################################### Low hp warning after starting the game #######################
+
+low_hp_warning_title = "Warning"
+low_hp_warning_btn_confirm = "Enter Dungeon"
+low_hp_warning_btn_no = "Not yet"
+low_hp_warning_chk_not_again = "Don't show it again"
+low_hp_warning_help = "You are not in your best condition. You should probably see 治愈者 before entering the dungeon.\m1.3Are you sure you want to start the adventure despite your low health?"
+
+
+## BETA FINISHED DIALOG (TEMPORARY)
+beta_finished_dialog_title = "End of Beta"
+beta_finished_dialog_text = "You have finished beta."
+
+## AUTORESET DIALOG (TEMPORARY)
+wnd_autoreset_title = "Autoreset"
+wnd_autoreset_text = "All game data will be reset."
+wnd_autoreset_btn_reset = "Reset"
+wnd_autoreset_btn_cancel = "Cancel"
+
+##################################### Dungeon progress bar ######################
+
+game_prog_tilest = "Currently in: \1"
+
+game_prog_prog = "Game progress: \1%"
+game_prog_tilest_0 = "\^FCDA92Maze\^^"
+game_prog_tilest_1 = "\^FCDA92Catacombs\^^"
+game_prog_tilest_2 = "\^FCDA92Hell\^^"
+game_prog_freeplay = "\^FCDA92Freeplay\^^"
+game_prog_depth = "Depth: \1"
+
+game_prog_player = "You"
+game_prog_archdemon_ttip_header = "Archdemon"
+game_prog_archdemon_ttip_header_dead = "Archdemon's remains"
+game_prog_archdemon_ttip_desc = "Defeat \^FCDA92Archdemon\^^ to unlock new game mode."
+game_prog_archdemon_ttip_desc_dead = "You have slain \^FCDA92Archdemon\^^."
+game_prog_archdemon_ttip_locked = "\sQ\^FF4832Freeplay mode locked\^^"
+
+game_prog_town = "Town"
+
+game_prog_quest_0 = "The Cook"
+game_prog_quest_1 = "The Antipope"
+game_prog_quest_2 = "The Archdemon"
+
+game_prog_quest_key = "You \^00FF00have\^^ a key, you can complete this quest on higher difficulty"
+game_prog_quest_no_key = "You \^FF4832need\^^ a key to play this quest on higher difficulty"
+
+############################### Flexiscope ################################
+
+cc_flexi_frame = "Setup New Game"
+cc_flexi_title = "Flexiscope (tm)"
+cc_flexi_desc = "Select game size below. Flexiscope analyses your gameplay style and predicts how long it will take to complete each game size. The estimates will get more accurate with time."
+cc_flexi_start = "Start Game \si"
+cc_flexi_b1 = "Very Small"
+cc_flexi_b2 = "Small"
+cc_flexi_b3 = "Medium"
+cc_flexi_b4 = "Big"
+cc_flexi_b5 = "Very Big"
+cc_flexi_min = "\1 min."
+cc_flexi_rewards = "Rewards:"
+cc_flexi_progress = "Progress:"
+cc_flexi_gold = "金币:"
+cc_flexi_rew_rew_tip = "Number of awards hidden in dungeon (such as \^FFFFFFcards\^^, \^FFFFFFscrolls\^^, \^FFFFFFkeys\^^, \^FFFFFFcauldron ingredient\^^)"
+cc_flexi_rew_gold_tip = "Approximate amount of 金币 hidden in this game"
+
+cc_flexi_rew_prog_tip = "Progress towards final quest in the game."
+cc_flexi_rew_prog_fp_tip = "Progress towards unlocking the next difficulty level."
+cc_flexi_rew_prog_fp_noprog_tip = "You must play on highest available difficulty to progress towards unlocking even higher difficulty"
+cc_flexi_rew_prog_fp_complete_tip = "You have unlocked highest difficulty level in the game!"
+cc_flexi_rew_prog_tip_perc = "Progress now: \1\nProgress after: \2"
+cc_flexi_rew_prog_tip_depth = "Depth now: \1\nDepth after: \2"
+
+cc_flexi_freeplay = "Freeplay"
+cc_flexi_fp_basic = "Basic"
+cc_flexi_ts_select = "Select Tileset"
+cc_flexi_ts_0 = "Maze"
+cc_flexi_ts_1 = "Catacombs"
+cc_flexi_ts_2 = "Hell"
+cc_flexi_ts_tip_daredevil_disabled = "In \^FCDA92Daredevil\^^ the Tileset is selected at random."
+cc_flexi_diff_select = "Select Difficulty"
+cc_flexi_fp_normal = "Play Normal"
+cc_flexi_fp_hard = "Play Hard"
+cc_flexi_fp_nightmare = "Play Nightmare"
+cc_flexi_fp_massacre = "Play Massacre"
+
+cc_flexi_fp_tool_0 = "\sn 金币 loss on death: \^FFBD4220\^^%\m1.2\sn Cards cursed by boss: \^FFBD422-4\^^"
+cc_flexi_fp_tool_1 = "\sn 金币 loss on death: \^FFBD4230\^^%\m1.2\sn Cards cursed by boss: \^FFBD423-5\^^\m1.2\sn Imposed Cards: \^FFBD422\^^"
+cc_flexi_fp_tool_2 = "\sn 金币 loss on death: \^FFBD4240\^^%\m1.2\sn Cards cursed by boss: \^FFBD424-6\^^\m1.2\sn Imposed Cards: \^FFBD423\^^\m1.2\sn Cards lost on death: \^FFBD421\^^"
+cc_flexi_fp_tool_3 = "\sn 金币 loss on death: \^FFBD4250\^^%\m1.2\sn Cards cursed by boss: \^FFBD425-8\^^\m1.2\sn Imposed Cards: \^FFBD425\^^\m1.2\sn Cards lost on death: \^FFBD425\^^"
+cc_flexi_fp_tool_h_0 = "Normal Difficulty"
+cc_flexi_fp_tool_h_1 = "Hard Difficulty"
+cc_flexi_fp_tool_h_2 = "Nightmare Difficulty"
+cc_flexi_fp_tool_h_3 = "Massacre Difficulty"
+cc_flexi_fp_unlocked_h = "Congratulations! You have unlocked the \^FFBD42\1\^^ difficulty mode.\nFollowing rules apply:"
+cc_flexi_fp_unlocked_diff_0 = "Normal"
+cc_flexi_fp_unlocked_diff_1 = "Hard"
+cc_flexi_fp_unlocked_diff_2 = "Nightmare"
+cc_flexi_fp_unlocked_diff_3 = "Massacre"
+
+cc_flexi_locked_ttip_1 = "This scope will be unlocked when any of your characters finishes first game"
+cc_flexi_locked_ttip_2 = "This scope will be unlocked when any of your characters reaches level 5"
+cc_flexi_locked_ttip_3 = "This scope will be unlocked when any of your characters reaches level 10"
+cc_flexi_locked_ttip_4 = "This scope will be unlocked when any of your characters reaches level 15"
+cc_flexi_locked_by_quest_tip = "Game size locked because a special quest is in your way"
+cc_flexi_quest_entrance = "Quest Entrance"
+cc_flexi_creating_game = "Creating game"
+cc_flexi_randomize_tip = "Randomize the game"
+cc_flexi_randomize_no_gold = "Insufficient amount of 金币"
+cc_flexi_diff_locked_2 = "To unlock Hard difficulty you need to practice enough on Normal"
+cc_flexi_diff_locked_3 = "To unlock Nightmare difficulty you need to practice enough on Hard"
+cc_flexi_diff_locked_4 = "To unlock Massacre difficulty you need to practice enough on Nightmare"
+cc_flexi_diff_locked_daredevil = "To spice things up, in \^FCDA92Daredevil\^^ mode you can play only on highest available difficulty"
+
+cc_flexi_about_title = "Flexiscope (tm)"
+cc_flexi_about_close = "关闭"
+cc_flexi_about_desc1 = "CONGRATULATIONS!\m1.3\^CDBA92FLEXISCOPE\^^ IS NOW AVAILABLE!"
+cc_flexi_about_desc2 = "With Flexiscope you can choose the size of a game session you will play.\m1.8Depending on your preferences, you can divide your adventure into smaller or bigger games. Regardless of how much time you have, Flexiscope makes sure that rewards and threats in a single game are fair and that the gameplay experience can be completed in the predicted time.\m1.8Flexiscope learns your gameplay style, so time estimates for each subsequent session size should be more and more accurate."
+
+cc_flexi_diff_unlocked_title = "New Difficulty"
+
+######################### Summary screen - after killing the Archdemon #################
+
+endgame_congrats_title = "Congratulations!"
+endgame_congrats_subtitle = "You have killed the Archdemon."
+endgame_congrats_desc = "But your adventure doesn't end here. You have unlocked the \^FCDA92Freeplay Mode\^^ which gives you more freedom in setting up games."
+endgame_congrats_challenge_title = "Challenges await"
+endgame_congrats_challenge_diff = "difficulty levels to unlock:"
+endgame_congrats_challenge_mons = "monsters to discover:"
+endgame_congrats_challenge_card = "common cards to find:"
+endgame_congrats_challenge_legends = "legendary cards to find:"
+endgame_congrats_challenge_ques = "quest levels to master:"
+endgame_congrats_challenge_lvls = "levels to reach level cap:"
+endgame_congrats_challenge_achv = "achievements to get:"
+endgame_congrats_challenge_slot = "slots to unlock:"
+
+press_any_to_skip_anim_kbd = "按任意键跳过熔合过程"
+press_any_to_skip_anim_joy = "Press any button to skip sequence"
+
+############################### Quest Mastering window #####################################
+
+cc_qm_frame = "Quest Mastering"
+cc_qm_title_1 = "The Cook"
+cc_qm_title_2 = "Antipope"
+cc_qm_title_3 = "The Archdemon"
+cc_qm_desc_1 = "Challenge the Cook once again in Hells Kitchen itself. Prove one more time who's the true Master Chef under the Cathedral."
+cc_qm_desc_2 = "Select the quest difficulty you would like to master."
+cc_qm_desc_3 = "Select the quest difficulty you would like to master."
+cc_qm_diff = "Select Difficulty "
+cc_qm_btn_diff_1 = "Play Nightmare"
+cc_qm_btn_diff_1b = "Finished Nightmare"
+cc_qm_btn_diff_2 = "Play Hell"
+cc_qm_btn_diff_2b = "Finished Hell"
+cc_qm_btn_diff_3 = "Play Massacre"
+cc_qm_btn_diff_3b = "Replay Massacre"
+cc_qm_tip_low_level = "It is not recommended to start this quest before you reach level \1"
+cc_qm_tip_key = "Keys are precious"
+cc_qm_tip_no_key = "You don't have any key to unlock the quest"
+
+## Death during mastering quest
+death_qm_title = "Quest Mastering Failed"
+death_qm_desc = "Unfortunately you died and therefore you didn't finish the quest. Hopefully you will be luckier the next time."
+death_qm_keys_left = "Keys left: \^FFFFFF\1\s0\^^"
+death_qm_back_to_town = "Resurrect in Town"
+death_qm_retry = "Heal and Retry Quest"
+death_qm_tip_no_key = "You need a key play the quest again"
+
+################################### Level/cross cut Tooltips ##################################
+
+cc_prize_clear = "\^FCDA92Level clear\^^"
+cc_prize_corpse = "\^FCDA92Corpse\^^"
+cc_prize_undiscovered = "Undiscovered prize"
+cc_prize_boss= "\^FCDA92Boss\^^"
+cc_prize_chest = "\^FCDA92Chest\^^"
+cc_prize_shrine = "\^FCDA92Shrine\^^"
+cc_prize_bookcase = "\^FCDA92Book case\^^"
+cc_prize_ancient_tome = "\^FCDA92Ancient tome\^^"
+cc_prize_general = "\^FCDA92Prize\^^"
+
+cc_prize_tip_clear = "\^40FF40You collected everything in this level. There is nothing more to search for.\^^"
+cc_prize_tip_corpse = "You died on this level. You must collect your remains in order to leave this dungeon."
+cc_prize_tip_undiscovered = "\^FF4040You haven't seen it yet.\^^"
+cc_prize_tip_consumed = "\^40FF40You have collected the prize.\^^"
+cc_prize_tip_discovered_general = "\^FF4040You have walked by the prize but didn't collect it.\^^"
+cc_prize_tip_discovered_boss = "\^FF4040You haven't killed the boss.\^^"
+
+cc_freeplay_sep = "Freeplay Mode Starts Here"
+cc_monster_unmet = "Monster unmet"
+cc_monster_kills_info = "Total kills: \^FFFFFF\1\^^"
+cc_monster_count_none = "None left"
+cc_monster_count_one = "One left"
+cc_monster_count_couple = "Couple left"
+cc_monster_count_some = "Some left"
+cc_monster_count_dozen = "About a dozen left"
+cc_monster_count_lot = "Plenty left"
+
+###################################### Level/mod finished summary screen ###########################
+
+summary_avt_ttip_change = "您可以在R2G主菜单中更改您的头像"
+wnd_summary_ok = "好 \si"
+wnd_summary_title = "游戏进程"
+wnd_summary_rank = "等级 \1:"
+wnd_summary_score = "得分："
+wnd_summary_next_rank = "下一等级："
+wnd_summarynext_avatar_at = "下一个头像："
+wnd_summary_flexi_results = "自定义游戏奖励"
+wnd_summary_rank_prg_ttip = "升至下一等级还需：\1"
+wnd_summary_clean_sweep_title_ttip = "一网打尽"
+wnd_summary_clean_sweep_ttip = "所有关卡都已清理干净！"
+wnd_summary_heart_iron_title_ttip = "钢铁之心"
+wnd_summary_heart_iron_ttip = "一次没死！"
+wnd_summary_blade_title_ttip = "无情刀锋"
+wnd_summary_blade_ttip = "你杀光了敌人！一个不剩！"
+wnd_summary_stars_ttip = "在这个地牢收集的星星（此功能尚不可用）。"
+wnd_summary_avt_research_prg_ttip = "此头像的总费用： \1"
+wnd_summary_score_togo = "还剩\1"
+wnd_summary_autoresearch = "研究完成的头像已自动被使用。不喜欢的话可以自行更换。"
+summary_btn_change_avt = "更改"
+summary_btn_leave_avt = "接受 \si"
+summary_avt_ttip_change_info = "您可以在R2G主菜单中更改您的头像"
+summary_avt_ttip_info = "\^00FF00恭喜！解锁头像！\^^"
+sum_wnd_nothing = "没有可做的事"
+sum_wnd_title = "您可做的事"
+
+sum_wnd_healer = "访问治愈者："
+sum_wnd_healer_rage = "补给死亡愤怒"
+sum_wnd_healer_heal = "恢复生命和法力"
+
+sum_wnd_barmaid = "访问酒吧侍女："
+
+sum_wnd_barmaid_cauldron = "购买坩埚物品 \s0 \1 \s1 \2 \s2 \3"
+sum_wnd_barmaid_cauldron_no_par = "购买坩埚物品"
+sum_wnd_barmaid_key = "购买金钥匙"
+
+sum_wnd_sage = "访问智者："
+sum_wnd_sage_ident = "鉴定魔法卡牌（\1张可用）"
+sum_wnd_sage_slot = "解锁下一个卡槽"
+
+sum_wnd_fortune = "访问预言家："
+sum_wnd_fortune_upgrade = "升级魔法卡牌（\1张可用）"
+sum_wnd_fortune_charge = "充能物品卡（\1张可用）"
+sum_wnd_fortune_sell_runes = "出售符文"
+
+sum_wnd_lvl = "你有\1个未使用的升级点数！"
+sum_wnd_not_now = "稍后再说"
+sum_wnd_goto = "造访城镇"
+
+
+#########################
+## Levels
+#########################
+
+#################################### Drop/Loot tooltips ############################
+pick_up_crap = "略旧的金币"
+pick_up_gold = "\1金币"
+pick_up_card = "卡牌"
+
+pick_up_card_upg = "符文"
+pick_up_unident_card_upg = "待鉴定的卡牌"
+pick_up_unident_legend_card_upg = "待鉴定的传奇卡牌"
+pick_up_bomb_fire = "火弹"
+pick_up_bomb_ice = "冰弹"
+pick_up_bomb_poison = "毒弹"
+pick_up_tp = "小镇传送门"
+pick_up_hp_pot = "生命药水"
+pick_up_mana_pot = "魔法药水"
+pick_up_reju_pot = "回春药水"
+pick_up_div_pot = "神圣药水"
+pick_up_anti_pot = "Remedy 药水"
+pick_up_arrow_f = "火箭"
+pick_up_arrow_i = "冰箭"
+pick_up_arrow_p = "毒箭"
+pick_up_arrow_e = "传奇箭"
+pick_up_scroll_hp = "生命卷轴"
+pick_up_scroll_mana = "法力卷轴"
+pick_up_golden_key = "金钥匙"
+pick_up_quest_stone = "碎片"
+pick_up_quest_key = "任务钥匙"
+pick_up_ingrid = "原料"
+pick_up_star = "金色星星"
+pick_up_hour= "沙漏"
+pick_up_stolen = "失窃的卡牌"
+pick_up_xp = "经验卷轴"
+
+################################### Level/mod notifications #############################
+
+notif_lvl_clear = "楼层清除"
+notif_new_gossip = "镇上的新流言"
+notif_new_monster = "新的怪物传说"
+notif_lvl_up = "升级！"
+notif_new_rank = "新排名：\1"
+notif_new_cards = "新的可用卡牌！"
+notif_deathrage_used = "死亡愤怒已使用"
+notif_input_mouse_keyboard = "鼠标键盘模式"
+notif_input_gamepad = "手柄模式"
+
+wnd_btn_close = "关闭"
+
+################################# Gameplay notifications/tips ##############################
+
+dung_dispell_hint = "按住可消除"
+dung_dispell_pad_hint = "按住\sa可消除"
+
+## 浮动文本
+dung_miss = "未中"
+dung_stun = "眩晕"
+dung_immune = "免疫"
+dung_ice_resisted = "冰冻伤害抵抗"
+dung_freeze_resisted = "冰冻抵抗"
+dung_block = "格挡"
+dung_block_shield = "\s2格挡"
+dung_deflect_shield = "\s2打歪"
+dung_stun_block = "眩晕格挡"
+dung_potion_no_need = "不需要喝，很饱"
+dung_no_mana = "法力不足！"
+dung_stun_tip = "抓星星来恢复"
+
+## Boss card locking
+dung_card_disabled = "\1\n诅咒了卡牌！"
+
+################################ Retrieving card deck after death ########################
+
+wnd_restore_hand = "你想恢复死前的卡槽排布吗？"
+wnd_restore_hand_ok = "是"
+wnd_restore_hand_no = "否"
+
+##################################### New card window ##########################
+
+new_card_resume = "继续"
+new_card_resume_equip = "装备"
+
+############################ Death Screen, oh so frightening! ################################
+
+dung_death_you_dead = "你死了！\n点击以在镇上复活"
+dung_death_you_dead_qm = "你死了！\n点击以继续"
+dung_death_you_dead_daredevil = "你死了！\n以继续"
+dung_death_you_dead_pad = "你死了！\n按\s9以在镇上复活"
+dung_death_you_dead_qm_pad = "你死了！\n按\s9以继续"
+dung_death_you_dead_daredevil_pad = "你死了！\n按\s9以继续"
+dung_death_you_toll = "死亡的代价：\^ffffff\1\^^"
+dung_death_you_toll_gold = "金币：\^ffffff\1\^^ (\^ffffff\2%\^^)"
+dung_death_you_toll_cards = "金币：\^ffffff\1\^^ (\^ffffff\2%\^^)  卡牌：\^ffffff\3\^^"
+dung_death_you_0 = "正常难度"
+dung_death_you_1 = "困难难度"
+dung_death_you_2 = "噩梦困难"
+dung_death_you_3 = "大屠杀困难"
+dung_death_info_fmt = "\1, \2\nDied in \3 on depth: \^FFFFFF\4\n\5 killed by \6\^^" ## char_name, char_rank, tileset or quest, depth, adverb, killer
+dung_death_adverb_0 = "壮观地"
+dung_death_adverb_1 = "残酷地"
+dung_death_adverb_2 = "可怕地"
+dung_death_adverb_count = "3"
+dung_death_killer_fire = "火"
+dung_death_killer_poison = "毒"
+dung_death_killer_unknown = "神秘力量"
+dung_death_share = "\si分享"
+dung_death_time_of_death = "死亡时间：\^FFFFFF\4:\5 \3-\2-\1\^^"  ## year, month, day, hour, minute
+
+
+###################################################
+## Loading Screen - tips displayed while loading and other infos
+###################################################
+
+game_tip_000 = "使用火焰攻击来烧毁冰冻心脏，反之亦然"
+game_tip_000_pad = "使用火焰攻击来烧毁冰冻心脏，反之亦然" ## for controllers
+game_tip_001 = "用火对付黄金心脏的怪物，击杀更快"
+game_tip_002 = "当生命魔球闪烁时，点击它可治愈中毒"
+game_tip_002_pad = "当生命魔球闪烁时，点击\sa它可治愈中毒"
+game_tip_003 = "你可以随意撤回小镇，即使是在地牢中，你也可以使用城镇传送门卡牌来撤回小镇"
+game_tip_004 = "你可以在卡牌上长按鼠标右键来直接使用卡牌槽中的物品卡牌"
+game_tip_004_pad = "你可以通过长按\sa，来直接使用卡牌槽中的物品卡牌"
+game_tip_005 = "你随时都可通过追随足迹，找到关卡入口"
+game_tip_006 = "当被蜘蛛网击中时，你的卡牌可能会缠住，暂时无法使用"
+game_tip_007 = "被放电怪物击中后，快速点击倾斜的卡牌可将其修复"
+game_tip_007_pad = "被放电怪物击中后，尝试立即使用倾斜的卡牌可将其修复"
+game_tip_008 = "当你在新的一层走下楼梯后，你可以往回走来回到之前楼层"
+game_tip_009 = "许多卡牌升级时会获得额外的效果。试试看"
+game_tip_010 = "升级后的卡牌更厉害，充能限量提升，但充能费用也随之提高"
+game_tip_011 = "如果你在游戏中落下物品未拿，别担心，早晚有机会再找到的"
+game_tip_012 = "大多数键位绑定都可在选项中修改"
+game_tip_012_pad = "2级的强力打击卡可打破盾牌。"
+game_tip_013 = "你可以显示地牢中战利品的名称（默认键：ALT）"
+game_tip_013_pad = "毒伤害可绕过怪物盾牌"
+game_tip_014 = "您可以禁用自动攻击并强制停止你的移动（默认键：Shift）"
+game_tip_014_pad = "炸弹对躲在一起的怪物非常有效"
+game_tip_015 = "你可以通过卡牌下方的键盘快捷键使用技能卡牌和物品卡牌"
+game_tip_015_pad = "你可以通过按卡牌下方的手柄按钮来使用技能卡牌和物品卡牌"
+game_tip_016 = "按住怪物的施法气泡可打破它们的特殊攻击"
+game_tip_016_pad = "按住\sa怪物的施法气泡可打破它们的特殊攻击"
+game_tip_017 = "当与许多怪物作战时，先除掉召唤者，否则将被召唤的怪物淹没！"
+game_tip_018 = "除了治疗药水, 还有很多治疗卡。选择最适合你的"
+game_tip_019 = "毒伤害会穿过怪物盾牌"
+game_tip_020 = "如果你连续多次死亡，你所有的物品和金币都会被移到你最后一次死亡的坟墓"
+game_tip_021 = "如果你喜欢挑战极限，试试亡命之徒模式"
+game_tip_022 = "在选项，你可以关闭进入地牢前的提示语"
+game_tip_023 = "当你在地牢打开卡牌面板时，时间会放慢，这时你可以抽身于激烈的战斗，重新调整卡槽"
+game_tip_024 = "请记住，治疗卡牌并非只能治疗，还可以给你毒伤免疫，减速，冰冻与击晕能力"
+game_tip_025 = "在地牢中，鼠标划过金币即可拾取，无需点击"
+game_tip_026 = "当落下的冰柱遭遇冰冲击波，冰柱产生的冲击波将减弱甚至反弹"
+game_tip_027 = "如果你喜欢挑战极限，请尝试自由模式中的更高难度关卡"
+
+game_tip_total = "28"
+
+game_tip_dung_ready = "地牢已生成。点击以继续……"
+game_tip_dung_ready_pad = "地牢已生成。点击\s9以继续……"
+
+
+############################
+## Character Window, Card Menu, Bottom bar, Level up etc.
+############################
+
+########################################### Character Window ##############################
+
+wnd_stats_title = "统计数据"
+wnd_stats_tab_basic = "基础"
+wnd_stats_tab_expert = "专家"
+wnd_stats_next_rank_lbl = "下一等级的头衔："
+wnd_stats_curr_xp_lbl = "当前经验值："
+wnd_stats_next_level_lbl = "升级尚需经验："
+wnd_stats_max_rank_reached = "已达最高等级。等级上限：\1。"
+wnd_stats_max_rank_reached_max_level = "已达最高等级"
+wnd_stats_max_lvl_reached = "已达最高等级"
+wnd_stats_hearts = "生命：\^FFFFFF\1/\2\^^\s0"
+wnd_stats_mana = "法力：\^FFFFFF\1/\2\^^\s1"
+wnd_stats_lvlup_lbl = "升级 +\1"
+wnd_stats_lvlup_ttip = "左键点击分配技能点（点数：\1）"
+wnd_stats_lvlup_ttip_pad = "点击分配技能点（点数：\1）"
+wnd_stats_lvlup_ttip_nopoints = "无技能点可分配"
+wnd_stats_nolvlup_lbl = "升级"
+wnd_stats_cauldron_part_title = "坩埚物品"
+wnd_stats_cauldron_part_desc = "找酒吧侍女提取坩埚能量与丰厚奖品。"
+wnd_stats_cauldron_part_desc_inactive = "魔法坩埚是空的。找到原料后去拜访酒吧侍女。"
+wnd_stats_cauldron_part_price = "坩埚价格：\^FFFFFF\1\^^\s0"
+wnd_stats_cauldron_tip_hp = "坩埚中的生命能量"
+wnd_stats_cauldron_tip_mana = "坩埚中的法力能量"
+wnd_stats_cauldron_tip_prizes = "坩埚中的奖品数"
+
+# 人物统计详情
+stats_ex_header_character = "人物"
+stats_ex_level = "等级："
+stats_ex_level_max = "\^FCDA92无所不能\^^"
+stats_ex_xp = "经验值："
+stats_ex_next_level = "下一等级："
+stats_ex_hp = "生命值："
+stats_ex_mana = "法力值："
+stats_ex_deaths = "死亡次数："
+stats_ex_header_cards = "卡牌"
+stats_ex_cards_found_common = "找到普通卡牌："
+stats_ex_cards_found_magic = "找到神奇卡牌："
+stats_ex_cards_found_legend = "找到传说卡牌："
+stats_ex_cards_upgr_found = "找到升级卡牌："
+stats_ex_cards_upgraded = "找到升级卡牌："
+stats_ex_cards_unidentified = "找到未鉴定卡牌："
+stats_ex_cards_identified = "已鉴定卡牌："
+stats_ex_cards_spent = "卡牌相关金币花费总额："
+stats_ex_cards_slots = "已解锁卡牌槽："
+stats_ex_cards_corpse = "未拾取卡牌总数："
+stats_ex_header_collectibles = "收藏品"
+stats_ex_total_gold_collected = "金币收集总数："
+stats_ex_gold_spent_cauldr = "坩埚消费总额："
+stats_ex_gold = "当前金币总数："
+stats_ex_golden_keys_found = "得到金钥匙总数："
+stats_ex_cauldr_prizes_found = "坩埚产生奖品总数："
+stats_ex_cauldr_prizes_lost = "坩埚丢失奖品总数："
+stats_ex_crap_collected = "垃圾收集数量："
+stats_ex_diarrhoea_chance = "饮用喷泉水致腹泻机率："
+stats_ex_counterfeit_money = "收到假币总数："
+stats_ex_equip_net_worth = "装备净值："
+stats_ex_header_explor = "探索"
+stats_ex_max_depth = "探索地底最大深度："
+stats_ex_secrets_found = "发现秘密："
+stats_ex_towns_visited = "参观小镇："
+stats_ex_lvls_visited = "造访地牢总层数："
+stats_ex_fall_stairs_chance = "走楼梯时跌倒机率："
+stats_ex_wrong_turns = "迷宫错误转弯次数："
+stats_ex_bosses_encounter = "地牢遭遇Boss次数："
+stats_ex_header_reputation = "声誉"
+stats_ex_rep_gypsy = "预言家:"
+stats_ex_rep_sage = "智者:"
+stats_ex_rep_healer = "治愈者:"
+stats_ex_rep_barmaid = "酒吧侍女:"
+stats_ex_rep_northern_clan = "北方部落："
+stats_ex_header_adv_skills = "高级技能"
+stats_ex_skill_lockpick = "开锁技巧："
+stats_ex_skill_haggling = "讨价还价："
+stats_ex_skill_sneak = "鬼鬼祟祟："
+stats_ex_header_combat = "战斗"
+stats_ex_auto_att_range = "自动攻击范围："
+stats_ex_auto_att_speed = "自动攻击速度："
+stats_ex_att_max_speed = "最大攻击速度："
+stats_ex_max_dmg_dlt_1hit = "最大单次施加伤害："
+stats_ex_max_dmg_rcv_1hit = "最大单次承受伤害："
+stats_ex_block_against_left_handed_chance = "对左手边敌人的格挡机率："
+stats_ex_hearts_crushed_reg = "碾碎的普通心脏："
+stats_ex_hearts_crushed_burn = "碾碎的燃烧心脏："
+stats_ex_hearts_crushed_frozen = "碾碎的冰冻心脏："
+stats_ex_hearts_crushed_stone = "碾碎的石头心脏："
+stats_ex_hearts_crushed_armored = "碾碎的黄金心脏："
+stats_ex_hearts_crushed_poison = "碾碎的有毒心脏："
+stats_ex_dreams_crushed = "粉碎他人的童年梦想："
+stats_ex_total_dmg_rcv = "总承受伤害："
+stats_ex_hit_chance_eyes_closed = "闭眼攻击命中率："
+stats_ex_part_weapon_dmg_reduct = "粒子武器伤害减免机率："
+stats_ex_header_monsters = "怪物"
+stats_ex_monst_discovered = "发现怪物种类："
+stats_ex_monst_fam_discovered = "发现怪物家庭："
+stats_ex_killed_enemies = "击杀敌人："
+stats_ex_bosses_defeated = "击败Boss："
+stats_ex_killed_skeletons = "击杀骷髅："
+stats_ex_killed_demons = "击杀恶魔："
+stats_ex_killed_goats = "击杀山羊："
+stats_ex_killed_spiders = "击杀蜘蛛："
+stats_ex_killed_ghosts = "击杀鬼魂："
+stats_ex_killed_zombies = "击杀僵尸："
+stats_ex_killed_gargoyles = "击杀石像鬼："
+stats_ex_header_esoteric = "神秘知识"
+stats_ex_fake_entries = "这个列表中的假条目数："
+
+######################################### 卡牌窗口 ################################
+wnd_cards_title = "卡牌"
+wnd_cards_tab_all = "\s0 所有卡牌 - \1/\2"
+wnd_cards_tab_upgrades = "\s4 升级卡牌 \1"
+
+wnd_cards_tab_all_43 = "\s0 \1/\2"
+
+wnd_cards_tab_upgrades_43 = "升级\1"
+
+wnd_cards_sep_artifacts = "\s0 神器卡牌 \1/\2"
+wnd_cards_sep_items = "\s0 物品卡牌 \1/\2"
+wnd_cards_sep_spells = "\s0 法术卡牌 \1/\2"
+wnd_cards_sep_specials = "\s0 特殊卡牌"
+wnd_cards_sep_upgrade = "\s0 升级卡牌"
+wnd_cards_sep_req_met = "\s0 已达到升级要求"
+wnd_cards_sep_req_not = "\s0 未达到升级要求"
+wnd_cards_sep_max = "\s0 已达到最高等级"
+
+crd_tab_general_ttip = "查看所有卡组"
+crd_tab_upgrades_ttip = "查看升级选项"
+
+## Magic 变种 picker frame
+frm_cardpicker = "卡牌变种"
+frm_cardpicker_lbl = "选择您要使用的卡牌变种"
+
+frm_cardpicker_rarity_0 = "\so 普通"
+frm_cardpicker_rarity_1 = "\sp \^7AA9FF神奇\^^"
+frm_cardpicker_rarity_2 = "\sq \^BB64F5传奇\^^"
+
+frm_cardpicker_ttip_sel = "\s9 左键单击以选择变种"
+frm_cardpicker_ttip_sel_pad = "按\s9以选择变种"
+frm_cardpicker_ttip_cur = "当前选择的变中"
+
+msg_variant_change_warn_title = "警告"
+msg_variant_change_warn_text = "更变变种将清零充能，记得去找预言家重新充能。\m1.5\^FCDA92\1 个\^^\s1将被清除，你将收到 \^FCDA92\2\^^\s0。确定？"
+
+## Card downgrade select frame
+frm_card_dwng_title = "降级卡牌"
+frm_card_dwng_desc = "降级卡牌使您可以取回符文，然后用来升级其他卡牌。"
+frm_card_dwng_chk_equipped = "显示已装备的卡牌"
+frm_card_dwng_btn_downgrade = "降级"
+frm_card_dwng_btn_tip_select = "选择您希望降级的卡牌"
+frm_card_dwng_btn_tip_gold = "没有足够金币降级此卡牌"
+frm_card_dwng_btn_tip_confirm = "You will be moved to window where you can downgrade selected card and retrieve runes from it"
+frm_card_dwng_btn_back = "返回"
+frm_card_dwng_btn_ok = "好"
+frm_card_dwng_sec_all = "未装备"
+frm_card_dwng_sec_equipped = "已装备"
+
+## Card downgrade frame
+frm_card_dwng_req_text = "确定？"
+frm_card_dwng_req_desc = "你将获得\1张随机符文。"
+
+######################################## 升级窗口 ########################
+
+wnd_lu_header = "提高你的最大生命或法力"
+wnd_lu_hearts = "当前：\^FFFFFF\1\^^\s3"
+wnd_lu_mana = "当前：\^FFFFFF\1\^^\s4"
+wnd_lu_counter = "剩余点数：\^FFFFFF\1\^^"
+wnd_lu_close_btn = "稍后分配"
+wnd_lu_title = "升级"
+wnd_luhp_label = "+1"
+wnd_luma_label = "+1"
+wnd_lu_btn_health_ttip = "生命增加\^FFFFFF1\^^\s3"
+wnd_lu_btn_mana_ttip = "法力增加\^FFFFFF1\^^\s4"
+
+####################################### Missiles #################################
+
+missile_ttip_more = "查看相关卡牌以了解更多信息"
+missile_ttip_count = "可用： \^FFFFFF\1 / \2\^^"
+missile_ttip_usage_hint = "使用右键 \s: 攻击"
+missile_ttip_usage_hint_pad = "使用 \sk 攻击"
+missile_ttip_select_hint = "\s9 左键点击以选择"
+missile_ttip_select_hint_pad = "按 \s` 类切换类别"
+
+####################################### Bottom bar ###############################
+## 死亡愤怒
+lbar_death_rage_plain = "死亡愤怒: \^D8D8D8闲置中\^^"
+lbar_death_rage_locked = "10级解锁该技能"
+lbar_death_rage = "死亡愤怒: \^00FF00已就绪\^^"
+lbar_death_rage_spent = "死亡愤怒: \^D8D8D8待充能\^^"
+lbar_dr_0 = "\sEReckless Fling Level \1/3"
+lbar_dr_2 = "\sGArcane Wisdom Level \1/3"
+lbar_dr_1 = "\sFDeadly Gambit Level \1/3"
+lbar_dr_whatis = "当你即将死亡时触发的被动技能。可以治愈你并给予你短暂的免疫。每次升级，死亡愤怒将自动充能。"
+lbar_dr_whatis_cap = "当你即将死亡时触发的被动技能。可以治愈你并给予你短暂的免疫。要充能技能请访问治愈者。"
+lbar_dr_0_class = "敲退附近的敌人给你时间撤退"
+lbar_dr_2_class = "把你变成魔法电球，在造成伤害的敌人之间流窜"
+lbar_dr_1_class = "击晕附近的怪物，给你额外的时间来评估战局"
+
+## Bonus XP
+lbar_xp_icon_on = "双倍经验时间。\n 奖励经验剩余：\^FFFFFF\1\^^"
+lbar_xp_icon_off = "目前没有奖励经验"
+lbar_xp_icon_off_cap = "目前没有奖励经验。已达等级上限。"
+
+## XP bar
+lbar_xp_bar_ = "这个进度条代表升级进度"
+lbar_xp_bar_stats = "升级还需经验值：\^FFFFFF\1\^^。\n当前等级：\^FFFFFF\2\^^。"
+lbar_xp_bonus = "正在享受经验奖励"
+lbar_xp_bar_cap = "已达最高等级，无法再获得经验。"
+
+## Health globe
+lbar_health_ball = "生命"
+lbar_health_desc = "这个法球中是你的生命\s3。一旦生命耗尽，你就死了，注意！"
+lbar_health_desc_poison = "\^FF4832你中毒了！\^^ 当显示这个骷髅头时，\s9左键点击法球来缩短中毒时间。"
+lbar_health_desc_poison_pad = "\^FF4832你中毒了！\^^ 当显示这个骷髅头时，按\sa来缩短中毒时间。"
+
+## Mana globe
+lbar_mana_ball = "法力"
+lbar_mana_desc = "这个法球中是你的蓝色\sI 与绿色法力\sJ"
+
+lbar_blue_title = "\s4 蓝色法力"
+lbar_blue_mana_desc = "施放法术会消耗蓝色法力。你有很多方法可以补充法力（喷泉，药水，神器卡牌等）。"
+lbar_green_title = "\s5 绿色法力"
+lbar_green_mana_desc = "装备神器卡牌 \sH 会将蓝色法力\sI 变成绿色法力\sJ。\m1.2绿色法力不能用于施放法术，当你卸下神器卡牌，其绿色法力将变成蓝色法力\sJ \sO \sI"
+
+direction_stairs_ttip= "此方向通向出口"
+direction_stairs_no_clean_ttip = "楼层未清除"
+direction_stairs_clean_ttip = "\^00FF00楼层清除\^^, 点击 \s9 立即离开"
+
+lbar_char_but = "显示人物状态面板"
+lbar_char_but2 = "键盘快捷键: \^ffcc00\1\^^"
+lbar_char_but2_pad = "按 \sz: 打开"
+
+lbar_cards_but = "显示人物卡牌面板"
+lbar_cards_but2 = "键盘快捷键: \^ffcc00\1\^^"
+lbar_cards_but2_pad = "按 \sz; 打开"
+
+## 计数器
+gold_count_ttip = "人物拥有金币"
+star_count_ttip = "人物收集的星星（此功能尚未开放）"
+key_count_ttip = "人物拥有金钥匙"
+
+# 升级按钮
+lvl_up_btn_ttip = "未使用的人物属性点: \^FFFFFF\1\^^"
+
+
+#########################
+## 成就 
+#########################
+
+achiev_unlocked = "成就解锁！"
+
+
+###############################
+# 地牢文本
+###############################
+
+############################################# Character dialogues/barks ##################################
+## 战士
+war_sanctity = "看起来，昔日圣地，已被玷污。"
+war_0_first = "我是斩破黑暗的剑。"
+war_1_first = "腐烂的恶臭味越来越强。应该快到了。"
+war_2_first = "这是一个邪恶之地。散发着恶与恨的臭味。"
+war_full = "I'm full..."
+war_q0_intro = "Abomination is scared, but mere doors won't protect it. I must find the key!"
+war_q0_find_key = "I must find the key."
+war_q0_engage = "Meet your doom!"
+war_q1_intro = "Treachery, not unexpected."
+war_q1_engage = "Go to hell!"
+war_q2_intro = "I like that."
+war_q2_engage = "I will pour my wrath upon you!"
+
+## 法师
+mage_sanctity = "Well, the sanctity of this place has been fouled!"
+mage_0_first = "The dead seem to be particularly lively today."
+mage_1_first = "The subtle stench of rotting bodies... Ah, this takes me back to my university years."
+mage_2_first = "Interesting... Rock floating in magma. This can't be stable. Better be quick."
+mage_full = "I'm full..."
+mage_q0_intro = "The smell leaves something to be desired, to say the least."
+mage_q0_find_key = "How anticlimactic. I better find the key now."
+mage_q0_engage = "Now you will cease to exist."
+mage_q1_intro = "Poor choice of your last practical joke ever. I'm not laughing..."
+mage_q1_engage = "Just perish!"
+mage_q2_intro = "Ha! This is it."
+mage_q2_engage = "Go to hell!"
+
+## 盗贼
+rogue_sanctity = "The sanctity of this place has been fouled, that's for sure."
+rogue_0_first = "I wonder if taking a bow into the dungeon was a smart choice."
+rogue_1_first = "I get the feeling things are about to get... interesting."
+rogue_2_first = "So my ex was right after all. I went to hell..."
+rogue_full = "I'm full..."
+rogue_q0_intro = "I have a special arrow for whatever waits on the other side."
+rogue_q0_find_key = "Closed. But finding keys is what we thieve do for a living."
+rogue_q0_engage = "Hey, good lookin', whatcha cookin'?"
+rogue_q1_intro = "Stealing from a thief?! You will regret that."
+rogue_q1_engage = "Say your last prayer, Bishop."
+rogue_q2_intro = "Finally I get to meet the fellow responsible for this mess."
+rogue_q2_engage = "Too bad no one's here to see me kick your demon butt!"
+
+## Barks/dialogues initialized when approaching statues and portals leading to bosses ##
+
+war_0_erectus = "Huh... this is new. I wonder where it leads."
+war_1_erectus = "This must be the hole where the treacherous bishop hides."
+war_2_erectus = "Finally, this hell is almost over... literally!"
+
+war_0_erectus_op = "Foul magic! This must be some kind of portal to the lair of whatever rules this dungeon!"
+war_1_erectus_op = "Prepare yourself fallen priest. Your penance begins now."
+war_2_erectus_op = "So this is it. The final battle. Prepare yourself demon, I'm coming for you." ## 战士
+
+mage_0_erectus = "Curious. I smell garlic... and roast meat..."
+mage_1_erectus = "Judging by the last time I saw a chasm like that, this one should lead to the Antipope's sanctuary."
+mage_2_erectus = "I need to go deeper than hell to battle the Dark One."
+
+mage_0_erectus_op = "It's logical to assume this portal leads to the Cook's lair. I'd better prepare myself."
+mage_1_erectus_op = "Looks like it's time to pay the Antipope a home visit. I'd better make myself ready."
+mage_2_erectus_op = "So this is it. The ultimate evil! It better be ready, because I am."
+
+rogue_0_erectus = "Looks disturbingly deep."
+rogue_1_erectus = "This must lead to the Antipope's hideout. I must find the tome."
+rogue_2_erectus = "They really should put a fence around this chasm. The last thing you wanna do is fall into the Archdemon's lair."
+
+rogue_0_erectus_op = "A portal. Probably leading to the murderous demon cook. I'd better get ready."
+rogue_1_erectus_op = "The main entrance to Antipope's lair I presume."
+rogue_2_erectus_op = "I'm coming, Archdemon, and I have an arrow with your name on it!"
+
+################################### Narrator (Erectuses) ##########################
+
+## Subtitles to statues (erectus)
+
+## Cook, Hell'o'Kitchen - Narrator
+erectus_0_0 = "Boiling marrow, brewing blood,"
+erectus_0_1 = "Take a peek and you'll go mad,"
+erectus_0_2 = "Through the hellish kitchen's door"
+erectus_0_3 = "For the Master still craves more."
+erectus_0_4 = "Underground where shines no sun."
+erectus_0_5 = "This cook's work is never done."
+erectus_0_6 = "Among screams he toils with haste,"
+erectus_0_7 = "Creature of most subtle taste."
+erectus_0_8 = "Cuts and chops both bone and gut,"
+erectus_0_9 = "Be it sinew, be it fat,"
+erectus_0_10 = "Not an ounce of flesh he'll shun,"
+erectus_0_11 = "This cook's work is never done!"
+
+## timings - DO NOT TOUCH unless everything was blown up
+erectus_0_0_in = "0"
+erectus_0_0_out = "3.37"
+
+erectus_0_1_in = "3.37"
+erectus_0_1_out = "6.46"
+
+erectus_0_2_in = "6.46"
+erectus_0_2_out = "9"
+
+erectus_0_3_in = "9"
+erectus_0_3_out = "12.2"
+
+erectus_0_4_in = "12.2"
+erectus_0_4_out = "15.6"
+
+erectus_0_5_in = "15.6"
+erectus_0_5_out = "18.6"
+
+erectus_0_6_in = "18.6"
+erectus_0_6_out = "22.3"
+
+erectus_0_7_in = "22.3"
+erectus_0_7_out = "25.9"
+
+erectus_0_8_in = "25.9"
+erectus_0_8_out = "29.4"
+
+erectus_0_9_in = "29.4"
+erectus_0_9_out = "32.6"
+
+erectus_0_10_in = "32.6"
+erectus_0_10_out = "35.8"
+
+erectus_0_11_in = "35.8"
+erectus_0_11_out = "39.7"
+
+## Antipope
+erectus_1_0 = "Heaven's radiance has turned bleak"
+erectus_1_1 = "For the one whose heart was weak"
+erectus_1_2 = "Robes of white, now dark with stain,"
+erectus_1_3 = "Countless prayers - all in vain!"
+erectus_1_4 = "Because he let the fear take root,"
+erectus_1_5 = "Dark designs are now afoot."
+erectus_1_6 = "Seals lie broken by his words,"
+erectus_1_7 = "Enter the unholy hordes."
+erectus_1_8 = "Darkness falls, blood shall be spilt"
+erectus_1_9 = "But another carries guilt."
+
+## timings - DO NOT TOUCH unless everything was blown up
+erectus_1_0_in = "0"
+erectus_1_0_out = "3.3"
+
+erectus_1_1_in = "3.3"
+erectus_1_1_out = "6.4"
+
+erectus_1_2_in = "6.4"
+erectus_1_2_out = "9.5"
+
+erectus_1_3_in = "9.5"
+erectus_1_3_out = "13.7"
+
+erectus_1_4_in = "13.7"
+erectus_1_4_out = "17.3"
+
+erectus_1_5_in = "17.3"
+erectus_1_5_out = "20.9"
+
+erectus_1_6_in = "20.9"
+erectus_1_6_out = "23.8"
+
+erectus_1_7_in = "23.8"
+erectus_1_7_out = "26.7"
+
+erectus_1_8_in = "26.7"
+erectus_1_8_out = "30.5"
+
+erectus_1_9_in = "30.5"
+erectus_1_9_out = "33.5"
+
+## Archdemon
+erectus_2_0 = "There's a night no light can pierce,"
+erectus_2_1 = "There's a hunger, old and fierce,"
+erectus_2_2 = "No man shall survive the dread,"
+erectus_2_3 = "Of His gaze that's fiery red."
+erectus_2_4 = "Those who tried to reach His lair,"
+erectus_2_5 = "Passed through deepest caverns where,"
+erectus_2_6 = "Yelled the demon voices shrill,"
+erectus_2_7 = "Down the pit that's deeper still."
+erectus_2_8 = "As they entered, so they fell,"
+erectus_2_9 = "On their souls he feasted well."
+erectus_2_10 = "There's no way to stop His blight,"
+erectus_2_11 = "And darkness shall consume all light."
+
+## timings - DO NOT TOUCH
+erectus_2_0_in = "0"
+erectus_2_0_out = "3.2"
+
+erectus_2_1_in = "3.2"
+erectus_2_1_out = "6.5"
+
+erectus_2_2_in = "6.5"
+erectus_2_2_out = "9.4"
+
+erectus_2_3_in = "9.4"
+erectus_2_3_out = "12.8"
+
+erectus_2_4_in = "12.8"
+erectus_2_4_out = "15.6"
+
+erectus_2_5_in = "15.6"
+erectus_2_5_out = "18.6"
+
+erectus_2_6_in = "18.6"
+erectus_2_6_out = "21.4"
+
+erectus_2_7_in = "21.4"
+erectus_2_7_out = "24.9"
+
+erectus_2_8_in = "24.9"
+erectus_2_8_out = "28.0"
+
+erectus_2_9_in = "28.0"
+erectus_2_9_out = "31.3"
+
+erectus_2_10_in = "31.3"
+erectus_2_10_out = "34.1"
+
+erectus_2_11_in = "34.1"
+erectus_2_11_out = "39.0"
+
+
+## cook cutscene initial subs
+cook_0_0 = "Ahhh... Just have to butcher you, and voila! Adventurer Du Jour. Master will appreciate!"
+cook_0_0_in = "0"
+cook_0_0_out = "11"
+
+## cook introduction subs
+intro_cook_0 = "Dinner Time!"
+intro_cook_0_in = "0"
+intro_cook_0_out = "2.0"
+
+## cook death speech
+goodbye_cook_0 = "Noooooooo"
+goodbye_cook_1 = "I left the stove on!"
+goodbye_cook_0_in = "0.6"
+goodbye_cook_0_out = "2.1"
+goodbye_cook_1_in = "2.1"
+goodbye_cook_1_out = "4"
+
+## cook taunts when changing states
+taunt_cook_0 = "HA HA HA HA HA..."
+taunt_cook_1 = "M-HM-HM-HM-HM-HM"
+taunt_cook_2 = "HA HA HA HA!"
+
+
+## antipope introduction subs
+intro_antipope_0 = "Time to join my dark flock adventurer!"
+intro_antipope_0_in = "0"
+intro_antipope_0_out = "3"
+intro_antipope_1 = "On your knees!"
+intro_antipope_1_in = "3"
+intro_antipope_1_out = "5"
+
+## antipope introduction subs2
+intro_antipope2_0 = "Reject false idols, all you need is faith!"
+intro_antipope2_0_in = "0"
+intro_antipope2_0_out = "3.8"
+intro_antipope2_1 = "Faith in the Archdemon! Muahahah!"
+intro_antipope2_1_in = "3.8"
+intro_antipope2_1_out = "7.5"
+
+## antipope taunt normal
+taunt_antipope_normal_0 = "Too weak to face me without your puny cards?"
+taunt_antipope_normal_0_in = "0"
+taunt_antipope_normal_0_out = "3.5"
+taunt_antipope_normal_1 = "Very well, it will be more educational when the will of Archdemon BREAKS YOU!"
+taunt_antipope_normal_1_in = "3.5"
+taunt_antipope_normal_1_out = "10.0"
+taunt_antipope_normal_2 = "To me, faithful!"
+taunt_antipope_normal_2_in = "10.3"
+taunt_antipope_normal_2_out = "12.3"
+
+## antipope taunt freeze
+taunt_antipope_freeze_0 = "Did you know hell can actually freeze over?"
+
+## antipope taunt fire
+taunt_antipope_fire_0 = "Let me rekindle your faith!"
+
+## antipope taunt poison
+taunt_antipope_poison_0 = "The scriptures are poisoning your mind! Let me 恶魔trate! Muahaha!"
+
+## antipope death speech
+goodbye_antipope_0 = "I'm telling on you, Master will avenge me!"
+goodbye_antipope_0_in = "0"
+goodbye_antipope_0_out = "3.7"
+
+
+## Angel
+intro_angel_0 = "You ventured deeper than anyone before."
+intro_angel_1 = "All hope lies in you."
+intro_angel_2 = "Find the Archdemon's lair and slay him!"
+intro_angel_0_in = "1.0"
+intro_angel_0_out = "3"
+intro_angel_1_in = "3"
+intro_angel_1_out = "6"
+intro_angel_2_in = "6"
+intro_angel_2_out = "9"
+
+angel_gate_0 = "The gate behind me leads to the Arch-Evil's Lair."
+angel_gate_1 = "Sealed with two foul seals"
+angel_gate_2 = "it bars me from entering"
+angel_gate_3 = "but you can break them with the nether stone."
+angel_gate_4 = "It was split in two and hidden in this dungeon."
+angel_gate_5 = "Find the shards!"
+
+angel_gate_0_in = "1.0"
+angel_gate_0_out = "4"
+angel_gate_1_in = "4"
+angel_gate_1_out = "6.3"
+angel_gate_2_in = "6.3"
+angel_gate_2_out = "8.5"
+angel_gate_3_in = "8.5"
+angel_gate_3_out = "11.5"
+angel_gate_4_in = "11.5"
+angel_gate_4_out = "15.3"
+angel_gate_5_in = "15.3"
+angel_gate_5_out = "16.8"
+
+angel_3_0 = "You are halfway there."
+angel_3_1 = "One more shard and the passage will unlock."
+angel_3_0_in = "1.0"
+angel_3_0_out = "3"
+angel_3_1_in = "3"
+angel_3_1_out = "6"
+
+angel_4_0 = "The seals are broken,"
+angel_4_1 = "and the gate is now open."
+angel_4_2 = "You must walk alone and bear the fate "
+angel_4_3 = "of all worlds on your shoulders."
+angel_4_4 = "Fight valiantly, and fail them not!"
+angel_4_0_in = "1.0"
+angel_4_0_out = "3"
+angel_4_1_in = "3"
+angel_4_1_out = "5"
+angel_4_2_in = "5"
+angel_4_2_out = "7.5"
+angel_4_3_in = "7.5"
+angel_4_3_out = "9"
+angel_4_4_in = "9"
+angel_4_4_out = "13"
+
+
+## archdemon introduction subs
+intro_archdemon_0 = "You think you can defeat me?"
+intro_archdemon_1 = "Ha ha ha ha ha!"
+intro_archdemon_2 = "I would be offended if it wasn't so pathetic."
+intro_archdemon_3 = "Puny mortal... Your soul shall be mine to devour!"
+
+intro_archdemon_0_in = "0"
+intro_archdemon_0_out = "5"
+
+intro_archdemon_1_in = "5"
+intro_archdemon_1_out = "8"
+
+intro_archdemon_2_in = "8"
+intro_archdemon_2_out = "12.5"
+
+intro_archdemon_3_in = "13.7"
+intro_archdemon_3_out = "20.3"
+
+# archdemon death speech
+goodbye_archdemon_0 = "What?! Nooo! This cannot be..."
+goodbye_archdemon_0_in = "0.7"
+goodbye_archdemon_0_out = "5"
+goodbye_archdemon_1 = "aaaaaaAAAAAAARRGH!"
+goodbye_archdemon_1_in = "5"
+goodbye_archdemon_1_out = "8"
+goodbye_archdemon_2 = "GRRARARARAAAARHRGH!"
+goodbye_archdemon_2_in = "9"
+goodbye_archdemon_2_out = "13.5"
+goodbye_archdemon_3 = "WAARWRARAAAAAAARGH!"
+goodbye_archdemon_3_in = "14.5"
+goodbye_archdemon_3_out = "18.5"
+goodbye_archdemon_4 = "AAAAAAARRGHGHGH!"
+goodbye_archdemon_4_in = "19.0"
+goodbye_archdemon_4_out = "30"
+
+# archdemon taunts
+taunt_archdemon_0 = "But wait, there's more!"
+taunt_archdemon_1 = "Ha ha ha ha ha ha ha ha ha!"
+taunt_archdemon_2 = "Surrender! All the good musicians are already here!"
+taunt_archdemon_3 = "I have a circle in hell reserved just for you!"
+taunt_archdemon_4 = "One roasted wannabe hero, coming right up!"
+taunt_archdemon_5 = "Don't die just yet - you have to see THIS!"
+taunt_archdemon_6 = "Let's consider who is really evil here.\nDid I break into your home to destroy you?"
+taunt_archdemon_7 = "Did it hurt? I have more for your other cheek!"
+
+# Ending song
+song_0 = "Our bishop was crazy, proclaimed himself pope"
+song_1 = "Made friends with the 恶魔, guess he was on dope"
+song_2 = "He offered his soul to the depths of the hell"
+song_3 = "And now you can tell - things ain't very swell"
+song_4 = "Sha la la la lie - die, 恶魔, die!"
+song_5 = "Sha la la la lie - why won't you die, tonight?"
+song_6 = "Dark tides have befallen the lands of the men"
+song_7 = "Our heroes are slaughtered time and again"
+song_8 = "The Archdemon's army stands now awaken"
+song_9 = "But our paper world is not yet forsaken!"
+song_10	= "Sha la la la lie - die, 恶魔, die!"
+song_11	= "Sha la la la lie - why won't you die, tonight?"
+song_12	= "Behold! Someone brave has answered my prayer"
+song_13	= "Why, it's you! Our kind and most handsome player"
+song_14	= "Hope and delight can return to our hearts"
+song_15	= "Please kill the 恶魔, but save their private parts!"
+song_16	= "Hmm.. For potions! Of course."
+song_17	= "Sha la la la lie - die, 恶魔, die!"
+song_18	= "Sha la la la lie - you better hide tonight."
+song_19	= "The Archdemon screams and trashes in rage"
+song_20	= "Sinister schemes go down in bright flames"
+song_21	= "The traveler slashes, chops, dices and cuts,"
+song_22	= "He will kill the 恶魔, and swim in their guts!"
+song_23	= "Sha la la la lie - die, 恶魔, die!"
+song_24	= "Sha la la la lie - now you will die, tonight!"
+song_25	= "Sha la la la lie - I'll wash my robes tonight!"
+
+
+## Game outro - 战士
+bod_outro_subs_0 = "The Archdemon lies mortally wounded."
+bod_outro_subs_1 = "The evil is once again defeated."
+bod_outro_subs_2 = "Or is it?"
+
+bod_outro_subs_0_in = "2.5"
+bod_outro_subs_0_out = "5.3"
+bod_outro_subs_1_in = "6.4"
+bod_outro_subs_1_out = "8.5"
+bod_outro_subs_2_in = "10.3"
+bod_outro_subs_2_out = "11.5"
+
+
+##############################
+## 教程和提示 
+##############################
+
+## BOD_TUTORIAL_TAG_TARGET
+bod_tut_titl_0 = "\^b4ed07TARGETABLE\^^"
+bod_tut_body_0 = "Can be used only if you are targeting enemy unit"
+bod_tut_body_0_pad = "Can be used only if you are targeting enemy unit"
+
+## BOD_TUTORIAL_TAG_ITEM
+bod_tut_titl_1 = "\^ed0741ITEM\^^"
+bod_tut_body_1 = "Item cards consume charges when used. You can charge them at 预言家's or find charges in the dungeon."
+bod_tut_body_1_pad = "Item cards consume charges when used. You can charge them at 预言家's or find charges in the dungeon.\nPress \^ffff00X\^^ to use selected card.\nUse \^ffff00dpad side arrows\^^ to change selected card."
+
+## BOD_TUTORIAL_TAG_ARTEFACT
+bod_tut_titl_2 = "\^7ea30dARTIFACT\^^"
+bod_tut_body_2 = "Artifact cards possess powerful passive effects but lock some of your mana when equipped. "
+bod_tut_body_2_pad = "Artifact cards posses powerful passive effects but lock some of your mana when equipped. "
+
+## BOD_TUTORIAL_TAG_SPELL
+bod_tut_titl_3 = "\^1489c4SPELL\^^"
+bod_tut_body_3 = "Spell cards consume mana when used. "
+bod_tut_body_3_pad = "Spell cards consume mana when used.\nPress \^ffff00X\^^ to use selected card.\nUse \^ffff00dpad side arrows\^^ to change selected card."
+
+## BOD_TUTORIAL_TAG_CD
+bod_tut_titl_4 = "\^db7d1aEFFECT ON 冷却\^^"
+bod_tut_body_4 = "This card has effect that is active when card is on 冷却."
+bod_tut_body_4_pad = "This card has effect that is active when card is on 冷却."
+
+## BOD_TUTORIAL_TAG_RARE
+bod_tut_titl_5 = "\^7AA9FFMAGICAL\^^"
+bod_tut_body_5 = "This card is rare, better put it in your sleeve!"
+bod_tut_body_5_pad = "This card is rare, better put it in your sleeve!"
+
+## BOD_TUTORIAL_TAG_LEGEND
+bod_tut_titl_6 = "\^BB64F5LEGENDARY\^^"
+bod_tut_body_6 = "Stuff of legends, you will have something to hang over the mantel!"
+bod_tut_body_6_pad = "Stuff of legends, you will have something to hang over the mantel!"
+
+## BOD_TUTORIAL_TAG_LVL_1
+bod_tut_titl_7 = "\^ff9999HEARTS\^^"
+bod_tut_body_7 = "Invest Level-Up points into hearts \s3 to make your character withstand more damage"
+bod_tut_body_7_pad = "Invest Level-Up points into hearts \s3 to make your character withstand more damage"
+
+## BOD_TUTORIAL_TAG_LVL_2
+bod_tut_titl_8 = "\^66ccffMANA\^^"
+bod_tut_body_8 = "Invest Level-Up points into mana \s4 to equip more artifact cards and use more spell cards."
+bod_tut_body_8_pad = "Invest Level-Up points into mana \s4 to equip more artifact cards and use more spell cards."
+
+## BOD_TUTORIAL_TAG_LVL_3
+bod_tut_titl_9 = "\^ff99ffCAULDRON\^^"
+bod_tut_body_9 = "After you make the choice, the point of the opposite type goes into the cauldron."
+bod_tut_body_9_pad = "After you make the choice, the point of the opposite type goes into the cauldron."
+
+##BOD_TUTORIAL_END_OF_TAGS_RES
+# number 10 is reserved!
+# number 11 is reserved!
+# number 12 is reserved!
+# and so on until 100
+
+#BOD TUTORIALS VERSION 2.0
+bod_tutv2_100_titl= "移动"
+bod_tutv2_100_c0 = "\^ffff00点击任何地方\^^来\^ffff00移动\^^"
+bod_tutv2_100_c1 = "\^ffff00Click behind\^^ or on your character to \^ffff00stop\^^"
+bod_tutv2_100_c2 = "Your character will \^ffff00stop at intersections\^^"
+
+bod_tutv2_100_c0_pad = "Use \sz5 to \^ffff00move\^^" # left stick
+bod_tutv2_100_c1_pad = "Use \sz6 to \^ffff00select objects\^^"  # right stick
+bod_tutv2_100_c2_pad = "You can \^ffff00interact\^^ with objects in your \^ffff00light radius using \sv\^^" #Y
+
+bod_tutv2_101_titl= "Interaction"
+bod_tutv2_101_c0 = "You can \^ffff00interact\^^ with objects in your \^ffff00light radius\^^"
+bod_tutv2_101_c0_pad = "To \^ffff00interact\^^ with important objects \^ffff00hold \sv\^^"
+
+bod_tutv2_102_titl= "Attacking"
+bod_tutv2_102_c0 = "\^ffff00Click\^^ to choose a target your character \^ffff00auto-attacks\^^"
+bod_tutv2_102_c1 = "Auto attack is slow. Each hit damages 1 heart. \^ffff00Click\^^ or \^ffff00click-and-hold\^^ on target to \^ffff00attack faster\^^"
+bod_tutv2_102_c2 = "When engaged with monsters, \^ffff00click-and-hold to retreat\^^"
+
+bod_tutv2_102_c0_pad = "\^ffff00Use \sz6\^^ to choose a target your character \^ffff00auto-attacks\^^"
+bod_tutv2_102_c1_pad = "Auto attack is slow. Each hit damages 1 heart. \^ffff00Click or hold \ss\^^ on to \^ffff00attack faster\^^"
+bod_tutv2_102_c2_pad = "When engaged with monsters, \^ffff00use \sz5 to retreat\^^"
+
+bod_tutv2_103_titl= "Points of Interest"
+bod_tutv2_103_c0 = "Icons on the top represent \^ffff00Points of Interest\^^ on this level"
+bod_tutv2_103_c1 = "The icon is \^ffff00revealed\^^ when you're getting \^ffff00near\^^"
+
+bod_tutv2_104_titl= "Heart Points"
+bod_tutv2_104_c0 = "Heart points are your life. If you \^ffff00lose\^^ them all, you will \^ffff00die\^^"
+bod_tutv2_104_c1 = "Your heart points \^ffff00don't auto-regenerate\^^. Use \^ffff00fountains\^^ and \^ffff00cards\^^ to recover health"
+bod_tutv2_104_c2 = "You can always go back to the Town and be healed by the \^ffff00Healer\^^. For free!"
+
+bod_tutv2_105_titl= "Exploration"
+bod_tutv2_105_c0 = "Notice the \^ffff00footprints\^^ you leave behind. They show the direction you came from and mark the places you've \^ffff00visited\^^"
+bod_tutv2_105_c1 = "\^ffff00Golden footprints\^^ mean a corridor has been \^ffff00fully visited\^^. \^ffff00Normal footprints\^^  -  \^ffff00partially visited\^^. No footprints - you haven't been there yet"
+
+bod_tutv2_106_titl= "Cards"
+bod_tutv2_106_c0 = "\^ffff00View your cards\^^ by pressing \^ffff00\"I\"\^^ or using the \^ffff00button\^^ in the bottom right corner."
+bod_tutv2_106_c1 = "\^ffff00Rearrange cards\^^ between your card pane and slots by \^ffff00clicking or dragging\^^ them. Only \^ffff00equipped cards\^^ are \^ffff00active\^^"
+bod_tutv2_106_c2 = "Use cards in slots with \^ffff00R-Click\^^ or \^ffff000 - 9 keys\^^.\nTo \^ffff00unlock\^^ more card slots visit \^ffff00Sage\^^ in the Town"
+
+bod_tutv2_106_c0_pad = "\^ffff00View your cards\^^ by \^ffff00pressing \sy\^^ You can scroll that window using \sz5"
+bod_tutv2_106_c1_pad = "\^ffff00Rearrange cards\^^ between your card pane and slots by \^ffff00clicking or holding \ss and dragging \sz6\^^ them. Only \^ffff00equipped cards\^^ are \^ffff00active\^^"
+bod_tutv2_106_c2_pad = "Use \sz1 & \sz2 to change active card slot.\nPress \su to use a card.\nTo \^ffff00unlock\^^ more card slots visit \^ffff00Sage\^^ in the Town"
+
+bod_tutv2_107_titl= "Boss Fights"
+bod_tutv2_107_c0 = "Bosses are tough to defeat. Each one has \^ffff00multiple stages\^^"
+bod_tutv2_107_c1 = "The more stages a boss has, the more rewards he drops when slain. All boss' stages are shown on the \^ffff00Boss Bar\^^"
+bod_tutv2_107_c2 = "Before each stage, the boss is \^ffff00immune\^^ - he is preparing a special attack and cannot be stopped"
+
+bod_tutv2_108_titl= "Poison"
+bod_tutv2_108_c0 = "Poison damages you over time. Total number of poison damage is shown \^ffff00below the heart orb\^^"
+bod_tutv2_108_c1 = "When the \^ffff00demon glows\^^, quickly \^ffff00click\^^ the orb to \^ffff00shorten\^^ the poison duration"
+bod_tutv2_108_c1_pad = "When the \^ffff00demon glows\^^, quickly \^ffff00click \st\^^ to \^ffff00shorten\^^ the poison duration"
+
+bod_tutv2_109_titl= "Level Up"
+bod_tutv2_109_c0 = "\^ffff00Kill\^^ monsters and gain \^ffff00experience points\^^ to level up"
+bod_tutv2_109_c1 = "Each time you \^ffff00level up\^^, all monsters \^ffff00lose one heart\^^"
+bod_tutv2_109_c2 = "Every level gives you \^ffff00one point\^^ which can be added to your \^ffff00hearts or boost your mana\^^"
+bod_tutv2_109_c2_pad = "Every level gives you \^ffff00one point\^^ which can be added to your \^ffff00hearts or boost your mana\^^. You can do that from character pane \sz9"
+
+bod_tutv2_110_titl= "Casting Monsters"
+bod_tutv2_110_c0 = "Some monsters \^ffff00cast\^^ skills"
+bod_tutv2_110_c1 = "During casting monsters are \^ffff00immune\^^ to damage"
+bod_tutv2_110_c2 = "\^ffff00Click-and-hold\^^ a skill bubble to \^ffff00break\^^ the spell"
+bod_tutv2_110_c2_pad = "\^ffff00Hold\^^ \st to \^ffff00break\^^ the spell of selected monster"
+
+bod_tutv2_111_titl= "Shielded Monsters"
+bod_tutv2_111_c0 = "Some armoured monsters are \^ffff00protected\^^ by shields"
+bod_tutv2_111_c1 = "Damage the shield by \^FF4832clicking the shield icon\^^. Monsters are \^ffff00immune\^^ until their shields are destroyed"
+bod_tutv2_111_c2 = "Some shields are \^ffff00magical\^^ and can \^ffff00reappear\^^ after being destroyed"
+bod_tutv2_111_c1_pad = "Damage the shield by \^FF4832tapping\^^ \st. Monsters are \^ffff00immune\^^ until their shields are destroyed"
+#bod_tutv2_111_extra = "\^FF4832Be sure to aim at the shield icon, it's the weak spot!\^^"
+
+bod_tutv2_112_titl= "Linked Monsters"
+bod_tutv2_112_c0 = "Some monsters are \^ffff00guarded\^^ by others. They are \^ffff00immune\^^ until you kill all the guards"
+bod_tutv2_112_c1 = "Some \^ffff00rewards\^^ can also be guarded by monsters. You need to kill all of the guards to get the \^ffff00treasure\^^"
+
+bod_tutv2_113_titl= "死亡愤怒"
+bod_tutv2_113_c0 = "死亡愤怒 is triggered when you are \^ffff00about to die\^^"
+bod_tutv2_113_c1 = "死亡愤怒 \^ffff00recharges\^^ when you level up"
+
+bod_tutv2_114_titl= "Cauldron Ingredients"
+bod_tutv2_114_c0 = "\^ffff00Ingredients\^^ found in the dungeon are placed in the cauldron and transformed into \^ffff00prizes\^^"
+bod_tutv2_114_c1 = "To \^ffff00collect\^^ the contents of the cauldron,  talk to the \^ffff00Barmaid\^^"
+bod_tutv2_114_c2 = "Beware! When you die, you \^ffff00lose the prizes stored in the cauldron\^^!\n(Mana and heart points are preserved)"
+
+bod_tutv2_115_titl= "Cauldron Level-Up Points"
+bod_tutv2_115_c0 = "Every time you turn a \^ffff00level-up point\^^ into heart or mana, the point of the \^ffff00opposite type\^^ goes into the \^ffff00cauldron\^^"
+bod_tutv2_115_c1 = "To \^ffff00collect\^^ the contents of the cauldron,  talk to the \^ffff00Barmaid\^^"
+bod_tutv2_115_c2 = "Even though you lose the prizes, \^ffff00dying doesn't destroy level-up points\^^ in the cauldron"
+
+bod_tutv2_116_titl= "盗贼 Mechanics"
+bod_tutv2_116_c0 = "Unlike 战士's attack, \^ffff00arrows\^^ you shoot get \^ffff00blocked\^^ by obstacles and monsters."
+bod_tutv2_116_c1 = "You can shoot \^ffff00outside\^^ your interaction radius with \^ffff00Shift\^^ key pressed.  \^ffff00R-Click\^^ shoots \^ffff00special arrows\^^ in the same manner."
+bod_tutv2_116_c1_pad = "You can shoot \^ffff00outside\^^ your interaction radius with \sz3 key hold."
+bod_tutv2_116_c2 = "\^ffff00Bow can't be used\^^ when monsters get \^ffff00too close\^^! \nIn such cases \^ffff00melee attack\^^ or take a step back to shoot."
+
+bod_tutv2_117_titl= "法师 Mechanics"
+bod_tutv2_117_c0 = "法师's missiles are \^ffff00guided\^^ and will avoid monsters on their way to the target."
+bod_tutv2_117_c1 = "Use \^ffff00right mouse button\^^ to shoot freely or use special missiles."
+bod_tutv2_117_c1_pad = "Use \sz4 to shoot freely or use special missiles."
+
+bod_tutv2_118_titl= "Zombie mechanics"
+bod_tutv2_118_c0 = "Zombies and some other monsters have \^ffff00poisoned hearts\^^"
+bod_tutv2_118_c1 = "On death, zombies \^ffff00explode\^^ with a shockwave that \^ffff00poisons\^^ everyone around.\n\^ffff00Deadly\^^ poisoned monsters are marked with a \^ffff00skull\^^"
+bod_tutv2_118_c2 = "Zombies cannot be poisoned. They are \^ffff00healed\^^ instead"
+
+bod_tutv2_119_titl= "Elemental attacks"
+bod_tutv2_119_c0 = "Monsters with \^ffff00elemental attacks\^^ are marked with a spiked circle. They can burn, poison or freeze you. Beware!"
+
+bod_tutv2_120_titl= "Golden Shield Hearts"
+bod_tutv2_120_c0 = "Some tough monsters have \^ffff00golden hearts\^^"
+bod_tutv2_120_c1 = "When damaged, those monsters are \^ffff00temporarily immune\^^ and \^ffff00spawn guardians\^^. Beware!"
+bod_tutv2_120_c2 = "Use \^ffff00Fire\^^ against monsters with golden hearts to kill them \^ffff00quicker\^^"
+
+bod_tutv2_121_titl= "Gargoyles"
+bod_tutv2_121_c0 = "Gargoyles have \^ffff00stone hearts\^^ - they are immune to elemental effects: poison, fire and ice"
+bod_tutv2_121_c1 = "When gargoyles turn to statues they \^ffff00heal over time\^^. Beware!"
+
+bod_tutv2_122_titl= "鬼魂"
+bod_tutv2_122_c0 = "鬼魂 can \^ffff00pass through walls\^^ and other objects"
+bod_tutv2_122_c1 = "They can \^ffff00appear from corpses\^^ of your slain enemies"
+bod_tutv2_122_c2 = "鬼魂 are creatures of \^ffff00cold\^^. Beware!"
+
+bod_tutv2_123_titl= "山羊怪"
+bod_tutv2_123_c0 = "山羊 are chaotic creatures and have \^ffff00randomized heart points\^^"
+bod_tutv2_123_c1 = "山羊 \^ffff00heal when they bleat\^^, so you better not retreat"
+
+bod_tutv2_124_titl= "Spiders"
+bod_tutv2_124_c0 = "Beware! Spiders can ambush you and \^ffff00chase you on the ceiling\^^!"
+bod_tutv2_124_c1 = "Most spiders \^ffff00spawn smaller spiders\^^ when slain!"
+bod_tutv2_124_c2 = "\^ffff00Poison\^^ is especially good against spiders. It damages them even when they are \^ffff00hidden.\^^"
+
+bod_tutv2_125_titl= "恶魔"
+bod_tutv2_125_c0 = "\^ffff00In hell\^^ 恶魔 can \^ffff00burn your mana\^^ with their attacks"
+bod_tutv2_125_c1 = "When \^ffff00all flames\^^ under the mana globe \^ffff00are lit\^^, each demon \^ffff00hit\^^ additionally \^ffff00burns your mana\^^"
+bod_tutv2_125_c2 = "When \^ffff00green mana is burned\^^, your \^ffff00artifact cards get disabled\^^ right to left"
+
+bod_tutv2_126_titl= "Advanced Movement"
+bod_tutv2_126_c0 = "You can hold your position and \^ffff00disable auto-attack\^^ by holding the \^ffff00hold\^^ button (shift by default)"
+bod_tutv2_126_c1 = "You can highlight all objects using \^ffff00alt\^^ key, or toggle it using \^ffff00caps lock\^^."
+bod_tutv2_126_c2 = "You can also move using \^ffff00wasd\^^ keys (all keyboard controls can be remapped in options)."
+bod_tutv2_126_c0_pad = "\nYou can hold your position and \^ffff00disable auto-attack\^^ with \sz3."
+bod_tutv2_126_c1_pad = "\^FF4832(Not available for gamepad yet)\^^\nYou can highlight all objects using \^ffff00alt\^^ key, or toggle it using \^ffff00caps lock\^^."
+bod_tutv2_126_c2_pad = "You can check controls in the options window."
+
+bod_tutv2_127_titl= "Re-entering a level"
+bod_tutv2_127_c0 = "After you take the stairs down, you can \^ffff00re-enter the level from the back by clicking on the right side of the level\^^"
+bod_tutv2_127_c1 = "You can always \^ffff00go back to town\^^ from the crosscut screen, even \^ffff00between levels\^^"
+
+bod_tutv2_128_titl= "Timed State"
+bod_tutv2_128_c0 = "If there is a circle around a boss, the boss is \^ffff00immune\^^"
+bod_tutv2_128_c1 = "The immunity timer \^ffff00progresses\^^ while you are \^ffff00inside\^^ the marked range - regardless of whether you attack the boss or not"
+
+bod_tutv2_129_titl= "Imposed Cards"
+bod_tutv2_129_c0 = "Higher Difficulty levels \^ffff00impose\^^ usage of some \^ffff00random cards\^^. Build your hand around their strengths and weaknesses, as you can't unequip them."
+
+bod_tutv2_130_titl= "Cursed Cards"
+bod_tutv2_130_c0 = "In Freeplay mode Bosses can \^ffff00curse\^^ your \^ffff00cards\^^. \nYou can move cursed cards around but they won't work until you \^ffff00slay\^^ the Boss."
+
+bod_tutv2_131_titl= "Death"
+bod_tutv2_131_c0 = "Collect your \^ffff00tombstone\^^ to retrieve your \^ffff00lost goods\^^."
+bod_tutv2_131_c1 = "Each time you die, your \^ffff00lost goods\^^ will be \^ffff00moved\^^ to the \^ffff00new tombstone\^^."
+
+bod_tutv2_132_titl= "卡牌变种"
+bod_tutv2_132_c0 = "For each card, you can find more powerful \^7AA9FFMagical\^^ and \^BB64F5Legendary\^^  变种."
+bod_tutv2_132_c1 = "To change a card variant you're currently using, \^ffff00hover\^^ over it in cards pane and click on \^ffff00变种 icon\^^."
+bod_tutv2_132_c2 = "Each \^ffff00card variant\^^ is upgraded \^ffff00separately\^^."
+bod_tutv2_132_c1_pad = "To change a card variant you're currently using, hover over it in cards pane and click on 变种 icon."
+
+bod_tutv2_133_titl= "Anger Management"
+bod_tutv2_133_c0 = "Fast attacks \^ffff00anger\^^ some monsters. Such monsters \^ffff00heal\^^ themselves and have \^ffff00special attacks\^^." 
+bod_tutv2_133_c1 =  "\^ffff00The meter\^^ shows how annoyed the monster is. When \^ffff00left alone\^^ the monster \^ffff00calms down\^^."
+bod_tutv2_133_c2 = "\^ffff00Frozen\^^ or \^ffff00stunned\^^ monsters \^ffff00won't\^^ be angered. Auto-attacks alone won't enrage the monster."
+
+bod_tutv2_999_titl= "XXX"
+bod_tutv2_999_c0 = "XXX"
+bod_tutv2_999_c1 = "XXX"
+bod_tutv2_999_c2 = "XXX"
+
+################ Small Tutorials that appear in small boxes somewhere around the screen ##########
+
+## BOD_TUTORIAL_SMALL_ARROWS
+bod_tut_titl_201 = "\^ff99ffSPECIAL MISSILES\^^"
+bod_tut_body_201 = "You have equipped a special missile. You can now use it instead of your primary attack by \s: r-clicking."
+bod_tut_body_201_pad = "You have equipped a special missile. You can now use it instead of your primary attack by pressing \s`."
+
+## BOD_TUTORIAL_SMALL_FIRST_CARD
+bod_tut_titl_202 = "\^ff99ffUSABLE CARDS\^^"
+bod_tut_body_202 = "You can use the card by clicking it by \s: r-clicking it or by pressing corresponding key on the keyboard."
+bod_tut_body_202_pad = "You can use usable cards by selecting it with \sb and \sc and use by pressing \sd"
+
+
+## Tutorial UI
+wnd_tutorial_options = "教程"
+tut_skip_all = "跳过教程"
+tut_skip_all_pad = "跳过教程 \sd"
+wnd_tuts_desc = "Check all tutorials you wish to skip.\nYou can change it later in Help menu."
+wnd_tutorials_select = "Check All"
+wnd_tutorials_deselect = "Clear All"
+wnd_tutorials_skip = "跳过"
+wnd_tutorials_exit = "关闭"
+wnd_tutorials_exit_pad = "关闭 \si"
+
+wnd_tut_prev = "上一个"
+wnd_tut_next = "下一个"
+
+bod_tutorial_close = "\s9 点击以关闭"
+bod_tutorial_close_pad = "按住以关闭"
+bod_tutorial_counter = "\1/\2"
+
+##Color scheme - if changed, change also in tutorial titles abvove
+bod_crd_tag_target = "\^b4ed07可作为目标\^^"
+bod_crd_tag_item = "\^ed0741物品\^^"
+bod_crd_tag_artefact = "\^7ea30d神器\^^"
+bod_crd_tag_spell = "\^1489c4法术\^^"
+bod_crd_tag_cd = "\^db7d1a冷却时有效\^^"
+bod_crd_tag_rare= "\^7AA9FF魔法\^^"
+bod_crd_tag_legend = "\^BB64F5传奇\^^"
+
+###################################################### Card Discovered/deciphered ############################################
+
+bod_crd_tag_target_tt = "只能在您选定了敌方单位时才可使用" #Target
+bod_crd_tag_item_tt = "物品卡使用后会消耗充能。你可以找预言家或在地下城拾取来充能。" #Item
+bod_crd_tag_artefact_tt = "神器卡牌有强大的被动效果，但是在装备时会锁定你的部分法术能量。" #Artifact
+bod_crd_tag_spell_tt = "法术卡牌使用时消耗法术能量。" #Spell
+bod_crd_tag_cd_tt = "这张卡牌使用后一段时间内有效，失效后可再次使用。" #冷却
+bod_crd_tag_rare_tt= "这张卡牌很稀有，快放在袖子里藏好！" #Rare
+bod_crd_tag_legend_tt = "传说中的物品，是不是想把它挂在墙上收藏！" #Legendary card
+bod_crd_disco_header = "新卡牌"
+bod_crd_disco_rune_tit = "符文"
+bod_crd_disco_rune = "这种卡牌可以用来升级其他卡牌。" #Rune
+bod_crd_ttip_free_because_manapotion ="(魔法药水 effect)"
+
+bod_crd_disco_unident_tit = "法术卡牌"
+bod_crd_disco_unident = "你找到了一张稀有卡！肯定很强！快去找智者鉴定一下吧。"
+bod_crd_disco_unident_leg_tit = "传奇卡牌"
+bod_crd_disco_unident_leg = "你找到了一张传奇卡！智者可以为你鉴定它。"
+
+crd_upgrade_discovery_ttip = "您可以使用符文升级其他卡。与预言家交谈，以了解更多。"
+
+bod_press_frame_button = "关闭"
+
+
+######################################
+## Leaderboards 
+######################################
+
+daredevil_hall_of_fame = "亡命之徒名人堂"
+daredevil_hall_of_fame_title = "名人堂"
+daredevil_hall_of_fame_tab_local = "本地"
+daredevil_hall_of_fame_tab_global = "全球"
+daredevil_hall_of_fame_tab_friends = "好友"
+daredevil_hall_of_fame_conn_timeout = "连接超时"
+daredevil_header_name = "名称"
+daredevil_header_depth = "深度"
+daredevil_entry_level = "级别 \1"
+
+## Daredevil - Personal Leaderboard
+fake_daredevil_01_name = "铠甲骷髅"
+fake_daredevil_01_depth = "200"
+fake_daredevil_02_name = "小石像鬼"
+fake_daredevil_02_depth = "300"
+fake_daredevil_03_name = "Plowing Corpse"
+fake_daredevil_03_depth = "400"
+fake_daredevil_04_name = "Gargoyle"
+fake_daredevil_04_depth = "500"
+fake_daredevil_05_name = "Corrupted Priest"
+fake_daredevil_05_depth = "600"
+fake_daredevil_06_name = "Cool Skeleton"
+fake_daredevil_06_depth = "700"
+fake_daredevil_07_name = "Hammer Gargoyle"
+fake_daredevil_07_depth = "800"
+fake_daredevil_08_name = "Skeletomancer"
+fake_daredevil_08_depth = "900"
+fake_daredevil_09_name = "Whopper"
+fake_daredevil_09_depth = "1000"
+fake_daredevil_10_name = "Uber Gargoyle"
+fake_daredevil_10_depth = "2000"
+fake_daredevil_11_name = "Chaotic Goat"
+fake_daredevil_11_depth = "3000"
+fake_daredevil_12_name = "Tiny Spectre"
+fake_daredevil_12_depth = "4000"
+fake_daredevil_13_name = "Battering Goat"
+fake_daredevil_13_depth = "5000"
+fake_daredevil_14_name = "Mirage Lancer"
+fake_daredevil_14_depth = "6000"
+fake_daredevil_15_name = "Arachnod"
+fake_daredevil_15_depth = "7000"
+fake_daredevil_16_name = "Slithering 战士"
+fake_daredevil_16_depth = "8000"
+fake_daredevil_17_name = "Phantom Beast"
+fake_daredevil_17_depth = "10000"
+fake_daredevil_18_name = "Succubus"
+fake_daredevil_18_depth = "20000"
+fake_daredevil_19_name = "Horror Gargoyle"
+fake_daredevil_19_depth = "40000"
+fake_daredevil_20_name = "The Ugly Duckling"
+fake_daredevil_20_depth = "990000"
+fake_daredevil_count = "20"
+
+
+##############################################################################################
+########################################## BOD DEMO ##########################################
+
+demo_frm_header = "You have completed the demo!"
+demo_frm_quit = "Go Back"
+demo_frm_buy = "Continue in Full Version"
+
+demo_frm_video_00_text = "Challenge the evil Cook in his demonic kitchen!"
+demo_frm_video_01_text = "Find and max-up all cards!"
+demo_frm_video_02_text = "Slay 鬼魂, spiders and 山羊怪 in forgotten catacombs!"
+demo_frm_video_03_text = "Master new cards when playing 法师 and 盗贼*\n*盗贼 coming soon during early access"
+demo_frm_video_03_text_rogue = "Master new cards when playing 法师 and 盗贼."
+demo_frm_video_04_text = "Outsmart the sneaky Antipope!"
+demo_frm_video_05_text = "Test your limits in Freeplay and Daredevil modes!"
+demo_frm_video_06_text = "Experience true horror when fighting 恶魔 in hell"
+demo_frm_video_07_text = "Give in to your OCD and complete all 100+ achievements!"
+demo_frm_video_08_text = "Battle the Archdemon and have a time of your life!"
+
+demo_frm_video_bonus_text_00 = "Remember all those paper cuts? It's revenge time!"
+demo_frm_video_bonus_text_01 = "Why are you still here? Buy the game already!"
+demo_frm_video_bonus_text_02 = "Monsters, monsters, monsters... Monsters everywhere!"
+demo_frm_video_bonus_text_03 = "You know you like it, make yourself a favor and buy the game!"
+demo_frm_video_bonus_text_04 = "More monsters, more classes, more cards, more fun!"
+demo_frm_video_bonus_text_count = "5"
+
+demo_frm_video_00_start = "0"
+demo_frm_video_00_end = "7.26"
+demo_frm_video_01_start = "7.26"
+demo_frm_video_01_end = "11.10"
+demo_frm_video_02_start = "11.10"
+demo_frm_video_02_end = "21.14"
+demo_frm_video_03_start = "21.14"
+demo_frm_video_03_end = "29.14"
+demo_frm_video_04_start = "29.14"
+demo_frm_video_04_end = "38.28"
+demo_frm_video_05_start = "38.28"
+demo_frm_video_05_end = "50.04"
+demo_frm_video_06_start = "50.04"
+demo_frm_video_06_end = "62.02"
+demo_frm_video_07_start = "62.02"
+demo_frm_video_07_end = "68.0"
+demo_frm_video_08_start = "68.0"
+demo_frm_video_08_end = "75.27"
+
+
+pax_key = "PRESS ANY KEY TO PLAY!"
+
+bod_csc_clear = "Level Clear!"
+bod_csc_monst_holder = "\1 \2"
+bod_csc_monst_hidden = "(hidden)"
+bod_csc_body = "To Do on this level:"
+bod_csc_barrel = "Barrel"
+bod_csc_chest = "Chest"
+bod_csc_gargoyle = "Gargoyle in a stone"
+bod_csc_cursed = "Cursed Chest"
+bod_csc_sarco = "Sarcophagus"
+bod_csc_bookbase = "Bookcase"
+bod_csc_tome = "Ancient Tome"
+bod_csc_shrine = "Shrine"
+bod_csc_summoned = "Summon spark"
+bod_csc_spore = "Slimy Spore"
+bod_csc_erectus = "Statue"
+
+
+#################################
+## Review Window 
+#################################
+
+ReviewFrame_Title = "YOUR INPUT"
+ReviewFrame_Txt = "Your opinion matters to us a lot!\m1.5What do you think about Book of 恶魔?"
+ReviewFrame_positive = "I like it"
+ReviewFrame_negative = "It's Bad"
+ReviewFrame_chk_not_again = "Don't show it again"
+
+ReviewFrame_positive_txt = "Great to hear you enjoy the game! We're a small indie team, and we're trying to make Book of 恶魔 as fun as possible.\n\nIt would mean a lot to us, if you could..."
+ReviewFrame_review = "Review the game on Steam"
+ReviewFrame_share = "Share on Social Media"
+ReviewFrame_review_ttip = "Reviews on Steam are currently the most important indicator for game visibility. Each and single one means a lot to us!"
+ReviewFrame_share_ttip = "Let your friends and followers know about the game, they may enjoy it too!"
+
+ReviewFrame_negative_txt = "We are sorry to hear that. We're a small indie team, and we're trying to make Book of 恶魔 as fun as possible.\n\nIt would help us a lot, if you could..."
+ReviewFrame_feedback = "Tell us what we should improve"
+
+
+############################
+## BOSS NAMES
+############################
+
+## !!!!!      Max 23 characters each!   !!!!!!!!!!!!!!!
+
+#Shielded Skeleton
+boss_1101_name = "Erica the Shieldmaiden"
+boss_1102_name = "Slig the Shieldman"
+boss_1103_name = "Barn the Shieldman"
+boss_1104_name = "Eufia the Shieldmaiden"
+
+#Skeleton Archer
+boss_1201_name = "Horik the Quick"
+boss_1202_name = "Helmud Hawkeye"
+boss_1203_name = "The Sharpshooting Joe"
+boss_1204_name = "Ritt the Swifthanded"
+
+boss_1205_name = "Horik the Quick"
+boss_1206_name = "Helmud Hawkeye"
+boss_1207_name = "The Sharpshooting Joe"
+boss_1208_name = "Ritt the Swifthanded"
+
+#Voracious Corpse
+boss_1301_name = "The Decayed Hook"
+boss_1302_name = "One Armed Stink"
+boss_1303_name = "Jack the Hungry One"
+boss_1304_name = "The Bear-handed"
+boss_1305_name = "Hadheaded Plague"
+
+boss_1306_name = "The Decayed Hook"
+boss_1307_name = "One Armed Stink"
+boss_1308_name = "Jack the Hungry One"
+
+#Corrupted  Priest
+boss_1401_name = "Blasphemy Mike"
+boss_1402_name = "Mark the Heretic"
+boss_1403_name = "Profan Peter"
+boss_1404_name = "Desecrated Ralph"
+boss_1405_name = "Alfred the Forsaken"
+boss_1406_name = "Lucas the Deceiver"
+
+#Hammer Gargoyle
+boss_1501_name = "Stoned Nightmare"
+boss_1502_name = "Rock Evil"
+boss_1503_name = "Granite Death"
+boss_1504_name = "Stoneform Brute"
+boss_1505_name = "Hammered Beast"
+boss_1506_name = "Corrupted Stone"
+
+#Goatchanter
+boss_1601_name = "Beeeeeelzebub"
+boss_1602_name = "Mr. GoaTee"
+boss_1603_name = "Chaotic Bleat"
+boss_1604_name = "Longhorn"
+boss_1605_name = "Bleat Wit"
+boss_1606_name = "Twisted Horn"
+
+#Skeleton 战士
+boss_1701_name = "Jared the Cursed"
+boss_1702_name = "Flavious the Corrupted"
+boss_1703_name = "Steve the Plagued"
+boss_1704_name = "Rick the Decayed"
+boss_1705_name = "Tresh the Rottenheart"
+boss_1706_name = "Rollo the Disgusting"
+boss_1707_name = "Snosh the Smelling"
+
+#Succubus
+boss_1801_name = "Enticing Death"
+boss_1802_name = "Tantalizing Agony"
+boss_1803_name = "Intriguing Decay"
+boss_1804_name = "Forbidden One"
+boss_1805_name = "Provokative Painmaid"
+boss_1806_name = "Blazing Love"
+boss_1807_name = "Fallen Mistress"
+
+#Arachnod
+boss_1901_name = "Crypto Becki"
+boss_1902_name = "Crypto Goodnighti"
+boss_1903_name = "Crypto Narino"
+boss_1904_name = "Crypto Simonis"
+boss_1905_name = "Crypto Verde"
+boss_1906_name = "Crypto Chiriqui"
+boss_1907_name = "Crypto Bocas"
+
+#Puffy Corpse
+boss_2001_name = "The Meaty Plague"
+boss_2002_name = "The Chunky Decay"
+boss_2003_name = "Jelly-belly Bomb"
+boss_2004_name = "The Big Bad and Rotting"
+boss_2005_name = "The Chubby Terror"
+boss_2006_name = "The Pudgy Greenfoul"
+boss_2007_name = "The Fat Sack"
+
+#Hyper Skelserker
+boss_2101_name = "Ron the Berserker"
+boss_2102_name = "Crazy Ivan"
+boss_2103_name = "Lester Crypthorror"
+boss_2104_name = "Mack the Crazy Axes"
+boss_2105_name = "Conrad the Chop-Chop"
+boss_2106_name = "Arthur the Painbringer"
+boss_2107_name = "Wyatt the Hasety"
+
+boss_2108_name = "Ron the Berserker"
+boss_2109_name = "Mack the Crazy Axes"
+boss_2110_name = "Conrad the Chop-Chop"
+
+#Spectre
+boss_2201_name = "Lost Wraith"
+boss_2202_name = "Frozen Spectre"
+boss_2203_name = "Lonely Vision"
+boss_2204_name = "Moaning Phantom"
+boss_2205_name = "The Sad 鬼魂"
+boss_2206_name = "Frosty Spirit"
+boss_2207_name = "Chilled Wraith"
+boss_2208_name = "Cold Shadow"
+boss_2209_name = "Cold Shadow"
+
+#Wicked Longlegs
+boss_2301_name = "Hairy Willy"
+boss_2302_name = "Legged Jack"
+boss_2303_name = "Merry The Eightlegged"
+boss_2304_name = "Steve The Clumsy"
+boss_2305_name = "Sticky Joe"
+boss_2306_name = "Sitting Sophie"
+boss_2307_name = "Weird Eyes Alice"
+boss_2308_name = "Tall Eli"
+
+#Battering Goat
+boss_2401_name = "Odi the Swift"
+boss_2402_name = "Ozzik the Black"
+boss_2403_name = "Jres the Downbringer"
+boss_2404_name = "Het the Fieldruler"
+boss_2405_name = "Freddie the King"
+boss_2406_name = "Lemmy the Hammer"
+boss_2407_name = "Rob the Zombie-eater"
+boss_2408_name = "Bruce Ironbrute"
+
+#Arachgod
+boss_2501_name = "Jelly Legs Wallace"
+boss_2502_name = "Glade Wrathful Clinton"
+boss_2503_name = "Flo Golden-Eye Stanton"
+boss_2504_name = "Ed Ugly Mug Whulsup"
+boss_2505_name = "Adela Lazy Goodwin"
+boss_2506_name = "Wyman Striker Netley"
+boss_2507_name = "Kendrick Grim Norton"
+boss_2508_name = "Joola Crazy Wright"
+
+#Spect. Whopper
+boss_2601_name = "Phantom Muscle"
+boss_2602_name = "Wraith Meatball"
+boss_2603_name = "Beefy Spirit"
+boss_2604_name = "Force Wraith"
+boss_2605_name = "Might 鬼魂"
+boss_2606_name = "Armed Phantom"
+boss_2607_name = "Spectral Bouncer"
+boss_2608_name = "Gym Spirit"
+boss_2609_name = "Legdayskipping 鬼魂"
+
+#Cool Crawler
+boss_2701_name = "Euscorpius"
+boss_2702_name = "Megacormus"
+boss_2703_name = "Plesiochactas"
+boss_2704_name = "Chactopsis"
+boss_2705_name = "Alloscorpiops"
+boss_2706_name = "Dasyscorpiops"
+boss_2707_name = "Neoscorpiops"
+boss_2708_name = "Troglocormus"
+boss_2709_name = "Scorpiops"
+
+#Mirage 法师
+boss_2801_name = "The Laughing Wizard"
+boss_2802_name = "The Howling Doctor"
+boss_2803_name = "The Talking Maniac"
+boss_2804_name = "The Weeping Dancer"
+boss_2805_name = "The Midnight Gatekeeper"
+boss_2806_name = "The Mansion Apparition"
+boss_2807_name = "The Weeping 法师"
+boss_2808_name = "The Spectral Sorcerer"
+boss_2809_name = "The Forsaken Wizard"
+
+#Skull Spook
+boss_2901_name = "The Sleepy Head"
+boss_2902_name = "Don Spook"
+boss_2903_name = "King Headbag"
+boss_2904_name = "Dull Skull"
+boss_2905_name = "The Spooky Head"
+boss_2906_name = "Don Smokeleone"
+boss_2907_name = "Rick The Spectral Leader"
+boss_2908_name = "Lui The Egg"
+boss_2909_name = "The Big Bold"
+
+#Slith Archer
+boss_3001_name = "Hawkeyed Snake"
+boss_3002_name = "Slithering Sharpshooter"
+boss_3003_name = "The Quick Serpent"
+boss_3004_name = "Agile Reptile"
+boss_3005_name = "Viper Arrow"
+boss_3006_name = "Swifthanded Snake"
+boss_3007_name = "Spikegiver"
+boss_3008_name = "Two Arrows one Snake"
+boss_3009_name = "Swift Slithering"
+
+#Petit Gargoyle
+boss_3101_name = "Swiftstone"
+boss_3102_name = "Legend of Greenrock"
+boss_3103_name = "Granite Stink"
+boss_3104_name = "Unrolled Stone"
+boss_3105_name = "Decayed Rock"
+boss_3106_name = "Piece of Stone"
+boss_3107_name = "Ore Jorre"
+boss_3108_name = "Petit Granite"
+boss_3109_name = "Gray Matter"
+boss_3110_name = "Stoned Smell"
+
+#Diabolist
+boss_3201_name = "Ultharm the Black"
+boss_3202_name = "Sthresuhr the Fearsome"
+boss_3203_name = "Muggaz the Flame"
+boss_3204_name = "Krikrow the Burning"
+boss_3205_name = "Sthrurzhobruz the Bold"
+boss_3206_name = "Rommerm the Doombringer"
+boss_3207_name = "Vanthatrorth the Strong"
+boss_3208_name = "Khaakoubrex the Furious"
+boss_3209_name = "Voknuunguk the Mad"
+boss_3210_name = "Cragnokhas the Sick"
+
+#Hopping Corpse
+boss_3301_name = "Bouncing Fear"
+boss_3302_name = "Rotten Mother"
+boss_3303_name = "Boxing Green"
+boss_3304_name = "Corrupted "
+boss_3305_name = "Kanga the Roothless"
+boss_3306_name = "Roo the Spoiled Child"
+boss_3307_name = "Marsupial Terror"
+boss_3308_name = "Large-Foot Evil"
+boss_3309_name = "Jumping Decay"
+boss_3310_name = "Rufus the Green"
+
+#Slith Horror
+boss_3401_name = "Furious Snakeform"
+boss_3402_name = "Slithering Blades"
+boss_3403_name = "Winged Death"
+boss_3404_name = "Viperswords"
+boss_3405_name = "Blazing Reptile"
+boss_3406_name = "The Moody Serpent"
+boss_3407_name = "Viper Horror"
+boss_3408_name = "Slytherwing"
+boss_3409_name = "Reptiled Furry"
+boss_3410_name = "The Moody Serpent"
+
+#Elem Lord
+boss_3501_name = "Lord Frostfart"
+boss_3502_name = "Lord Stinknose"
+boss_3503_name = "Lord Iceflame"
+boss_3504_name = "Lord Chillburned"
+boss_3505_name = "Lord Hotflake"
+boss_3506_name = "Lord Blazingglaze"
+boss_3507_name = "Lord Iceberger"
+boss_3508_name = "Lord Blazeface"
+boss_3509_name = "Lord Pyrecold"
+boss_3510_name = "Lord Tinderwinter"
+
+#Elder Goatchanter 
+boss_3601_name = "Beastfang"
+boss_3602_name = "Fanghorn"
+boss_3603_name = "Clawcaster"
+boss_3604_name = "Beastwitch"
+boss_3605_name = "Beastspawn"
+boss_3606_name = "Warpclaw"
+boss_3607_name = "Clawtooth"
+boss_3608_name = "Hornfang"
+boss_3609_name = "Witchbeast"
+boss_3610_name = "Fangspawn"
+
+#Skeletomancer
+boss_3701_name = "Bone Sorcerer"
+boss_3702_name = "Outlawed Warlock"
+boss_3703_name = "Evil Witch"
+boss_3704_name = "Exiled Juggler"
+boss_3705_name = "Wizard of Blasphemy"
+boss_3706_name = "Banished Shaman"
+boss_3707_name = "Corrupted Sear"
+boss_3708_name = "Black Conjuror"
+boss_3709_name = "Decayed Enhancer"
+boss_3710_name = "Cursed 法师"
+
+boss_3711_name = "Bone Sorcerer"
+boss_3712_name = "Outlawed Warlock"
+boss_3713_name = "Evil Witch"
+
+#Incubus
+boss_3801_name = "Enticing Muscle"
+boss_3802_name = "Tantalizing Brute"
+boss_3803_name = "Intriguing Flame"
+boss_3804_name = "Tempting Death"
+boss_3805_name = "Blazing One"
+boss_3806_name = "Big Red Rick"
+boss_3807_name = "Unforgivable Pain"
+boss_3808_name = "Forgotten Pleasure"
+boss_3809_name = "Blackballed Master"
+boss_3810_name = "Flaming Pain"
+
+#Horror Whopper
+boss_3901_name = "Zlaras the Giant"
+boss_3902_name = "Dafthor the Giant"
+boss_3903_name = "Arolas the Giant"
+boss_3904_name = "Mugi the Giant"
+boss_3905_name = "Xorvag the Giant"
+boss_3906_name = "Glacvag the Giant"
+boss_3907_name = "Nunir the Giant"
+boss_3908_name = "Wufom the Giant"
+boss_3909_name = "Kavag the Giant"
+
+#Hot Crawler
+boss_4001_name = "Deathstalker the King"
+boss_4002_name = "King Androctonus"
+boss_4003_name = "King Babycurus"
+boss_4004_name = "King Buthacus"
+boss_4005_name = "King Zabius"
+boss_4006_name = "King Uroplectes"
+boss_4007_name = "King Isometrus"
+boss_4008_name = "King Tityus"
+
+#Arachnod
+boss_4101_name = "Crypto Narino"
+boss_4102_name = "Crypto Simonis"
+boss_4103_name = "Crypto Verde"
+
+#Hog
+boss_4201_name ="Flying Wong Hog"
+boss_4202_name ="Cursed Hog"
+boss_4203_name ="Chunky Smoke"
+boss_4204_name ="Green Glutton"
+boss_4205_name ="Gas Bombino"
+
+#PlowingCorpse
+boss_4301_name ="Old MacDonald"
+boss_4302_name ="Ugly Joe"
+boss_4303_name ="Old Ronald"
+boss_4304_name ="Wyatt Wild"
+boss_4305_name ="Hudson West"
+
+#UberGargoyle
+boss_4401_name ="Ruby Terror"
+boss_4402_name ="Ruby Terror"
+boss_4403_name ="Ruby Terror"
+boss_4404_name ="Ruby Terror"
+boss_4405_name ="Ruby Terror"
+
+#HorrorGargoyle
+boss_4501_name ="Turquoise Horror"
+boss_4502_name ="Turquoise Horror"
+boss_4503_name ="Turquoise Horror"
+boss_4504_name ="Turquoise Horror"
+boss_4505_name ="Turquoise Horror"
+
+#Cool Skel
+boss_4601_name ="Daddy Cool"
+boss_4602_name ="Ice Shield"
+boss_4603_name ="Freezing Handed"
+boss_4604_name ="Cold Buckler"
+boss_4605_name ="Glacial Shieldman"
+
+#Cool Archer
+boss_4701_name ="Frostshot"
+boss_4702_name ="Snowbow"
+boss_4703_name ="Coldshot"
+boss_4704_name ="Frostshot"
+boss_4705_name ="Frostshot"
+
+#Horror Archer
+boss_4801_name ="Hotshot"
+boss_4802_name ="Blaze Arrow"
+boss_4803_name ="Flame Shooter"
+boss_4804_name ="Grill Sticks"
+boss_4805_name ="Hotshot"
+
+#Burning Whopper
+boss_4901_name ="Grilled Jerry"
+boss_4902_name ="Pin Jean"
+boss_4903_name ="Grilled Jerry"
+boss_4904_name ="Flaming Mike"
+boss_4905_name ="The Megzilla"
+
+#Phantom Beast
+boss_5001_name ="Beastly Boy"
+boss_5002_name ="Phantom of the O"
+boss_5003_name ="Phantomic Wizard"
+boss_5004_name ="Ex-Fortuneteller"
+boss_5005_name ="Masked Frost"
+boss_5006_name ="Ice Hands"
+
+# Glutton
+boss_5101_name = "Glu Glu"
+boss_5102_name = "Glu Glu"
+boss_5103_name = "Glu Glu"
+boss_5104_name = "Glu Glu"
+boss_5105_name = "Glu Glu"
+
+#Slithering Horror  Magus
+boss_5201_name = "Sneaky 法师"
+boss_5202_name = "Sneaky 法师"
+boss_5203_name = "Sneaky 法师"
+boss_5204_name = "Sneaky 法师"
+boss_5205_name = "Sneaky 法师"
+
+
+################################ QUEST BOSS NAMES ##############################
+## Their names must be repeated for every stage they have ##
+
+boss_10001_name = "\smThe Cook"
+boss_10002_name = "\smThe Cook"
+boss_10003_name = "\smThe Cook"
+boss_10004_name = "\smThe Cook"
+boss_10005_name = "\smThe Cook"
+boss_10006_name = "\smThe Cook"
+boss_10007_name = "\smThe Cook"
+boss_10008_name = "\smThe Cook"
+boss_10009_name = "\smThe Cook"
+
+boss_10101_name = "\smThe Antipope"
+boss_10102_name = "\smThe Antipope"
+boss_10103_name = "\smThe Antipope"
+boss_10104_name = "\smThe Antipope"
+boss_10105_name = "\smThe Antipope"
+boss_10106_name = "\smThe Antipope"
+boss_10107_name = "\smThe Antipope"
+boss_10108_name = "\smThe Antipope"
+boss_10109_name = "\smThe Antipope"
+
+boss_10201_name = "\smThe Archdemon"
+boss_10202_name = "\smThe Archdemon"
+boss_10203_name = "\smThe Archdemon"
+boss_10204_name = "\smThe Archdemon"
+boss_10205_name = "\smThe Archdemon"
+boss_10206_name = "\smThe Archdemon"
+boss_10207_name = "\smThe Archdemon"
+boss_10208_name = "\smThe Archdemon"
+boss_10209_name = "\smThe Archdemon"
+boss_10210_name = "\smThe Archdemon"
+boss_10211_name = "\smThe Archdemon"
+boss_10212_name = "\smThe Archdemon"
+boss_10213_name = "\smThe Archdemon"
+boss_10214_name = "\smThe Archdemon"
+boss_10215_name = "\smThe Archdemon"
+
+#Archdemon Quest Bosses
+#Slith Horror Magus
+boss_10301_name = "Slithering Seal Guardian"
+boss_10302_name = "Slithering Seal Guardian"
+boss_10303_name = "Slithering Seal Guardian"
+#Slith 战士
+boss_10401_name = "Slithering Seal Guardian"
+boss_10402_name = "Slithering Seal Guardian"
+boss_10403_name = "Slithering Seal Guardian"
+#Slith Archer
+boss_10501_name = "Slithering Seal Guardian"
+boss_10502_name = "Slithering Seal Guardian"
+boss_10503_name = "Slithering Seal Guardian"
+#Diabolist
+boss_10601_name = "Demonic Seal Guardian"
+boss_10602_name = "Demonic Seal Guardian"
+boss_10603_name = "Demonic Seal Guardian"
+#Incubus
+boss_10701_name = "Demonic Seal Guardian"
+boss_10702_name = "Demonic Seal Guardian"
+boss_10703_name = "Demonic Seal Guardian"
+
+#Evil Player Characters Bosses
+
+boss_10801_name = "鬼魂 from the Past"
+boss_10802_name = "鬼魂 from the Past"
+boss_10803_name = "鬼魂 from the Past"
+boss_10804_name = "鬼魂 from the Past"
+boss_10805_name = "鬼魂 from the Past"
+boss_10806_name = "鬼魂 from the Past"
+boss_10807_name = "鬼魂 from the Past"
+boss_10808_name = "鬼魂 from the Past"
+boss_10809_name = "鬼魂 from the Past"
+boss_10810_name = "鬼魂 from the Past"
+
+boss_10901_name = "鬼魂 from the Past"
+boss_10902_name = "鬼魂 from the Past"
+boss_10903_name = "鬼魂 from the Past"
+boss_10904_name = "鬼魂 from the Past"
+boss_10905_name = "鬼魂 from the Past"
+boss_10906_name = "鬼魂 from the Past"
+boss_10907_name = "鬼魂 from the Past"
+boss_10908_name = "鬼魂 from the Past"
+boss_10909_name = "鬼魂 from the Past"
+boss_10910_name = "鬼魂 from the Past"
+
+boss_11001_name = "鬼魂 from the Past"
+boss_11002_name = "鬼魂 from the Past"
+boss_11003_name = "鬼魂 from the Past"
+boss_11004_name = "鬼魂 from the Past"
+boss_11005_name = "鬼魂 from the Past"
+boss_11006_name = "鬼魂 from the Past"
+boss_11007_name = "鬼魂 from the Past"
+boss_11008_name = "鬼魂 from the Past"
+boss_11009_name = "鬼魂 from the Past"
+boss_11010_name = "鬼魂 from the Past"
+
+#游戏开始时的免责声明
+ea_title = "抢先体验免责声明"
+ea_description = "感谢您参与《恶魔之书》的抢先体验！\m1.8请注意，本游戏仍在开发中，你（很）可能会遇到BUG，未完成的功能，甚至可能是游戏崩溃。我们一直在努力解决问题，添加功能。\n\n您的反馈将对我们有很大的帮助，您可以随时使用游戏内的反馈按钮，来告诉我们您对本游戏的任何方面的建议与意见（无论是负面还是正面的）。这将有助于我们改善游戏。\m1.8虽然我们的游戏仍处于开发阶段，但还是希望您玩得愉快！\m2.6                                                               此致，\n                                                               Thing Trunk 团队"
+
+demo_title = "恶魔之书试玩版"
+demo_description = "感谢您使用恶魔之书试玩版。\m1.8请注意，本游戏仍在开发中，你（很）可能会遇到BUG，未完成的功能或机制，甚至可能是游戏崩溃。\n我们一直在努力解决这些问题，您的反馈将对我们有很大的帮助。\n\n您可以随时使用游戏内的反馈按钮，来告诉我们您对本游戏的任何方面的建议与意见（无论是负面还是正面的）。这将有助于我们改善游戏。\m1.8虽然我们的游戏仍处于开发阶段，但还是希望您玩得愉快！\m2.6   此致，\n   Thing Trunk 团队"
+
+press_title = "Press build"
+press_description = "Welcome to Book of 恶魔 Press Build!\m1.8Please remember that you are playing an Early Access game. Many elements are not yet final.\m1.8Playing 战士 until level 5 which unlocks other classes should take about 20 minutes. During this time you should become familiar with all the basic mechanics of the game.\m1.8We hope that you will have a fun time playing our game even at this stage of production.\m2.6                                                               With love,\n                                                               Thing Trunk Team"
+
+
+################################## Translator's Changelog ######################################
+# Using # sign create a list of already translated items/sections
+## 1.
+## 2.
+## 3.
+## 4.
+## etc
+##
+
+
+#This line should be always at the end of the file to validate that utf is correct
+back_to_menu = "返回档案馆"
