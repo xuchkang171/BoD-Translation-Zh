@@ -9,7 +9,7 @@
 ## \1-9 - variable (do not touch!)
 ## \n - end of line (text after the marker will appear in the line below)
 ## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
-## "m", "f" or "n" designates gender used for !params! names of !magic! 变种: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## "m", "f" or "n" designates gender used for !params! names of !magic! 变种：m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
 ## What is written in capital letters must stay that way
 ## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
 
@@ -33,9 +33,9 @@ player = "玩家"
 
 ############################ 基础 ##############################
 
-lclick = "\s0点击左键开始游戏"
+lclick = "点击\s0左键开始游戏"
 lclick_pad = "点击\s0开始游戏"
-rclick = "\s1点击右键打开选项"
+rclick = "点击\s1右键打开选项"
 rclick_pad = "点击\s1打开选项"
 
 rclick_beta = "\s0点击阅读抢先体验说明"
@@ -204,7 +204,7 @@ mmenu_exit = "退出"
 menu_updates_available_label = "有可用更新"
 menu_up_to_date_label = "当前为最新版本"
 
-rank_menu_text = "排名级别: \1"
+rank_menu_text = "排名级别：\1"
 rank_holder = "\s0 \1"
 
 menu_button_unava = "当前版本中该功能不可用"
@@ -362,7 +362,7 @@ wnd_achieve_badge_score_tip = "游戏总得分"
 ##################################### 恶魔之书 成就 #####################################
 
 achiev_0_01_1 = "跋涉" #1级
-achiev_0_01_1_desc = "Unlock 中等自定义游戏规模"
+achiev_0_01_1_desc = "Unlock 中等灵活游戏规模"
 achiev_0_01_2 = "游历" #2级
 achiev_0_01_2_desc = "Unlock 大型 flexiscope game size"
 achiev_0_01_3 = "漫游" #3级
@@ -508,18 +508,18 @@ achiev_0_18_3 = "Kitchen Nightmare"
 achiev_0_18_3_desc = "Defeat the Cook with all three heroes"
 
 achiev_0_19_1 = "Breaking the Ritual"
-achiev_0_19_1_desc = "Defeat the Antipope with any hero"
+achiev_0_19_1_desc = "Defeat 伪教皇 with any hero"
 achiev_0_19_2 = "Averting the Sacrilege"
-achiev_0_19_2_desc = "Defeat the Antipope with any second hero"
+achiev_0_19_2_desc = "Defeat 伪教皇 with any second hero"
 achiev_0_19_3 = "Ending the Blasphemy"
-achiev_0_19_3_desc = "Defeat the Antipope with all three heroes"
+achiev_0_19_3_desc = "Defeat 伪教皇 with all three heroes"
 
 achiev_0_20_1 = "All hail new king"
-achiev_0_20_1_desc = "Defeat the Archdemon with any hero"
+achiev_0_20_1_desc = "Defeat 恶魔领主 with any hero"
 achiev_0_20_2 = "Twice the fun"
-achiev_0_20_2_desc = "Defeat the Archdemon with any second hero"
+achiev_0_20_2_desc = "Defeat 恶魔领主 with any second hero"
 achiev_0_20_3 = "Third time's a charm"
-achiev_0_20_3_desc = "Defeat the Archdemon with all three heroes"
+achiev_0_20_3_desc = "Defeat 恶魔领主 with all three heroes"
 
 achiev_0_21_1 = "Who's the boss?"
 achiev_0_21_1_desc = "Defeat 5 boss monsters"
@@ -595,13 +595,13 @@ achiev_0_28_2_desc = "Finish a medium or big Freeplay game in Nightmare difficul
 achiev_0_28_3 = "Hardcore nudist"
 achiev_0_28_3_desc = "Finish a medium or big Freeplay game in Massacre difficulty without equipping any card"
 
-achiev_0_29_1 = "Quest Master"
+achiev_0_29_1 = "探索 Master"
 achiev_0_29_1_desc = "Master all level 1 quests"
 achiev_0_29_1_max = "3"
-achiev_0_29_2 = "Quest Champion"
+achiev_0_29_2 = "探索 Champion"
 achiev_0_29_2_desc = "Master all level 2 quests"
 achiev_0_29_2_max = "3"
-achiev_0_29_3 = "Quest Genius"
+achiev_0_29_3 = "探索 Genius"
 achiev_0_29_3_desc = "Master all level 3 quests"
 achiev_0_29_3_max = "3"
 
@@ -626,13 +626,13 @@ achiev_0_31_3_desc = "Pick up 1000 crap"
 achiev_0_31_3_max = "1000"
 
 achiev_0_32_1 = "In Good Hands"
-achiev_0_32_1_desc = "Let the 治愈者 heal you 30 times"
+achiev_0_32_1_desc = "Let the 治愈术士 heal you 30 times"
 achiev_0_32_1_max = "30"
 achiev_0_32_2 = "Frequent patient"
-achiev_0_32_2_desc = "Let the 治愈者 heal you 100 times"
+achiev_0_32_2_desc = "Let the 治愈术士 heal you 100 times"
 achiev_0_32_2_max = "100"
 achiev_0_32_3 = "Hypochondriac"
-achiev_0_32_3_desc = "Let the 治愈者 heal you 300 times"
+achiev_0_32_3_desc = "Let the 治愈术士 heal you 300 times"
 achiev_0_32_3_max = "300"
 
 achiev_0_33_1 = "Tasty Soup"
@@ -942,7 +942,7 @@ wnd_avt_rese_nfo = "This avatar will be researched next. You cannot change it on
 wnd_avt_rese_set = "更改"
 wnd_avt_rese_close = "关闭"
 
-################################## Player Ranks ##################################
+################################## 人物位阶 ##################################
 
 rank_0 = "一无所知"
 rank_1 = "初学者"
@@ -1033,7 +1033,7 @@ rank_85 = "鉴赏家"
 rank_86 = "资深鉴赏家"
 rank_87 = "大师鉴赏家"
 
-############################### 头像 and their descriptions ###########################
+############################### 头像与其描述 ###########################
 
 avatar_1 ="萤火虫"
 avatar_2 ="蛇"
@@ -1048,7 +1048,7 @@ avatar_24 ="穴居人"
 avatar_26 ="神秘主义者"
 avatar_28 ="酒吧侍女"
 avatar_29 ="猎巫人"
-avatar_30 ="治愈者"
+avatar_30 ="治愈术士"
 avatar_32 ="冰冻忍者"
 avatar_35 ="扫雷艇"
 avatar_38 ="餐厅业主"
@@ -1092,7 +1092,7 @@ product_book7 = "卷七"
 
 
 #########################
-## CREDITS
+## 制作人员名单
 #########################
 
 cred00_head = "制作人员"
@@ -1126,7 +1126,7 @@ cred_desc_16 = "对话与文本"
 
 cred_desc_17 = "智者"
 cred_desc_18 = "R2G旁白, 法师"
-cred_desc_19 = "治愈者, 厨师, 伪教皇"
+cred_desc_19 = "治愈术士, 厨子, 伪教皇"
 cred_desc_20 = "酒吧侍女"
 cred_desc_21 = "战士, 恶魔之祖"
 cred_desc_22 = "盗贼, 天使"
@@ -1136,17 +1136,17 @@ cred_desc_24 = "以及Steam抢先体验小组中的每一位玩家"
 cred_desc_25 = "波兰语 - 校正"
 
 ###################################
-## Narration
+## 旁白
 ###################################
 
 skip_intro = "长按任意键以跳过"
 
-############################### Archive Opening ###############################
+############################### 存档开幕语 ###############################
 
 intro_0 = "时空的某处"
 intro_1 = "有个地方，叫做史诗档案馆。"
-intro_2 = "那是一个，守护着那些最神奇的故事与神话的远古密室。"
-intro_3 = "每本书，都是通往一段诗篇的神奇法门。"
+intro_2 = "那是一个，守护着那些最稀有的故事与神话的远古密室。"
+intro_3 = "每本书，都是通往一段诗篇的稀有法门。"
 intro_4 = "穿越七部杰作，让我带你踏上旅途。"
 intro_5 = "It's time to Return 2 Games!"
 
@@ -1169,7 +1169,7 @@ intro_4_out = "32.8"
 intro_5_in = "32.9"
 intro_5_out = "37"
 
-############################### Book of 恶魔 Opening ###############################
+############################### 恶魔之书开场字幕 ###############################
 
 bod_intro_0 = "啊。恶魔之书！"
 bod_intro_1 = "我们的藏品中，一个真正可怕的故事。"

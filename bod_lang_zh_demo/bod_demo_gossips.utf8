@@ -10,7 +10,7 @@
 ## \1-9 - variable (do not touch!)
 ## \n - end of line (text after the marker will appear in the line below)
 ## \^ffff00[text without brackets here]\^^ - colored words in HTML style; for example: \^7AA9FFMagical\^^ - word magical will be light blue
-## "m", "f" or "n" designates gender used for params names of !magic! 变种: m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
+## "m", "f" or "n" designates gender used for params names of !magic! 变种：m- male, f-female n- neutral - !!! CHANGE the gender if needed !!!
 ## What is written in capital letters must stay that way
 ## \" [phrase] \" - \" <-enters " in the text. All plain texts have to be in "" in this document. If a quote is needed place the phrase in \" \"
 
@@ -19,7 +19,7 @@
 
 wnd_gossips_overview_title = "你想了解什么呢？"
 
-###################### Gossips ###########################
+###################### 流言 ###########################
 
 gtit_0 = "欢迎" ## 酒吧侍女
 gtxt_0_0 = "    真的是你吗？过了这么久再次见到你真是太开心了！你好像已经离开我们镇很久了。我真希望我们不是在这样可怕的情况下见面。"
@@ -31,7 +31,7 @@ gtit_1 = "黑暗" ## 智者
 gtxt_1_0 = "    你的到来给我灰冷的心带来了一缕曙光。没有什么比旅行更锻炼一个人的了—我就知道！—但是我恳求你不要走。我们需要你！一些黑暗的东西潜藏在老教堂的深处。我在旅行中已经见过了很多恶魔，不过这倒让我穿越龙之废墟的旅程增色几分。"
 gtxt_1_1 = "    这一切都是从我们主教的失踪开始的。我担心他是不是被拖到了教堂深处的地下墓穴。我也不知道是什么造就了对这个圣地的亵渎，这仍是个未解之谜。但我知道你一定有办法弄清楚！不过请记得千万小心，那些冒险造访黑暗的人几乎无人生还，少数归来者也无一活到今日。"
 
-gtit_2 = "介绍" ## 治愈者
+gtit_2 = "介绍" ## 治愈术士
 gtxt_2_0 = "    感谢天堂聆听我的祷告，赐予我们一位光明斗士！我将尽我所能助你战斗。如果你需要治疗身心疾病，请随时来找我。但是，万勿大意，面对邪恶军团可不是小打小闹。愿信念与你同在！"
 gtxt_2_1 = "    There is no better protection against darkness. If you allow yourself to falter you shall become defenseless and even risk losing your immortal soul. I saw what happened to those who went astray in their spiritual vocation and... No, it's better not to dwell on such things lest darkness overcome us."
 
@@ -47,7 +47,7 @@ gtxt_4_1 = "    Now, this is magical stuff I'm talking about, so there are some 
 gtit_5 = "小镇" ## 预言家
 gtxt_5_0 = "    Welcome back, my friend. I'm sure you have already noticed how things changed for the better around here while you were travelling around the world? Apart from the demonic presence, of course. One as smart as yourself surely realizes that this mostly is due to my beneficial presence in this small town."
 gtxt_5_1 = "    Take 酒吧侍女 as an example. A simple girl, to be sure, but surprisingly talented when it comes to Prize Brewing. Her potential would surely go to waste if it wasn't for me. Her focus and strong will remind me of myself in youth."
-gtxt_5_2 = "    Then there's the 智者, whose stories are nothing but half-truths. Simple folk are easily swayed by men like him, so I have to correct him all the time. As for the 治愈者, I helped him a lot and even offered to read his fortune for free, but he ran away. Most curious! Make no mistake, he's hiding something."
+gtxt_5_2 = "    Then there's the 智者, whose stories are nothing but half-truths. Simple folk are easily swayed by men like him, so I have to correct him all the time. As for the 治愈术士, I helped him a lot and even offered to read his fortune for free, but he ran away. Most curious! Make no mistake, he's hiding something."
 
 gtit_6 = "卡牌" # 预言家
 gtxt_6_0 = "    Magical cards are my specialty. They represent a novel approach to magic, offering a superior alternative to clunky weaponry and verbose spell-casting. Unfortunately, new things are often frowned upon, even more so in... quaint places, like this town. Can you imagine not so long ago those people traded with a local blacksmith? This is so Middle Ages... No wonder he went bankrupt!"
@@ -63,7 +63,7 @@ gtit_8 = "法术卡牌" ## 智者
 gtxt_8_0 = "    Finally, a challenge and a chance to use my knowledge for the good! These mystical cards aren't used to cheat and get money from the hopeless and naive, so of course the fortune-telling woman knows nothing about them. However, the true scholars of the arcane - like the hermits of the Eastern Wilds - sometimes pass their secrets to those they deem worthy - like myself."
 gtxt_8_1 = "    You should know that, despite their modest look, such objects can hold powerful enchantments with remarkable properties. Still, as long as their wondrous attributes remain unknown, they are completely useless. Consider yourself fortunate, as I will identify them for you."
 
-gtit_9 = "观察" ##治愈者
+gtit_9 = "观察" ##治愈术士
 gtxt_9_0 = "    Perhaps you have noticed there seems to be some antipathy between the 智者 and the 预言家? You would do well to pay no heed to what they say about each other. Old age brings many burdens that can make one's heart bitter."
 gtxt_9_1 = "    As for their adventurous tales... I have yet to see any evidence of their deeds, so I'm afraid the passing years might have weakened their minds, which now drift towards the fantastical. Who knows, they might even believe in the things they're describing so vividly."
 gtxt_9_2 = "    Hmm, now that I think of it, their quarrels might be a facade. Years spent in the monastery made me quite observant, so either I'm growing old too, or they might have something more going on."
@@ -86,39 +86,39 @@ gtxt_13_0 = "    So you slew the man-eating demon? That's terrific news! It mean
 gtxt_13_1 = "    Still, as 智者 tells me \"when it comes to devils and such, death is a blurry thing. Their living essence is not like ours and sometimes they endure death, hiding in the shadows.\" Evil can be stubborn like that, you know."
 gtxt_13_2 = "    I can't tell you how I know this, but there are magical keys that force them to become flesh and blood again. If you stumble upon such things, you'll be able to fight them again, and maybe even kill them for good. Sounds convoluted, I know. I'm not an expert on these things - I just sell them."
 
-gtit_14 = "治愈者" ##酒吧侍女
-gtxt_14_0 = "    The 治愈者 is the most cowardly person I've ever met! Nowadays we're all frightened - but I swear, a loud barking dog would give that man a heart attack. But you know what? I respect him more because he stayed. That must have been very difficult for him. Makes me think he must have other reasons to be here. Sometimes I get the feeling he feels guilty about something he had done and decided to stay to make amends."
+gtit_14 = "治愈术士" ##酒吧侍女
+gtxt_14_0 = "    The 治愈术士 is the most cowardly person I've ever met! Nowadays we're all frightened - but I swear, a loud barking dog would give that man a heart attack. But you know what? I respect him more because he stayed. That must have been very difficult for him. Makes me think he must have other reasons to be here. Sometimes I get the feeling he feels guilty about something he had done and decided to stay to make amends."
 gtxt_14_1 = "    I also noticed how he changed after the bishop vanished and folk started talking about strange rituals happening in the cathedral. Of course, he wouldn't tell me anything. Maybe you'll have more luck talking to him."
 
-gtit_15 = "地下墓穴" ## 治愈者
-gtxt_15_0 = "    There can be no doubt about it. The bishop and his foul rituals are the source of this evil scourge. When he proclaimed himself the Antipope, he not only committed sacrilege but also gained unholy power that allowed him to unleash the infernal hordes upon this land. But it was only possible because of... me."
+gtit_15 = "地下墓穴" ## 治愈术士
+gtxt_15_0 = "    There can be no doubt about it. The bishop and his foul rituals are the source of this evil scourge. When he proclaimed himself 伪教皇, he not only committed sacrilege but also gained unholy power that allowed him to unleash the infernal hordes upon this land. But it was only possible because of... me."
 gtxt_15_1 = "    It was I who found the Manuscript with forbidden knowledge and gave it to him. Oh, I should have kept it hidden! As soon as I showed it to him, I saw his spirit crumbling as he struggled with dark temptations. But I did nothing, so I too must carry the weight of his sins. There, I've finally said it."
 gtxt_15_2 = "    What I lack in courage, I try to make up for with prayer. That's why I believe you are our champion and I must help you. Each day I conquer my fear and remain here. It is my penance."
 
-gtit_16 = "伪教皇" ## 治愈者
-gtxt_16_0 = "    So the Antipope is dead... Thank you for ending his reign. I'm sure the Heavens would prefer me to be the one who brought him down and balanced the scales of justice, but I would never be brave enough to carry out such a courageous quest."
+gtit_16 = "伪教皇" ## 治愈术士
+gtxt_16_0 = "    So 伪教皇 is dead... Thank you for ending his reign. I'm sure the Heavens would prefer me to be the one who brought him down and balanced the scales of justice, but I would never be brave enough to carry out such a courageous 探索."
 gtxt_16_1 = "    Moreover, I vowed to help and protect life, so taking one - even one so twisted by evil as his - goes against that oath. I shall thank the Heavens for sending you to our aid!"
 
 gtit_17 = "地狱" ## 预言家
 gtxt_17_0 = "    I'm afraid I have troubling news that I need to discuss with you. First, you must know that since I came to this town I've been having the most gruesome dreams. At first I suspected rural cuisine was to blame, but lately these visions became too horrid to ignore. Now, it would be a basic mistake to take dreams literally, so I consulted my crystal ball to be certain."
-gtxt_17_1 = "    What I saw terrified me to the bone. There's a mighty will behind the infernal hordes that attack us - the Archdemon himself. The most vile and cruel creature, one with immense dark power. I peered into his fate and saw a glimpse of the past. He used to slumber in his hellish realm until the Antipope awakened him. With each passing hour, the Archdemon's army of horrors is crawling ever closer to the surface. If they succeed, the shadow of darkness will fall on us for all eternity. "
+gtxt_17_1 = "    What I saw terrified me to the bone. There's a mighty will behind the infernal hordes that attack us - 恶魔领主 himself. The most vile and cruel creature, one with immense dark power. I peered into his fate and saw a glimpse of the past. He used to slumber in his hellish realm until 伪教皇 awakened him. With each passing hour, 恶魔领主's army of horrors is crawling ever closer to the surface. If they succeed, the shadow of darkness will fall on us for all eternity. "
 
 gtit_18 = "我的英雄!" ## 酒吧侍女
 gtxt_18_0 = "    你做到了！ The king of 恶魔 has fallen, and at the hand of my friend! I never doubted you. You can't imagine how happy I am. Maybe now the cows will stop breathing fire and giving sour milk. You should know that I will never forget what you did for us. You've earned a very special place in my heart."
 
 gtit_19 = "光明" ## 智者
-gtxt_19_0 = "    So the Archdemon has been slain? Now that is something truly unheard of! At least I've never heard anything like, which amounts to about the same thing. Congratulations, you are a true hero! However, remember that, unlike earthly realms, Hell isn't bound by the laws of nature, and its infernal dungeons stretch into infinity. If your spirit is as steadfast as your hand, you can venture deeper still, face more evil creatures and collect fabulous treasures and powerful artifacts. This adventure isn't over yet."
+gtxt_19_0 = "    So 恶魔领主 has been slain? Now that is something truly unheard of! At least I've never heard anything like, which amounts to about the same thing. Congratulations, you are a true hero! However, remember that, unlike earthly realms, Hell isn't bound by the laws of nature, and its infernal dungeons stretch into infinity. If your spirit is as steadfast as your hand, you can venture deeper still, face more evil creatures and collect fabulous treasures and powerful artifacts. This adventure isn't over yet."
 
 gtit_20 = "胜利" ## 预言家
-gtxt_20_0 = "    So the Archdemon has fallen? Please accept my congratulations - but also hear this warning. Immortal beings do not succumb to death the way we do, and you must always be wary of their inevitable return. Still, let not this grim truth overshadow this victory. Your actions brought a triumph of light over darkness, and for that I owe you countless thanks!"
+gtxt_20_0 = "    So 恶魔领主 has fallen? Please accept my congratulations - but also hear this warning. Immortal beings do not succumb to death the way we do, and you must always be wary of their inevitable return. Still, let not this grim truth overshadow this victory. Your actions brought a triumph of light over darkness, and for that I owe you countless thanks!"
 gtxt_20_1 = "    True strength lies not in arms and spells, but in a steadfast spirit. Without it, no challenge can be tackled. This is what makes you a hero worthy of praise. Your story will be written down and sung. I'll make sure of that as soon as I return to the capital."
 
-gtit_21 = "结束了?" ## 治愈者
-gtxt_21_0 = "    My prayers have been answered - the Archdemon is defeated! There are no words that can express my gratitude. The story of your deeds is already spreading throughout the land and bringing hope to the ones who saved their lives."
+gtit_21 = "结束了?" ## 治愈术士
+gtxt_21_0 = "    My prayers have been answered - 恶魔领主 is defeated! There are no words that can express my gratitude. The story of your deeds is already spreading throughout the land and bringing hope to the ones who saved their lives."
 gtxt_21_1 = "    But I must caution you, champion. Wrestling with darkness stains the soul, and yours has been marked as well. You walk a righteous path, and Heavens love you for that, but Hell's fury knows no limits. True evil can never be entirely destroyed, as it feeds on fear, anger, hate and suffering."
 gtxt_21_2 = "    Now that you've brought it down, it is already licking its wounds. It is the duty of the champion to never lower one's defenses and always be prepared to face the darkness. For it shall return one day, you can be certain of that. Be ready!"
 
-gtit_22 = "药剂"  ## 治愈者
+gtit_22 = "药剂"  ## 治愈术士
 gtxt_22_0 = "    When I was still a young monk, we used to jest that dull brothers excel in copying holy texts and those with any wit left become master brewers. It does not sound very amusing now, but it would bring us to tears back then. Monastic life can be very monotonous, you see."
 gtxt_22_1 = "    Regardless, potion brewing was our specialty. It required hours of prayer and meditation. Nowadays, even a 酒吧侍女 can procure a potent mixture with one hand while stuffing a turkey with the other. And the magical cards allow you to use objects that you don't even have to carry!"
 gtxt_22_2 = "    You might think that as a man devoted to matters of the spirit I may object to the methods of the 预言家. Normally this would be true, but in such dire times, when darkness threatens the light, we need all to use their talents to oppose evil. I believe her gifts are a godsend."
@@ -130,14 +130,14 @@ gtxt_23_1 = "    Running an inn isn't that bad. At least, it wasn't until the da
 gtxt_23_2 = "    I still get a lot of help from the 智者. He may be cranky at times, but he's always treated me like a daughter. Then there's the fortune-teller. She's a fascinating woman, and I'm very lucky to learn from her. And now you're back!"
 ##
 
-gtit_24 = "死亡" ## 治愈者
+gtit_24 = "死亡" ## 治愈术士
 gtxt_24_0= "    When evil strikes you down in the dungeons, it takes a lot of my effort to deliver your soul from the clutches of darkness. Death always takes its toll, so any equipped cards remain at your grave and so will grant you no aid until you retrieve them. Also, some ingredients collected in the arcane cauldron perish, as spells and elixirs are mere tricks in the light of the divine."
 gtxt_24_1= "    Some things cannot be explained, they must be believed... Many scholars devoted their lives of prayer hoping for illumination and understanding of the nature of the soul, but very few succeeded. In the scriptures, they usually compared spiritual links to threads of yarn being cut, and souls to little pots being broken... Then again, holy men are not very skilled when it comes to similes, as their virtue stems from... other qualities."
 
 gtit_25 = "Something Special" ## fortune-teller
 gtxt_25_0 = "Remember how I said that your deeds will be written down and sung? As a matter of fact, we already started preparing something special. We didn't expect you to become victorious so soon, so it's a bit rough. I'm sure this will be a hit in the capital and the King will love it. He literally cried with joy the last time I sang for him. Anyway, ready or not, here it comes... \nWhere have all the good men gone and where are all the gods?\nWhere's the streetwise Hercules to fight the rising odds?"
 
-#################################### 智者的恶魔图鉴 - 系 ##########################
+#################################### 智者的恶魔图鉴 - 类目简介 ##########################
 
 mgtit_1 = "恶魔"
 mgcnt_1 = "恶魔：\^FFFFFF\1/\2\^^"
@@ -161,7 +161,7 @@ mgtit_7 = "石像鬼"
 mgcnt_7 = "石像鬼：\^FFFFFF\1/\2\^^"
 mgtxt_7 = "These creatures are made of stone, which makes them extremely resilient to elements. Fire, frost, or poison cannot harm them. Their abilities are fascinating. When harmed, they petrify and lie in slumber for thousands of years, slowly regenerating. All adventurers should be warned that statues may not be what they seem. Some scholars claim that gargoyles carry a trace of demonic blood. Like that charlatan woman ... although it's much more obvious in her case."
 
-########################### Monster names #################################
+########################### 怪物名称 #################################
 
 monster_unknown_name = "Unknown Beast"
 monster_0_name = "Fallen Imp"
@@ -190,13 +190,13 @@ monster_22_name = "Spect. Whopper"
 monster_23_name = "Mirage 法师"
 monster_24_name = "Skull Spook"
 monster_25_name = "Phantom Beast"
-monster_26_name = "Skeleton 战士"
-monster_27_name = "Shielded Skeleton"
-monster_28_name = "Skeleton Archer"
+monster_26_name = "骷髅战士"
+monster_27_name = "Shielded 骷髅"
+monster_28_name = "骷髅 Archer"
 monster_29_name = "Skelserker"
 monster_30_name = "Cool Archer"
-monster_31_name = "Cool Skeleton"
-monster_32_name = "Skeleton Templar"
+monster_31_name = "Cool 骷髅"
+monster_32_name = "骷髅 Templar"
 monster_33_name = "Skeletomancer"
 monster_34_name = "Whopper"
 monster_35_name = "Hyper Skelserker"
@@ -261,13 +261,13 @@ monster_22_title = "  SPECT. WHOPPER  "
 monster_23_title = "  MIRAGE 法师  "
 monster_24_title = "  SKULL SPOOK  "
 monster_25_title = "  PHANTOM BEAST  "
-monster_26_title = "  SKELETON 战士  "
-monster_27_title = "  SHIELDED SKELETON  "
-monster_28_title = "  SKELETON ARCHER  "
+monster_26_title = "  骷髅战士  "
+monster_27_title = "  SHIELDED 骷髅  "
+monster_28_title = "  骷髅 ARCHER  "
 monster_29_title = "  SKELSERKER  "
 monster_30_title = "  COOL ARCHER  "
-monster_31_title = "  COOL SKELETON  "
-monster_32_title = "  SKELETON TEMPLAR  "
+monster_31_title = "  COOL 骷髅  "
+monster_32_title = "  骷髅 TEMPLAR  "
 monster_33_title = "  SKELETOMANCER  "
 monster_34_title = "  WHOPPER  "
 monster_35_title = "  HYPER SKELSERKER  "
@@ -305,7 +305,7 @@ monster_66_title = "  HAMMER GARGOYLE  "
 monster_67_title = "  UBER GARGOYLE  "
 monster_68_title = "  HORROR GARGOYLE  "
 
-################################### 智者的怪物图鉴 ##########################
+################################### 智者的怪物图鉴 - 怪物简介 ##########################
 
 monster_unknown_txt = "你还没见过此怪物"
 monster_0_txt = "恶作剧小恶魔，喜欢玩耍和挖人的眼睛。尽快处理掉它，因为它在本质上是懦弱的，在受伤的时候会逃跑。"
@@ -334,18 +334,18 @@ monster_22_txt = "Judging by its great size and significant power, a soul that b
 monster_23_txt = "Elusive soul of bitter 法师. While retaining some of its magic skills, it gained the ability to jaunt through the ether. Teleport in other words. So annoying."
 monster_24_txt = "This one is particularly annoying. Bodiless skull that used to belong to someone called Murray. It covers ground with ice, rendering travel difficult and finds itself very amusing. No wonder it ended in hell."
 monster_25_txt = "No idea which animal this is a 鬼魂 of, but it surely was furious and projected bouncing orbs of arcane cold."
-monster_26_txt = "I never thought I would say it, but compared to other dwellers of the underground this is just a plain old walking skeleton."
+monster_26_txt = "I never thought I would say it, but compared to other dwellers of the underground this is just a plain old walking 骷髅."
 monster_27_txt = "Some walking skeletons still carry shields in different stages of decay. Before you can harm them, you must first break through their defences."
-monster_28_txt = "Walking skeleton with a bow. Surprisingly effective archer. Have you ever tried to hold an arrow without flesh on your fingertips?"
-monster_29_txt = "This is one angry skeleton. Jabs, slashes and cuts. Very aggressive and dangerous."
+monster_28_txt = "Walking 骷髅 with a bow. Surprisingly effective archer. Have you ever tried to hold an arrow without flesh on your fingertips?"
+monster_29_txt = "This is one angry 骷髅. Jabs, slashes and cuts. Very aggressive and dangerous."
 monster_30_txt = "Some skeletal archers carry enchanted arrows that can chill your blood and make you sluggish. I call them Cool Archers, get it?"
-monster_31_txt = "My hypothesis is that this must be a skeleton from ancient times, when the world was bound in ice. Uses primitive tools and not very refined tactics. Still, a formidable enemy due to its freezing touch."
+monster_31_txt = "My hypothesis is that this must be a 骷髅 from ancient times, when the world was bound in ice. Uses primitive tools and not very refined tactics. Still, a formidable enemy due to its freezing touch."
 monster_32_txt = "Others tried to defeat Archdemon before you and failed. Their animated powerful corpses now wander the dungeons. By the force of habit, they still stick to paths and rarely wash. "
 monster_33_txt = "Some necromancers eventually fade away and become powerful skeletal wizards. They can call more skeletal minions to their aid and even bar death herself from reclaiming them. "
-monster_34_txt = "Lumbering skeleton of fallen giant. To kill him again is no small feat, for his bones do not break easily. "
-monster_35_txt = "Some skeleton 战士s are so enraged and mad at the living that I decided to create a special category just for them. What kind of person resorts to ambush, even after death?"
+monster_34_txt = "Lumbering 骷髅 of fallen giant. To kill him again is no small feat, for his bones do not break easily. "
+monster_35_txt = "Some 骷髅 战士s are so enraged and mad at the living that I decided to create a special category just for them. What kind of person resorts to ambush, even after death?"
 monster_36_txt = "As I mentioned before, fallen heroes retain some of their habits, including poor hygiene. This, and rot, sometimes makes them... a bit too ripe to withstand."
-monster_37_txt = "Huge skeleton of a fallen giant. And it's on fire. Needless to say, try to keep your distance and prepare for a difficult fight."
+monster_37_txt = "Huge 骷髅 of a fallen giant. And it's on fire. Needless to say, try to keep your distance and prepare for a difficult fight."
 monster_38_txt = "These cold-boned skeletons with their burning arrows can really make your day bad. And by that I mean they can kill you."
 monster_39_txt = "Undead remains of heroes fallen by burning 恶魔. Violence is their sole vocation, dead eyes filled with hatred. At least fires kill the smell."
 monster_40_txt = "Raging undead giant with enough strength remaining to toss boulders at his enemies. At least it's not on fire. Oh, wait. It is."
@@ -359,7 +359,7 @@ monster_47_txt = "Apparently, having ancient dungeons infested with man-eating s
 monster_48_txt = "You heard right. Undead skeletal spider. Actually, spiders have exoskeletons, so this one doesn't make much sense. My guess is that they are assembled in hell from loose bones and random parts."
 monster_49_txt = "Burning scorpion the size of a horse. When killed it somehow summons fire imps . Not sure what advice I can give you on that. I would run, but that's why you're the hero and not me. And why I'm still alive."
 monster_50_txt = "Burning gigantic spider. Yes. But there is good news, too! At least we haven't encountered flying spiders. Yet."
-monster_51_txt = "Pretty much the same thing as a skeleton, just still covered in rotting meat. And stronger. Also tends to explode in a poisonous miasma when killed. But otherwise it's just a skeleton."
+monster_51_txt = "Pretty much the same thing as a 骷髅, just still covered in rotting meat. And stronger. Also tends to explode in a poisonous miasma when killed. But otherwise it's just a 骷髅."
 monster_52_txt = "Hogs have been disappearing from our forest for some time now... Turns out their bloated corpses are floating in the dungeons. I guess pigs can fly after all. Just don't be around when one bursts."
 monster_53_txt = "Undead farmer, still wielding his pitchfork. Probably last thing he did before death was fork manure, because even a small cut from his improvised weapon results in serious poisoning."
 monster_54_txt = "Zombie priest. Can convert others to his zombie faith and seep poison into the ears of the living."

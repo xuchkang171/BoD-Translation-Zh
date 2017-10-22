@@ -1,0 +1,13 @@
+#R2G Game Files:
+*.pac
+*.mdmp
+*.bin
+ChromaAppInfo.xml
+ChromiumResources/
+TouchMenuIcons/
+Translation-stats/Progress.txt
+changelog.txt
+icudtl.dat
+nofeedback.txt
+registry.xml
+tools/
