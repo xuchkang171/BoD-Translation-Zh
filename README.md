@@ -1,18 +1,18 @@
 # Progress
 
-21071023 翻译进度：44% (2000/4506)
-lang_zh\launcher.utf8: 已翻译 62% (623/1001)
-bod_lang_zh_demo\bod_demo_main.utf8: 已翻译 44% (942/2154)
-bod_lang_zh_demo\bod_demo_cards.utf8: 已翻译 31% (329/1057)
-bod_lang_zh_demo\bod_demo_gossips.utf8: 已翻译 36% (106/294)
+* 21071023 翻译进度：44% (2000/4506)
+* lang_zh\launcher.utf8: 已翻译 62% (623/1001)
+* bod_lang_zh_demo\bod_demo_main.utf8: 已翻译 44% (942/2154)
+* bod_lang_zh_demo\bod_demo_cards.utf8: 已翻译 31% (329/1057)
+* bod_lang_zh_demo\bod_demo_gossips.utf8: 已翻译 36% (106/294)
 
 ---
 
-Translation progress: 44% (2000/4506)
-lang_zh\launcher.utf8: 62% (623/1001) translated in 1252 rows.
-bod_lang_zh_demo\bod_demo_main.utf8: 44% (942/2154) translated in 2837 rows.
-bod_lang_zh_demo\bod_demo_cards.utf8: 31% (329/1057) translated in 1326 rows.
-bod_lang_zh_demo\bod_demo_gossips.utf8: 36% (106/294) translated in 391 rows.
+* 21071023 Translation progress: 44% (2000/4506)
+* lang_zh\launcher.utf8: 62% (623/1001) translated in 1252 rows.
+* bod_lang_zh_demo\bod_demo_main.utf8: 44% (942/2154) translated in 2837 rows.
+* bod_lang_zh_demo\bod_demo_cards.utf8: 31% (329/1057) translated in 1326 rows.
+* bod_lang_zh_demo\bod_demo_gossips.utf8: 36% (106/294) translated in 391 rows.
 
 # Instalation
 
