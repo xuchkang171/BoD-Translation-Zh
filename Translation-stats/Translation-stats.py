@@ -1,12 +1,13 @@
-import re
+import re, os
 
 
-# Revise following two defines before you start using this program. (Line 6 and 8)
+# Revise following two defines (language_code and r2g_path) before you start using this program.
 # Two-letter codes, represents the target language of translation you're working on.
 language_code = "zh" # Check https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for yours.
 # Path of your R2G folder (WITHOUT A BACKSLASH AT THE END)
-r2g_path      = r"G:\SteamLibrary\steamapps\common\Return 2 Games"
-
+# r2g_path      = r"G:\SteamLibrary\steamapps\common\Return 2 Games"
+r2g_path      = os.path.abspath(os.path.join(os.getcwd(), os.pardir)) # In this way, this file should lies in subfolder
+                                                                      # of Return 2 Games folder.
 launcher_path = r2g_path + r"\lang_{}\launcher.utf8".format(language_code)
 main_path     = r2g_path + r"\bod_lang_{}_demo\bod_demo_main.utf8".format(language_code)
 cards_path    = r2g_path + r"\bod_lang_{}_demo\bod_demo_cards.utf8".format(language_code)
@@ -50,3 +51,5 @@ log = summary + log
 f = open('Progress.txt', 'w')
 f.write(log)
 f.close()
+
+os.startfile("Progress.txt")

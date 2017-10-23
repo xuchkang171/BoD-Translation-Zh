@@ -1,4 +1,4 @@
-# Progress
+# 进度 Progress
 
 * 21071023 翻译进度：44% (2000/4506)
 * lang_zh\launcher.utf8: 已翻译 62% (623/1001)
@@ -14,7 +14,7 @@
 * bod_lang_zh_demo\bod_demo_cards.utf8: 31% (329/1057) translated in 1326 rows.
 * bod_lang_zh_demo\bod_demo_gossips.utf8: 36% (106/294) translated in 391 rows.
 
-# Instalation
+# 安装 Instalation
 
 1. 下载 https://github.com/xuchkang171/BoD-Translation-Zh.git
 2. 将压缩包内 BoD-Translation-Zh-master 文件夹中的 lang_zh 和 bod_lang_zh_demo 两个文件夹复制；
