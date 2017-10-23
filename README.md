@@ -1,4 +1,4 @@
-# 进度 Progress
+# 翻译进度 Progress of Translation
 
 * 21071023 翻译进度：44% (2000/4506)
 * lang_zh\launcher.utf8: 已翻译 62% (623/1001)
@@ -6,28 +6,39 @@
 * bod_lang_zh_demo\bod_demo_cards.utf8: 已翻译 31% (329/1057)
 * bod_lang_zh_demo\bod_demo_gossips.utf8: 已翻译 36% (106/294)
 
----
+# 如何使用 How to use
 
-* 21071023 Translation progress: 44% (2000/4506)
-* lang_zh\launcher.utf8: 62% (623/1001) translated in 1252 rows.
-* bod_lang_zh_demo\bod_demo_main.utf8: 44% (942/2154) translated in 2837 rows.
-* bod_lang_zh_demo\bod_demo_cards.utf8: 31% (329/1057) translated in 1326 rows.
-* bod_lang_zh_demo\bod_demo_gossips.utf8: 36% (106/294) translated in 391 rows.
+## 下载 How to download
+1.下载 https://github.com/xuchkang171/BoD-Translation-Zh/releases/download/0.1.0/0.1.0.7z
 
-# 安装 Instalation
+Download https://github.com/xuchkang171/BoD-Translation-Zh/releases/download/0.1.0/0.1.0.7z
 
-1. 下载 https://github.com/xuchkang171/BoD-Translation-Zh.git
-2. 将压缩包内 BoD-Translation-Zh-master 文件夹中的 lang_zh 和 bod_lang_zh_demo 两个文件夹复制；
-3. 打开 Steam 的「库」。
-4. 右键点击 Book of Demons，选择「属性」->「本地文件」->「浏览本地文件」。
-5. 将复制的两个文件夹粘贴到这里。
-6. 重启游戏，在游戏的设置中切换为简体中文即可。
+2.打开游戏文件夹：打开 Steam 的「库」。右键点击 Book of Demons，选择「属性」->「本地文件」->「浏览本地文件」。
 
----
+Open Steam library. Right click on Book of Demons, click properties, local files, brower local files.
 
-1. Download https://steamcommunity.com/linkfilter/?url=https://github.com/xuchkang171/BoD-Translation-Zh.git and unzip.
-2. Copy folder lang_zh and bod_lang_zh_demo in BoD-Translation-Zh-master.
-3. Open Steam library.
-4. Right click on Book of Demons, click properties, local files, brower local files.
-5. Paste those two folders here.
-6. Restart game and sets language.
+3.将压缩包内的三个文件夹解压缩，放到这里。目录结构应为:
+
+Put Three folders here, like:
+
+* path\to\my\Book of Demons\bod_lang_zh_demo
+* path\to\my\Book of Demons\lang_zh
+* path\to\my\Book of Demons\Translation-stats
+
+## 使用翻译 Apply the translation
+如上下载并解压缩之后：重启游戏，在游戏的设置中切换为简体中文即可。
+
+After Download the unzip as above, restart the game, and change language setting.
+
+## 查看翻译进度 Check translation progress
+运行 Translation-stats 文件夹中的 Translation-stats.exe。
+
+Run Translation-stats\Translation-stats.exe
+
+（译者）如果只需要该功能，则只需要 Translation-stats 文件夹即可，放在如上相对应的位置（即与「你的」 bod_lang_zh_demo 与 lang_zh 同级），然后运行其中 Translation-stats.exe 即可。目录结构如：
+
+If all you want is the program, you just need Translation-stats folder. Download it and place it like above, then run Translation-stats.exe.   
+
+* path\to\my\translation\bod_lang_zh_demo
+* path\to\my\translation\lang_zh
+* path\to\my\translation\Translation-stats
