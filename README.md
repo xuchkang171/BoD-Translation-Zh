@@ -13,7 +13,7 @@
 # 如何使用 How to use
 
 ## 下载 How to download
-1.下载最新版本：https://github.com/xuchkang171/BoD-Translation-Zh/releases
+1.在此下载最新版翻译文件：https://github.com/xuchkang171/BoD-Translation-Zh/releases
 
 Download latest relase here: https://github.com/xuchkang171/BoD-Translation-Zh/releases
 
