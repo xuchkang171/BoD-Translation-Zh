@@ -593,7 +593,7 @@ npc_sage_identify_card_btn_no_gold_ttip = "金币不足，无法鉴定卡牌"
 npc_sage_identify_card_btn_not_sel_ttip = "选择要鉴定的卡牌"
 
 npc_sage_monster_unmet_ttip = "未遭遇的怪物"
-npc_sage_monster_kills_info = "击杀：\^FFFFFF\1\^^"
+npc_sage_monster_kills_info = "已击杀：\^FFFFFF\1\^^"
 npc_sage_monster_click_info = "点击\s9左键以了解更多"
 npc_sage_monster_click_info_pad = "按\s9以了解更多"
 
@@ -601,8 +601,8 @@ npc_sage_monster_click_info_pad = "按\s9以了解更多"
 npc_name_3 = "预言家"
 npc_description_3 = "你！等等！我能看到你的未来，充满凶险。除非，你能用上几张我的魔法卡牌。"
 npc_button1_3 = "流言"
-npc_button2_3 = "升级卡牌"
-npc_button2_3_with_num = "升级卡牌 (\1)"
+npc_button2_3 = "卡牌升级"
+npc_button2_3_with_num = "卡牌升级 (\1)"
 npc_button3_3 = "补充卡牌"
 npc_button3_3_with_num = "补充卡牌 (\1/\2)"
 npc_button4_3 = "熔合符文"
@@ -1126,7 +1126,7 @@ dung_death_killer_unknown = "神秘力量"
 dung_death_share = "\si分享"
 dung_death_time_of_death = "死亡时间：\^FFFFFF\4:\5 \3-\2-\1\^^"  ## year, month, day, hour, minute
 
-\^FFFFFF\6\^^所杀
+
 ###################################################
 ## Loading Screen - tips displayed while loading and other infos
 ###################################################
@@ -2201,7 +2201,7 @@ fake_daredevil_09_name = "Whopper"
 fake_daredevil_09_depth = "1000"
 fake_daredevil_10_name = "Uber Gargoyle"
 fake_daredevil_10_depth = "2000"
-fake_daredevil_11_name = "Chaotic Goat"
+fake_daredevil_11_name = "混沌山羊"
 fake_daredevil_11_depth = "3000"
 fake_daredevil_12_name = "Tiny Spectre"
 fake_daredevil_12_depth = "4000"
@@ -2211,11 +2211,11 @@ fake_daredevil_14_name = "Mirage Lancer"
 fake_daredevil_14_depth = "6000"
 fake_daredevil_15_name = "Arachnod"
 fake_daredevil_15_depth = "7000"
-fake_daredevil_16_name = "Slithering 战士"
+fake_daredevil_16_name = "滑行 战士"
 fake_daredevil_16_depth = "8000"
 fake_daredevil_17_name = "Phantom Beast"
 fake_daredevil_17_depth = "10000"
-fake_daredevil_18_name = "Succubus"
+fake_daredevil_18_name = "女妖"
 fake_daredevil_18_depth = "20000"
 fake_daredevil_19_name = "Horror Gargoyle"
 fake_daredevil_19_depth = "40000"
@@ -2358,7 +2358,7 @@ boss_1504_name = "Stoneform Brute"
 boss_1505_name = "Hammered Beast"
 boss_1506_name = "Corrupted Stone"
 
-#Goatchanter
+#山羊神父
 boss_1601_name = "Beeeeeelzebub"
 boss_1602_name = "Mr. GoaTee"
 boss_1603_name = "Chaotic Bleat"
@@ -2375,7 +2375,7 @@ boss_1705_name = "Tresh the Rottenheart"
 boss_1706_name = "Rollo the Disgusting"
 boss_1707_name = "Snosh the Smelling"
 
-#Succubus
+#女妖
 boss_1801_name = "Enticing Death"
 boss_1802_name = "Tantalizing Agony"
 boss_1803_name = "Intriguing Decay"
@@ -2502,14 +2502,14 @@ boss_2909_name = "The Big Bold"
 
 #Slith Archer
 boss_3001_name = "Hawkeyed Snake"
-boss_3002_name = "Slithering Sharpshooter"
+boss_3002_name = "滑行 Sharpshooter"
 boss_3003_name = "The Quick Serpent"
 boss_3004_name = "Agile Reptile"
 boss_3005_name = "Viper Arrow"
 boss_3006_name = "Swifthanded Snake"
 boss_3007_name = "Spikegiver"
 boss_3008_name = "Two Arrows one Snake"
-boss_3009_name = "Swift Slithering"
+boss_3009_name = "Swift 滑行"
 
 #Petit Gargoyle
 boss_3101_name = "Swiftstone"
@@ -2523,7 +2523,7 @@ boss_3108_name = "Petit Granite"
 boss_3109_name = "Gray Matter"
 boss_3110_name = "Stoned Smell"
 
-#Diabolist
+#暗黑魔法师
 boss_3201_name = "Ultharm the Black"
 boss_3202_name = "Sthresuhr the Fearsome"
 boss_3203_name = "Muggaz the Flame"
@@ -2549,7 +2549,7 @@ boss_3310_name = "Rufus the Green"
 
 #Slith Horror
 boss_3401_name = "Furious Snakeform"
-boss_3402_name = "Slithering Blades"
+boss_3402_name = "滑行 Blades"
 boss_3403_name = "Winged Death"
 boss_3404_name = "Viperswords"
 boss_3405_name = "Blazing Reptile"
@@ -2571,7 +2571,7 @@ boss_3508_name = "Lord Blazeface"
 boss_3509_name = "Lord Pyrecold"
 boss_3510_name = "Lord Tinderwinter"
 
-#Elder Goatchanter 
+#Elder 山羊神父 
 boss_3601_name = "Beastfang"
 boss_3602_name = "Fanghorn"
 boss_3603_name = "Clawcaster"
@@ -2599,7 +2599,7 @@ boss_3711_name = "Bone Sorcerer"
 boss_3712_name = "Outlawed Warlock"
 boss_3713_name = "Evil Witch"
 
-#Incubus
+#梦魇
 boss_3801_name = "Enticing Muscle"
 boss_3802_name = "Tantalizing Brute"
 boss_3803_name = "Intriguing Flame"
@@ -2641,7 +2641,7 @@ boss_4103_name = "Crypto Verde"
 boss_4201_name ="Flying Wong Hog"
 boss_4202_name ="Cursed Hog"
 boss_4203_name ="Chunky Smoke"
-boss_4204_name ="Green Glutton"
+boss_4204_name ="Green 暴食者"
 boss_4205_name ="Gas Bombino"
 
 #PlowingCorpse
@@ -2701,14 +2701,14 @@ boss_5004_name ="Ex-Fortuneteller"
 boss_5005_name ="Masked Frost"
 boss_5006_name ="Ice Hands"
 
-# Glutton
+# 暴食者
 boss_5101_name = "Glu Glu"
 boss_5102_name = "Glu Glu"
 boss_5103_name = "Glu Glu"
 boss_5104_name = "Glu Glu"
 boss_5105_name = "Glu Glu"
 
-#Slithering Horror  Magus
+#滑行 Horror 法师
 boss_5201_name = "Sneaky 法师"
 boss_5202_name = "Sneaky 法师"
 boss_5203_name = "Sneaky 法师"
@@ -2756,23 +2756,23 @@ boss_10214_name = "\smThe Archdemon"
 boss_10215_name = "\smThe Archdemon"
 
 #Archdemon 挑战 Bosses
-#Slith Horror Magus
-boss_10301_name = "Slithering Seal Guardian"
-boss_10302_name = "Slithering Seal Guardian"
-boss_10303_name = "Slithering Seal Guardian"
+#Slith Horror法师
+boss_10301_name = "滑行 Seal Guardian"
+boss_10302_name = "滑行 Seal Guardian"
+boss_10303_name = "滑行 Seal Guardian"
 #Slith 战士
-boss_10401_name = "Slithering Seal Guardian"
-boss_10402_name = "Slithering Seal Guardian"
-boss_10403_name = "Slithering Seal Guardian"
+boss_10401_name = "滑行 Seal Guardian"
+boss_10402_name = "滑行 Seal Guardian"
+boss_10403_name = "滑行 Seal Guardian"
 #Slith Archer
-boss_10501_name = "Slithering Seal Guardian"
-boss_10502_name = "Slithering Seal Guardian"
-boss_10503_name = "Slithering Seal Guardian"
-#Diabolist
+boss_10501_name = "滑行 Seal Guardian"
+boss_10502_name = "滑行 Seal Guardian"
+boss_10503_name = "滑行 Seal Guardian"
+#暗黑魔法师
 boss_10601_name = "Demonic Seal Guardian"
 boss_10602_name = "Demonic Seal Guardian"
 boss_10603_name = "Demonic Seal Guardian"
-#Incubus
+#梦魇
 boss_10701_name = "Demonic Seal Guardian"
 boss_10702_name = "Demonic Seal Guardian"
 boss_10703_name = "Demonic Seal Guardian"

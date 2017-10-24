@@ -1,10 +1,14 @@
-# 翻译进度 Progress of Translation
+# 更新动态 Update activities
+* 2017-10-24: 46% (+70: launcher:+0 / main:+14 / cards:+8 / gossips:+48)
+* 2017-10-23: 44%
 
-* 21071023 翻译进度：44% (2000/4506)
-* lang_zh\launcher.utf8: 已翻译 62% (623/1001)
-* bod_lang_zh_demo\bod_demo_main.utf8: 已翻译 44% (942/2154)
-* bod_lang_zh_demo\bod_demo_cards.utf8: 已翻译 31% (329/1057)
-* bod_lang_zh_demo\bod_demo_gossips.utf8: 已翻译 36% (106/294)
+# 当前进度详情 Progress details
+
+* Translation progress: 46% (2070/4506)
+* lang_zh\launcher.utf8: 62% (623/1001) translated in 1252 line.
+* bod_lang_zh_demo\bod_demo_main.utf8: 44% (956/2154) translated in 2837 line.
+* bod_lang_zh_demo\bod_demo_cards.utf8: 32% (337/1057) translated in 1326 line.
+* bod_lang_zh_demo\bod_demo_gossips.utf8: 52% (154/294) translated in 391 line.
 
 # 如何使用 How to use
 
@@ -21,9 +25,9 @@ Open Steam library. Right click on Book of Demons, click properties, local files
 
 Put Three folders here, like:
 
-* path\to\my\Book of Demons\bod_lang_zh_demo
-* path\to\my\Book of Demons\lang_zh
-* path\to\my\Book of Demons\Translation-stats
+    path\to\my\Book of Demons\bod_lang_zh_demo
+    path\to\my\Book of Demons\lang_zh
+    path\to\my\Book of Demons\Translation-stats
 
 ## 使用翻译 Apply the translation
 如上下载并解压缩之后：重启游戏，在游戏的设置中切换为简体中文即可。
@@ -39,6 +43,6 @@ Run Translation-stats\Translation-stats.exe
 
 If all you want is the program, you just need Translation-stats folder. Download it and place it like above, then run Translation-stats.exe.   
 
-* path\to\my\translation\bod_lang_zh_demo
-* path\to\my\translation\lang_zh
-* path\to\my\translation\Translation-stats
+    path\to\my\translation\bod_lang_zh_demo
+    path\to\my\translation\lang_zh
+    path\to\my\translation\Translation-stats
