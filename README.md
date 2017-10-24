@@ -15,7 +15,7 @@
 ## 下载 How to download
 1.在此下载最新版翻译文件(7z后缀)：https://github.com/xuchkang171/BoD-Translation-Zh/releases
 
-Download latest relase here(*.7z): https://github.com/xuchkang171/BoD-Translation-Zh/releases
+Download latest relase(*.7z) here: https://github.com/xuchkang171/BoD-Translation-Zh/releases
 
 2.打开游戏文件夹：打开 Steam 的「库」。右键点击 Book of Demons，选择「属性」->「本地文件」->「浏览本地文件」。
 
