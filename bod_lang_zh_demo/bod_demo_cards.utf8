@@ -88,25 +88,25 @@ crd_nomana = "法力不足!"
 
 ############################# 卡牌描述文本 #############################
 
-crd_0_desc = "生命药水" # Name that appears on card discovery window 
-crd_0_full = "生命药水" # Name that appears in tooltip of a card
-crd_0_short = "生命药水" # Short name that appears directly on card (max 13 characters!!!)
+crd_0_desc = "生命药剂" # Name that appears on card discovery window 
+crd_0_full = "生命药剂" # Name that appears in tooltip of a card
+crd_0_short = "生命药剂" # Short name that appears directly on card (max 13 characters!!!)
 crd_0_ttip_desc_0 = "立即恢复生命：\^FFFFFF20\^^\s3\1\m0.2"
 crd_0_ttip_desc_1 = "立即恢复生命：\^FFFFFF40\^^\s3\1\m0.2"
 crd_0_ttip_desc_2 = "立即恢复生命：\^FFFFFF60\^^\s3\1\m0.2"
 crd_0_ttip_desc_core = "快速恢复生命"
 crd_0_ttip_width_off = "0" #used in code to adjust tooltip width. Must be an integer value. Do not specify if not needed, zero assumed.
 crd_0_name_gg = "m" #designates gender used for params names m- male, f-female n- neutral
-##传奇变种 of 生命药水
+##传奇变种 of 生命药剂
 crd_leg_36_desc = "赤泪" # Name that appears on card discovery window
 crd_leg_36_full = "赤泪" # Name that appears in tooltip of a card
 crd_leg_36_short = "赤泪" # Short name that appears directly on card (max 13 characters!!!)
-crd_leg_36_desc_core = "\"别喝治疗药水了，看看这个！\"" ## "Epic" description
+crd_leg_36_desc_core = "\"别喝治疗药剂了，看看这个！\"" ## "Epic" description
 crd_param_leg_36_tt = "\sq 使用后免疫伤害，持续\^FFFFFF \1秒\^^。\m0.2" ## Descirption of epic ability of the card
 
-crd_1_desc = "魔法药水"
-crd_1_full = "魔法药水"
-crd_1_short = "魔法药水"
+crd_1_desc = "魔法药剂"
+crd_1_full = "魔法药剂"
+crd_1_short = "魔法药剂"
 crd_1_ttip_desc_0 = "立即恢复法力：\^FFFFFF20\^^\s4\1\m1.2法术卡牌使用时才消耗法力\m0.2"
 crd_1_ttip_desc_1 = "立即恢复法力：\^FFFFFF40\^^\s4\1\m1.2法术卡牌使用时才消耗法力\m0.2"
 crd_1_ttip_desc_2 = "立即恢复法力：\^FFFFFF60\^^\s4\1\m1.2法术卡牌使用时才消耗法力\m0.2"
@@ -148,9 +148,9 @@ crd_leg_39_short = "宙斯盾"
 crd_leg_39_desc_core = "Have a taste of your own medicine!"
 crd_param_leg_39_tt = "\sq Chance to deflect blocked missile back at the enemy: \^FFFFFF30%\^^\m0.2"
 
-crd_4_desc = "小镇传送门"
-crd_4_full = "小镇传送门"
-crd_4_short = "小镇传送门"
+crd_4_desc = "小镇卷轴"
+crd_4_full = "小镇卷轴"
+crd_4_short = "小镇卷轴"
 crd_4_ttip_desc_0 = ""
 crd_4_ttip_desc_1 = ""
 crd_4_ttip_desc_2 = ""
@@ -206,9 +206,9 @@ crd_leg_44_short = "HEART BREAKER"
 crd_leg_44_desc_core = "\"Oops.. I did it again. I played with your heart, got lost in the game.\""
 crd_param_leg_44_tt = "\sq Chance to hit nearby enemy when picking up health or mana:\^FFFFFF \1%\^^.\m0.2"
 
-crd_7_desc = "神圣药水"
-crd_7_full = "神圣药水"
-crd_7_short = "神圣药水"
+crd_7_desc = "神圣药剂"
+crd_7_full = "神圣药剂"
+crd_7_short = "神圣药剂"
 crd_7_ttip_desc_0 = ""
 crd_7_ttip_desc_1 = ""
 crd_7_ttip_desc_2 = ""
@@ -248,9 +248,9 @@ crd_leg_47_short = "THE NARCISSIST"
 crd_leg_47_desc_core = "A true dog in the manger!"
 crd_param_leg_47_tt = "\sq Monsters cannot heal when this card is on 冷却\m0.2"
 
-crd_10_desc = "回春药水"
-crd_10_full = "回春药水"
-crd_10_short = "回春药水"
+crd_10_desc = "再生药剂"
+crd_10_full = "再生药剂"
+crd_10_short = "再生药剂"
 crd_10_ttip_desc_0 = "立即恢复生命：\^FFFFFF30\^^\s3\1\m1.2Instant mana restore: \^FFFFFF30\^^\s4\2\m0.2"
 crd_10_ttip_desc_1 = "立即恢复生命：\^FFFFFF60\^^\s3\1\m1.2Instant mana restore: \^FFFFFF60\^^\s4\2\m0.2"
 crd_10_ttip_desc_2 = "立即恢复生命：\^FFFFFF90\^^\s3\1\m1.2Instant mana restore: \^FFFFFF90\^^\s4\2\m0.2"
@@ -1146,7 +1146,7 @@ crd_upgrade_cost_gold_ttip = "升级花费：\1 金币"
 
 ################################# 变种卡牌效果 ##########################
 
-crd_param_potions_tt = "\sp 药水效果：\^FFFFFF +\1%\^^\m0.2"
+crd_param_potions_tt = "\sp 药剂效果：\^FFFFFF +\1%\^^\m0.2"
 crd_param_cooldowns_tt = "\sp 冷却时间减少：\^FFFFFF \1%\^^\m0.2"
 crd_param_dodge_tt = "\sp 闪避机率：\^FFFFFF +\1%\^^\m0.2"
 crd_param_drop_tt = "\sp 更高机率掉落已装备物品卡牌的充能\m0.2"
