@@ -563,11 +563,10 @@ crd_31_ttip_desc_2 = "Monsters entering 盗贼's melee range are hit for \^FFFFF
 crd_31_ttip_desc_core = "Deals damage to monsters entering melee range"
 crd_31_name_gg = "m"
 ## Claws - 传奇变种 1
-crd_leg_98_desc = "Icy Claws"
-crd_leg_98_full = "ICY CLAWS"
-crd_leg_98_short = "ICY CLAWS"
-crd_leg_98_desc_core = "One scratch can chill enemy to the core"
-crd_param_leg_98_tt = "\sq Deals ice damage\m1.2\sq Chance to slow on hit \^FFFFFF\1%\^^\m0.2"
+crd_leg_98_desc = "Santa Claws"
+crd_leg_98_full = "SANTA CLAWS"
+crd_leg_98_short = "SANTA CLAWS"
+crd_leg_98_desc_core = "You better watch out, you better not cry, better not shout I'm telling you why - Skeletons are coming to town!"
 ## Claws - 传奇变种 2
 crd_leg_99_desc = "Burning Claws"
 crd_leg_99_full = "BURNING CLAWS"
