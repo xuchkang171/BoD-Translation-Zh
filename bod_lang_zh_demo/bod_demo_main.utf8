@@ -34,7 +34,7 @@ igm_tobii_ttip = "如需启用眼睛跟踪功能，请连接Tobii EyeX设备后�
 igm_exit = "退出游戏回到桌面"
 igm_menu = "退出当前进度"
 igm_options = "选项"
-igm_awards = "查看奖杯"
+igm_awards = "查看成就"
 igm_paused = "~ 游戏已暂停 ~"
 igm_options_title = "选项"
 igm_settings = "视频，音频和语言"
@@ -73,7 +73,7 @@ ch_smart_walk_ttip = "游戏人物试图直接穿过路口"
 ch_click_walk_ttip = "点击鼠标左键移动游戏人物"
 chk_smart_walk = "智能键盘移动控制"
 chk_mouse_emu = "摇杆模拟鼠标"
-ch_mouse_emu_ttip = "In windows and GUI controller emulates mouse"
+ch_mouse_emu_ttip = "在Windows和GUI控制器中模拟鼠标"
 
 bod_select_key = "请按键"
 bod_used_key = "按键已被使用！"
@@ -126,19 +126,19 @@ bod_ctrl_map_pad_rt = "特殊攻击"
 
 ## Key codes/names - should be short; codes will be displayed in limited space
 
-bod_generic_key = "Key code:\1"
-bod_now_allowed_key = "Reserved"
+bod_generic_key = "键码：\1"
+bod_now_allowed_key = "保留键"
 
-bod_key_1 = "MOUSE 1"
-bod_key_2 = "MOUSE 2"
-bod_key_4 = "MOUSE 3"
-bod_key_5 = "MOUSE 4"
-bod_key_6 = "MOUSE 5"
+bod_key_1 = "鼠标键1"
+bod_key_2 = "鼠标键2"
+bod_key_4 = "鼠标键3"
+bod_key_5 = "鼠标键4"
+bod_key_6 = "鼠标键5"
 
 bod_key_3 = "CANCEL"
 bod_key_8 = "退格键"
 bod_key_9 = "TAB"
-bod_key_12 = "CLEAR"
+bod_key_12 = "清除键"
 bod_key_13 = "RETURN"
 bod_key_32 = "空格"
 bod_key_16 = "SHIFT"
@@ -387,7 +387,7 @@ char_slot_title = "选择\1人物"
 char_slot_rem_title = "删除人物"
 char_slot_rem_bod = "确定永久删除该人物吗？"
 
-#back_to_menu = "Back To The Archive" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
+#back_to_menu = "Back To The Archive" <- This is moved to the end of file and should always be there (so we can easily see if the file is 腐烂)
 enter_town = "进入小镇"
 create_char = "创建人物"
 sel_cont = "继续游戏"
@@ -765,7 +765,7 @@ cc_quest_start_ttip_master = "将允许设置挑战为大师级别"
 cc_quest_start_ttip_no_key = "现在无法开启挑战。\n\^FF4832你没有钥匙\^^"
 cc_quest_start_ttip_locked = "现在无法开启挑战。\n\^FF4832另一场挑战尚未结束\^^"
 cc_quest_start_ttip_locked_no_keys = "现在无法开启挑战。\n\^FF4832另一场挑战尚未结束\n你没有钥匙\^^"
-cc_quest_start_ttip_disabled = "Mastering quests is disabled in this version"
+cc_quest_start_ttip_disabled = "任务精通在当前版本中已被禁用"
 
 cc_ts_0_first_game_label = "开启迷宫"
 cc_ts_1_first_game_label = "开启地下墓穴"
@@ -914,9 +914,9 @@ cc_qm_frame = "征服挑战"
 cc_qm_title_1 = "厨子"
 cc_qm_title_2 = "伪教皇"
 cc_qm_title_3 = "恶魔领主"
-cc_qm_desc_1 = "Challenge the Cook once again in Hells Kitchen itself. Prove one more time who's the true Master Chef under the Cathedral."
-cc_qm_desc_2 = "Select the 挑战 difficulty you would like to master."
-cc_qm_desc_3 = "Select the 挑战 difficulty you would like to master."
+cc_qm_desc_1 = "在地狱厨房里再次挑战厨师. 再证明一次大教堂里谁才是真正的主人。"
+cc_qm_desc_2 = "选择你想征服的任务难度。"
+cc_qm_desc_3 = "选择你想征服的任务难度。"
 cc_qm_diff = "选择难度 "
 cc_qm_btn_diff_1 = "噩梦"
 cc_qm_btn_diff_1b = "噩梦难度完成"
@@ -949,7 +949,7 @@ cc_prize_ancient_tome = "\^FCDA92远古书卷\^^"
 cc_prize_general = "\^FCDA92战利品\^^"
 
 cc_prize_tip_clear = "\^40FF40你已经收集了本关卡的所有东西，没什么好搜的了。\^^"
-cc_prize_tip_corpse = "你死了。 You must collect your remains in order to leave this dungeon."
+cc_prize_tip_corpse = "你死了。你必须收集你的遗骸才能离开这个地下城。"
 cc_prize_tip_undiscovered = "\^FF4040你还没有看到过它\^^"
 cc_prize_tip_consumed = "\^40FF40你已经收集了这个奖品\^^"
 cc_prize_tip_discovered_general = "\^FF4040你在这个奖品身边走过却没拿\^^"
@@ -1139,7 +1139,7 @@ game_tip_002_pad = "当生命魔球闪烁时，点击\sa它可治愈中毒。"
 game_tip_003 = "你可以随意撤回小镇，即使是在地牢中，你也可以使用小镇传送门卡牌来撤回小镇。"
 game_tip_004 = "你可以在卡牌上长按鼠标右键来直接使用卡牌槽中的物品卡牌。"
 game_tip_004_pad = "你可以通过长按\sa，来直接使用卡牌槽中的物品卡牌。"
-game_tip_005 = "你随时都可通过追随足迹，找到关卡入口。"
+game_tip_005 = "你可以随时通过追随你的脚印，找到关卡入口。"
 game_tip_006 = "当被蜘蛛网击中时，你的卡牌可能会缠住，暂时无法使用。"
 game_tip_007 = "被放电怪物击中后，快速点击倾斜的卡牌可将其修复。"
 game_tip_007_pad = "被放电怪物击中后，尝试立即使用倾斜的卡牌可将其修复。"
@@ -1160,7 +1160,7 @@ game_tip_016_pad = "按住\sa怪物的施法气泡可打破它们的特殊攻击
 game_tip_017 = "当与许多怪物作战时，先除掉召唤者，否则将被召唤的怪物淹没！"
 game_tip_018 = "除了治疗药水, 还有很多治疗卡。选择最适合你的。"
 game_tip_019 = "毒伤害会穿过怪物盾牌"
-game_tip_020 = "如果你连续多次死亡，你所有的物品和金币都会被移到你最后一次死亡的坟墓。"
+game_tip_020 = "如果你连续死亡多次，你所有物品和金币都会被移到你最后一次死亡的坟墓。"
 game_tip_021 = "如果你喜欢挑战极限，试试亡命之徒模式。"
 game_tip_022 = "在选项中，你可以关闭进入地牢前的提示语。"
 game_tip_023 = "当你在地牢打开卡牌面板时，时间会放慢，这时你可以抽身于激烈的战斗，重新调整卡槽。"
@@ -1367,9 +1367,9 @@ lbar_death_rage_plain = "死亡愤怒：\^D8D8D8未解锁\^^"
 lbar_death_rage_locked = "10级解锁该技能"
 lbar_death_rage = "死亡愤怒：\^00FF00已就绪\^^"
 lbar_death_rage_spent = "死亡愤怒：\^D8D8D8待充能\^^"
-lbar_dr_0 = "\sEReckless Fling Level \1/3"
-lbar_dr_2 = "\sGArcane Wisdom Level \1/3"
-lbar_dr_1 = "\sFDeadly Gambit Level \1/3"
+lbar_dr_0 = "\sE无畏冲锋等级 \1/3"
+lbar_dr_2 = "\sG奥术智慧等级 \1/3"
+lbar_dr_1 = "\sF致命开场等级 \1/3"
 lbar_dr_whatis = "当你即将死亡时触发的被动技能。可以治愈你并给予你短暂的免疫。每次升级，死亡愤怒将自动充能。"
 lbar_dr_whatis_cap = "当你即将死亡时触发的被动技能。可以治愈你并给予你短暂的免疫。要充能技能请访问治愈术士。"
 lbar_dr_0_class = "敲退附近的敌人给你时间撤退"
@@ -1500,8 +1500,8 @@ rogue_1_erectus = "This must lead to 伪教皇's hideout. I must find the tome."
 rogue_2_erectus = "They really should put a fence around this chasm. The last thing you wanna do is fall into 恶魔领主's lair."
 
 rogue_0_erectus_op = "A portal. Probably leading to the murderous demon cook. I'd better get ready."
-rogue_1_erectus_op = "The main entrance to Antipope's lair I presume."
-rogue_2_erectus_op = "I'm coming, Archdemon, and I have an arrow with your name on it!"
+rogue_1_erectus_op = "The main entrance to 伪教皇's lair I presume."
+rogue_2_erectus_op = "I'm coming, 恶魔领主, and I have an arrow with your name on it!"
 
 ################################### Narrator (Erectuses) ##########################
 
@@ -1558,7 +1558,7 @@ erectus_0_10_out = "35.8"
 erectus_0_11_in = "35.8"
 erectus_0_11_out = "39.7"
 
-## Antipope
+## 伪教皇
 erectus_1_0 = "Heaven's radiance has turned bleak"
 erectus_1_1 = "For the one whose heart was weak"
 erectus_1_2 = "Robes of white, now dark with stain,"
@@ -1601,7 +1601,7 @@ erectus_1_8_out = "30.5"
 erectus_1_9_in = "30.5"
 erectus_1_9_out = "33.5"
 
-## Archdemon
+## 恶魔领主
 erectus_2_0 = "There's a night no light can pierce,"
 erectus_2_1 = "There's a hunger, old and fierce,"
 erectus_2_2 = "No man shall survive the dread,"
@@ -1677,7 +1677,7 @@ taunt_cook_1 = "M-HM-HM-HM-HM-HM"
 taunt_cook_2 = "HA HA HA HA!"
 
 
-## antipope introduction subs
+## 伪教皇 introduction subs
 intro_antipope_0 = "Time to join my dark flock adventurer!"
 intro_antipope_0_in = "0"
 intro_antipope_0_out = "3"
@@ -1685,7 +1685,7 @@ intro_antipope_1 = "On your knees!"
 intro_antipope_1_in = "3"
 intro_antipope_1_out = "5"
 
-## antipope introduction subs2
+## 伪教皇 introduction subs2
 intro_antipope2_0 = "Reject false idols, all you need is faith!"
 intro_antipope2_0_in = "0"
 intro_antipope2_0_out = "3.8"
@@ -1693,27 +1693,27 @@ intro_antipope2_1 = "Faith in 恶魔领主! Muahahah!"
 intro_antipope2_1_in = "3.8"
 intro_antipope2_1_out = "7.5"
 
-## antipope taunt normal
+## 伪教皇 taunt normal
 taunt_antipope_normal_0 = "Too weak to face me without your puny cards?"
 taunt_antipope_normal_0_in = "0"
 taunt_antipope_normal_0_out = "3.5"
-taunt_antipope_normal_1 = "Very well, it will be more educational when the will of Archdemon BREAKS YOU!"
+taunt_antipope_normal_1 = "Very well, it will be more educational when the will of 恶魔领主 BREAKS YOU!"
 taunt_antipope_normal_1_in = "3.5"
 taunt_antipope_normal_1_out = "10.0"
 taunt_antipope_normal_2 = "To me, faithful!"
 taunt_antipope_normal_2_in = "10.3"
 taunt_antipope_normal_2_out = "12.3"
 
-## antipope taunt freeze
+## 伪教皇 taunt freeze
 taunt_antipope_freeze_0 = "Did you know hell can actually freeze over?"
 
-## antipope taunt fire
+## 伪教皇 taunt fire
 taunt_antipope_fire_0 = "Let me rekindle your faith!"
 
-## antipope taunt poison
+## 伪教皇 taunt poison
 taunt_antipope_poison_0 = "The scriptures are poisoning your mind! Let me 恶魔trate! Muahaha!"
 
-## antipope death speech
+## 伪教皇 death speech
 goodbye_antipope_0 = "I'm telling on you, Master will avenge me!"
 goodbye_antipope_0_in = "0"
 goodbye_antipope_0_out = "3.7"
@@ -1774,7 +1774,7 @@ angel_4_4_in = "9"
 angel_4_4_out = "13"
 
 
-## archdemon introduction subs
+## 恶魔领主 introduction subs
 intro_archdemon_0 = "You think you can defeat me?"
 intro_archdemon_1 = "Ha ha ha ha ha!"
 intro_archdemon_2 = "I would be offended if it wasn't so pathetic."
@@ -1792,7 +1792,7 @@ intro_archdemon_2_out = "12.5"
 intro_archdemon_3_in = "13.7"
 intro_archdemon_3_out = "20.3"
 
-# archdemon death speech
+# 恶魔领主 death speech
 goodbye_archdemon_0 = "What?! Nooo! This cannot be..."
 goodbye_archdemon_0_in = "0.7"
 goodbye_archdemon_0_out = "5"
@@ -1809,7 +1809,7 @@ goodbye_archdemon_4 = "AAAAAAARRGHGHGH!"
 goodbye_archdemon_4_in = "19.0"
 goodbye_archdemon_4_out = "30"
 
-# archdemon taunts
+# 恶魔领主 taunts
 taunt_archdemon_0 = "But wait, there's more!"
 taunt_archdemon_1 = "Ha ha ha ha ha ha ha ha ha!"
 taunt_archdemon_2 = "Surrender! All the good musicians are already here!"
@@ -1988,7 +1988,7 @@ bod_tutv2_110_c1 = "During casting monsters are \^ffff00immune\^^ to damage"
 bod_tutv2_110_c2 = "\^ffff00Click-and-hold\^^ a skill bubble to \^ffff00break\^^ the spell"
 bod_tutv2_110_c2_pad = "\^ffff00Hold\^^ \st to \^ffff00break\^^ the spell of selected monster"
 
-bod_tutv2_111_titl= "Shielded Monsters"
+bod_tutv2_111_titl= "持盾Monsters"
 bod_tutv2_111_c0 = "Some armoured monsters are \^ffff00protected\^^ by shields"
 bod_tutv2_111_c1 = "Damage the shield by \^FF4832clicking the shield icon\^^. Monsters are \^ffff00immune\^^ until their shields are destroyed"
 bod_tutv2_111_c2 = "Some shields are \^ffff00magical\^^ and can \^ffff00reappear\^^ after being destroyed"
@@ -2029,8 +2029,8 @@ bod_tutv2_118_c0 = "Zombies and some other monsters have \^ffff00poisoned hearts
 bod_tutv2_118_c1 = "On death, zombies \^ffff00explode\^^ with a shockwave that \^ffff00poisons\^^ everyone around.\n\^ffff00Deadly\^^ poisoned monsters are marked with a \^ffff00skull\^^"
 bod_tutv2_118_c2 = "Zombies cannot be poisoned. They are \^ffff00healed\^^ instead"
 
-bod_tutv2_119_titl= "Elemental attacks"
-bod_tutv2_119_c0 = "Monsters with \^ffff00elemental attacks\^^ are marked with a spiked circle. They can burn, poison or freeze you. Beware!"
+bod_tutv2_119_titl= "元素 attacks"
+bod_tutv2_119_c0 = "Monsters with \^ffff00元素 attacks\^^ are marked with a spiked circle. They can burn, poison or freeze you. Beware!"
 
 bod_tutv2_120_titl= "Golden Shield Hearts"
 bod_tutv2_120_c0 = "Some tough monsters have \^ffff00golden hearts\^^"
@@ -2038,7 +2038,7 @@ bod_tutv2_120_c1 = "When damaged, those monsters are \^ffff00temporarily immune\
 bod_tutv2_120_c2 = "Use \^ffff00Fire\^^ against monsters with golden hearts to kill them \^ffff00quicker\^^"
 
 bod_tutv2_121_titl= "Gargoyles"
-bod_tutv2_121_c0 = "Gargoyles have \^ffff00stone hearts\^^ - they are immune to elemental effects: poison, fire and ice"
+bod_tutv2_121_c0 = "Gargoyles have \^ffff00stone hearts\^^ - they are immune to 元素 effects: poison, fire and ice"
 bod_tutv2_121_c1 = "When gargoyles turn to statues they \^ffff00heal over time\^^. Beware!"
 
 bod_tutv2_122_titl= "鬼魂"
@@ -2185,39 +2185,39 @@ fake_daredevil_01_name = "铠甲骷髅"
 fake_daredevil_01_depth = "200"
 fake_daredevil_02_name = "小石像鬼"
 fake_daredevil_02_depth = "300"
-fake_daredevil_03_name = "Plowing Corpse"
+fake_daredevil_03_name = "农夫死尸"
 fake_daredevil_03_depth = "400"
-fake_daredevil_04_name = "Gargoyle"
+fake_daredevil_04_name = "石像鬼"
 fake_daredevil_04_depth = "500"
-fake_daredevil_05_name = "Corrupted Priest"
+fake_daredevil_05_name = "腐烂祭司"
 fake_daredevil_05_depth = "600"
-fake_daredevil_06_name = "Cool 骷髅"
+fake_daredevil_06_name = "寒冰骷髅"
 fake_daredevil_06_depth = "700"
-fake_daredevil_07_name = "Hammer Gargoyle"
+fake_daredevil_07_name = "铁锤石像鬼"
 fake_daredevil_07_depth = "800"
 fake_daredevil_08_name = "Skeletomancer"
 fake_daredevil_08_depth = "900"
-fake_daredevil_09_name = "Whopper"
+fake_daredevil_09_name = "巨人"
 fake_daredevil_09_depth = "1000"
-fake_daredevil_10_name = "Uber Gargoyle"
+fake_daredevil_10_name = "超级石像鬼"
 fake_daredevil_10_depth = "2000"
 fake_daredevil_11_name = "混沌山羊"
 fake_daredevil_11_depth = "3000"
-fake_daredevil_12_name = "Tiny Spectre"
+fake_daredevil_12_name = "小幽灵"
 fake_daredevil_12_depth = "4000"
-fake_daredevil_13_name = "Battering Goat"
+fake_daredevil_13_name = "冲击山羊"
 fake_daredevil_13_depth = "5000"
-fake_daredevil_14_name = "Mirage Lancer"
+fake_daredevil_14_name = "幻影枪骑兵"
 fake_daredevil_14_depth = "6000"
 fake_daredevil_15_name = "Arachnod"
 fake_daredevil_15_depth = "7000"
-fake_daredevil_16_name = "滑行 战士"
+fake_daredevil_16_name = "蛇行 战士"
 fake_daredevil_16_depth = "8000"
-fake_daredevil_17_name = "Phantom Beast"
+fake_daredevil_17_name = "幻影野兽"
 fake_daredevil_17_depth = "10000"
 fake_daredevil_18_name = "女妖"
 fake_daredevil_18_depth = "20000"
-fake_daredevil_19_name = "Horror Gargoyle"
+fake_daredevil_19_name = "骇客石像鬼"
 fake_daredevil_19_depth = "40000"
 fake_daredevil_20_name = "The Ugly Duckling"
 fake_daredevil_20_depth = "990000"
@@ -2236,9 +2236,9 @@ demo_frm_video_01_text = "Find and max-up all cards!"
 demo_frm_video_02_text = "Slay 鬼魂, spiders and 山羊怪 in forgotten 地下墓穴!"
 demo_frm_video_03_text = "Master new cards when playing 法师 and 盗贼*\n*盗贼 coming soon during early access"
 demo_frm_video_03_text_rogue = "Master new cards when playing 法师 and 盗贼."
-demo_frm_video_04_text = "Outsmart the sneaky Antipope!"
+demo_frm_video_04_text = "Outsmart the 奸诈 伪教皇!"
 demo_frm_video_05_text = "Test your limits in Freeplay and 亡命之徒 modes!"
-demo_frm_video_06_text = "Experience true horror when fighting 恶魔 in hell"
+demo_frm_video_06_text = "Experience true 骇客 when fighting 恶魔 in hell"
 demo_frm_video_07_text = "Give in to your OCD and complete all 100+ achievements!"
 demo_frm_video_08_text = "Battle 恶魔领主 and have a time of your life!"
 
@@ -2277,7 +2277,7 @@ bod_csc_monst_hidden = "(hidden)"
 bod_csc_body = "To Do on this level:"
 bod_csc_barrel = "Barrel"
 bod_csc_chest = "Chest"
-bod_csc_gargoyle = "Gargoyle in a stone"
+bod_csc_gargoyle = "石像鬼 in a stone"
 bod_csc_cursed = "Cursed Chest"
 bod_csc_sarco = "Sarcophagus"
 bod_csc_bookbase = "Bookcase"
@@ -2314,13 +2314,13 @@ ReviewFrame_feedback = "Tell us what we should improve"
 
 ## !!!!!      Max 23 characters each!   !!!!!!!!!!!!!!!
 
-#Shielded 骷髅
+#持盾骷髅
 boss_1101_name = "Erica the Shieldmaiden"
 boss_1102_name = "Slig the Shieldman"
 boss_1103_name = "Barn the Shieldman"
 boss_1104_name = "Eufia the Shieldmaiden"
 
-#骷髅 Archer
+#骷髅弓箭手
 boss_1201_name = "Horik the Quick"
 boss_1202_name = "Helmud Hawkeye"
 boss_1203_name = "The Sharpshooting Joe"
@@ -2331,7 +2331,7 @@ boss_1206_name = "Helmud Hawkeye"
 boss_1207_name = "The Sharpshooting Joe"
 boss_1208_name = "Ritt the Swifthanded"
 
-#Voracious Corpse
+#贪婪死尸
 boss_1301_name = "The Decayed Hook"
 boss_1302_name = "One Armed Stink"
 boss_1303_name = "Jack the Hungry One"
@@ -2342,7 +2342,7 @@ boss_1306_name = "The Decayed Hook"
 boss_1307_name = "One Armed Stink"
 boss_1308_name = "Jack the Hungry One"
 
-#Corrupted  Priest
+#腐烂祭司
 boss_1401_name = "Blasphemy Mike"
 boss_1402_name = "Mark the Heretic"
 boss_1403_name = "Profan Peter"
@@ -2350,15 +2350,15 @@ boss_1404_name = "Desecrated Ralph"
 boss_1405_name = "Alfred the Forsaken"
 boss_1406_name = "Lucas the Deceiver"
 
-#Hammer Gargoyle
+#铁锤石像鬼
 boss_1501_name = "Stoned Nightmare"
 boss_1502_name = "Rock Evil"
 boss_1503_name = "Granite Death"
 boss_1504_name = "Stoneform Brute"
 boss_1505_name = "Hammered Beast"
-boss_1506_name = "Corrupted Stone"
+boss_1506_name = "腐烂 Stone"
 
-#山羊神父
+#山羊牧师
 boss_1601_name = "Beeeeeelzebub"
 boss_1602_name = "Mr. GoaTee"
 boss_1603_name = "Chaotic Bleat"
@@ -2368,7 +2368,7 @@ boss_1606_name = "Twisted Horn"
 
 #骷髅战士
 boss_1701_name = "Jared the Cursed"
-boss_1702_name = "Flavious the Corrupted"
+boss_1702_name = "Flavious the 腐烂"
 boss_1703_name = "Steve the Plagued"
 boss_1704_name = "Rick the Decayed"
 boss_1705_name = "Tresh the Rottenheart"
@@ -2393,7 +2393,7 @@ boss_1905_name = "Crypto Verde"
 boss_1906_name = "Crypto Chiriqui"
 boss_1907_name = "Crypto Bocas"
 
-#Puffy Corpse
+#Puffy 死尸
 boss_2001_name = "The Meaty Plague"
 boss_2002_name = "The Chunky Decay"
 boss_2003_name = "Jelly-belly Bomb"
@@ -2405,7 +2405,7 @@ boss_2007_name = "The Fat Sack"
 #Hyper Skelserker
 boss_2101_name = "Ron the Berserker"
 boss_2102_name = "Crazy Ivan"
-boss_2103_name = "Lester Crypthorror"
+boss_2103_name = "Lester Crypt骇客"
 boss_2104_name = "Mack the Crazy Axes"
 boss_2105_name = "Conrad the Chop-Chop"
 boss_2106_name = "Arthur the Painbringer"
@@ -2415,9 +2415,9 @@ boss_2108_name = "Ron the Berserker"
 boss_2109_name = "Mack the Crazy Axes"
 boss_2110_name = "Conrad the Chop-Chop"
 
-#Spectre
+#幽灵
 boss_2201_name = "Lost Wraith"
-boss_2202_name = "Frozen Spectre"
+boss_2202_name = "Frozen 幽灵"
 boss_2203_name = "Lonely Vision"
 boss_2204_name = "Moaning Phantom"
 boss_2205_name = "The Sad 鬼魂"
@@ -2436,13 +2436,13 @@ boss_2306_name = "Sitting Sophie"
 boss_2307_name = "Weird Eyes Alice"
 boss_2308_name = "Tall Eli"
 
-#Battering Goat
+#冲击山羊
 boss_2401_name = "Odi the Swift"
 boss_2402_name = "Ozzik the Black"
 boss_2403_name = "Jres the Downbringer"
 boss_2404_name = "Het the Fieldruler"
 boss_2405_name = "Freddie the King"
-boss_2406_name = "Lemmy the Hammer"
+boss_2406_name = "Lemmy the 铁锤"
 boss_2407_name = "Rob the Zombie-eater"
 boss_2408_name = "Bruce Ironbrute"
 
@@ -2456,7 +2456,7 @@ boss_2506_name = "Wyman Striker Netley"
 boss_2507_name = "Kendrick Grim Norton"
 boss_2508_name = "Joola Crazy Wright"
 
-#Spect. Whopper
+#幽灵巨人
 boss_2601_name = "Phantom Muscle"
 boss_2602_name = "Wraith Meatball"
 boss_2603_name = "Beefy Spirit"
@@ -2467,7 +2467,7 @@ boss_2607_name = "Spectral Bouncer"
 boss_2608_name = "Gym Spirit"
 boss_2609_name = "Legdayskipping 鬼魂"
 
-#Cool Crawler
+#寒冰爬行者
 boss_2701_name = "Euscorpius"
 boss_2702_name = "Megacormus"
 boss_2703_name = "Plesiochactas"
@@ -2478,7 +2478,7 @@ boss_2707_name = "Neoscorpiops"
 boss_2708_name = "Troglocormus"
 boss_2709_name = "Scorpiops"
 
-#Mirage 法师
+#幻影法师
 boss_2801_name = "The Laughing Wizard"
 boss_2802_name = "The Howling Doctor"
 boss_2803_name = "The Talking Maniac"
@@ -2489,29 +2489,29 @@ boss_2807_name = "The Weeping 法师"
 boss_2808_name = "The Spectral Sorcerer"
 boss_2809_name = "The Forsaken Wizard"
 
-#Skull Spook
+#头骨幽灵
 boss_2901_name = "The Sleepy Head"
-boss_2902_name = "Don Spook"
+boss_2902_name = "Don幽灵"
 boss_2903_name = "King Headbag"
-boss_2904_name = "Dull Skull"
+boss_2904_name = "Dull 头骨"
 boss_2905_name = "The Spooky Head"
 boss_2906_name = "Don Smokeleone"
 boss_2907_name = "Rick The Spectral Leader"
 boss_2908_name = "Lui The Egg"
 boss_2909_name = "The Big Bold"
 
-#Slith Archer
+#Slith弓箭手
 boss_3001_name = "Hawkeyed Snake"
-boss_3002_name = "滑行 Sharpshooter"
+boss_3002_name = "蛇行 Sharpshooter"
 boss_3003_name = "The Quick Serpent"
 boss_3004_name = "Agile Reptile"
 boss_3005_name = "Viper Arrow"
 boss_3006_name = "Swifthanded Snake"
 boss_3007_name = "Spikegiver"
 boss_3008_name = "Two Arrows one Snake"
-boss_3009_name = "Swift 滑行"
+boss_3009_name = "Swift 蛇行"
 
-#Petit Gargoyle
+#小石像鬼
 boss_3101_name = "Swiftstone"
 boss_3102_name = "Legend of Greenrock"
 boss_3103_name = "Granite Stink"
@@ -2519,7 +2519,7 @@ boss_3104_name = "Unrolled Stone"
 boss_3105_name = "Decayed Rock"
 boss_3106_name = "Piece of Stone"
 boss_3107_name = "Ore Jorre"
-boss_3108_name = "Petit Granite"
+boss_3108_name = "小 Granite"
 boss_3109_name = "Gray Matter"
 boss_3110_name = "Stoned Smell"
 
@@ -2535,11 +2535,11 @@ boss_3208_name = "Khaakoubrex the Furious"
 boss_3209_name = "Voknuunguk the Mad"
 boss_3210_name = "Cragnokhas the Sick"
 
-#Hopping Corpse
+#Hopping 死尸
 boss_3301_name = "Bouncing Fear"
 boss_3302_name = "Rotten Mother"
 boss_3303_name = "Boxing Green"
-boss_3304_name = "Corrupted "
+boss_3304_name = "腐烂 "
 boss_3305_name = "Kanga the Roothless"
 boss_3306_name = "Roo the Spoiled Child"
 boss_3307_name = "Marsupial Terror"
@@ -2547,14 +2547,14 @@ boss_3308_name = "Large-Foot Evil"
 boss_3309_name = "Jumping Decay"
 boss_3310_name = "Rufus the Green"
 
-#Slith Horror
+#Slith 骇客
 boss_3401_name = "Furious Snakeform"
-boss_3402_name = "滑行 Blades"
+boss_3402_name = "蛇行 Blades"
 boss_3403_name = "Winged Death"
 boss_3404_name = "Viperswords"
 boss_3405_name = "Blazing Reptile"
 boss_3406_name = "The Moody Serpent"
-boss_3407_name = "Viper Horror"
+boss_3407_name = "Viper 骇客"
 boss_3408_name = "Slytherwing"
 boss_3409_name = "Reptiled Furry"
 boss_3410_name = "The Moody Serpent"
@@ -2571,7 +2571,7 @@ boss_3508_name = "Lord Blazeface"
 boss_3509_name = "Lord Pyrecold"
 boss_3510_name = "Lord Tinderwinter"
 
-#Elder 山羊神父 
+#长老山羊牧师 
 boss_3601_name = "Beastfang"
 boss_3602_name = "Fanghorn"
 boss_3603_name = "Clawcaster"
@@ -2590,7 +2590,7 @@ boss_3703_name = "Evil Witch"
 boss_3704_name = "Exiled Juggler"
 boss_3705_name = "Wizard of Blasphemy"
 boss_3706_name = "Banished Shaman"
-boss_3707_name = "Corrupted Sear"
+boss_3707_name = "腐烂 Sear"
 boss_3708_name = "Black Conjuror"
 boss_3709_name = "Decayed Enhancer"
 boss_3710_name = "Cursed 法师"
@@ -2611,7 +2611,7 @@ boss_3808_name = "Forgotten Pleasure"
 boss_3809_name = "Blackballed Master"
 boss_3810_name = "Flaming Pain"
 
-#Horror Whopper
+#骇客巨人
 boss_3901_name = "Zlaras the Giant"
 boss_3902_name = "Dafthor the Giant"
 boss_3903_name = "Arolas the Giant"
@@ -2622,7 +2622,7 @@ boss_3907_name = "Nunir the Giant"
 boss_3908_name = "Wufom the Giant"
 boss_3909_name = "Kavag the Giant"
 
-#Hot Crawler
+#火焰爬行者
 boss_4001_name = "Deathstalker the King"
 boss_4002_name = "King Androctonus"
 boss_4003_name = "King Babycurus"
@@ -2637,9 +2637,9 @@ boss_4101_name = "Crypto Narino"
 boss_4102_name = "Crypto Simonis"
 boss_4103_name = "Crypto Verde"
 
-#Hog
-boss_4201_name ="Flying Wong Hog"
-boss_4202_name ="Cursed Hog"
+#猪
+boss_4201_name ="飞行 Wong 猪"
+boss_4202_name ="Cursed 猪"
 boss_4203_name ="Chunky Smoke"
 boss_4204_name ="Green 暴食者"
 boss_4205_name ="Gas Bombino"
@@ -2658,42 +2658,42 @@ boss_4403_name ="Ruby Terror"
 boss_4404_name ="Ruby Terror"
 boss_4405_name ="Ruby Terror"
 
-#HorrorGargoyle
-boss_4501_name ="Turquoise Horror"
-boss_4502_name ="Turquoise Horror"
-boss_4503_name ="Turquoise Horror"
-boss_4504_name ="Turquoise Horror"
-boss_4505_name ="Turquoise Horror"
+#骇客Gargoyle
+boss_4501_name ="Turquoise 骇客"
+boss_4502_name ="Turquoise 骇客"
+boss_4503_name ="Turquoise 骇客"
+boss_4504_name ="Turquoise 骇客"
+boss_4505_name ="Turquoise 骇客"
 
-#Cool Skel
-boss_4601_name ="Daddy Cool"
+#寒冰Skel
+boss_4601_name ="Daddy 寒冰"
 boss_4602_name ="Ice Shield"
 boss_4603_name ="Freezing Handed"
 boss_4604_name ="Cold Buckler"
 boss_4605_name ="Glacial Shieldman"
 
-#Cool Archer
+#寒冰弓箭手
 boss_4701_name ="Frostshot"
 boss_4702_name ="Snowbow"
 boss_4703_name ="Coldshot"
 boss_4704_name ="Frostshot"
 boss_4705_name ="Frostshot"
 
-#Horror Archer
+#骇客弓箭手
 boss_4801_name ="Hotshot"
 boss_4802_name ="Blaze Arrow"
 boss_4803_name ="Flame Shooter"
 boss_4804_name ="Grill Sticks"
 boss_4805_name ="Hotshot"
 
-#Burning Whopper
+#火焰巨人
 boss_4901_name ="Grilled Jerry"
 boss_4902_name ="Pin Jean"
 boss_4903_name ="Grilled Jerry"
 boss_4904_name ="Flaming Mike"
 boss_4905_name ="The Megzilla"
 
-#Phantom Beast
+#幻影野兽
 boss_5001_name ="Beastly Boy"
 boss_5002_name ="Phantom of the O"
 boss_5003_name ="Phantomic Wizard"
@@ -2702,115 +2702,115 @@ boss_5005_name ="Masked Frost"
 boss_5006_name ="Ice Hands"
 
 # 暴食者
-boss_5101_name = "Glu Glu"
-boss_5102_name = "Glu Glu"
-boss_5103_name = "Glu Glu"
-boss_5104_name = "Glu Glu"
-boss_5105_name = "Glu Glu"
+boss_5101_name = "咕噜咕噜"
+boss_5102_name = "咕噜咕噜"
+boss_5103_name = "咕噜咕噜"
+boss_5104_name = "咕噜咕噜"
+boss_5105_name = "咕噜咕噜"
 
-#滑行 Horror 法师
-boss_5201_name = "Sneaky 法师"
-boss_5202_name = "Sneaky 法师"
-boss_5203_name = "Sneaky 法师"
-boss_5204_name = "Sneaky 法师"
-boss_5205_name = "Sneaky 法师"
+#蛇行骇客法师
+boss_5201_name = "奸诈法师"
+boss_5202_name = "奸诈法师"
+boss_5203_name = "奸诈法师"
+boss_5204_name = "奸诈法师"
+boss_5205_name = "奸诈法师"
 
 
 ################################ 挑战 BOSS NAMES ##############################
 ## Their names must be repeated for every stage they have ##
 
-boss_10001_name = "\smThe Cook"
-boss_10002_name = "\smThe Cook"
-boss_10003_name = "\smThe Cook"
-boss_10004_name = "\smThe Cook"
-boss_10005_name = "\smThe Cook"
-boss_10006_name = "\smThe Cook"
-boss_10007_name = "\smThe Cook"
-boss_10008_name = "\smThe Cook"
-boss_10009_name = "\smThe Cook"
+boss_10001_name = "\sm厨子"
+boss_10002_name = "\sm厨子"
+boss_10003_name = "\sm厨子"
+boss_10004_name = "\sm厨子"
+boss_10005_name = "\sm厨子"
+boss_10006_name = "\sm厨子"
+boss_10007_name = "\sm厨子"
+boss_10008_name = "\sm厨子"
+boss_10009_name = "\sm厨子"
 
-boss_10101_name = "\smThe Antipope"
-boss_10102_name = "\smThe Antipope"
-boss_10103_name = "\smThe Antipope"
-boss_10104_name = "\smThe Antipope"
-boss_10105_name = "\smThe Antipope"
-boss_10106_name = "\smThe Antipope"
-boss_10107_name = "\smThe Antipope"
-boss_10108_name = "\smThe Antipope"
-boss_10109_name = "\smThe Antipope"
+boss_10101_name = "\sm伪教皇"
+boss_10102_name = "\sm伪教皇"
+boss_10103_name = "\sm伪教皇"
+boss_10104_name = "\sm伪教皇"
+boss_10105_name = "\sm伪教皇"
+boss_10106_name = "\sm伪教皇"
+boss_10107_name = "\sm伪教皇"
+boss_10108_name = "\sm伪教皇"
+boss_10109_name = "\sm伪教皇"
 
-boss_10201_name = "\smThe Archdemon"
-boss_10202_name = "\smThe Archdemon"
-boss_10203_name = "\smThe Archdemon"
-boss_10204_name = "\smThe Archdemon"
-boss_10205_name = "\smThe Archdemon"
-boss_10206_name = "\smThe Archdemon"
-boss_10207_name = "\smThe Archdemon"
-boss_10208_name = "\smThe Archdemon"
-boss_10209_name = "\smThe Archdemon"
-boss_10210_name = "\smThe Archdemon"
-boss_10211_name = "\smThe Archdemon"
-boss_10212_name = "\smThe Archdemon"
-boss_10213_name = "\smThe Archdemon"
-boss_10214_name = "\smThe Archdemon"
-boss_10215_name = "\smThe Archdemon"
+boss_10201_name = "\sm恶魔领主"
+boss_10202_name = "\sm恶魔领主"
+boss_10203_name = "\sm恶魔领主"
+boss_10204_name = "\sm恶魔领主"
+boss_10205_name = "\sm恶魔领主"
+boss_10206_name = "\sm恶魔领主"
+boss_10207_name = "\sm恶魔领主"
+boss_10208_name = "\sm恶魔领主"
+boss_10209_name = "\sm恶魔领主"
+boss_10210_name = "\sm恶魔领主"
+boss_10211_name = "\sm恶魔领主"
+boss_10212_name = "\sm恶魔领主"
+boss_10213_name = "\sm恶魔领主"
+boss_10214_name = "\sm恶魔领主"
+boss_10215_name = "\sm恶魔领主"
 
-#Archdemon 挑战 Bosses
-#Slith Horror法师
-boss_10301_name = "滑行 Seal Guardian"
-boss_10302_name = "滑行 Seal Guardian"
-boss_10303_name = "滑行 Seal Guardian"
+#恶魔领主 挑战 Bosses
+#Slith 骇客法师
+boss_10301_name = "蛇行印记守卫"
+boss_10302_name = "蛇行印记守卫"
+boss_10303_name = "蛇行印记守卫"
 #Slith 战士
-boss_10401_name = "滑行 Seal Guardian"
-boss_10402_name = "滑行 Seal Guardian"
-boss_10403_name = "滑行 Seal Guardian"
-#Slith Archer
-boss_10501_name = "滑行 Seal Guardian"
-boss_10502_name = "滑行 Seal Guardian"
-boss_10503_name = "滑行 Seal Guardian"
+boss_10401_name = "蛇行印记守卫"
+boss_10402_name = "蛇行印记守卫"
+boss_10403_name = "蛇行印记守卫"
+#Slith弓箭手
+boss_10501_name = "蛇行印记守卫"
+boss_10502_name = "蛇行印记守卫"
+boss_10503_name = "蛇行印记守卫"
 #暗黑魔法师
-boss_10601_name = "Demonic Seal Guardian"
-boss_10602_name = "Demonic Seal Guardian"
-boss_10603_name = "Demonic Seal Guardian"
+boss_10601_name = "恶魔印记守卫"
+boss_10602_name = "恶魔印记守卫"
+boss_10603_name = "恶魔印记守卫"
 #梦魇
-boss_10701_name = "Demonic Seal Guardian"
-boss_10702_name = "Demonic Seal Guardian"
-boss_10703_name = "Demonic Seal Guardian"
+boss_10701_name = "恶魔印记守卫"
+boss_10702_name = "恶魔印记守卫"
+boss_10703_name = "恶魔印记守卫"
 
-#Evil Player Characters Bosses
+#邪恶玩家角色Bosses
 
-boss_10801_name = "鬼魂 from the Past"
-boss_10802_name = "鬼魂 from the Past"
-boss_10803_name = "鬼魂 from the Past"
-boss_10804_name = "鬼魂 from the Past"
-boss_10805_name = "鬼魂 from the Past"
-boss_10806_name = "鬼魂 from the Past"
-boss_10807_name = "鬼魂 from the Past"
-boss_10808_name = "鬼魂 from the Past"
-boss_10809_name = "鬼魂 from the Past"
-boss_10810_name = "鬼魂 from the Past"
+boss_10801_name = "过往的鬼魂"
+boss_10802_name = "过往的鬼魂"
+boss_10803_name = "过往的鬼魂"
+boss_10804_name = "过往的鬼魂"
+boss_10805_name = "过往的鬼魂"
+boss_10806_name = "过往的鬼魂"
+boss_10807_name = "过往的鬼魂"
+boss_10808_name = "过往的鬼魂"
+boss_10809_name = "过往的鬼魂"
+boss_10810_name = "过往的鬼魂"
 
-boss_10901_name = "鬼魂 from the Past"
-boss_10902_name = "鬼魂 from the Past"
-boss_10903_name = "鬼魂 from the Past"
-boss_10904_name = "鬼魂 from the Past"
-boss_10905_name = "鬼魂 from the Past"
-boss_10906_name = "鬼魂 from the Past"
-boss_10907_name = "鬼魂 from the Past"
-boss_10908_name = "鬼魂 from the Past"
-boss_10909_name = "鬼魂 from the Past"
-boss_10910_name = "鬼魂 from the Past"
+boss_10901_name = "过往的鬼魂"
+boss_10902_name = "过往的鬼魂"
+boss_10903_name = "过往的鬼魂"
+boss_10904_name = "过往的鬼魂"
+boss_10905_name = "过往的鬼魂"
+boss_10906_name = "过往的鬼魂"
+boss_10907_name = "过往的鬼魂"
+boss_10908_name = "过往的鬼魂"
+boss_10909_name = "过往的鬼魂"
+boss_10910_name = "过往的鬼魂"
 
-boss_11001_name = "鬼魂 from the Past"
-boss_11002_name = "鬼魂 from the Past"
-boss_11003_name = "鬼魂 from the Past"
-boss_11004_name = "鬼魂 from the Past"
-boss_11005_name = "鬼魂 from the Past"
-boss_11006_name = "鬼魂 from the Past"
-boss_11007_name = "鬼魂 from the Past"
-boss_11008_name = "鬼魂 from the Past"
-boss_11009_name = "鬼魂 from the Past"
-boss_11010_name = "鬼魂 from the Past"
+boss_11001_name = "过往的鬼魂"
+boss_11002_name = "过往的鬼魂"
+boss_11003_name = "过往的鬼魂"
+boss_11004_name = "过往的鬼魂"
+boss_11005_name = "过往的鬼魂"
+boss_11006_name = "过往的鬼魂"
+boss_11007_name = "过往的鬼魂"
+boss_11008_name = "过往的鬼魂"
+boss_11009_name = "过往的鬼魂"
+boss_11010_name = "过往的鬼魂"
 
 #游戏开始时的免责声明
 ea_title = "抢先体验免责声明"

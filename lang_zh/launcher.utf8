@@ -20,7 +20,7 @@
 ## Archive of Awesome  
 ##################################
 
-#welcome_player = "Welcome \1" <- This is moved to the end of file and should always be there (so we can easily see if the file is corrupted)
+#welcome_player = "Welcome \1" <- This is moved to the end of file and should always be there (so we can easily see if the file is 腐烂)
 
 ############################ 产品 ##############################
 
@@ -185,8 +185,8 @@ lang_ja = "日语"
 
 ############################ 主菜单 ##############################
 
-mmenu_awards = "查看奖杯"
-mmenu_awards_ttip = "点击查看当前存档的奖杯"
+mmenu_awards = "查看成就"
+mmenu_awards_ttip = "点击查看当前存档的成就"
 mmenu_profile = "切换存档"
 mmenu_options = "选项"
 mmenu_options_ttip = "点击管理R2G产品"
@@ -341,7 +341,7 @@ achiev_lvl_bronze = "青铜级"
 achiev_golden_locase = "黄金"
 achiev_silver_locase = "白银"
 achiev_bronze_locase = "青铜"
-wnd_achiev_title = "奖杯"
+wnd_achiev_title = "成就"
 wnd_achiev_rank_text = "\^FCDA92等级：\^FFFFFF\1 \s0 \2\^^"
 wnd_achiev_rank_next = "\^FCDA92下一等级：\^FFFFFF\1 \^FCDA92/\^FFFFFF \2\^^"
 wnd_achiev_rank_progress_tooltip = "解锁下一等级还需\1成就点"
@@ -362,11 +362,11 @@ wnd_achieve_badge_score_tip = "游戏总得分"
 ##################################### 恶魔之书 成就 #####################################
 
 achiev_0_01_1 = "跋涉" #1级
-achiev_0_01_1_desc = "Unlock 中等灵活游戏规模"
+achiev_0_01_1_desc = "解锁中等灵活游戏规模"
 achiev_0_01_2 = "游历" #2级
-achiev_0_01_2_desc = "Unlock 大型 flexiscope game size"
+achiev_0_01_2_desc = "解锁大型灵活游戏规模"
 achiev_0_01_3 = "漫游" #3级
-achiev_0_01_3_desc = "Unlock 巨大 flexiscope game size"
+achiev_0_01_3_desc = "解锁巨大灵活游戏规模"
 
 achiev_0_02_3 = "乌鸦的游戏"
 achiev_0_02_3_desc = "乌鸦歌唱，凛东降至……"
@@ -572,13 +572,13 @@ achiev_0_25_3_desc = "Pick 1000 mana globes from the ground"
 achiev_0_25_3_max = "1000"
 
 achiev_0_26_1 = "Fast & Furious"
-achiev_0_26_1_desc = "Defeat 100 monsters in 20 seconds"
+achiev_0_26_1_desc = "Defeat 100 monsters in 20秒"
 achiev_0_26_1_max = "100"
 achiev_0_26_2 = "Faster & Furier"
-achiev_0_26_2_desc = "Defeat 150 monsters in 15 seconds"
+achiev_0_26_2_desc = "Defeat 150 monsters in 15秒"
 achiev_0_26_2_max = "150"
 achiev_0_26_3 = "The Fastest & the Furiest"
-achiev_0_26_3_desc = "Defeat 200 monsters in 10 seconds"
+achiev_0_26_3_desc = "Defeat 200 monsters in 10秒"
 achiev_0_26_3_max = "200"
 
 achiev_0_27_1 = "Badger"
@@ -696,7 +696,7 @@ achiev_0_38_3_max = "300"
 achiev_0_39_1 = "Breaking the ice"
 achiev_0_39_1_desc = "Defeat 30 monsters that are frozen"
 achiev_0_39_1_max = "30"
-achiev_0_39_2 = "Keep it cool"
+achiev_0_39_2 = "Keep it 寒冰"
 achiev_0_39_2_desc = "Defeat 100 monsters that are frozen"
 achiev_0_39_2_max = "100"
 achiev_0_39_3 = "Ice ice Baby"
@@ -844,7 +844,7 @@ achiev_0_55_2_desc = "Scare 10 monsters with a single Fear card use (盗贼 only
 achiev_0_55_3 = "Terrifying"
 achiev_0_55_3_desc = "Scare 20 monsters with a single Fear card use (盗贼 only)"
 
-achiev_0_56_1 = "Battering ram"
+achiev_0_56_1 = "冲击 ram"
 achiev_0_56_1_desc = "Bash 3 monsters with a single Charge card use (战士 only)"
 achiev_0_56_2 = "With all one's strength"
 achiev_0_56_2_desc = "Bash 6 monsters with a single Charge card use (战士 only)"
@@ -859,13 +859,13 @@ achiev_0_57_3 = "Tsunami of Silence"
 achiev_0_57_3_desc = "Dispell 9 spells and skills with a single Mass Dispell card use (法师 only)"
 
 achiev_0_58_1 = "Stomp harder"
-achiev_0_58_1_desc = "Destroy 5 Slimy Spores before they explode"
+achiev_0_58_1_desc = "Destroy 5 黏糊孢子 before they explode"
 achiev_0_58_1_max = "5"
 achiev_0_58_2 = "Stomp better"
-achiev_0_58_2_desc = "Destroy 50 Slimy Spores before they explode"
+achiev_0_58_2_desc = "Destroy 50 黏糊孢子 before they explode"
 achiev_0_58_2_max = "50"
 achiev_0_58_3 = "Stomp stronger!"
-achiev_0_58_3_desc = "Destroy 500 Slimy Spores before they explode"
+achiev_0_58_3_desc = "Destroy 500 黏糊孢子 before they explode"
 achiev_0_58_3_max = "500"
 
 achiev_0_59_1 = "So far so good"
