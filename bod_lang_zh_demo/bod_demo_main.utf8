@@ -667,6 +667,7 @@ crd_charge_buy_ttip = "\s:右键充满"
 crd_charge_select_pad_ttip = "按\s9以选择"
 crd_charge_deselect_pad_ttip = "按\s9以取消选择"
 crd_charge_buy_pad_ttip = "按\s:充满"
+crd_charge_buy_one_pad_ttip = "Press \s9 to charge once"
 
 crd_charge_full_ttip = "卡牌已达充能上限"
 wnd_charge_btn_nocash_ttip = "金币不足无法充能"
@@ -884,9 +885,10 @@ cc_flexi_diff_locked_4 = "你需要在噩梦难度充分锻炼后才能解锁屠
 cc_flexi_diff_locked_daredevil = "为了让游戏更有趣，\^FCDA92亡命之徒\^^模式中，你只能玩可用的最高难度"
 
 cc_flexi_about_title = "灵活游戏 (tm)"
-cc_flexi_about_close = "关闭"
+cc_flexi_about_close = "关闭" // cc_flexi_about_close = "Let's go!"
+cc_flexi_about_close_ttip = "Go choose your game size\nand slay some monsters!"
 cc_flexi_about_desc1 = "恭喜！\m1.3\^CDBA92灵活游戏\^^已解锁！"
-cc_flexi_about_desc2 = "灵活游戏模式中，可以自由选择想玩的游戏规模。\m1.8你可以根据喜好将游戏拆分为更小或更大的关卡。不管你选择什么规模，灵活游戏都可确保，每一个关卡中，奖励与挑战都是相适应的，并且游戏完成时间不会与预测相差太多。\m1.8同时，灵活游戏会学习你的游戏风格，所以预测时间也将日趋准确。"
+cc_flexi_about_desc2 = "灵活游戏模式中，可以自由选择想玩的游戏规模。\m1.8你可以根据喜好将游戏拆分为更小或更大的关卡。不管你选择什么规模，灵活游戏都可确保，每一个关卡中，奖励与挑战都是相适应的，并且游戏完成时间不会与预测相差太多。\m1.8同时，灵活游戏会学习你的游戏风格，所以预测时间也将日趋准确。" // cc_flexi_about_desc2 = "\^FCDA92With Flexiscope you choose the size of your game session.\^^\m1.8Depending on your preferences, you can divide your adventure into smaller or bigger games. Regardless of how much time you have, Flexiscope ensures fair balance of threats and rewards and that the gameplay experience can be completed in the predicted time.\m1.8 Since Flexiscope learns your gameplay style the time estimates for each subsequent session size should be more accurate."
 
 cc_flexi_diff_unlocked_title = "新困难"
 
@@ -2124,7 +2126,7 @@ wnd_tutorials_select = "查看所有"
 wnd_tutorials_deselect = "Clear All"
 wnd_tutorials_skip = "跳过"
 wnd_tutorials_exit = "关闭"
-wnd_tutorials_exit_pad = "关闭 \si"
+wnd_tutorials_exit_pad = "关闭"
 
 wnd_tut_prev = "上一个"
 wnd_tut_next = "下一个"
