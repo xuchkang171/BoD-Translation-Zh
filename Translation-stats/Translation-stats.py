@@ -39,13 +39,13 @@ for x in (launcher_path, main_path, cards_path, gossips_path):
             translation_items_count_in_file += 1
             if t.match(script):
                 translated_items_count_in_file += 1
-        log += "{}: {}% ({}/{}) translated in {} rows.\n".format(re.search(r"(?<=\\)\w*\\\w*\.utf8", x).group(0),
+        log += "* {}: {}% ({}/{}) translated in {} rows.\n".format(re.search(r"(?<=\\)\w*\\\w*\.utf8", x).group(0),
                                                                  round(translated_items_count_in_file / translation_items_count_in_file * 100),
                                                                  translated_items_count_in_file, translation_items_count_in_file, len(all_text))
         translation_items_count_summary += translation_items_count_in_file
         translated_items_count_summary += translated_items_count_in_file
 
-summary = "Translation progress: {}% ({}/{})\n".format(round(translated_items_count_summary / translation_items_count_summary * 100),
+summary = "* Translation progress: {}% ({}/{})\n".format(round(translated_items_count_summary / translation_items_count_summary * 100),
                                                    translated_items_count_summary, translation_items_count_summary)
 log = summary + log
 f = open('Progress.txt', 'w')
