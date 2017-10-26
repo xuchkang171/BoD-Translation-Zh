@@ -12,12 +12,12 @@ main_path = r2g_path + r"\bod_lang_{}_demo\bod_demo_main.utf8".format(language_c
 cards_path = r2g_path + r"\bod_lang_{}_demo\bod_demo_cards.utf8".format(language_code)
 gossips_path = r2g_path + r"\bod_lang_{}_demo\bod_demo_gossips.utf8".format(language_code)
 
-script_row_re = "^\w+\s*=\s*\"(.*)\"$"
+# script_line_re = "^\w+\s*=\s*\"(.*)\""
+script_line_re = "^\w+\s*=\s*\"(.*)\""
 # Made for simplified chinese and traditional chinese. Revise it if you're working on a translation for other language.
 # Todo: Specific explanation
-translated_text_re = "^([^\x00-\xff]|\\\^[a-zA-Z0-9]{6}|\\\^\^|\\m\d\.\d|\s|\\s[a-zA-Z]*[0-9]*[<>?:;=]?|[" \
-                     "/+=|\\n]|\\\d|\d|[:,.?!->]|)+$ "
-s = re.compile(script_row_re)
+translated_text_re = "^([^\x00-\xff]|\\\^[a-zA-Z0-9]{6}|\\\^\^|\\m\d\.\d|\s|\\s[a-zA-Z]*[0-9]*[<>?:;=]?|[/+=|\\n]|\\\d|\d|[:,.?!->]|)+$"
+s = re.compile(script_line_re)
 t = re.compile(translated_text_re)
 ignore_string_mark = r"# Translator: All or part of it Won't be translated."
 
@@ -36,17 +36,18 @@ for x in (launcher_path, main_path, cards_path, gossips_path):
             result = s.match(line)
             try:
                 script = result.group(1)
-            except IndexError:
+            except (IndexError, AttributeError):
                 continue
             translation_items_count_in_file += 1
             if t.match(script):
                 translated_items_count_in_file += 1
-        translation_items_count_in_file -= len(re.findall(ignore_string_mark, plain_text))
+        translated_items_count_in_file += len(re.findall(ignore_string_mark, plain_text))
         log += "* {}: {}% ({}/{}) translated in {} lines.\n".format(re.search(r"(?<=\\)\w*\\\w*\.utf8", x).group(0),
                                                                     round(translated_items_count_in_file / \
                                                                           translation_items_count_in_file * 100),
                                                                     translated_items_count_in_file,
-                                                                    translation_items_count_in_file, len(all_text))
+                                                                    translation_items_count_in_file,
+                                                                    len(all_text))
         translation_items_count_summary += translation_items_count_in_file
         translated_items_count_summary += translated_items_count_in_file
 
