@@ -42,12 +42,11 @@ for x in (launcher_path, main_path, cards_path, gossips_path):
             if t.match(script):
                 translated_items_count_in_file += 1
         translated_items_count_in_file += len(re.findall(ignore_string_mark, plain_text))
-        log += "* {}: {}% ({}/{}) translated in {} lines.\n".format(re.search(r"(?<=\\)\w*\\\w*\.utf8", x).group(0),
+        log += "* {}: {}% ({}/{})\n".format(re.search(r"(?<=\\)\w*\\\w*\.utf8", x).group(0),
                                                                     round(translated_items_count_in_file / \
                                                                           translation_items_count_in_file * 100),
                                                                     translated_items_count_in_file,
-                                                                    translation_items_count_in_file,
-                                                                    len(all_text))
+                                                                    translation_items_count_in_file)
         translation_items_count_summary += translation_items_count_in_file
         translated_items_count_summary += translated_items_count_in_file
 
