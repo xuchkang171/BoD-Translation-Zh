@@ -1,16 +1,16 @@
 # 更新动态 Update activities
+* 2017-10-26: 61% (+609: launcher:+210 / main:+278 / cards:+96 / gossips:+25) *Regard no-need-to-translate scripts as translated.*
 * 2017-10-25: 49% (+135: launcher:+4 / main:+46 / cards:+3 / gossips:+82)
 * 2017-10-24: 46% (+70: launcher:+0 / main:+14 / cards:+8 / gossips:+48)
 * 2017-10-23: 44%
 
 # 当前进度详情 Progress details
 
-* Translation progress: 49% (2205/4506)
-* lang_zh\launcher.utf8: 63% (627/1001) translated in 1252 lines.
-* bod_lang_zh_demo\bod_demo_main.utf8: 47% (1002/2154) translated in 2837 lines.
-* bod_lang_zh_demo\bod_demo_cards.utf8: 32% (340/1057) translated in 1326 lines.
-* bod_lang_zh_demo\bod_demo_gossips.utf8: 80% (236/294) translated in 391 lines.
-
+* Overall progress: 61% (2814/4646)
+* lang_zh\launcher.utf8: 83% (837/1004) translated in 1253 lines.
+* bod_lang_zh_demo\bod_demo_main.utf8: 59% (1280/2178) translated in 2844 lines.
+* bod_lang_zh_demo\bod_demo_cards.utf8: 38% (436/1144) translated in 1331 lines.
+* bod_lang_zh_demo\bod_demo_gossips.utf8: 82% (261/320) translated in 392 lines.
 
 # 如何使用 How to use
 
