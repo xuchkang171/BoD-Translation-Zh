@@ -21,4 +21,4 @@ update = list(present-last for present,last in zip(present_progress,last_progres
 
 details = "%+d: launcher:%+d / main:%+d / cards:%+d / gossips:%+d" % tuple(update)
 # 2017-10-24：46% (+70: launcher: +0 / main: +14 / cards: +8 / gossips: +48)
-print("{date}: {percentage}% ({details})".format(date=date.today(), percentage=present_percentage, details=details))
+print("* {date}: {percentage}% ({details})".format(date=date.today(), percentage=present_percentage, details=details))
