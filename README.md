@@ -7,10 +7,10 @@
 # 概况 Overview
 
 * 总进度 Overall progress: 61% (2814/4646)
-* lang_zh\launcher.utf8: 83% (837/1004) translated in 1253 lines.
-* bod_lang_zh_demo\bod_demo_main.utf8: 59% (1280/2178) translated in 2844 lines.
-* bod_lang_zh_demo\bod_demo_cards.utf8: 38% (436/1144) translated in 1331 lines.
-* bod_lang_zh_demo\bod_demo_gossips.utf8: 82% (261/320) translated in 392 lines.
+* lang_zh\launcher.utf8: 83% (837/1004)
+* bod_lang_zh_demo\bod_demo_main.utf8: 59% (1280/2178)
+* bod_lang_zh_demo\bod_demo_cards.utf8: 38% (436/1144)
+* bod_lang_zh_demo\bod_demo_gossips.utf8: 82% (261/320)
 
 顺带还写了一个统计翻译进度的小脚本，如有译者需要，可[点此下载](https://github.com/xuchkang171/BoD-Translation-Zh/tree/master/Translation-stats)。
 
@@ -21,9 +21,9 @@ I also made a tiny tool for calculating the translation progress. If you need it
 
 1.Download [latest relase](https://github.com/xuchkang171/BoD-Translation-Zh/releases) (*.7z) 
 
-2.打开游戏文件夹：打开 Steam 的「库」。右键点击 Book of Demons，选择「属性」->「本地文件」->「浏览本地文件」。
+2.打开游戏文件夹：打开 Steam 的`库`。右键点击 `Book of Demons`，选择`属性`，`本地文件`，`浏览本地文件`。
 
-2.Open Steam library. Right click on Book of Demons, click properties, local files, brower local files.
+2.Open Steam `library`. Right click on `Book of Demons`, click `properties`, `local files`, `brower local files`.
 
 3.将压缩包内的三个文件夹解压缩，放到这里。目录结构应为:
 
