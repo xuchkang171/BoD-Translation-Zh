@@ -35,4 +35,4 @@ I also made a tiny tool for calculating the translation progress. If you need it
 
 4.如上下载并解压缩之后：重启游戏，在游戏的设置中切换为简体中文即可。
 
-4.After Download the unzip as above, restart the game, and change language setting.
+4.After download and unzip as above, restart the game, and change language setting.
