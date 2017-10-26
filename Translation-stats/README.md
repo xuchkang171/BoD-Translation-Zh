@@ -2,13 +2,19 @@
 
 ## How to use
 
-Run Translation-stats.exe, it'll craete Progress.txt in the same folder. The result of translation progress stats is in it.
+If you don't have this tool yet, download it [here](https://github.com/xuchkang171/BoD-Translation-Zh/releases). For calculating translation progress, all you need is `Translation-stats` folder.
+ 
+`Translation-stats` should lies in the same folder which has your work folder (`bod_lang_**_demo` and `lang_**`), like:
+
+    path\to\my\translation\bod_lang_zh_demo
+    path\to\my\translation\lang_zh
+    path\to\my\translation\Translation-stats 
+
+Run Translation-stats\Translation-stats.exe, it'll write stats into Progress.txt (`path\to\my\translation\Translation-stats\Progress.txt`).
 
 ---
 
-双击运行 Translation-stats.exe 即可。
-它会在同目录下创建 Progress.txt，翻译进度的统计结果就在这个文件里了。
-
+双击运行 Translation-stats\Translation-stats.exe 即可。它会将统计信息写入 Progress.txt。(`path\to\my\translation\Translation-stats\Progress.txt`)
 ## How to compile yourself
 
 1. Clone or download this reop. Copy everything in BoD-Translation-Zh to your Book of Demons folder.
