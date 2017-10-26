@@ -4,7 +4,7 @@
 
 If you don't have this tool yet, download it [here](https://github.com/xuchkang171/BoD-Translation-Zh/releases). For calculating translation progress, all you need is `Translation-stats` folder.
  
-`Translation-stats` should lies in the same folder which has your work folder (`bod_lang_**_demo` and `lang_**`), like:
+Place `Translation-stats` in the same folder which has your work folder (`bod_lang_**_demo` and `lang_**`), like:
 
     path\to\my\translation\bod_lang_zh_demo
     path\to\my\translation\lang_zh
