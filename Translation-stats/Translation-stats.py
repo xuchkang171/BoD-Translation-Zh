@@ -15,7 +15,7 @@ gossips_path = r2g_path + r"\bod_lang_{}_demo\bod_demo_gossips.utf8".format(lang
 
 # translated_units: load ignore items from ignore.txt
 def load_ignores_for(translated_units):
-    with open(r"G:\SteamLibrary\steamapps\common\Return 2 Games\Translation-stats\ignore.txt") as f:
+    with open(r"ignore.txt") as f:
         all_text = f.read().split("\n")
         for index, line in enumerate(all_text):
             if line.startswith("# "):
@@ -35,7 +35,7 @@ translated_units = {"wide character"        : r"[^\x00-\xff]",  # Contains all C
                     "foo_1"                 : r"\\m\d\.\d",
                     "space"                 : r"\s",
                     "icon_mark"             : r"\\s[a-zA-Z]*[0-9]*[<>?:;=`]?",
-                    "several characters"    : r"[/+-=,.:?!>_%~()|\"]",
+                    "several characters"    : r"[/+-=,.:?!>_%~()]|\\\"",
                     "carriage return mark"  : r"\\n",
                     "variable mark"         : r"\\\d",
                     "digit"                 : r"\d",
