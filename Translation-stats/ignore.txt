@@ -1,0 +1,38 @@
+# One ignore item per line. Empty line or one line start with "# " will be regarded as an annotation. Like this one.
+
+# Platform
+Facebook
+Twitter
+Reddit
+Twitch
+Windows
+
+# R2G
+R2G
+support@thingtrunk.com
+Thing Trunk
+Return 2 Games
+
+# Hotkey
+Win+R
+ALT
+Shift
+
+# System
+%AppData%
+
+# Game
+Boss
+Steam
+Miss
+2D
+GFX
+It's time to Return 2 Games!
+Tobii
+EyeX
+GUI
+BUG
+
+# Others
+m
+I
