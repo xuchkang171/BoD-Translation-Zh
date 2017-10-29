@@ -28,123 +28,123 @@ gtxt_0_2 = "    我在尽我最大的努力让大家都振作起来，但事实�
 gtxt_0_3 = "    我知道，你现在肯定有很多疑问，但恐怕我了解的也不多。如果你想找人问问，去跟智者聊聊吧。兴许他能帮上忙。"
 
 gtit_1 = "黑暗" ## 智者
-gtxt_1_0 = "    你的到来给我灰冷的心带来了一缕曙光。没有什么比旅行更锻炼一个人的了——我就知道！——但是我恳求你不要走。我们需要你！一些黑暗的东西潜藏在老教堂的深处。我在旅行中已经见过了很多恶魔，不过这倒让我穿越龙之废墟的旅程增色几分。"
+gtxt_1_0 = "    你的到来给我灰冷的心带来了一缕曙光。没有什么比旅行更锻炼一个人的了——我早该知道！——但是我恳求你不要走。我们需要你！一些黑暗的东西潜藏在老教堂的深处。我在旅行中已经见过了很多恶魔，不过这跟我穿越龙之废墟的旅程相比根本不算什么。"
 gtxt_1_1 = "    这一切都是从我们主教的失踪开始的。我担心他是不是被拖到了教堂深处的地下墓穴。我也不知道是什么造就了对这个圣地的亵渎，这仍是个未解之谜。但我知道你一定有办法弄清楚！不过请记得千万小心，那些冒险造访黑暗的人几乎无人生还，少数归来者也无一活到今日。"
 
 gtit_2 = "介绍" ## 治愈术士
-gtxt_2_0 = "    感谢天堂聆听我的祷告，赐予我们一位光明斗士！我将尽我所能助你战斗。如果你需要治疗身心疾病，请随时来找我。但是，万勿大意，面对邪恶军团可不是小打小闹。愿信念与你同在！"
-gtxt_2_1 = "    There is no better protection against darkness. If you allow yourself to falter you shall become defenseless and even risk losing your immortal soul. I saw what happened to those who went astray in their spiritual vocation and... No, it's better not to dwell on such things lest darkness overcome us."
+gtxt_2_0 = "    感谢上天聆听我的祷告，赐予我们一位光明斗士！我将尽我所能助你战斗。如果你需要治疗身心疾病，请随时来找我。但是，万勿大意，面对邪恶军团可不是小打小闹。愿信念与你同在！"
+gtxt_2_1 = "    抵御黑暗，唯有坚定意志。一旦动摇，你将毫无防备，甚至失去你不朽的灵魂。我目睹过那些在精神职业上误入歧途的人都经历了什么，他们……算了，沉湎于此，只会被黑暗侵蚀。"
 
 gtit_3 = "简介" ## 预言家
-gtxt_3_0 = "    Greetings, traveller! People call me the 预言家. I'm pleased to see there are souls courageous enough to visit a place like this and stay. In truth, I came here recently myself, as I had to leave the royal capital."
-gtxt_3_1 = "    I am certain you have already heard about me and my excellent skills from the lovely 酒吧侍女 I'm tutoring. Believe me when I say you will find my craft most useful in your adventures. Feel free to talk to me should you need any assistance."
-gtxt_3_2 = "    The townsfolk are good but simple people, and know little about the arcane. That 智者 may be an exception, but his wit - not to mention his social skills - are clearly dulled by age. We're all lucky that cranky old men tend to be harmless."
+gtxt_3_0 = "    你好，旅行者！人们叫我预言家。很欣慰在如此险恶之地，还能见到英勇的心灵造访驻足。实际上，我也是不久前，因为不得不离开皇城，才选择来到这里的。"
+gtxt_3_1 = "    我正在辅导那个可爱的酒吧侍女，你肯定已经从她那里听说过我了，还有我出色的才能。请相信我，你终会发现，我的手艺是对你的探险最有用的帮助。需要任何帮助，请随时与我交谈。"
+gtxt_3_2 = "    镇上的人都很好，但也很朴实，对神秘之事知之甚少。那位智者可能是个例外，但他的智慧显然已经随着年龄增长，变得迟钝了。更别提它的社交技能了。不过，我们都很幸运，易怒的老人往往也无害。"
 
 gtit_4 = "坩埚" ## 酒吧侍女
-gtxt_4_0 = "    I've been busy too, while you were away. The 预言家 is teaching me her craft, and I don't mean her skill with cards. It's called \"Prize Brewing\" and it's the art of producing powerful magical elixirs that someone like you should find useful. All you need to do is collect the ingredients. I'll take care of the rest."
-gtxt_4_1 = "    Now, this is magical stuff I'm talking about, so there are some rules. First, the more ingredients I mix, the greater the potion's power will be. Second, you can drink it and enjoy a little magic any time you want, but the process will get more expensive each time. Third, if monsters slay you in the dungeons, the potion will weaken. It's because I'm making them just for you, so they have to be magically linked to your essence."
+gtxt_4_0 = "    你不在的时候，我也在忙。预言家在教我她的手艺，我指的不是关于卡牌的那些。我在学「奖品酿造」的手艺，就是一种强大魔法丹药的酿造之术，那些丹药，像你这样的冒险者肯定会觉得有用的。如果你需要的话，只用收集坩埚原料就行了，剩下的就交给我了。"
+gtxt_4_1 = "    这个魔法，有些规律。首先，我调配的原料越多，药水的能量就会越大，酿造的将品也就越丰富。其次，你随时都可以提取出奖品，但是提取的价格会越来越贵。第三，如果你在地牢中被怪物杀掉，药水的能量就会减弱。这是因为我在为你酿造的时候，药水就与你的精神用魔法相连了。"
 
 gtit_5 = "小镇" ## 预言家
-gtxt_5_0 = "    Welcome back, my friend. I'm sure you have already noticed how things changed for the better around here while you were travelling around the world? Apart from the demonic presence, of course. One as smart as yourself surely realizes that this mostly is due to my beneficial presence in this small town."
-gtxt_5_1 = "    Take 酒吧侍女 as an example. A simple girl, to be sure, but surprisingly talented when it comes to Prize Brewing. Her potential would surely go to waste if it wasn't for me. Her focus and strong will remind me of myself in youth."
-gtxt_5_2 = "    Then there's the 智者, whose stories are nothing but half-truths. Simple folk are easily swayed by men like him, so I have to correct him all the time. As for the 治愈术士, I helped him a lot and even offered to read his fortune for free, but he ran away. Most curious! Make no mistake, he's hiding something."
+gtxt_5_0 = "    欢迎回来，我的朋友。相信你已经注意到了，当你周游世界归来，这里的情况已经有所好转。当然，除了那些邪恶的存在。你这么聪明，肯定猜到了，这主要是因为有我在。"
+gtxt_5_1 = "    比如酒吧侍女，无疑是个单纯的小女孩，但是当她开始做「奖品酿造」，她惊人的才华才显现出来。如果不是我的话，她的潜能肯定就浪费了。她的专注与坚强，让我想起年轻时的自己。"
+gtxt_5_2 = "    还有智者，爱聊自己的故事，真真假假。单纯的人们很容易被他这样的人忽悠，所以我不得不经常纠正他。至于治愈术士，我帮过他很多忙，还提出过可以无偿给他解读命运，但他转身就跑。他显然在隐藏些什么。"
 
 gtit_6 = "卡牌" # 预言家
-gtxt_6_0 = "    Magical cards are my specialty. They represent a novel approach to magic, offering a superior alternative to clunky weaponry and verbose spell-casting. Unfortunately, new things are often frowned upon, even more so in... quaint places, like this town. Can you imagine not so long ago those people traded with a local blacksmith? This is so Middle Ages... No wonder he went bankrupt!"
-gtxt_6_1 = "    But let's get back to business. Cards are universal magical items, which can manifest properties of weapons, spells and other artifacts. Some consume magical essence once used, but they can be recharged using objects found in the dungeons or with my help - at a reasonable price!"
-gtxt_6_2 = "    Just like with playing cards, the trick is to find the right combination of magical properties that gives you the best advantage."
+gtxt_6_0 = "    魔法卡牌是我的专长。它们意味着一种新颖的法术，跟笨重的武器与冗长的咒语施法相比，提供了一种更好的选择。不幸的是，新的事物往往不容易被人接受，在一些古朴的地方更是如此，比如这座小镇。你能想象就在不久前人们还在和本地一个铁匠交易吗？这也太落伍了……难怪他会破产！"
+gtxt_6_1 = "    还是说回正题吧。卡牌是万能的魔法物品，可以提现武器、法术和其他物品的属性。有些卡牌每次使用都会消耗魔法精华，它们可以通过使用地牢里的一些东西来充能，或者找我帮忙充能——价格公道！"
+gtxt_6_2 = "    就像玩纸牌一样，法术卡牌的使用，诀窍在于找到能给你带来最大优势的魔法属性组合。"
 ##
 
 gtit_7 = "预言家" # 预言家
-gtxt_7_0 = "    So you want to know more about me? How flattering! Nowadays I may seem like a mere merchant to you, but before I left the capital I was the jewel of high society. Poets praised my beauty, scholars were in awe of my knowledge, and hot-blooded heirs of the most noble families duelled to earn my attention. Like so many others, our good King often sought my counsel and lamented when I had no time for him."
-gtxt_7_1 = "    You must wonder why I left that world behind. Let me just say that too much attention eventually becomes tiring. I prefer to use my talents on those who are truly helpless. Do you know what happens to ordinary people if those with great gifts abandon them? They fall prey to fallacies and misconceptions. Just listen to some of the 智者's stories. You'll know what I mean."
+gtxt_7_0 = "    你想知道更多关于我的事吗？受宠若惊！现在，我可能看起来只是个商人，但我离开皇城之前，也是上流社会的一颗明珠。诗人称赞我的美貌，学者们敬畏我的知识，最高贵家族的热血继承者们为赢得我的关注而决斗。我们贤明的国王经常寻求我和其他一些人的忠告，当我无暇顾及时还会惹他哀叹。"
+gtxt_7_1 = "    你肯定好奇我为什么离开了那个世界。其实，就是太多的注意力最终变成了拖累。我更希望用我的才能，来帮助亟需帮助的人。你知道普通人如果被有天赋者抛弃会如何吗？沦为谬误与误解的牺牲品。只要听一些智者的故事，你就会明白我的意思。"
 
 gtit_8 = "法术卡牌" ## 智者
-gtxt_8_0 = "    Finally, a challenge and a chance to use my knowledge for the good! These mystical cards aren't used to cheat and get money from the hopeless and naive, so of course the fortune-telling woman knows nothing about them. However, the true scholars of the arcane - like the hermits of the Eastern Wilds - sometimes pass their secrets to those they deem worthy - like myself."
-gtxt_8_1 = "    You should know that, despite their modest look, such objects can hold powerful enchantments with remarkable properties. Still, as long as their wondrous attributes remain unknown, they are completely useless. Consider yourself fortunate, as I will identify them for you."
+gtxt_8_0 = "    终于有机会聊聊我这方面的知识了。这些神秘卡牌可不是用来诓骗无望之人，从老实人身上榨取钱财的，那个算命女人对它一无所知。真正的奥术学者，比如东部荒野的隐士们，有时会将那些机密传授给像我这样真正值得托付的人。"
+gtxt_8_1 = "    尽管这些卡牌看着不起眼，但你要知道，它们可以承载属性卓越的强大魔法。不过，卡牌的奇妙属性如果尚处查明，则完全无用。你很幸运，因为我可以为你鉴定。"
 
 gtit_9 = "观察" ##治愈术士
-gtxt_9_0 = "    Perhaps you have noticed there seems to be some antipathy between the 智者 and the 预言家? You would do well to pay no heed to what they say about each other. Old age brings many burdens that can make one's heart bitter."
-gtxt_9_1 = "    As for their adventurous tales... I have yet to see any evidence of their deeds, so I'm afraid the passing years might have weakened their minds, which now drift towards the fantastical. Who knows, they might even believe in the things they're describing so vividly."
-gtxt_9_2 = "    Hmm, now that I think of it, their quarrels might be a facade. Years spent in the monastery made me quite observant, so either I'm growing old too, or they might have something more going on."
+gtxt_9_0 = "    你应该已经注意到了，智者和预言家有些不和。但他们说对方的那些话，你可别放心上。衰老的重负，叫人心痛苦。"
+gtxt_9_1 = "    至于他们的冒险事迹……我也没见过任何证据。所以我担心，是否逝去的岁月削弱了他们的心灵，让他们开始幻想。谁知道呢，他们说得活灵活现的那些故事，说不好自己真的相信。"
+gtxt_9_2 = "    嗯，现在想想，他们的争吵可能并不是认真的。在修道院的日子锻炼了我的观察力，如果我还没老的话，相信他们还会有故事发生。"
 
 gtit_10 = "符文" ## 预言家
-gtxt_10_0 = "    Ah, so you came across a runic card? You're wise to ask me about it. Let me explain. Cards like these have no inherent properties of their own, but professionals like myself can still use them to enhance other cards."
-gtxt_10_1 = "    Now, this kind of craft requires subtlety and caution. So whenever you find more of these, keep up that resolute attitude of yours and bring them straight to me. Don't bother talking to the 智者 about them - his methods are as ancient as his jokes."
+gtxt_10_0 = "    啊，你发现符文卡牌了？咨询我这个事情真是找对人了。符文卡牌是没有固定属性的，但像我这样的专业人士仍然可以用它们来增强其他卡牌。"
+gtxt_10_1 = "    不过，这种微妙的工艺需要非常小心谨慎。当你找到更多这样的卡牌，别犹豫，赶紧带到我这儿来吧。别浪费时间跟智者讨论卡牌的事情了，他的方法和他的笑话一样过时。"
 
 gtit_11 = "迷宫" ## 酒吧侍女
-gtxt_11_0 = "    Remember how when we were kids we used to sneak into the cathedral and bother the monks in the scriptorium? Poor guys were completely helpless and couldn't even yell at us until they chased us outside. Those were happier times - but now, with all the evil creatures down there..."
-gtxt_11_1 = "    Remember the smith? People think he left because of the 预言家, but I know the true story. You see, monsters snatched his wife and son and dragged them into the dungeons. He followed them and found a terrible place: a kitchen where 恶魔 cook human flesh for their master! Can you imagine seeing your loved ones prepared into a stew, or even worse - black pudding?"
-gtxt_11_2 = "    He managed to come back and tell us all about it, but his mind was unhinged by grief. The next night he vanished for good."
+gtxt_11_0 = "    还记得我们小时候是怎么溜进大教堂，怎么给藏经阁的僧侣们捣乱的吗？可怜的家伙们对我们完全无可奈何，出来追到我们之前，在阁内想喊叫驱赶都不行。那些快乐的时光啊。但现在，邪恶的生物占领了那里……"
+gtxt_11_1 = "    还记得铁匠吗？大家以为是预言家的出现导致了他的离开，但我知道真实的情况。当时怪物劫持了他的妻儿，把他们拖到地牢。他跟在后面，发现了一个可怕的地方：恶魔给它们的主人煮人肉的厨房！你能想象目睹你爱的人即将被做成炖肉，甚至血香肠吗？"
+gtxt_11_2 = "    他本想回来告诉我们这一切，但他却因悲伤过度而精神错乱。第二天晚上，他就消失了。"
 
 gtit_12 = "酒吧侍女" ## 智者
-gtxt_12_0 = "    酒吧侍女 is as kind as she is strong, and these two qualities rarely go hand-in-hand. She's been caring for me as if we were family, and not once has she complained. I visited dozens of inns and believe me, such places are to any village what a hearth is to a house. If the innkeeper has a stout heart, none despair, even if the times are dire. That's what she does for this community, if you ask me. "
-gtxt_12_1 = "    Unfortunately, she seems to have befriended that woman and even learns her craft. That witch corrupts everything she touches! So just to be on the safe side, I'm guarding this well."
+gtxt_12_0 = "    酒吧侍女不但善良而且坚强，很少有人两种品质兼而有之。她一直在照顾我，待我就像家人一样，从未抱怨。我去过几十家旅馆，相信我，没有哪个像这里一样温暖人心。只要旅馆老板有一颗坚强的心，即使身处可怕的时代，心中也有希望。要我说，这就是她为这个社区所做的贡献。"
+gtxt_12_1 = "    不幸的是，她似乎和那个女人成了朋友，甚至学习她的诡技。那个女巫腐化了她触及的一切！安全起见，我也一直在小心防范。"
 
 gtit_13 = "地狱厨房" # 酒吧侍女
-gtxt_13_0 = "    So you slew the man-eating demon? That's terrific news! It means you can beat them, and there's still hope."
-gtxt_13_1 = "    Still, as 智者 tells me \"when it comes to devils and such, death is a blurry thing. Their living essence is not like ours and sometimes they endure death, hiding in the shadows.\" Evil can be stubborn like that, you know."
-gtxt_13_2 = "    I can't tell you how I know this, but there are magical keys that force them to become flesh and blood again. If you stumble upon such things, you'll be able to fight them again, and maybe even kill them for good. Sounds convoluted, I know. I'm not an expert on these things - I just sell them."
+gtxt_13_0 = "    你杀了那个吃人的恶魔？太棒了！这说明还有希望，你可以打败他们。"
+gtxt_13_1 = "    尽管如此，正如智者告诉我的那样，「当谈及魔鬼，死亡是一件琢磨不清的事情。它们的生命本质不同于我们，有时它们会躲在阴影中忍受死亡。」你看，魔鬼竟然可以这样顽固。"
+gtxt_13_2 = "    我不能告诉你我何以知道这些，但有些神奇的钥匙能迫使它们再次成为血肉之躯。如果你偶然发现这些东西，你就能与它们再次战斗，甚至可能永远杀死它们。我知道，听起来有些复杂，毕竟我也不是这方面的专家，我只是卖这些东西。"
 
 gtit_14 = "治愈术士" ##酒吧侍女
-gtxt_14_0 = "    The 治愈术士 is the most cowardly person I've ever met! Nowadays we're all frightened - but I swear, a loud barking dog would give that man a heart attack. But you know what? I respect him more because he stayed. That must have been very difficult for him. Makes me think he must have other reasons to be here. Sometimes I get the feeling he feels guilty about something he had done and decided to stay to make amends."
-gtxt_14_1 = "    I also noticed how he changed after the bishop vanished and folk started talking about strange rituals happening in the cathedral. Of course, he wouldn't tell me anything. Maybe you'll have more luck talking to him."
+gtxt_14_0 = "    治愈术士是我见过最胆小的人！虽然如今人心惶惶，但我发誓，一只狂吠的狗就会让他心脏病发作。但你知道吗？我对他更多的还是尊重，因为他毕竟留下来了。这对他来说一定是个艰难的选择。我觉得他肯定有某种必须留下的原因。有时，我会有这样的感觉，他似乎对他做过的什么事心存愧疚，并决定留下来弥补。"
+gtxt_14_1 = "    当主教消失，民间开始谈论大教堂里进行的奇怪仪式时，我注意到他有些变化。当然，他什么都不肯跟我说。如果你运气不错，兴许能跟他聊几句。"
 
 gtit_15 = "地下墓穴" ## 治愈术士
-gtxt_15_0 = "    There can be no doubt about it. The bishop and his foul rituals are the source of this evil scourge. When he proclaimed himself 伪教皇, he not only committed sacrilege but also gained unholy power that allowed him to unleash the infernal hordes upon this land. But it was only possible because of... me."
-gtxt_15_1 = "    It was I who found the Manuscript with forbidden knowledge and gave it to him. Oh, I should have kept it hidden! As soon as I showed it to him, I saw his spirit crumbling as he struggled with dark temptations. But I did nothing, so I too must carry the weight of his sins. There, I've finally said it."
-gtxt_15_2 = "    What I lack in courage, I try to make up for with prayer. That's why I believe you are our champion and I must help you. Each day I conquer my fear and remain here. It is my penance."
+gtxt_15_0 = "    毫无疑问，主教与它的邪恶仪式是这场恶魔风暴的祸源。当他宣告自己是那个对立宗教的教皇时，他不仅犯了亵渎之罪，而且获得了邪恶的力量，让他得以释放恶魔大军在这片土地上肆虐。但这之所以能够发生，是因为……我。"
+gtxt_15_1 = "    是我，发现了禁忌知识的手稿，并交给了他。欸，我应该把它藏起来的！当他看到那份手稿，我看到他似乎在黑暗中试图挣扎，精神崩溃。而我什么都没做。我必须承担他的罪过。唉，我终于说出来了。"
+gtxt_15_2 = "    我试着用祈祷来弥补缺失的勇气。我也正是因为你的勇气而坚信你是我们的勇士，所以竭力相助。每天我都克服自己的恐惧，留在这里。这是我的忏悔。"
 
 gtit_16 = "伪教皇" ## 治愈术士
-gtxt_16_0 = "    So 伪教皇 is dead... Thank you for ending his reign. I'm sure the Heavens would prefer me to be the one who brought him down and balanced the scales of justice, but I would never be brave enough to carry out such a courageous 探索."
-gtxt_16_1 = "    Moreover, I vowed to help and protect life, so taking one - even one so twisted by evil as his - goes against that oath. I shall thank the Heavens for sending you to our aid!"
+gtxt_16_0 = "    伪教皇……真的死了？感谢你结束了他的统治。虽然上天肯定更希望是我打倒了他，将功补过，但我可能永远不会如此英勇，踏上这样一场无畏征途。"
+gtxt_16_1 = "    而且，因为曾经发誓要护佑生灵，所以即便是如他这般被邪恶扭曲的人，杀掉他也是对当初誓言的违背。感谢上天让你来帮助我们！"
 
 gtit_17 = "地狱" ## 预言家
-gtxt_17_0 = "    I'm afraid I have troubling news that I need to discuss with you. First, you must know that since I came to this town I've been having the most gruesome dreams. At first I suspected rural cuisine was to blame, but lately these visions became too horrid to ignore. Now, it would be a basic mistake to take dreams literally, so I consulted my crystal ball to be certain."
-gtxt_17_1 = "    What I saw terrified me to the bone. There's a mighty will behind the infernal hordes that attack us - 恶魔领主 himself. The most vile and cruel creature, one with immense dark power. I peered into his fate and saw a glimpse of the past. He used to slumber in his hellish realm until 伪教皇 awakened him. With each passing hour, 恶魔领主's army of 骇客s is crawling ever closer to the surface. If they succeed, the shadow of darkness will fall on us for all eternity. "
+gtxt_17_0 = "    恐怕，有个令人不安的消息，需要和你讨论。首先，你要知道，自从我来到这个小镇，我一直在做可怕的梦。起初我以为是乡下的食物有问题，但最近这些梦中情景变得可怕至极，已经成为不容忽视的问题。当然，把梦境当真显然是个常识性错误，为了确定，我察看了我的水晶球。"
+gtxt_17_1 = "    我看到的景象让我毛骨悚然。在攻击我们的地狱大军背后有个强大的意志力，那就是恶魔领主。有着巨大的黑暗力量，最邪恶，最残忍的生物。我凝视着它的命运，看到了一眼它的过去。它曾经在它的地狱沉睡，直到伪教皇唤醒了它。恶魔领主的骇客军团爬行着，每过一小时，就离地表更近。如果它们成功了，黑暗的阴影就将永远笼罩我们。"
 
 gtit_18 = "我的英雄!" ## 酒吧侍女
-gtxt_18_0 = "    你做到了！ The king of 恶魔 has fallen, and at the hand of my friend! I never doubted you. You can't imagine how happy I am. Maybe now the cows will stop breathing fire and giving sour milk. You should know that I will never forget what you did for us. You've earned a very special place in my heart."
+gtxt_18_0 = "    你做到了！恶魔首领倒下了，被我的朋友手刃！我从来没有怀疑过你。你无法想象我现在有多高兴。现在奶牛应该不再产酸奶、喷火了吧。我们永远不会忘记你为我们所做的一切。你在我心里赢得了一个特别的位置。"
 
 gtit_19 = "光明" ## 智者
-gtxt_19_0 = "    So 恶魔领主 has been slain? Now that is something truly unheard of! At least I've never heard anything like, which amounts to about the same thing. Congratulations, you are a true hero! However, remember that, unlike earthly realms, Hell isn't bound by the laws of nature, and its infernal dungeons stretch into infinity. If your spirit is as steadfast as your hand, you can venture deeper still, face more evil creatures and collect fabulous treasures and powerful artifacts. This adventure isn't over yet."
+gtxt_19_0 = "    所以恶魔领主已经被杀了？这真是闻所未闻！至少我从来没有听过类似的事情。恭喜，你是个真正的英雄！但是，请记住，与尘世不同，地狱不受自然法则约束，地牢绵延，无限深远。如果你的精神坚定，可以更深入地冒险，面对更多的邪恶生物，收集珍贵的宝藏和强大的神器。冒险永不止步。"
 
 gtit_20 = "胜利" ## 预言家
-gtxt_20_0 = "    So 恶魔领主 has fallen? Please accept my congratulations - but also hear this warning. Immortal beings do not succumb to death the way we do, and you must always be wary of their inevitable return. Still, let not this grim truth overshadow this victory. Your actions brought a triumph of light over darkness, and for that I owe you countless thanks!"
-gtxt_20_1 = "    True strength lies not in arms and spells, but in a steadfast spirit. Without it, no challenge can be tackled. This is what makes you a hero worthy of praise. Your story will be written down and sung. I'll make sure of that as soon as I return to the capital."
+gtxt_20_0 = "    恶魔领主被打倒了？请接受我的祝贺。同时，但也请务必警醒，不朽的生物不会像我们一样死亡，它们终将重返，请时刻警惕。尽管事实如此残酷，但也不能掩盖这场巨大胜利。你的壮举，让黑暗中迎来光明凯旋。感谢之情，无以言表！"
+gtxt_20_1 = "    真正的力量，不在于武器和法术，而在于坚定的精神。没有它，就无法克服任何挑战。你的坚定不移，让你成为一个值得歌颂的英雄。你的故事会被写下来，谱成歌。等我回到皇城，就会让你的颂歌飘扬在大街小巷。"
 
 gtit_21 = "结束了?" ## 治愈术士
-gtxt_21_0 = "    My prayers have been answered - 恶魔领主 is defeated! There are no words that can express my gratitude. The story of your deeds is already spreading throughout the land and bringing hope to the ones who saved their lives."
-gtxt_21_1 = "    But I must caution you, champion. Wrestling with darkness stains the soul, and yours has been marked as well. You walk a righteous path, and Heavens love you for that, but Hell's fury knows no limits. True evil can never be entirely destroyed, as it feeds on fear, anger, hate and suffering."
-gtxt_21_2 = "    Now that you've brought it down, it is already licking its wounds. It is the duty of the champion to never lower one's defenses and always be prepared to face the darkness. For it shall return one day, you can be certain of that. Be ready!"
+gtxt_21_0 = "    我的祈祷得到了回音——恶魔领主被击败了！对你的感激之情，无以言表。你的事迹已经传遍了大地，给拯救他人生命的人带去了希望。"
+gtxt_21_1 = "    但我必须提醒你，英雄。你的灵魂，因与黑暗角力，难免被玷污。你走正义之路，天堂将为你闪耀。但地狱的愤怒亦无止境。真正的邪恶也无法完全毁灭，因为它以恐惧、愤怒、仇恨和痛苦为食。"
+gtxt_21_2 = "    现在你打倒了它，它必然在舔拭伤口。永不放下防御，时刻警惕黑暗，这是英雄的职责所在。但黑暗终将重返，请做好准备！"
 
 gtit_22 = "药剂"  ## 治愈术士
-gtxt_22_0 = "    When I was still a young monk, we used to jest that dull brothers excel in copying holy texts and those with any wit left become master brewers. It does not sound very amusing now, but it would bring us to tears back then. Monastic life can be very monotonous, you see."
-gtxt_22_1 = "    Regardless, potion brewing was our specialty. It required hours of prayer and meditation. Nowadays, even a 酒吧侍女 can procure a potent mixture with one hand while stuffing a turkey with the other. And the magical cards allow you to use objects that you don't even have to carry!"
-gtxt_22_2 = "    You might think that as a man devoted to matters of the spirit I may object to the methods of the 预言家. Normally this would be true, but in such dire times, when darkness threatens the light, we need all to use their talents to oppose evil. I believe her gifts are a godsend."
+gtxt_22_0 = "    当我还是一个小和尚时，我们常开玩笑说，笨人抄经，智者制药。现在听起来可能并不好笑，但那时候，我们会笑到流泪。你看，修道院的生活多单调。"
+gtxt_22_1 = "    无论如何，药水酿造是我们的专业。这通常需要几个小时的祷告与冥想。而如今，即使是酒吧侍女，也可以一手塞火鸡，一手拿出强力合剂。还有魔法卡牌，让你不用带实物，竟然也能使用。"
+gtxt_22_2 = "    你可能会认为，作为一个献身于宗教事业的人，我可能会反对预言家的手段。通常情况下，确实如此。但是在这可怕的特殊时期——黑暗威胁着光明，我们需要团结一致，尽其所能，对抗邪恶。我相信，她的才能，是神的旨意。"
 ##
 
 gtit_23 = "生意" ## 酒吧侍女
-gtxt_23_0 = "    Do you remember how we used to play, lying in the grass, watching the clouds and guessing our future from their shapes? We saw many strange things, but I never suspected what fate had in store for us..."
-gtxt_23_1 = "    Running an inn isn't that bad. At least, it wasn't until the dark rituals. Now everyone's afraid of being eaten by some nasty creature and some people even ponder suicide. And just look at our garden! We used to grow all sorts of vegetables and herbs, but now the soil is poisoned with dark magic and 恶魔 trample everything with their hoofs! Ah, but complaining doesn't make anything better."
-gtxt_23_2 = "    I still get a lot of help from the 智者. He may be cranky at times, but he's always treated me like a daughter. Then there's the fortune-teller. She's a fascinating woman, and I'm very lucky to learn from her. And now you're back!"
+gtxt_23_0 = "    你还记得吗？我们曾一起玩耍，躺在草地上，看着云彩，从它们的形状猜我们的未来。我们看过很多奇怪的事情，但我们从来没有想过会经历怎样的未来。"
+gtxt_23_1 = "    经营一家旅馆也挺好的，至少，在那个黑暗仪式之前。而现在，每个人都害怕被某些肮脏的生物吃掉，有些人甚至想自杀。看看我们的花园！我们曾经种植了各种蔬菜草药，但现在土壤被黑魔法毒害，恶魔的蹄子践踏了一切！唉，但抱怨有什么用呢。"
+gtxt_23_2 = "    从智者那里，我还是得到过很多帮助的。虽然他有时会很暴躁，但他总是把我当女儿看待。还有预言家，她是个迷人的女人，非常有幸能跟她学习。现在，你也回来了！"
 ##
 
 gtit_24 = "死亡" ## 治愈术士
-gtxt_24_0= "    When evil strikes you down in the dungeons, it takes a lot of my effort to deliver your soul from the clutches of darkness. Death always takes its toll, so any equipped cards remain at your grave and so will grant you no aid until you retrieve them. Also, some ingredients collected in the arcane cauldron perish, as spells and elixirs are mere tricks in the light of the divine."
-gtxt_24_1= "    Some things cannot be explained, they must be believed... Many scholars devoted their lives of prayer hoping for illumination and understanding of the nature of the soul, but very few succeeded. In the scriptures, they usually compared spiritual links to threads of yarn being cut, and souls to little pots being broken... Then again, holy men are not very skilled when it comes to similes, as their virtue stems from... other qualities."
+gtxt_24_0= "    当你在地牢中被恶魔打倒，我得花很大力气才能从黑暗魔爪中解救出你的灵魂。死亡总是要付出代价的，所有死亡前装备在卡槽上的卡牌都会留在你的墓碑上，在你前往墓碑取回那些卡牌前，它们不会给你任何帮助。此外，在魔法坩埚中收集的一些原料也会消失，因为法术和丹药只不过是神的光芒下的把戏。"
+gtxt_24_1= "    有些事情是无法解释的，必须相信……许多学者祷告一生，希望得到对灵魂本质的启发与理解，但鲜有成功。在经文中，他们通常将精神的连结比作被切断的纱线，破罐子的灵魂……而且，圣人也并不擅长比喻，他们的美德来源于……其他品质。"
 
-gtit_25 = "Something Special" ## fortune-teller
-gtxt_25_0 = "Remember how I said that your deeds will be written down and sung? As a matter of fact, we already started preparing something special. We didn't expect you to become victorious so soon, so it's a bit rough. I'm sure this will be a hit in the capital and the King will love it. He literally cried with joy the last time I sang for him. Anyway, ready or not, here it comes... \nWhere have all the good men gone and where are all the gods?\nWhere's the streetwise Hercules to fight the rising odds?"
+gtit_25 = "一些特别的东西" ## 预言家
+gtxt_25_0 = "还记得我说你的事迹会被写下来谱成歌时是怎么说的吗？事实上，我们已经在准备一些特别的东西了。不过没想到你会这么快就取得胜利，有点棘手。我敢肯定，我们准备的东西将会在皇城轰动一时，国王都会喜欢。我最后一次为他唱歌的时候，他简直欣喜若狂。无论如何，准备好，来了……\n好人都去哪儿了？诸神在哪里？\n街头大力士们在哪里对抗上升的赔率？"
 
 #################################### 智者的恶魔图鉴 - 类目简介 ##########################
 
 mgtit_1 = "恶魔"
 mgcnt_1 = "恶魔：\^FFFFFF\1/\2\^^"
-mgtxt_1 = "遭遇恶魔无疑是个坏消息。因为这样的生物无法远离它们地狱般的圈子，成群结队的恶魔在大教堂下的地牢中任意漫游，这说明：地道之深，远超我们的想象。他们必须下地狱！如果地道真的如此深入，那么，不可避免地，黑暗将会蔓延，最终抵达地面……恶魔的形态大小各异，它们靠着恐惧与人性的弱点生存。一如我们的预言家朋友。"
+mgtxt_1 = "遭遇恶魔无疑是个坏消息。因为这样的生物无法远离它们地狱般的圈子，成群结队的恶魔在大教堂下的地牢中任意漫游，这说明：地道之深，远超我们的想象，一直通往地狱！如果真是如此，那么黑暗必将最终蔓延至地面……恶魔的形态大小各异，它们靠着恐惧与人性的弱点生存。一如我们的预言家朋友。"
 mgtit_2 = "山羊怪"
 mgcnt_2 = "山羊怪：\^FFFFFF\1/\2\^^"
-mgtxt_2 = "肆虐于这个世界上的所有怪物之中，山羊怪必属堕落之极。这些可怕的生物被逐出了人类与动物的世界。在黑暗深处，临近恶魔居所的地方，它们似乎十分享受筑巢，以邪恶的方式繁殖。如果你听到毛骨悚然的呼唤声——就是那个像是来自地狱的咩叫——请务必小心。不幸的是，它们似乎已经活跃在地面之上了。另外，它们可能看得懂卡牌，会用水晶球占卜。"
+mgtxt_2 = "肆虐于这个世界上的所有怪物之中，山羊怪必属堕落之极。这些可怕的生物被逐出了人类与动物的世界。在黑暗深处，临近恶魔居所的地方，它们似乎十分享受筑巢，以邪恶的方式繁殖。如果你听到毛骨悚然的呼唤声——那像是来自地狱的咩叫——请务必小心。不幸的是，它们似乎已经活跃于地面之上了。另外，它们可能看得懂卡牌，会用水晶球占卜。"
 mgtit_3 = "鬼魂"
 mgcnt_3 = "鬼魂：\^FFFFFF\1/\2\^^"
 mgtxt_3 = "在永恒的孤独与绝望下，即便是最坚强的心灵也会瓦解。这就是消瘦的鬼魂之来源。这些幽灵被寻找最强人类敌人的渴望所驱动，并以他们的神奇精华为食。然而，它们最神秘最恐怖的特质，是它们会吞噬意志薄弱之人，并将其杀害。想起来了，这些行为让我想起一个我们都认识的人。"
@@ -153,7 +153,7 @@ mgcnt_4 = "骷髅：\^FFFFFF\1/\2\^^"
 mgtxt_4 = "活着的灵魂很少会冒险进入大教堂深处，因为这是死者安息的秘境，或者说应该安息。无数的战士，教士，法师，甚至老国王，都被埋葬其中，与满是金银珠宝的宝藏一起长眠地下。而如今这些死者躁动不安，被某种邪恶力量鼓舞着，它们像野兽一样在走廊上萦绕。勇气，道德，才华，被盲目的暴力所替代。在我看来，结束它们痛苦的存在，是仁慈之举。"
 mgtit_5 = "蜘蛛"
 mgcnt_5 = "蜘蛛：\^FFFFFF\1/\2\^^"
-mgtxt_5 = "有这样一个谜语：毛茸茸的腿，突起的眼睛，比巫师学徒还难闻，这是什么呢？不，不是预言家，我的孩子，尽管我承认，我发现地牢蜘蛛也一样恶毒。不像我在穿越蜘蛛关隘的旅行中所见的那些生物，它们是会伏击的猎手，会用……一些你不会想知道的东西，困住受害者。嗯，相信你已经明白我的意思了。"
+mgtxt_5 = "有这样一个谜语：毛茸茸的腿，突起的眼睛，比巫师学徒的臭脚还难闻，这是什么呢？不，不是预言家，我的孩子，尽管我承认，我发现地牢蜘蛛也一样恶毒。不像我在穿越蜘蛛关隘的旅行中所见的那些生物，它们是会伏击的猎手，会用……一些你不会想知道的东西，困住受害者。嗯，相信你已经明白我的意思了。"
 mgtit_6 = "僵尸"
 mgcnt_6 = "僵尸：\^FFFFFF\1/\2\^^"
 mgtxt_6 = "行尸只会经受最基础的影响：饥饿。还有更没意义的存在吗？它们的身体仍在腐坏，所以我建议，最好和它们保持距离，因为它们产生的毒气是那种最致命的。幸好，闻起来就会感觉可怕，还算是个有用的警告。那股味道，跟预言家的马车里散发出来的江湖骗子的恶臭倒有几分相似。"
@@ -193,28 +193,28 @@ monster_25_name = "幻影野兽"
 monster_26_name = "骷髅战士"
 monster_27_name = "持盾骷髅"
 monster_28_name = "骷髅弓箭手"
-monster_29_name = "Skelserker"
+monster_29_name = "骷髅狂战士"
 monster_30_name = "寒冰弓箭手"
 monster_31_name = "寒冰骷髅"
 monster_32_name = "骷髅骑士"
-monster_33_name = "Skeletomancer"
+monster_33_name = "骷髅法师"
 monster_34_name = "巨人"
-monster_35_name = "Hyper Skelserker"
+monster_35_name = "超级骷髅狂战士"
 monster_36_name = "腐烂骑士"
 monster_37_name = "火焰巨人"
 monster_38_name = "骇客弓箭手"
 monster_39_name = "骇客骑士"
 monster_40_name = "骇客巨人"
-monster_41_name = "Arachnid"
-monster_42_name = "Arachnad"
-monster_43_name = "Arachnod"
-monster_44_name = "Wicked Longlegs"
-monster_45_name = "Arachgod"
-monster_46_name = "腐烂 Arachnod"
+monster_41_name = "蜘蛛"   # Translator: Arachnid.
+monster_42_name = "腺体蜘蛛" # Translator: Arachnad. | https://www.urbandictionary.com/define.php?term=Arachnads
+monster_43_name = "结茧球蛛" # Translator: Arachnod. Portmanteau of "Arachnide" (arachnid) and "Nodule". | http://bof.wikia.com/wiki/Arachnod | https://www.pikminwiki.com/Arachnode | http://pikmin.wikia.com/wiki/Arachnode
+monster_44_name = "恶毒盲蛛" 
+monster_45_name = "蜘蛛统领" # Translator: Arachgod. | https://www.buzzfeed.com/bradesposito/Arachgod?utm_term=.joZjGwpJ3b#.ad3zrNypAO
+monster_46_name = "腐烂结茧球蛛"
 monster_47_name = "寒冰爬行者"
-monster_48_name = "Arachnoleton"
+monster_48_name = "结茧球蛛骷髅" # Translator: Arachnoleton. Portmanteau of Arachnod and skeleton.
 monster_49_name = "火焰爬行者"
-monster_50_name = "Burning Arachnoleton"
+monster_50_name = "燃烧的球蛛骷髅"
 monster_51_name = "丧尸"
 monster_52_name = "飞行野猪"
 monster_53_name = "农夫死尸"
@@ -264,28 +264,28 @@ monster_25_title = "  幻影野兽  "
 monster_26_title = "  骷髅战士  "
 monster_27_title = "  持盾骷髅  "
 monster_28_title = "  骷髅弓箭手  "
-monster_29_title = "  SKELSERKER  "
+monster_29_title = "  骷髅狂战士  " # Translator: SKELSERKER. Skeleton Berserker.
 monster_30_title = "  寒冰弓箭手  "
 monster_31_title = "  寒冰骷髅  "
 monster_32_title = "  骷髅骑士  "
-monster_33_title = "  SKELETOMANCER  "
+monster_33_title = "  骷髅法师  "
 monster_34_title = "  巨人  "
-monster_35_title = "  HYPER SKELSERKER  "
+monster_35_title = "  超级骷髅狂战士  " # Translator: HYPER SKELSERKER. Hyper Skeleton Berserker.
 monster_36_title = "  腐烂骑士  "
 monster_37_title = "  火焰巨人  "
 monster_38_title = "  骇客弓箭手  "
 monster_39_title = "  骇客骑士  "
 monster_40_title = "  骇客巨人  "
-monster_41_title = "  ARACHNID  "
-monster_42_title = "  ARACHNAD  "
-monster_43_title = "  ARACHNOD  "
-monster_44_title = "  WICKED LONGLEGS  "
-monster_45_title = "  ARACHGOD  "
-monster_46_title = "  腐烂 ARACHNOD  "
+monster_41_title = "  蜘蛛  "
+monster_42_title = "  腺体蜘蛛  "
+monster_43_title = "  结茧球蛛  "
+monster_44_title = "  恶毒盲蛛  "
+monster_45_title = "  蜘蛛统领  "
+monster_46_title = "  腐烂结茧球蛛  "
 monster_47_title = "  寒冰爬行者  "
-monster_48_title = "  ARACHNOLETON  "
+monster_48_title = "  结茧球蛛骷髅  "
 monster_49_title = "  火焰爬行者  "
-monster_50_title = "  BURNING ARACHNOLETON  "
+monster_50_title = "  燃烧的球蛛骷髅  "
 monster_51_title = "  丧尸  "
 monster_52_title = "  飞行野猪  "
 monster_53_title = "  农夫死尸  "

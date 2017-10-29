@@ -28,9 +28,9 @@ igm_resume = "回到游戏"
 igm_back = "返回"
 igm_help = "教程"
 igm_controls = "控制"
-igm_tobii = "Tobii眼球跟踪" # Translator: All or part of it Won't be translated.
+igm_tobii = "Tobii眼球跟踪" 
 igm_tobii_soon_ttip = "即将推出"
-igm_tobii_ttip = "如需启用眼睛跟踪功能，请连接Tobii EyeX设备后再启动游戏。" # Translator: All or part of it Won't be translated.
+igm_tobii_ttip = "如需启用眼睛跟踪功能，请连接Tobii EyeX设备后再启动游戏。" 
 igm_exit = "退出游戏回到桌面"
 igm_menu = "退出当前进度"
 igm_options = "选项"
@@ -64,8 +64,8 @@ bod_ctrl_frame_confirm = "应用"
 bod_key_conf_title = "控制设置"
 bod_ctrl_frame_keyboard = "键盘和鼠标"
 bod_ctrl_frame_gamepad = "手柄"
-bod_ctrl_frame_steam_info = "Steam摇杆配置可于Steam设置中修改" # Translator: All or part of it Won't be translated.
-bod_ctrl_frame_xbox_info = "摇杆配置可于Steam设置中修改" # Translator: All or part of it Won't be translated.
+bod_ctrl_frame_steam_info = "Steam摇杆配置可于Steam设置中修改" 
+bod_ctrl_frame_xbox_info = "摇杆配置可于Steam设置中修改" 
 bod_ctrl_hld_ttip = "停止移动时无法移动或自动攻击"
 chk_mouse_walk = "鼠标点击控制移动"
 chk_mouse_swap = "鼠标左右键功能互换"
@@ -73,7 +73,7 @@ ch_smart_walk_ttip = "游戏人物试图直接穿过路口"
 ch_click_walk_ttip = "点击鼠标左键移动游戏人物"
 chk_smart_walk = "智能键盘移动控制"
 chk_mouse_emu = "摇杆模拟鼠标"
-ch_mouse_emu_ttip = "在Windows和GUI控制器中模拟鼠标" # Translator: All or part of it Won't be translated.
+ch_mouse_emu_ttip = "在Windows和GUI控制器中模拟鼠标" 
 
 bod_select_key = "请按键"
 bod_used_key = "按键已被使用！"
@@ -129,152 +129,152 @@ bod_ctrl_map_pad_rt = "特殊攻击"
 bod_generic_key = "键码：\1"
 bod_now_allowed_key = "保留键"
 
-bod_key_1 = "鼠标键1" # Translator: All or part of it Won't be translated.
-bod_key_2 = "鼠标键2" # Translator: All or part of it Won't be translated.
-bod_key_4 = "鼠标键3" # Translator: All or part of it Won't be translated.
-bod_key_5 = "鼠标键4" # Translator: All or part of it Won't be translated.
-bod_key_6 = "鼠标键5" # Translator: All or part of it Won't be translated.
+bod_key_1 = "鼠标键1"  # Translator: Translated.
+bod_key_2 = "鼠标键2"  # Translator: Translated.
+bod_key_4 = "鼠标键3"  # Translator: Translated.
+bod_key_5 = "鼠标键4"  # Translator: Translated.
+bod_key_6 = "鼠标键5"  # Translator: Translated.
 
-bod_key_3 = "CANCEL" # Translator: All or part of it Won't be translated.
-bod_key_8 = "退格键" # Translator: All or part of it Won't be translated.
-bod_key_9 = "TAB" # Translator: All or part of it Won't be translated.
-bod_key_12 = "清除键" # Translator: All or part of it Won't be translated.
-bod_key_13 = "RETURN" # Translator: All or part of it Won't be translated.
-bod_key_32 = "空格" # Translator: All or part of it Won't be translated.
-bod_key_16 = "SHIFT" # Translator: All or part of it Won't be translated.
-bod_key_17 = "CONTROL" # Translator: All or part of it Won't be translated.
+bod_key_3 = "CANCEL"  # Translator: Translated.
+bod_key_8 = "退格键"  # Translator: Translated.
+bod_key_9 = "TAB"  # Translator: Translated.
+bod_key_12 = "清除键"  # Translator: Translated.
+bod_key_13 = "RETURN"  # Translator: Translated.
+bod_key_32 = "空格"  # Translator: Translated.
+bod_key_16 = "SHIFT"  # Translator: Translated.
+bod_key_17 = "CONTROL"  # Translator: Translated.
 ##bod_key_18 = "MENU"
-bod_key_18 = "ALT" # Translator: All or part of it Won't be translated.
-bod_key_19 = "PAUSE" # Translator: All or part of it Won't be translated.
-bod_key_20 = "CAPS LOCK" # Translator: All or part of it Won't be translated.
-bod_key_21 = "KANA"  # Translator: All or part of it Won't be translated.
+bod_key_18 = "ALT"  # Translator: Translated.
+bod_key_19 = "PAUSE"  # Translator: Translated.
+bod_key_20 = "CAPS LOCK"  # Translator: Translated.
+bod_key_21 = "KANA"   # Translator: Translated.
 
-bod_key_22 = "JUNJA"  # Translator: All or part of it Won't be translated.
-bod_key_23 = "FINAL"  # Translator: All or part of it Won't be translated.
-bod_key_24 = "FINAL"  # Translator: All or part of it Won't be translated.
-bod_key_25 = "HANJA"  # Translator: All or part of it Won't be translated.
+bod_key_22 = "JUNJA"   # Translator: Translated.
+bod_key_23 = "FINAL"   # Translator: Translated.
+bod_key_24 = "FINAL"   # Translator: Translated.
+bod_key_25 = "HANJA"   # Translator: Translated.
 
-bod_key_26 = "KANJI" # Translator: All or part of it Won't be translated.
-bod_key_27 = "ESCAPE" # Translator: All or part of it Won't be translated.
-bod_key_28 = "CONVERT" # Translator: All or part of it Won't be translated.
-bod_key_29 = "NONCONVERT" # Translator: All or part of it Won't be translated.
-bod_key_30 = "ACCEPT" # Translator: All or part of it Won't be translated.
-bod_key_31 = "MODECHANGE" # Translator: All or part of it Won't be translated.
+bod_key_26 = "KANJI"  # Translator: Translated.
+bod_key_27 = "ESCAPE"  # Translator: Translated.
+bod_key_28 = "CONVERT"  # Translator: Translated.
+bod_key_29 = "NONCONVERT"  # Translator: Translated.
+bod_key_30 = "ACCEPT"  # Translator: Translated.
+bod_key_31 = "MODECHANGE"  # Translator: Translated.
 
-bod_key_33 = "PRIOR" # Translator: All or part of it Won't be translated.
-bod_key_34 = "NEXT" # Translator: All or part of it Won't be translated.
-bod_key_35 = "END" # Translator: All or part of it Won't be translated.
-bod_key_36 = "HOME" # Translator: All or part of it Won't be translated.
-bod_key_37 = "LEFT" # Translator: All or part of it Won't be translated.
-bod_key_38 = "UP" # Translator: All or part of it Won't be translated.
-bod_key_39 = "RIGHT" # Translator: All or part of it Won't be translated.
-bod_key_40 = "DOWN" # Translator: All or part of it Won't be translated.
-bod_key_41 = "SELECT" # Translator: All or part of it Won't be translated.
-bod_key_42 = "PRINT" # Translator: All or part of it Won't be translated.
-bod_key_43 = "EXECUTE" # Translator: All or part of it Won't be translated.
-bod_key_44 = "SNAPSHOT" # Translator: All or part of it Won't be translated.
-bod_key_45 = "INSERT" # Translator: All or part of it Won't be translated.
-bod_key_46 = "DELETE" # Translator: All or part of it Won't be translated.
-bod_key_47 = "HELP" # Translator: All or part of it Won't be translated.
+bod_key_33 = "PRIOR"  # Translator: Translated.
+bod_key_34 = "NEXT"  # Translator: Translated.
+bod_key_35 = "END"  # Translator: Translated.
+bod_key_36 = "HOME"  # Translator: Translated.
+bod_key_37 = "LEFT"  # Translator: Translated.
+bod_key_38 = "UP"  # Translator: Translated.
+bod_key_39 = "RIGHT"  # Translator: Translated.
+bod_key_40 = "DOWN"  # Translator: Translated.
+bod_key_41 = "SELECT"  # Translator: Translated.
+bod_key_42 = "PRINT"  # Translator: Translated.
+bod_key_43 = "EXECUTE"  # Translator: Translated.
+bod_key_44 = "SNAPSHOT"  # Translator: Translated.
+bod_key_45 = "INSERT"  # Translator: Translated.
+bod_key_46 = "DELETE"  # Translator: Translated.
+bod_key_47 = "HELP"  # Translator: Translated.
 
-bod_key_91 = "L WIN" # Translator: All or part of it Won't be translated.
-bod_key_92 = "R WIN" # Translator: All or part of it Won't be translated.
-bod_key_93 = "APPS" # Translator: All or part of it Won't be translated.
-bod_key_94 = "SLEEP" # Translator: All or part of it Won't be translated.
-bod_key_96 = "N_0" # Translator: All or part of it Won't be translated.
-bod_key_97 = "N_1" # Translator: All or part of it Won't be translated.
-bod_key_98 = "N_2" # Translator: All or part of it Won't be translated.
-bod_key_99 = "N_3" # Translator: All or part of it Won't be translated.
-bod_key_100 = "N_4" # Translator: All or part of it Won't be translated.
-bod_key_101 = "N_5" # Translator: All or part of it Won't be translated.
-bod_key_102 = "N_6" # Translator: All or part of it Won't be translated.
-bod_key_103 = "N_7" # Translator: All or part of it Won't be translated.
-bod_key_104 = "N_8" # Translator: All or part of it Won't be translated.
-bod_key_105 = "N_9" # Translator: All or part of it Won't be translated.
+bod_key_91 = "L WIN"  # Translator: Translated.
+bod_key_92 = "R WIN"  # Translator: Translated.
+bod_key_93 = "APPS"  # Translator: Translated.
+bod_key_94 = "SLEEP"  # Translator: Translated.
+bod_key_96 = "N_0"  # Translator: Translated.
+bod_key_97 = "N_1"  # Translator: Translated.
+bod_key_98 = "N_2"  # Translator: Translated.
+bod_key_99 = "N_3"  # Translator: Translated.
+bod_key_100 = "N_4"  # Translator: Translated.
+bod_key_101 = "N_5"  # Translator: Translated.
+bod_key_102 = "N_6"  # Translator: Translated.
+bod_key_103 = "N_7"  # Translator: Translated.
+bod_key_104 = "N_8"  # Translator: Translated.
+bod_key_105 = "N_9"  # Translator: Translated.
 
-bod_key_106 = "MULTIPLY" # Translator: All or part of it Won't be translated.
-bod_key_107 = "ADD" # Translator: All or part of it Won't be translated.
-bod_key_108 = "SEPARATOR" # Translator: All or part of it Won't be translated.
-bod_key_109 = "SUBSTRACT" # Translator: All or part of it Won't be translated.
-bod_key_110 = "DECIMAL" # Translator: All or part of it Won't be translated.
-bod_key_111 = "DIVIDE" # Translator: All or part of it Won't be translated.
-bod_key_112 = "F1" # Translator: All or part of it Won't be translated.
-bod_key_113 = "F2" # Translator: All or part of it Won't be translated.
-bod_key_114 = "F3" # Translator: All or part of it Won't be translated.
-bod_key_115 = "F4" # Translator: All or part of it Won't be translated.
-bod_key_116 = "F5" # Translator: All or part of it Won't be translated.
-bod_key_117 = "F6" # Translator: All or part of it Won't be translated.
-bod_key_118 = "F7" # Translator: All or part of it Won't be translated.
-bod_key_119 = "F8" # Translator: All or part of it Won't be translated.
-bod_key_120 = "F9" # Translator: All or part of it Won't be translated.
-bod_key_121 = "F10" # Translator: All or part of it Won't be translated.
-bod_key_122 = "F11" # Translator: All or part of it Won't be translated.
-bod_key_123 =  "F12" # Translator: All or part of it Won't be translated.
-bod_key_124 =  "F13" # Translator: All or part of it Won't be translated.
-bod_key_125 =  "F14" # Translator: All or part of it Won't be translated.
-bod_key_126=   "F15" # Translator: All or part of it Won't be translated.
-bod_key_127 =  "F16" # Translator: All or part of it Won't be translated.
-bod_key_128 =  "F17" # Translator: All or part of it Won't be translated.
-bod_key_129 =  "F18" # Translator: All or part of it Won't be translated.
-bod_key_130 =  "F19" # Translator: All or part of it Won't be translated.
-bod_key_131 =  "F20" # Translator: All or part of it Won't be translated.
-bod_key_132 =  "F21" # Translator: All or part of it Won't be translated.
-bod_key_133 =  "F22" # Translator: All or part of it Won't be translated.
-bod_key_134 =  "F23" # Translator: All or part of it Won't be translated.
-bod_key_135 =  "F24" # Translator: All or part of it Won't be translated.
+bod_key_106 = "MULTIPLY"  # Translator: Translated.
+bod_key_107 = "ADD"  # Translator: Translated.
+bod_key_108 = "SEPARATOR"  # Translator: Translated.
+bod_key_109 = "SUBSTRACT"  # Translator: Translated.
+bod_key_110 = "DECIMAL"  # Translator: Translated.
+bod_key_111 = "DIVIDE"  # Translator: Translated.
+bod_key_112 = "F1"  # Translator: Translated.
+bod_key_113 = "F2"  # Translator: Translated.
+bod_key_114 = "F3"  # Translator: Translated.
+bod_key_115 = "F4"  # Translator: Translated.
+bod_key_116 = "F5"  # Translator: Translated.
+bod_key_117 = "F6"  # Translator: Translated.
+bod_key_118 = "F7"  # Translator: Translated.
+bod_key_119 = "F8"  # Translator: Translated.
+bod_key_120 = "F9"  # Translator: Translated.
+bod_key_121 = "F10"  # Translator: Translated.
+bod_key_122 = "F11"  # Translator: Translated.
+bod_key_123 =  "F12"  # Translator: Translated.
+bod_key_124 =  "F13"  # Translator: Translated.
+bod_key_125 =  "F14"  # Translator: Translated.
+bod_key_126=   "F15"  # Translator: Translated.
+bod_key_127 =  "F16"  # Translator: Translated.
+bod_key_128 =  "F17"  # Translator: Translated.
+bod_key_129 =  "F18"  # Translator: Translated.
+bod_key_130 =  "F19"  # Translator: Translated.
+bod_key_131 =  "F20"  # Translator: Translated.
+bod_key_132 =  "F21"  # Translator: Translated.
+bod_key_133 =  "F22"  # Translator: Translated.
+bod_key_134 =  "F23"  # Translator: Translated.
+bod_key_135 =  "F24"  # Translator: Translated.
 
-bod_key_144 = "NUMLOCK" # Translator: All or part of it Won't be translated.
-bod_key_145 = "SCROLL" # Translator: All or part of it Won't be translated.
+bod_key_144 = "NUMLOCK"  # Translator: Translated.
+bod_key_145 = "SCROLL"  # Translator: Translated.
 
-bod_key_160 = "左 SHIFT" # Translator: All or part of it Won't be translated.
-bod_key_161 = "右 SHIFT" # Translator: All or part of it Won't be translated.
-bod_key_162 = "左 CTRL" # Translator: All or part of it Won't be translated.
-bod_key_163 = "右 CTRL" # Translator: All or part of it Won't be translated.
-bod_key_166 = "BROW. BCK" # Translator: All or part of it Won't be translated.
-bod_key_167 = "BROW. FWD" # Translator: All or part of it Won't be translated.
-bod_key_168 = "BROW. REFRESH" # Translator: All or part of it Won't be translated.
-bod_key_169 = "BROW. STOP" # Translator: All or part of it Won't be translated.
-bod_key_170 = "BROW. SEARCH" # Translator: All or part of it Won't be translated.
-bod_key_171 = "BROW. FAV" # Translator: All or part of it Won't be translated.
-bod_key_172 = "BROW. HOME" # Translator: All or part of it Won't be translated.
+bod_key_160 = "左 SHIFT"  # Translator: Translated.
+bod_key_161 = "右 SHIFT"  # Translator: Translated.
+bod_key_162 = "左 CTRL"  # Translator: Translated.
+bod_key_163 = "右 CTRL"  # Translator: Translated.
+bod_key_166 = "BROW. BCK"  # Translator: Translated.
+bod_key_167 = "BROW. FWD"  # Translator: Translated.
+bod_key_168 = "BROW. REFRESH"  # Translator: Translated.
+bod_key_169 = "BROW. STOP"  # Translator: Translated.
+bod_key_170 = "BROW. SEARCH"  # Translator: Translated.
+bod_key_171 = "BROW. FAV"  # Translator: Translated.
+bod_key_172 = "BROW. HOME"  # Translator: Translated.
 
-bod_key_173 = "VOL. MUTE" # Translator: All or part of it Won't be translated.
-bod_key_174 = "VOL. DOWN" # Translator: All or part of it Won't be translated.
-bod_key_175 = "VOL. UP" # Translator: All or part of it Won't be translated.
-bod_key_176 = "NEXT TRACK" # Translator: All or part of it Won't be translated.
-bod_key_177 = "PREV TRACK" # Translator: All or part of it Won't be translated.
-bod_key_178 = "MEDIA STOP" # Translator: All or part of it Won't be translated.
-bod_key_179 = "PLAY/PAUSE" # Translator: All or part of it Won't be translated.
-bod_key_180 = "MAIL" # Translator: All or part of it Won't be translated.
-bod_key_181 = "MEDIA SELECT" # Translator: All or part of it Won't be translated.
-bod_key_182 = "APP1" # Translator: All or part of it Won't be translated.
-bod_key_183 = "APP2" # Translator: All or part of it Won't be translated.
+bod_key_173 = "VOL. MUTE"  # Translator: Translated.
+bod_key_174 = "VOL. DOWN"  # Translator: Translated.
+bod_key_175 = "VOL. UP"  # Translator: Translated.
+bod_key_176 = "NEXT TRACK"  # Translator: Translated.
+bod_key_177 = "PREV TRACK"  # Translator: Translated.
+bod_key_178 = "MEDIA STOP"  # Translator: Translated.
+bod_key_179 = "PLAY/PAUSE"  # Translator: Translated.
+bod_key_180 = "MAIL"  # Translator: Translated.
+bod_key_181 = "MEDIA SELECT"  # Translator: Translated.
+bod_key_182 = "APP1"  # Translator: Translated.
+bod_key_183 = "APP2"  # Translator: Translated.
 
-bod_key_186 = ";" # Translator: All or part of it Won't be translated.
-bod_key_187 = "+" # Translator: All or part of it Won't be translated.
-bod_key_188 = "逗号" # Translator: All or part of it Won't be translated.
-bod_key_189 = "-" # Translator: All or part of it Won't be translated.
-bod_key_190 = "句号" # Translator: All or part of it Won't be translated.
-bod_key_191 = "/" # Translator: All or part of it Won't be translated.
-bod_key_192 = "~" # Translator: All or part of it Won't be translated.
-bod_key_219 = "[" # Translator: All or part of it Won't be translated.
-bod_key_220 = "BACKSLASH" # Translator: All or part of it Won't be translated.
-bod_key_221 = "]" # Translator: All or part of it Won't be translated.
-bod_key_222 = "'" # Translator: All or part of it Won't be translated.
+bod_key_186 = ";"  # Translator: Translated.
+bod_key_187 = "+"  # Translator: Translated.
+bod_key_188 = "逗号"  # Translator: Translated.
+bod_key_189 = "-"  # Translator: Translated.
+bod_key_190 = "句号"  # Translator: Translated.
+bod_key_191 = "/"  # Translator: Translated.
+bod_key_192 = "~"  # Translator: Translated.
+bod_key_219 = "["  # Translator: Translated.
+bod_key_220 = "BACKSLASH"  # Translator: Translated.
+bod_key_221 = "]"  # Translator: Translated.
+bod_key_222 = "'"  # Translator: Translated.
 
-bod_key_229 = "PROCESS" # Translator: All or part of it Won't be translated.
+bod_key_229 = "PROCESS"  # Translator: Translated.
 
-bod_key_246 = "ATTN" # Translator: All or part of it Won't be translated.
-bod_key_247 = "CRSEL" # Translator: All or part of it Won't be translated.
-bod_key_248 = "EXSEL" # Translator: All or part of it Won't be translated.
-bod_key_249 = "EREOF" # Translator: All or part of it Won't be translated.
-bod_key_250 = "PLAY" # Translator: All or part of it Won't be translated.
+bod_key_246 = "ATTN"  # Translator: Translated.
+bod_key_247 = "CRSEL"  # Translator: Translated.
+bod_key_248 = "EXSEL"  # Translator: Translated.
+bod_key_249 = "EREOF"  # Translator: Translated.
+bod_key_250 = "PLAY"  # Translator: Translated.
 
-bod_key_251 = "ZOOM" # Translator: All or part of it Won't be translated.
+bod_key_251 = "ZOOM"  # Translator: Translated.
 
-bod_key_253 = "PA1" # Translator: All or part of it Won't be translated.
-bod_key_254 = "CLEAR" # Translator: All or part of it Won't be translated.
-bod_key_255 = "未分配" # Translator: All or part of it Won't be translated.
+bod_key_253 = "PA1"  # Translator: Translated.
+bod_key_254 = "CLEAR"  # Translator: Translated.
+bod_key_255 = "未分配"  # Translator: Translated.
 
 
 ##############################
@@ -283,101 +283,101 @@ bod_key_255 = "未分配" # Translator: All or part of it Won't be translated.
 
 ###################################### 名称「生成器」 #####################################
 ## 战士
-name_war_1 = "Anwend" # Translator: All or part of it Won't be translated.
-name_war_2 = "Askell" # Translator: All or part of it Won't be translated.
-name_war_3 = "Asrodr" # Translator: All or part of it Won't be translated.
-name_war_4 = "Bauger" # Translator: All or part of it Won't be translated.
-name_war_5 = "Bjarki" # Translator: All or part of it Won't be translated.
-name_war_6 = "Brattr" # Translator: All or part of it Won't be translated.
-name_war_7 = "Eyvindr" # Translator: All or part of it Won't be translated.
-name_war_8 = "Fjalar" # Translator: All or part of it Won't be translated.
-name_war_9 = "Gautr" # Translator: All or part of it Won't be translated.
-name_war_10 = "Geiri" # Translator: All or part of it Won't be translated.
-name_war_11 = "Halldor" # Translator: All or part of it Won't be translated.
-name_war_12 = "Heimir" # Translator: All or part of it Won't be translated.
-name_war_13 = "Hialmolfr" # Translator: All or part of it Won't be translated.
-name_war_14 = "Hodor" # Translator: All or part of it Won't be translated.
-name_war_15 = "Hrodolfr" # Translator: All or part of it Won't be translated.
-name_war_16 = "Hroi" # Translator: All or part of it Won't be translated.
-name_war_17 = "Illugi" # Translator: All or part of it Won't be translated.
-name_war_18 = "Ivar" # Translator: All or part of it Won't be translated.
-name_war_19 = "Kadall" # Translator: All or part of it Won't be translated.
-name_war_20 = "Ketil" # Translator: All or part of it Won't be translated.
-name_war_21 = "Modolfr" # Translator: All or part of it Won't be translated.
-name_war_22 = "Odinn" # Translator: All or part of it Won't be translated.
-name_war_23 = "Osvif" # Translator: All or part of it Won't be translated.
-name_war_24 = "Sigvaldi" # Translator: All or part of it Won't be translated.
-name_war_25 = "Sokkolfr" # Translator: All or part of it Won't be translated.
-name_war_26 = "Ulf" # Translator: All or part of it Won't be translated.
-name_war_27 = "Vethorn" # Translator: All or part of it Won't be translated.
-name_war_28 = "Vigsterkr" # Translator: All or part of it Won't be translated.
-name_war_29 = "Vikar" # Translator: All or part of it Won't be translated.
-name_war_30 = "Yngvar" # Translator: All or part of it Won't be translated.
-name_war_max = "30" # Translator: All or part of it Won't be translated.
+name_war_1 = "Anwend"  # Translator: Translated.
+name_war_2 = "Askell"  # Translator: Translated.
+name_war_3 = "Asrodr"  # Translator: Translated.
+name_war_4 = "Bauger"  # Translator: Translated.
+name_war_5 = "Bjarki"  # Translator: Translated.
+name_war_6 = "Brattr"  # Translator: Translated.
+name_war_7 = "Eyvindr"  # Translator: Translated.
+name_war_8 = "Fjalar"  # Translator: Translated.
+name_war_9 = "Gautr"  # Translator: Translated.
+name_war_10 = "Geiri"  # Translator: Translated.
+name_war_11 = "Halldor"  # Translator: Translated.
+name_war_12 = "Heimir"  # Translator: Translated.
+name_war_13 = "Hialmolfr"  # Translator: Translated.
+name_war_14 = "Hodor"  # Translator: Translated.
+name_war_15 = "Hrodolfr"  # Translator: Translated.
+name_war_16 = "Hroi"  # Translator: Translated.
+name_war_17 = "Illugi"  # Translator: Translated.
+name_war_18 = "Ivar"  # Translator: Translated.
+name_war_19 = "Kadall"  # Translator: Translated.
+name_war_20 = "Ketil"  # Translator: Translated.
+name_war_21 = "Modolfr"  # Translator: Translated.
+name_war_22 = "Odinn"  # Translator: Translated.
+name_war_23 = "Osvif"  # Translator: Translated.
+name_war_24 = "Sigvaldi"  # Translator: Translated.
+name_war_25 = "Sokkolfr"  # Translator: Translated.
+name_war_26 = "Ulf"  # Translator: Translated.
+name_war_27 = "Vethorn"  # Translator: Translated.
+name_war_28 = "Vigsterkr"  # Translator: Translated.
+name_war_29 = "Vikar"  # Translator: Translated.
+name_war_30 = "Yngvar"  # Translator: Translated.
+name_war_max = "30"  # Translator: Translated.
 ## 盗贼
-name_rog_1 = "Acacia" # Translator: All or part of it Won't be translated.
-name_rog_2 = "Allison" # Translator: All or part of it Won't be translated.
-name_rog_3 = "Anastasia" # Translator: All or part of it Won't be translated.
-name_rog_4 = "Anemone" # Translator: All or part of it Won't be translated.
-name_rog_5 = "Arcadia" # Translator: All or part of it Won't be translated.
-name_rog_6 = "Artemisia" # Translator: All or part of it Won't be translated.
-name_rog_7 = "Athena" # Translator: All or part of it Won't be translated.
-name_rog_8 = "Christobel" # Translator: All or part of it Won't be translated.
-name_rog_9 = "Ebony" # Translator: All or part of it Won't be translated.
-name_rog_10 = "Elissa" # Translator: All or part of it Won't be translated.
-name_rog_11 = "Helena" # Translator: All or part of it Won't be translated.
-name_rog_12 = "Isaura" # Translator: All or part of it Won't be translated.
-name_rog_13 = "Kathleen" # Translator: All or part of it Won't be translated.
-name_rog_14 = "Katniss" # Translator: All or part of it Won't be translated.
-name_rog_15 = "Kolina" # Translator: All or part of it Won't be translated.
-name_rog_16 = "Leah" # Translator: All or part of it Won't be translated.
-name_rog_17 = "Maeve" # Translator: All or part of it Won't be translated.
-name_rog_18 = "Merida" # Translator: All or part of it Won't be translated.
-name_rog_19 = "Muriel" # Translator: All or part of it Won't be translated.
-name_rog_20 = "Nora" # Translator: All or part of it Won't be translated.
-name_rog_21 = "Pandora" # Translator: All or part of it Won't be translated.
-name_rog_22 = "Persephone" # Translator: All or part of it Won't be translated.
-name_rog_23 = "Persis" # Translator: All or part of it Won't be translated.
-name_rog_24 = "Rhoda" # Translator: All or part of it Won't be translated.
-name_rog_25 = "Sandrine" # Translator: All or part of it Won't be translated.
-name_rog_26 = "Tauriel" # Translator: All or part of it Won't be translated.
-name_rog_27 = "Theresa" # Translator: All or part of it Won't be translated.
-name_rog_28 = "Vesna" # Translator: All or part of it Won't be translated.
-name_rog_29 = "Xenia" # Translator: All or part of it Won't be translated.
-name_rog_30 = "Yalena" # Translator: All or part of it Won't be translated.
-name_rog_max = "30" # Translator: All or part of it Won't be translated.
+name_rog_1 = "Acacia"  # Translator: Translated.
+name_rog_2 = "Allison"  # Translator: Translated.
+name_rog_3 = "Anastasia"  # Translator: Translated.
+name_rog_4 = "Anemone"  # Translator: Translated.
+name_rog_5 = "Arcadia"  # Translator: Translated.
+name_rog_6 = "Artemisia"  # Translator: Translated.
+name_rog_7 = "Athena"  # Translator: Translated.
+name_rog_8 = "Christobel"  # Translator: Translated.
+name_rog_9 = "Ebony"  # Translator: Translated.
+name_rog_10 = "Elissa"  # Translator: Translated.
+name_rog_11 = "Helena"  # Translator: Translated.
+name_rog_12 = "Isaura"  # Translator: Translated.
+name_rog_13 = "Kathleen"  # Translator: Translated.
+name_rog_14 = "Katniss"  # Translator: Translated.
+name_rog_15 = "Kolina"  # Translator: Translated.
+name_rog_16 = "Leah"  # Translator: Translated.
+name_rog_17 = "Maeve"  # Translator: Translated.
+name_rog_18 = "Merida"  # Translator: Translated.
+name_rog_19 = "Muriel"  # Translator: Translated.
+name_rog_20 = "Nora"  # Translator: Translated.
+name_rog_21 = "Pandora"  # Translator: Translated.
+name_rog_22 = "Persephone"  # Translator: Translated.
+name_rog_23 = "Persis"  # Translator: Translated.
+name_rog_24 = "Rhoda"  # Translator: Translated.
+name_rog_25 = "Sandrine"  # Translator: Translated.
+name_rog_26 = "Tauriel"  # Translator: Translated.
+name_rog_27 = "Theresa"  # Translator: Translated.
+name_rog_28 = "Vesna"  # Translator: Translated.
+name_rog_29 = "Xenia"  # Translator: Translated.
+name_rog_30 = "Yalena"  # Translator: Translated.
+name_rog_max = "30"  # Translator: Translated.
 ## 法师
-name_mag_1 = "Adaraphos" # Translator: All or part of it Won't be translated.
-name_mag_2 = "Arynno" # Translator: All or part of it Won't be translated.
-name_mag_3 = "Ballicho" # Translator: All or part of it Won't be translated.
-name_mag_4 = "Brachos" # Translator: All or part of it Won't be translated.
-name_mag_5 = "Draqarro" # Translator: All or part of it Won't be translated.
-name_mag_6 = "Garradhor" # Translator: All or part of it Won't be translated.
-name_mag_7 = "Gyllero" # Translator: All or part of it Won't be translated.
-name_mag_8 = "Horicho" # Translator: All or part of it Won't be translated.
-name_mag_9 = "Horidos" # Translator: All or part of it Won't be translated.
-name_mag_10 = "Innonar" # Translator: All or part of it Won't be translated.
-name_mag_11 = "Irrenno" # Translator: All or part of it Won't be translated.
-name_mag_12 = "Jaqadhor" # Translator: All or part of it Won't be translated.
-name_mag_13 = "Jaqys" # Translator: All or part of it Won't be translated.
-name_mag_14 = "Joradhor" # Translator: All or part of it Won't be translated.
-name_mag_15 = "Joryrio" # Translator: All or part of it Won't be translated.
-name_mag_16 = "Laranzello" # Translator: All or part of it Won't be translated.
-name_mag_17 = "Lazonos" # Translator: All or part of it Won't be translated.
-name_mag_18 = "Lysero" # Translator: All or part of it Won't be translated.
-name_mag_19 = "Maerrynno" # Translator: All or part of it Won't be translated.
-name_mag_20 = "Malenhor" # Translator: All or part of it Won't be translated.
-name_mag_21 = "Marodos" # Translator: All or part of it Won't be translated.
-name_mag_22 = "Nakenno" # Translator: All or part of it Won't be translated.
-name_mag_23 = "Norys" # Translator: All or part of it Won't be translated.
-name_mag_24 = "Nyessar" # Translator: All or part of it Won't be translated.
-name_mag_25 = "Sallorno" # Translator: All or part of it Won't be translated.
-name_mag_26 = "Stallan" # Translator: All or part of it Won't be translated.
-name_mag_27 = "Thorynno" # Translator: All or part of it Won't be translated.
-name_mag_28 = "Varen" # Translator: All or part of it Won't be translated.
-name_mag_29 = "Vargor" # Translator: All or part of it Won't be translated.
-name_mag_30 = "Vyrar" # Translator: All or part of it Won't be translated.
-name_mag_max = "30" # Translator: All or part of it Won't be translated.
+name_mag_1 = "Adaraphos"  # Translator: Translated.
+name_mag_2 = "Arynno"  # Translator: Translated.
+name_mag_3 = "Ballicho"  # Translator: Translated.
+name_mag_4 = "Brachos"  # Translator: Translated.
+name_mag_5 = "Draqarro"  # Translator: Translated.
+name_mag_6 = "Garradhor"  # Translator: Translated.
+name_mag_7 = "Gyllero"  # Translator: Translated.
+name_mag_8 = "Horicho"  # Translator: Translated.
+name_mag_9 = "Horidos"  # Translator: Translated.
+name_mag_10 = "Innonar"  # Translator: Translated.
+name_mag_11 = "Irrenno"  # Translator: Translated.
+name_mag_12 = "Jaqadhor"  # Translator: Translated.
+name_mag_13 = "Jaqys"  # Translator: Translated.
+name_mag_14 = "Joradhor"  # Translator: Translated.
+name_mag_15 = "Joryrio"  # Translator: Translated.
+name_mag_16 = "Laranzello"  # Translator: Translated.
+name_mag_17 = "Lazonos"  # Translator: Translated.
+name_mag_18 = "Lysero"  # Translator: Translated.
+name_mag_19 = "Maerrynno"  # Translator: Translated.
+name_mag_20 = "Malenhor"  # Translator: Translated.
+name_mag_21 = "Marodos"  # Translator: Translated.
+name_mag_22 = "Nakenno"  # Translator: Translated.
+name_mag_23 = "Norys"  # Translator: Translated.
+name_mag_24 = "Nyessar"  # Translator: Translated.
+name_mag_25 = "Sallorno"  # Translator: Translated.
+name_mag_26 = "Stallan"  # Translator: Translated.
+name_mag_27 = "Thorynno"  # Translator: Translated.
+name_mag_28 = "Varen"  # Translator: Translated.
+name_mag_29 = "Vargor"  # Translator: Translated.
+name_mag_30 = "Vyrar"  # Translator: Translated.
+name_mag_max = "30"  # Translator: Translated.
 
 ######################################### Slot/Character Selection Screen ###############################################
 
@@ -571,7 +571,7 @@ npc_barmaid_key_ttip_locked = "此选项尚不可用"
 
 # 智者
 npc_name_2 = "智者"
-npc_description_2 = "请留步，听我一言。哪里有黑暗，哪里就有光。你，是我们在这黑暗时光中的希望。"
+npc_description_2 = "请留步，听我一言。哪里有黑暗，哪里就有光。你是我们在这黑暗时光中的希望。"
 npc_button1_2 = "流言"
 npc_button2_2 = "鉴定卡牌"
 npc_button2_2_with_num = "鉴定卡牌（\1/\2）"
@@ -737,7 +737,7 @@ cc_go_down_quest_1 = "进入地狱"
 cc_go_down_quest_2 = "完成探险并解锁自由模式"
 cc_go_down_quest_complete = "完成挑战"
 cc_go_down_ttip = "关闭本次游戏并向更深处前进"
-cc_go_down_ttip_dis = "在完成已开启的地牢之前你无法向更深处前进"
+cc_go_down_ttip_dis = "完成已开启的地牢后才能继续深入"
 cc_go_down_quest_ttip_dis = "放弃挑战并关闭"
 
 cc_close_game_frame = "离开这个地牢?"
@@ -746,8 +746,8 @@ cc_cgf_warn = "当你离开这个地牢，无法再返回。如果你留下了�
 cc_cgf_yes = "继续深入！\si"
 cc_cgf_no = "再等等"
 
-cc_close_quest_title = "放弃本次挑战？"
-cc_close_game_title = "放弃本次游戏？"
+cc_close_quest_title = "放弃本次挑战?"
+cc_close_game_title = "放弃本次游戏?"
 cc_abandon_quest_txt = "你即将退出本次挑战。请注意你的钥匙不会恢复！"
 cc_abandon_game_txt = "您即将重置当前的灵活游戏。本次游戏将不会计入你的进度，不过你的战利品与经验值将不会丢失。\n\^FF4832这是调试功能。请只在你被卡住时使用它！\^^ "
 cc_abandon_quest_corpse_txt = "不用担心你的墓碑中的贵重物品。你会拿回它们的。"
@@ -758,9 +758,9 @@ cc_close_game_corpse_frame = "无法离开地牢"
 cc_cgf_corpse_warn = "收回你的墓碑与财产之前，你无法离开这个地牢。"
 cc_cgf_go_back = "返回"
 
-cc_quest_0_title = "挑战 I - 厨子" # Translator: All or part of it Won't be translated.
-cc_quest_1_title = "挑战 II - 伪教皇" # Translator: All or part of it Won't be translated.
-cc_quest_2_title = "挑战 III - 恶魔领主" # Translator: All or part of it Won't be translated.
+cc_quest_0_title = "挑战 I - 厨子" 
+cc_quest_1_title = "挑战 II - 伪教皇" 
+cc_quest_2_title = "挑战 III - 恶魔领主" 
 cc_quest_est_playtime = "\s0预计游戏时长 ~ \1"
 cc_quest_start_ttip_master = "将允许设置挑战为大师级别"
 cc_quest_start_ttip_no_key = "现在无法开启挑战\n\^FF4832你没有钥匙\^^"
@@ -822,7 +822,7 @@ game_prog_quest_no_key = "你\^FF4832需要\^^钥匙来玩该挑战的更高难�
 
 cc_flexi_frame = "设置新游戏"
 cc_flexi_title = "灵活游戏™"
-cc_flexi_desc = "在下方选择游戏规模。灵活游戏会分析你的游戏风格，并预测完成游戏需要多长时间。随着时间累计，预测将越来越准。"
+cc_flexi_desc = "在下方选择游戏规模。灵活游戏会分析你的游戏风格，并预测完成游戏所需时长。随着时间累积，预测将越来越准。"
 cc_flexi_start = "开始游戏 \si"
 cc_flexi_b1 = "非常小"
 cc_flexi_b2 = "小"
@@ -833,15 +833,15 @@ cc_flexi_min = "\1 分钟"
 cc_flexi_rewards = "奖励："
 cc_flexi_progress = "进度："
 cc_flexi_gold = "金币:"
-cc_flexi_rew_rew_tip = "地牢中隐藏的奖励数量（比如\^FFFFFF卡牌\^^, \^FFFFFF卷轴\^^, \^FFFFFF钥匙\^^, \^FFFFFF坩埚原料\^^）"
+cc_flexi_rew_rew_tip = "地牢中隐藏的奖励数量\n（比如\^FFFFFF卡牌\^^, \^FFFFFF卷轴\^^, \^FFFFFF钥匙\^^, \^FFFFFF坩埚原料\^^）"
 cc_flexi_rew_gold_tip = "金币奖励大概数量"
 
 cc_flexi_rew_prog_tip = "距离游戏最终挑战的进度"
 cc_flexi_rew_prog_fp_tip = "解锁下一难度的进度"
 cc_flexi_rew_prog_fp_noprog_tip = "你必须玩当前最高难度才能促进更高难度的解锁"
-cc_flexi_rew_prog_fp_complete_tip = "你解锁了最高难度级别！"
-cc_flexi_rew_prog_tip_perc = "当前进度：\1\n\2之后的进度："
-cc_flexi_rew_prog_tip_depth = "当前深度： \1\n\2之后的深度："
+cc_flexi_rew_prog_fp_complete_tip = "已解锁最高难度级别！"
+cc_flexi_rew_prog_tip_perc = "当前深度：\1\n本次游戏完成后的深度：\2"
+cc_flexi_rew_prog_tip_depth = "当前深度： \1\n本次游戏完成后的深度：\2" 
 
 cc_flexi_freeplay = "自由游戏"
 cc_flexi_fp_basic = "基本"
@@ -856,15 +856,15 @@ cc_flexi_fp_hard = "困难"
 cc_flexi_fp_nightmare = "噩梦"
 cc_flexi_fp_massacre = "屠杀"
 
-cc_flexi_fp_tool_0 = "\sn 死亡损失金币：\^FFBD4220\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD422-4\^^"
-cc_flexi_fp_tool_1 = "\sn 死亡损失金币：\^FFBD4230\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD423-5\^^\m1.2\sn 强制卡牌：\^FFBD422\^^"
-cc_flexi_fp_tool_2 = "\sn 死亡损失金币：\^FFBD4240\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD424-6\^^\m1.2\sn 强制卡牌：\^FFBD423\^^\m1.2\sn 死亡损失卡牌：\^FFBD421\^^"
-cc_flexi_fp_tool_3 = "\sn 死亡损失金币：\^FFBD4250\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD425-8\^^\m1.2\sn 强制卡牌：\^FFBD425\^^\m1.2\sn 死亡损失卡牌：\^FFBD425\^^"
+cc_flexi_fp_tool_0 = "\sn 死亡损失金币：\^FFBD4220\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD422-4\^^" 
+cc_flexi_fp_tool_1 = "\sn 死亡损失金币：\^FFBD4230\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD423-5\^^\m1.2\sn 强制卡牌：\^FFBD422\^^" 
+cc_flexi_fp_tool_2 = "\sn 死亡损失金币：\^FFBD4240\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD424-6\^^\m1.2\sn 强制卡牌：\^FFBD423\^^\m1.2\sn 死亡损失卡牌：\^FFBD421\^^" 
+cc_flexi_fp_tool_3 = "\sn 死亡损失金币：\^FFBD4250\^^%\m1.2\sn 被Boss诅咒的卡牌：\^FFBD425-8\^^\m1.2\sn 强制卡牌：\^FFBD425\^^\m1.2\sn 死亡损失卡牌：\^FFBD425\^^" 
 cc_flexi_fp_tool_h_0 = "正常难度"
 cc_flexi_fp_tool_h_1 = "困难难度"
 cc_flexi_fp_tool_h_2 = "噩梦难度"
 cc_flexi_fp_tool_h_3 = "屠杀难度"
-cc_flexi_fp_unlocked_h = "恭喜！你解锁了\^FFBD42\1\^^难度模式。\n下列规则生效："
+cc_flexi_fp_unlocked_h = "恭喜！已解锁\^FFBD42\1\^^难度模式。\n下列规则生效："
 cc_flexi_fp_unlocked_diff_0 = "普通"
 cc_flexi_fp_unlocked_diff_1 = "困难"
 cc_flexi_fp_unlocked_diff_2 = "噩梦"
@@ -893,7 +893,7 @@ cc_flexi_about_desc2 = "\^FCDA92灵活游戏让你可以选择每场游戏的规
 # cc_flexi_about_desc1 = "恭喜！\m1.3\^CDBA92灵活游戏\^^已解锁！"
 # cc_flexi_about_desc2 = "灵活游戏模式中，可以自由选择想玩的游戏规模。\m1.8你可以根据喜好将游戏拆分为更小或更大的关卡。不管你选择什么规模，灵活游戏都可确保，每一个关卡中，奖励与挑战都是相适应的，并且游戏完成时间不会与预测相差太多。\m1.8同时，灵活游戏会学习你的游戏风格，所以预测时间也将日趋准确。"
 
-cc_flexi_diff_unlocked_title = "新困难"
+cc_flexi_diff_unlocked_title = "新难度"
 
 ######################### 摘要画面 - 杀死恶魔领主后 #################
 
@@ -946,7 +946,7 @@ death_qm_tip_no_key = "你需要钥匙来重启挑战"
 cc_prize_clear = "\^FCDA92关卡完成\^^"
 cc_prize_corpse = "\^FCDA92尸体\^^"
 cc_prize_undiscovered = "未发现的战利品"
-cc_prize_boss= "\^FCDA92Boss\^^"
+cc_prize_boss= "\^FCDA92Boss\^^" 
 cc_prize_chest = "\^FCDA92宝箱\^^"
 cc_prize_shrine = "\^FCDA92神龛\^^"
 cc_prize_bookcase = "\^FCDA92书柜\^^"
@@ -956,14 +956,14 @@ cc_prize_general = "\^FCDA92战利品\^^"
 cc_prize_tip_clear = "\^40FF40你已经收集了本关卡的所有东西，没什么好搜的了。\^^"
 cc_prize_tip_corpse = "你死了。你必须收集你的遗骸才能离开这个地下城。"
 cc_prize_tip_undiscovered = "\^FF4040你还没有看到过它\^^"
-cc_prize_tip_consumed = "\^40FF40你已经收集了这个奖品\^^"
-cc_prize_tip_discovered_general = "\^FF4040你在这个奖品身边走过却没拿\^^"
-cc_prize_tip_discovered_boss = "\^FF4040你还没有杀掉Boss\^^"
+cc_prize_tip_consumed = "\^40FF40已收集该战利品\^^"
+cc_prize_tip_discovered_general = "\^FF4040经过了但没拿\^^"
+cc_prize_tip_discovered_boss = "\^FF4040你还没有杀掉Boss\^^" 
 
 cc_freeplay_sep = "自由游戏模式在此开启"
 cc_monster_unmet = "未遭遇的怪物"
 cc_monster_kills_info = "已击杀总数：\^FFFFFF\1\^^"
-cc_monster_count_none = "没了"
+cc_monster_count_none = "已扫清"
 cc_monster_count_one = "一个"
 cc_monster_count_couple = "几个"
 cc_monster_count_some = "很多"
@@ -1009,12 +1009,12 @@ sum_wnd_barmaid_cauldron_no_par = "购买坩埚物品"
 sum_wnd_barmaid_key = "购买金钥匙"
 
 sum_wnd_sage = "访问智者："
-sum_wnd_sage_ident = "鉴定魔法卡牌（\1张可用）"
+sum_wnd_sage_ident = "鉴定魔法卡牌（\1张可鉴定）"
 sum_wnd_sage_slot = "解锁下一个卡槽"
 
 sum_wnd_fortune = "访问预言家："
-sum_wnd_fortune_upgrade = "升级魔法卡牌（\1张可用）"
-sum_wnd_fortune_charge = "充能物品卡（\1张可用）"
+sum_wnd_fortune_upgrade = "升级魔法卡牌（\1张可升级）"
+sum_wnd_fortune_charge = "充能物品卡牌（\1张可充能）"
 sum_wnd_fortune_sell_runes = "出售符文"
 
 sum_wnd_lvl = "你有\1个未使用的升级点数！"
@@ -1141,7 +1141,7 @@ game_tip_000_pad = "使用火焰攻击来烧毁冰冻心脏，反之亦然。" #
 game_tip_001 = "用火对付黄金心脏的怪物，击杀更快。"
 game_tip_002 = "当生命魔球闪烁时，点击它可治愈中毒。"
 game_tip_002_pad = "当生命魔球闪烁时，点击\sa它可治愈中毒。"
-game_tip_003 = "你可以随意撤回小镇，即使是在地牢中，你也可以使用小镇传卷轴来撤回小镇。"
+game_tip_003 = "你可以随意撤回小镇，即使是在地牢中，你也可以使用小镇卷轴来撤回小镇。"
 game_tip_004 = "你可以在卡牌上长按鼠标右键来直接使用卡牌槽中的物品卡牌。"
 game_tip_004_pad = "你可以通过长按\sa，来直接使用卡牌槽中的物品卡牌。"
 game_tip_005 = "你可以随时通过追随你的脚印，找到关卡入口。"
@@ -1154,9 +1154,9 @@ game_tip_010 = "升级后的卡牌更厉害，充能限量提升，但充能费�
 game_tip_011 = "如果你在游戏中落下物品未拿，别担心，早晚有机会再找到的。"
 game_tip_012 = "大多数键位绑定都可在选项中修改。"
 game_tip_012_pad = "2级的强力打击卡可打破盾牌。"
-game_tip_013 = "你可以显示地牢中战利品的名称（默认键：ALT）" # Translator: All or part of it Won't be translated.
+game_tip_013 = "你可以显示地牢中战利品的名称（默认键：ALT）" 
 game_tip_013_pad = "毒伤害可绕过怪物盾牌。"
-game_tip_014 = "你可以关闭自动攻击并强制停止你的移动（默认键：Shift）" # Translator: All or part of it Won't be translated.
+game_tip_014 = "你可以关闭自动攻击并强制停止你的移动（默认键：Shift）" 
 game_tip_014_pad = "炸弹对躲在一起的怪物非常有效。"
 game_tip_015 = "你可以通过卡牌下方的键盘快捷键使用技能卡牌和物品卡牌。"
 game_tip_015_pad = "你可以通过按卡牌下方的手柄按钮来使用技能卡牌和物品卡牌。"
@@ -1171,7 +1171,7 @@ game_tip_022 = "在选项中，你可以关闭进入地牢前的提示语。"
 game_tip_023 = "当你在地牢打开卡牌面板时，时间会放慢，这时你可以抽身于激烈的战斗，重新调整卡槽。"
 game_tip_024 = "请记住，治疗卡牌并非只能治疗，还可以给你毒伤免疫，减速，冰冻与击晕能力。"
 game_tip_025 = "在地牢中，鼠标划过金币即可拾取，无需点击。"
-game_tip_026 = "当落下的冰柱遭遇冰之冲击波，冰柱产生的冲击波将减弱"
+game_tip_026 = "当落下的冰柱遭遇冰之冲击波，冰柱产生的冲击波将减弱。"
 # game_tip_026 = "当落下的冰柱遭遇冰之冲击波，冰柱产生的冲击波将减弱甚至反弹。"
 game_tip_027 = "如果你喜欢挑战极限，请尝试自由模式中的更高难度关卡。"
 
@@ -1249,7 +1249,7 @@ stats_ex_towns_visited = "参观小镇："
 stats_ex_lvls_visited = "造访地牢总层数："
 stats_ex_fall_stairs_chance = "走楼梯时跌倒机率："
 stats_ex_wrong_turns = "迷宫错误转弯次数："
-stats_ex_bosses_encounter = "地牢遭遇Boss次数：" # Translator: All or part of it Won't be translated.
+stats_ex_bosses_encounter = "地牢遭遇Boss次数：" 
 stats_ex_header_reputation = "声誉"
 stats_ex_rep_gypsy = "预言家:"
 stats_ex_rep_sage = "智者:"
@@ -1281,7 +1281,7 @@ stats_ex_header_monsters = "怪物"
 stats_ex_monst_discovered = "发现怪物种类："
 stats_ex_monst_fam_discovered = "发现怪物家庭："
 stats_ex_killed_enemies = "击杀敌人："
-stats_ex_bosses_defeated = "击败Boss：" # Translator: All or part of it Won't be translated.
+stats_ex_bosses_defeated = "击败Boss：" 
 stats_ex_killed_skeletons = "击杀骷髅："
 stats_ex_killed_demons = "击杀恶魔："
 stats_ex_killed_goats = "击杀山羊："
@@ -1385,7 +1385,7 @@ lbar_dr_1_class = "击晕附近的怪物，给你额外的时间来评估战局"
 ## Bonus XP
 lbar_xp_icon_on = "双倍经验时间。\n 奖励经验剩余：\^FFFFFF\1\^^"
 lbar_xp_icon_off = "目前没有奖励经验"
-lbar_xp_icon_off_cap = "目前没有奖励经验。已达等级上限。"
+lbar_xp_icon_off_cap = "目前没有奖励经验\n已达等级上限"
 
 ## XP bar
 lbar_xp_bar_ = "这个进度条代表升级进度"
@@ -1879,7 +1879,7 @@ bod_tut_body_0_pad = "仅敌方单位可被作为攻击目标。"
 ## BOD_TUTORIAL_TAG_ITEM
 bod_tut_titl_1 = "\^ed0741物品卡牌\^^"
 bod_tut_body_1 = "物品卡牌使用时消耗充能。你可以找预言家充能，或在地牢通过拾取寻获。"
-bod_tut_body_1_pad = "物品卡牌使用时消耗充能。你可以找预言家充能，或在地牢通过拾取寻获。\n按\^ffff00X\^^以使用选择的卡牌。\n使用\^ffff00手柄方向键\^^以切换卡牌选择。"
+bod_tut_body_1_pad = "物品卡牌使用时消耗充能。你可以找预言家充能，或在地牢通过拾取寻获。\n按\^ffff00X\^^以使用选择的卡牌。\n使用\^ffff00手柄方向键\^^以切换卡牌选择。"  # Translator: Translated.
 
 ## BOD_TUTORIAL_TAG_ARTEFACT
 bod_tut_titl_2 = "\^7ea30d神器卡牌\^^"
@@ -1889,7 +1889,7 @@ bod_tut_body_2_pad = "神器卡牌具有强大的增益效果，但装备时将�
 ## BOD_TUTORIAL_TAG_SPELL
 bod_tut_titl_3 = "\^1489c4法术卡牌\^^"
 bod_tut_body_3 = "法术卡牌使用时消耗法力。"
-bod_tut_body_3_pad = "法术卡牌使用时消耗法力。\n按\^ffff00X\^^来使用选择的卡牌。\n使用\^ffff00手柄方向键\^^以切换卡牌选择。"
+bod_tut_body_3_pad = "法术卡牌使用时消耗法力。\n按\^ffff00X\^^来使用选择的卡牌。\n使用\^ffff00手柄方向键\^^以切换卡牌选择。"  # Translator: Translated.
 
 ## BOD_TUTORIAL_TAG_CD
 bod_tut_titl_4 = "\^db7d1a冷却期效果\^^"
@@ -2103,10 +2103,10 @@ bod_tutv2_133_c0 = "Fast attacks \^ffff00anger\^^ some monsters. Such monsters \
 bod_tutv2_133_c1 =  "\^ffff00The meter\^^ shows how annoyed the monster is. When \^ffff00left alone\^^ the monster \^ffff00calms down\^^."
 bod_tutv2_133_c2 = "\^ffff00Frozen\^^ or \^ffff00stunned\^^ monsters \^ffff00won't\^^ be angered. Auto-attacks alone won't enrage the monster."
 
-bod_tutv2_999_titl= "XXX"
-bod_tutv2_999_c0 = "XXX"
-bod_tutv2_999_c1 = "XXX"
-bod_tutv2_999_c2 = "XXX"
+bod_tutv2_999_titl= "XXX" # Translator: Translated.
+bod_tutv2_999_c0 = "XXX" # Translator: Translated.
+bod_tutv2_999_c1 = "XXX" # Translator: Translated.
+bod_tutv2_999_c2 = "XXX" # Translator: Translated.
 
 ################ Small Tutorials that appear in small boxes somewhere around the screen ##########
 
@@ -2202,7 +2202,7 @@ fake_daredevil_06_name = "寒冰骷髅"
 fake_daredevil_06_depth = "700"
 fake_daredevil_07_name = "铁锤石像鬼"
 fake_daredevil_07_depth = "800"
-fake_daredevil_08_name = "Skeletomancer"
+fake_daredevil_08_name = "骷髅法师"
 fake_daredevil_08_depth = "900"
 fake_daredevil_09_name = "巨人"
 fake_daredevil_09_depth = "1000"
@@ -2216,7 +2216,7 @@ fake_daredevil_13_name = "冲击山羊"
 fake_daredevil_13_depth = "5000"
 fake_daredevil_14_name = "幻影枪骑兵"
 fake_daredevil_14_depth = "6000"
-fake_daredevil_15_name = "Arachnod"
+fake_daredevil_15_name = "结茧球蛛"
 fake_daredevil_15_depth = "7000"
 fake_daredevil_16_name = "蛇行 战士"
 fake_daredevil_16_depth = "8000"
@@ -2391,7 +2391,7 @@ boss_1805_name = "Provokative Painmaid"
 boss_1806_name = "Blazing Love"
 boss_1807_name = "Fallen Mistress"
 
-#Arachnod
+#结茧球蛛
 boss_1901_name = "Crypto Becki"
 boss_1902_name = "Crypto Goodnighti"
 boss_1903_name = "Crypto Narino"
@@ -2409,7 +2409,7 @@ boss_2005_name = "The Chubby Terror"
 boss_2006_name = "The Pudgy Greenfoul"
 boss_2007_name = "The Fat Sack"
 
-#Hyper Skelserker
+#超级骷髅狂战士
 boss_2101_name = "Ron the Berserker"
 boss_2102_name = "Crazy Ivan"
 boss_2103_name = "Lester Crypt骇客"
@@ -2433,7 +2433,7 @@ boss_2207_name = "Chilled Wraith"
 boss_2208_name = "Cold Shadow"
 boss_2209_name = "Cold Shadow"
 
-#Wicked Longlegs
+#恶毒盲蛛
 boss_2301_name = "Hairy Willy"
 boss_2302_name = "Legged Jack"
 boss_2303_name = "Merry The Eightlegged"
@@ -2453,7 +2453,7 @@ boss_2406_name = "Lemmy the 铁锤"
 boss_2407_name = "Rob the Zombie-eater"
 boss_2408_name = "Bruce Ironbrute"
 
-#Arachgod
+#蜘蛛统领
 boss_2501_name = "Jelly Legs Wallace"
 boss_2502_name = "Glade Wrathful Clinton"
 boss_2503_name = "Flo Golden-Eye Stanton"
@@ -2590,7 +2590,7 @@ boss_3608_name = "Hornfang"
 boss_3609_name = "Witchbeast"
 boss_3610_name = "Fangspawn"
 
-#Skeletomancer
+#骷髅法师
 boss_3701_name = "Bone Sorcerer"
 boss_3702_name = "Outlawed Warlock"
 boss_3703_name = "Evil Witch"
@@ -2639,7 +2639,7 @@ boss_4006_name = "King Uroplectes"
 boss_4007_name = "King Isometrus"
 boss_4008_name = "King Tityus"
 
-#Arachnod
+#结茧球蛛
 boss_4101_name = "Crypto Narino"
 boss_4102_name = "Crypto Simonis"
 boss_4103_name = "Crypto Verde"
@@ -2821,13 +2821,13 @@ boss_11010_name = "过往的鬼魂"
 
 #游戏开始时的免责声明
 ea_title = "抢先体验免责声明"
-ea_description = "感谢您参与《恶魔之书》的抢先体验！\m1.8请注意，本游戏仍在开发中，你（很）可能会遇到BUG，未完成的功能，甚至可能是游戏崩溃。我们一直在努力解决问题，添加功能。\n\n您的反馈将对我们有很大的帮助，您可以随时使用游戏内的反馈按钮，来告诉我们您对本游戏的任何方面的建议与意见（无论是负面还是正面的）。这将有助于我们改善游戏。\m1.8虽然我们的游戏仍处于开发阶段，但还是希望您玩得愉快！\m2.6                                                               此致，\n                                                               Thing Trunk 团队" # Translator: All or part of it Won't be translated.
+ea_description = "感谢您参与《恶魔之书》的抢先体验！\m1.8请注意，本游戏仍在开发中，你（很）可能会遇到BUG，未完成的功能，甚至可能是游戏崩溃。我们一直在努力解决问题，添加功能。\n\n您的反馈将对我们有很大的帮助，您可以随时使用游戏内的反馈按钮，来告诉我们您对本游戏的任何方面的建议与意见（无论是负面还是正面的）。这将有助于我们改善游戏。\m1.8虽然我们的游戏仍处于开发阶段，但还是希望您玩得愉快！\m2.6                                                               此致，\n                                                               Thing Trunk 团队" 
 
 demo_title = "恶魔之书试玩版"
-demo_description = "感谢您使用恶魔之书试玩版。\m1.8请注意，本游戏仍在开发中，你（很）可能会遇到BUG，未完成的功能或机制，甚至可能是游戏崩溃。\n我们一直在努力解决这些问题，您的反馈将对我们有很大的帮助。\n\n您可以随时使用游戏内的反馈按钮，来告诉我们您对本游戏的任何方面的建议与意见（无论是负面还是正面的）。这将有助于我们改善游戏。\m1.8虽然我们的游戏仍处于开发阶段，但还是希望您玩得愉快！\m2.6   此致，\n   Thing Trunk 团队" # Translator: All or part of it Won't be translated.
+demo_description = "感谢您使用恶魔之书试玩版。\m1.8请注意，本游戏仍在开发中，你（很）可能会遇到BUG，未完成的功能或机制，甚至可能是游戏崩溃。\n我们一直在努力解决这些问题，您的反馈将对我们有很大的帮助。\n\n您可以随时使用游戏内的反馈按钮，来告诉我们您对本游戏的任何方面的建议与意见（无论是负面还是正面的）。这将有助于我们改善游戏。\m1.8虽然我们的游戏仍处于开发阶段，但还是希望您玩得愉快！\m2.6   此致，\n   Thing Trunk 团队" 
 
 press_title = "Press build"
-press_description = "Welcome to Book of 恶魔 Press Build!\m1.8Please remember that you are playing an Early Access game. Many elements are not yet final.\m1.8Playing 战士 until level 5 which unlocks other classes should take about 20 minutes. During this time you should become familiar with all the basic mechanics of the game.\m1.8We hope that you will have a fun time playing our game even at this stage of production.\m2.6                                                               With love,\n                                                               Thing Trunk Team" # Translator: All or part of it Won't be translated.
+press_description = "Welcome to Book of 恶魔 Press Build!\m1.8Please remember that you are playing an Early Access game. Many elements are not yet final.\m1.8Playing 战士 until level 5 which unlocks other classes should take about 20 minutes. During this time you should become familiar with all the basic mechanics of the game.\m1.8We hope that you will have a fun time playing our game even at this stage of production.\m2.6                                                               With love,\n                                                               Thing Trunk Team" 
 
 
 ################################## Translator's Changelog ######################################

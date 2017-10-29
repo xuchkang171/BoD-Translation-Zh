@@ -136,9 +136,9 @@ wnd_betawarn_msg = "请注意，在试玩抢先体验版游戏将发送游戏相
 
 wnd_share_avatar = "分享头像"
 wnd_share_death = "分享死亡"
-share_facebook = "Facebook" # Translator: All or part of it Won't be translated.
-share_twitter = "Twitter" # Translator: All or part of it Won't be translated.
-share_reddit = "Reddit" # Translator: All or part of it Won't be translated.
+share_facebook = "Facebook" 
+share_twitter = "Twitter" 
+share_reddit = "Reddit" 
 
 ############################ 语言 ##############################
 
@@ -189,14 +189,14 @@ mmenu_awards = "查看成就"
 mmenu_awards_ttip = "点击查看当前存档的成就"
 mmenu_profile = "切换存档"
 mmenu_options = "选项"
-mmenu_options_ttip = "点击管理R2G产品" # Translator: All or part of it Won't be translated.
+mmenu_options_ttip = "点击管理R2G产品" 
 mmenu_credits = "制作人员"
 mmenu_update = "作品"
 mmenu_website = "访问网站"
-mmenu_website_ttip = "在外部浏览器中打开R2G网站" # Translator: All or part of it Won't be translated.
+mmenu_website_ttip = "在外部浏览器中打开R2G网站" 
 mmenu_website_offline_ttip="您处于脱机状态"
 mmenu_key = "激活密钥"
-mmenu_what_is = "R2G是什么？" # Translator: All or part of it Won't be translated.
+mmenu_what_is = "R2G是什么？" 
 mmenu_changelog = "更新日志"
 mmenu_sandbox = "弹出沙盒"
 mmenu_sandbox_ttip = "该功能正在制作中，点击了解更多。"
@@ -250,8 +250,8 @@ lbl_configure_single_product = "在下方您可以选择语言并安装/卸载�
 
 msg_tit_info = "重要消息"
 msg_dung_recreated = "你之前在此地牢中的进度已被重置。原因可能是：游戏更新、存档损坏或存档未完成。你无需采取任何应对措施。玩得愉快！"
-msg_corrupt_save = "保存文件已损坏，所以已还原至之前存档。如果您可以将保存文件夹的内容压缩并发送到support@thingtrunk.com，这将极大地有助于我们解决问题。在「运行」窗口（Win+R）或文件资源管理器中输入 %AppData%/\1_\2 即可打开保存文件夹。\n\n感谢您的帮助，抱歉给您带来不便！\nThing Trunk 团队" # Translator: All or part of it Won't be translated.
-msg_corrupt_files = "看起来游戏文件已损坏或不完整。\n请重新安装游戏或者在Steam中游戏属性内验证游戏缓存的完整性。如果问题仍未解决，请通过support@thingtrunk.com与我们联系\n\n感谢您的帮助，抱歉给您带来不便！\nThing Trunk 团队" # Translator: All or part of it Won't be translated.
+msg_corrupt_save = "保存文件已损坏，所以已还原至之前存档。如果您可以将保存文件夹的内容压缩并发送到support@thingtrunk.com，这将极大地有助于我们解决问题。在「运行」窗口（Win+R）或文件资源管理器中输入 %AppData%/\1_\2 即可打开保存文件夹。\n\n感谢您的帮助，抱歉给您带来不便！\nThing Trunk 团队" 
+msg_corrupt_files = "看起来游戏文件已损坏或不完整。\n请重新安装游戏或者在Steam中游戏属性内验证游戏缓存的完整性。如果问题仍未解决，请通过support@thingtrunk.com与我们联系\n\n感谢您的帮助，抱歉给您带来不便！\nThing Trunk 团队" 
 
 ## 试玩版
 mbox_game_launch_error_title = "无法运行游戏"
@@ -262,7 +262,7 @@ mbox_game_launch_error_msg = "似乎您已在完整版游戏中使用过当前�
 btn_survey_show = "R2G调查"
 btn_survey_hide = "隐藏"
 
-mbox_survey_title = "Return 2 Games" # Translator: Won't be translated.
+mbox_survey_title = "Return 2 Games" # Translator: Translated.
 mbox_survey_text = "你想花一分钟来做个调查吗？"
 mbox_survey_accept = "填写调查问卷"
 mbox_survey_never = "永不"
@@ -278,18 +278,18 @@ survey_no_internet = "未连接至互联网。请联网后再发送反馈。"
 ##################################### 分享 / 推荐 #####################################
 
 share_window_title = "分享"
-share_window_note ="通过以下方式推荐「R2G：恶魔之书」给你的朋友们：" # Translator: All or part of it Won't be translated.
-share_window_facebook = "Facebook" # Translator: All or part of it Won't be translated.
-share_window_twitter = "Twitter" # Translator: All or part of it Won't be translated.
-share_window_reddit = "Reddit" # Translator: All or part of it Won't be translated.
+share_window_note ="通过以下方式推荐「R2G：恶魔之书」给你的朋友们：" 
+share_window_facebook = "Facebook" 
+share_window_twitter = "Twitter" 
+share_window_reddit = "Reddit" 
 share_window_email = "电子邮件"
 
 recommend_button_label = "推荐"
-recommend_button_ttip = "通过Twitter，Facebook，Reddit或者发电子邮件推荐「R2G：恶魔之书」给你的朋友们。" # Translator: All or part of it Won't be translated.
+recommend_button_ttip = "通过Twitter，Facebook，Reddit或者发电子邮件推荐「R2G：恶魔之书」给你的朋友们。" 
 
 # 支持者
 supporter_ack_title = "谢谢"
-supporter_ack_text = "感谢您成为一名「Return 2 Games」的官方支持者！\n\n如果您希望被列入制作人员名单的「R2G支持者」部分请提供您的姓名（或昵称）和您的电子邮件地址。您的电子邮件不会被公开，若我们需要就你提交的名称与您取得进一步联系，将需要您的电子邮件地址。每个条目都是手动处理的，因为我们不能向制作人员名单中添加淫秽或不当的字词，抱歉！\n\n如果你有任何问题，请随时通过\^18BDE6support@thingtrunk.com\^^与我们联系。谢谢！" # Translator: All or part of it Won't be translated.
+supporter_ack_text = "感谢您成为一名「Return 2 Games」的官方支持者！\n\n如果您希望被列入制作人员名单的「R2G支持者」部分请提供您的姓名（或昵称）和您的电子邮件地址。您的电子邮件不会被公开，若我们需要就你提交的名称与您取得进一步联系，将需要您的电子邮件地址。每个条目都是手动处理的，因为我们不能向制作人员名单中添加淫秽或不当的字词，抱歉！\n\n如果你有任何问题，请随时通过\^18BDE6support@thingtrunk.com\^^与我们联系。谢谢！" 
 supporter_ack_nick = "名称："
 supporter_ack_email = "电子邮件："
 supporter_ack_send = "发送"
@@ -299,21 +299,21 @@ supporter_ack_sent_title = "发送"
 supporter_ack_sent_text = "已发送。"
 
 # Twitch
-twitch_login_title = "登录到Twitch" # Translator: All or part of it Won't be translated.
+twitch_login_title = "登录到Twitch" 
 twitch_login_user = "用户名"
 twitch_login_pass = "密码"
 twitch_login_channel = "频道"
 twitch_login_paste = "粘贴"
 twitch_login_connect = "连接"
-twitch_login_user_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`" # Translator: All or part of it Won't be translated.
-twitch_login_pass_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`" # Translator: All or part of it Won't be translated.
-twitch_login_channel_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`" # Translator: All or part of it Won't be translated.
+twitch_login_user_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`" # Translator: Translated.
+twitch_login_pass_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`" # Translator: Translated. 
+twitch_login_channel_allowed_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=+!@#$%^&*()[]{};:',./<>?~`" # Translator: Translated. 
 
 ############################################## 窗口名称 ###########################
 
 msgbox_offline_title = "离线"
 
-wnd_wir2g_title = "R2G是什么" # Translator: All or part of it Won't be translated.
+wnd_wir2g_title = "R2G是什么" 
 wnd_about_boa = "异客之书"
 
 wnd_about_bod = "恶魔之书"
@@ -347,15 +347,15 @@ wnd_achiev_rank_next = "\^FCDA92下一等级：\^FFFFFF\1 \^FCDA92/\^FFFFFF \2\^
 wnd_achiev_rank_progress_tooltip = "解锁下一等级还需\1成就点"
 wnd_achieve_chalice_tooltip = "已解锁\3成就的\1/\2"
 
-wnd_achieve_badge_stars_label = "\s0\1" # Translator: All or part of it Won't be translated.
+wnd_achieve_badge_stars_label = "\s0\1" 
 wnd_achieve_badge_score_label = "\^FCDA92成就点：\^FFFFFF \1\^^"
 
 wnd_achieve_badge_1_tip = "钢铁之心"
 wnd_achieve_badge_2_tip = "一网打尽"
 wnd_achieve_badge_3_tip = "冷酷刀锋"
-wnd_achieve_badge_to_1 = "\^FCDA92\1\^^ more to 青铜徽章" # Translator: All or part of it Won't be translated.
-wnd_achieve_badge_to_2 = "\^FCDA92\1\^^ more to 白银徽章" # Translator: All or part of it Won't be translated.
-wnd_achieve_badge_to_3 = "\^FCDA92\1\^^ more to 黄金徽章" # Translator: All or part of it Won't be translated.
+wnd_achieve_badge_to_1 = "距离青铜徽章：\^FCDA92\1\^^"
+wnd_achieve_badge_to_2 = "距离白银徽章：\^FCDA92\1\^^"
+wnd_achieve_badge_to_3 = "距离黄金徽章：\^FCDA92\1\^^"
 wnd_achieve_badge_stars_tip = "收集的星星"
 wnd_achieve_badge_score_tip = "游戏总得分"
 
@@ -521,14 +521,14 @@ achiev_0_20_2_desc = "用任意其他英雄再次打败伪教皇恶魔领主"
 achiev_0_20_3 = "三次的美丽"
 achiev_0_20_3_desc = "使用所有三位英雄打败伪教皇恶魔领主"
 
-achiev_0_21_1 = "不是我的Boss" # Translator: All or part of it Won't be translated.
-achiev_0_21_1_desc = "击败5个Boss" # Translator: All or part of it Won't be translated.
+achiev_0_21_1 = "不是我的Boss" 
+achiev_0_21_1_desc = "击败5个Boss" 
 achiev_0_21_1_max = "5"
-achiev_0_21_2 = "Boss又如何？" # Translator: All or part of it Won't be translated.
-achiev_0_21_2_desc = "击败50个Boss" # Translator: All or part of it Won't be translated.
+achiev_0_21_2 = "Boss又如何？" 
+achiev_0_21_2_desc = "击败50个Boss" 
 achiev_0_21_2_max = "50"
-achiev_0_21_3 = "谁才是Boss？" # Translator: All or part of it Won't be translated.
-achiev_0_21_3_desc = "击败500个Boss" # Translator: All or part of it Won't be translated.
+achiev_0_21_3 = "谁才是Boss？" 
+achiev_0_21_3_desc = "击败500个Boss" 
 achiev_0_21_3_max = "500"
 
 achiev_0_22_1 = "猛禽"
@@ -916,8 +916,8 @@ avatar_ttip_click_to_assign_pad = "点击\s0设置为您的存档头像"
 avatar_ttip_this_is_current = "\s2\^00FF00这是当前存档的头像\^^"
 
 avt_screen_cur_cap = "可获取头像上限"
-avt_screen_cap_bar_ttip = "每当你拥有一款新的R2G游戏，可获取头像上限将上调。" # Translator: All or part of it Won't be translated.
-avt_screen_cap_bar_no_game_ttip = "在下一款R2G游戏发布之前，可获取头像上限将无法上调。" # Translator: All or part of it Won't be translated.
+avt_screen_cap_bar_ttip = "每当你拥有一款新的R2G游戏，可获取头像上限将上调。" 
+avt_screen_cap_bar_no_game_ttip = "在下一款R2G游戏发布之前，可获取头像上限将无法上调。" 
 
 
 avt_screen_cap_own_game_ttip = "必须拥有\1才能解锁"
@@ -1247,6 +1247,6 @@ bod_intro_15_out = "75"
 ##
 
 ######################## !!! DO NOT CHANGE !!! #########################
-test_font = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789\nFrench\nÙÛÜŸÀÂÆÇÉÈÊËÏÎÔŒ\nùûüÿàâæçéèêëïîôœ\nGerman\nÄÖÜẞ\näöüß\nItalian\nÀÈÉÌÒÓÙ\nàèéìòóù\nPolish\nĄĆĘŁŃÓŚŹŻ\nąćęłńóśźż\nPortuguese\nÃÁÀÂÇÉÊÍÕÓÔÚÜ\nãáàâçéêíõóôúü\nSpanish\nÁÉÍÑÓÚÜ\náéíñóúü\nSPECIALS\n!\"#$%&'()*+,-./:;<=>?@[]^_`{}~¡©®¿\nCzech\nÚŮÝŽÁČĎÉĚÍŇÓŘŠŤ\núůýžáčďéěíňóřšť\nDutch\nÉËÏÓÖÜ\néëïóöü\nSwedish\nÄÅÉÖ\näåéö\nDanish\nÅÆÉØ\nåæéø\nFinnish\nÄÅÖ\näåö\nHungarian\nÁÉÍÖÓŐÜÚŰ\náéíöóőüúű\nNorwegian\nÅÆÂÉÈÊØÓÒÔ\nåæâéèêøóòô\n\nTurkish\nÇĞIİÖŞÜ\nçğıİöşü" # Translator: All or part of it Won't be translated.
+test_font = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\nabcdefghijklmnopqrstuvwxyz\n0123456789\nFrench\nÙÛÜŸÀÂÆÇÉÈÊËÏÎÔŒ\nùûüÿàâæçéèêëïîôœ\nGerman\nÄÖÜẞ\näöüß\nItalian\nÀÈÉÌÒÓÙ\nàèéìòóù\nPolish\nĄĆĘŁŃÓŚŹŻ\nąćęłńóśźż\nPortuguese\nÃÁÀÂÇÉÊÍÕÓÔÚÜ\nãáàâçéêíõóôúü\nSpanish\nÁÉÍÑÓÚÜ\náéíñóúü\nSPECIALS\n!\"#$%&'()*+,-./:;<=>?@[]^_`{}~¡©®¿\nCzech\nÚŮÝŽÁČĎÉĚÍŇÓŘŠŤ\núůýžáčďéěíňóřšť\nDutch\nÉËÏÓÖÜ\néëïóöü\nSwedish\nÄÅÉÖ\näåéö\nDanish\nÅÆÉØ\nåæéø\nFinnish\nÄÅÖ\näåö\nHungarian\nÁÉÍÖÓŐÜÚŰ\náéíöóőüúű\nNorwegian\nÅÆÂÉÈÊØÓÒÔ\nåæâéèêøóòô\n\nTurkish\nÇĞIİÖŞÜ\nçğıİöşü" # Translator: Translated.
 
 welcome_player = "你好 \1"

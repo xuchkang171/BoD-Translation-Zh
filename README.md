@@ -1,4 +1,5 @@
 # 更新 Update activities
+* 2017-10-29: 78% (+792: launcher:+60 / main:+496 / cards:+177 / gossips:+59)
 * 2017-10-26: 61% (+609: launcher:+210 / main:+278 / cards:+96 / gossips:+25) *Regard no-need-to-translate scripts as translated.*
 * 2017-10-25: 49% (+135: launcher:+4 / main:+46 / cards:+3 / gossips:+82)
 * 2017-10-24: 46% (+70: launcher:+0 / main:+14 / cards:+8 / gossips:+48)
@@ -6,11 +7,11 @@
 
 # 概况 Overview
 
-* 总进度 Overall progress: 61% (2814/4646)
-* lang_zh\launcher.utf8: 83% (837/1004)
-* bod_lang_zh_demo\bod_demo_main.utf8: 59% (1280/2178)
-* bod_lang_zh_demo\bod_demo_cards.utf8: 38% (436/1144)
-* bod_lang_zh_demo\bod_demo_gossips.utf8: 82% (261/320)
+* 总进度 Overall progress: 78% (3606/4646)
+* lang_zh\launcher.utf8: 89% (897/1004)
+* bod_lang_zh_demo\bod_demo_main.utf8: 82% (1776/2178)
+* bod_lang_zh_demo\bod_demo_cards.utf8: 54% (613/1144)
+* bod_lang_zh_demo\bod_demo_gossips.utf8: 100% (320/320)
 
 顺带还写了一个统计翻译进度的小脚本，如有译者需要，可[点此下载](https://github.com/xuchkang171/BoD-Translation-Zh/tree/master/Translation-stats)。
 
