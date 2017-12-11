@@ -42,7 +42,7 @@ gtxt_3_2 = "    镇上的人都很好，但也很朴实，对神秘之事知之�
 
 gtit_4 = "坩埚" ## 酒吧侍女
 gtxt_4_0 = "    你不在的时候，我也在忙。预言家在教我她的手艺，我指的不是关于卡牌的那些。我在学「奖品酿造」的手艺，就是一种强大魔法丹药的酿造之术，那些丹药，像你这样的冒险者肯定会觉得有用的。如果你需要的话，只用收集坩埚原料就行了，剩下的就交给我了。"
-gtxt_4_1 = "    这个魔法，有些规律。首先，我调配的原料越多，药水的能量就会越大，酿造的将品也就越丰富。其次，你随时都可以提取出奖品，但是提取的价格会越来越贵。第三，如果你在地牢中被怪物杀掉，药水的能量就会减弱。这是因为我在为你酿造的时候，药水就与你的精神用魔法相连了。"
+gtxt_4_1 = "    Now, this is the magical stuff I'm talking about, so there are some rules. First, the more ingredients I mix, the greater the potion's power will be. Second, you can drink it and enjoy a little magic any time you want, but the process will get more expensive each time. Third, if monsters slay you in the dungeons, the potion will weaken. It's because I'm making them just for you, so they have to be magically linked to your essence."
 
 gtit_5 = "小镇" ## 预言家
 gtxt_5_0 = "    欢迎回来，我的朋友。相信你已经注意到了，当你周游世界归来，这里的情况已经有所好转。当然，除了那些邪恶的存在。你这么聪明，肯定猜到了，这主要是因为有我在。"

@@ -107,6 +107,7 @@ bod_act_25 = "关闭所有窗口"
 bod_act_26 = "打开菜单"
 bod_act_27 = "下一个特殊导弹"
 bod_act_28 = "保持静止"
+bod_act_29 = "Toggle map"
 
 bod_ctrl_map_pad_lmb = "主要操作"
 bod_ctrl_map_pad_rmb = "次要操作"
@@ -123,6 +124,8 @@ bod_ctrl_map_pad_targetting = "选择目标"
 bod_ctrl_map_pad_use = "使用"
 bod_ctrl_map_pad_lt = "固定攻击"
 bod_ctrl_map_pad_rt = "特殊攻击"
+bod_ctrl_map_pad_highlight = "Toggle loot highlight"
+bod_ctrl_map_pad_reset_target = "Reset cursor position"
 
 ## Key codes/names - should be short; codes will be displayed in limited space
 
@@ -491,10 +494,10 @@ mag_sign_card_tooltip_2 = "召唤一个强大的石头傀儡在你身边战斗"
 rog_description = "一位狡猾的盗贼，总是在追寻名利与财富。她使一把弓箭，漫步地牢，留下一堆被她毒箭刺穿的尸体。戏剧性与诡计是她最强大的盟友。"
 # Fire Arrow
 rog_sign_card_tooltip_0 = "装配毁灭性的火箭，对冰属性怪物造成额外伤害"
-# Vamp Gloves
-rog_sign_card_tooltip_1 = "一定机率从你杀死的怪物吸取生命能量"
-# Intuition
-rog_sign_card_tooltip_2 = "你敏锐的感官让你可以发现盾牌的薄弱点，并可用箭头中断法术施放。"
+# Claws
+rog_sign_card_tooltip_1 = "A monster getting to close? Cut it to ribbons"
+# Decoy
+rog_sign_card_tooltip_2 = "Summon illusions to fight by your side and quadruple your firepower"
 
 
 ################################
@@ -591,6 +594,8 @@ npc_sage_identify_cards_header = "\s0未鉴定卡牌"
 npc_sage_identify_card_btn_label = "鉴定卡牌"
 npc_sage_identify_card_btn_no_gold_ttip = "金币不足，无法鉴定卡牌"
 npc_sage_identify_card_btn_not_sel_ttip = "选择要鉴定的卡牌"
+npc_sage_identify_card_ttip_cost_not = "You need \^FF0000\1\^^ \s0 to identify this card"
+npc_sage_identify_card_ttip_cost_met = "In order to identify this card for \^00FF00\1\^^ \s0 press \s9"
 
 npc_sage_monster_unmet_ttip = "未遭遇的怪物"
 npc_sage_monster_kills_info = "已击杀：\^FFFFFF\1\^^"
@@ -667,12 +672,21 @@ crd_charge_buy_ttip = "\s:右键充满"
 crd_charge_select_pad_ttip = "按\s9以选择"
 crd_charge_deselect_pad_ttip = "按\s9以取消选择"
 crd_charge_buy_one_pad_ttip = "按\s9充能一次"
-crd_charge_buy_pad_ttip = "按\s:充满"
+crd_charge_buy_pad_ttip = "按\sd充满"
 
 crd_charge_full_ttip = "卡牌已达充能上限"
 wnd_charge_btn_nocash_ttip = "金币不足无法充能"
 wnd_charge_btn_allmax_ttip = "所有卡牌均已充能"
 wnd_charge_chk_ttip = "显示完全充能卡牌"
+
+############################ Sell runes (Fortune Teller) #########################
+
+crd_rune_sell_pad_ttip = "Press \s9 to sell one rune"
+
+###################################### Downgrading cards ###########################
+
+crd_downgrade_pad_ttip = "Press \s9 to downgrade for \1\s="  
+crd_downgrade_nogold_pad_ttip = "You need \1\s= in order to downgrade" 
 
 ###################################### 升级卡牌 ###########################
 
@@ -724,6 +738,7 @@ cauldron_ttip_desc = "去镇上跟酒吧侍女了解一下坩埚吧。"
 ###################################################
 
 cc_back_to_town = "返回小镇"
+cc_back_to_town_pad = "Back To Town \sa"
 
 cc_begin_game = "开始游戏 \si"
 cc_begin_quest = "开始挑战！"
@@ -991,7 +1006,7 @@ wnd_summary_stars_ttip = "在这个地牢收集的星星（此功能尚不可用
 wnd_summary_avt_research_prg_ttip = "此头像的总费用： \1"
 wnd_summary_score_togo = "还剩\1"
 wnd_summary_autoresearch = "研究完成的头像已自动被使用。不喜欢的话可以自行更换。"
-summary_btn_change_avt = "更改"
+summary_btn_change_avt = "更改 \sd"
 summary_btn_leave_avt = "接受 \si"
 summary_avt_ttip_change_info = "你可以在R2G主菜单中更改你的头像"
 summary_avt_ttip_info = "\^00FF00恭喜！解锁头像！\^^"
@@ -1143,7 +1158,7 @@ game_tip_002 = "当生命魔球闪烁时，点击它可治愈中毒。"
 game_tip_002_pad = "当生命魔球闪烁时，点击\sa它可治愈中毒。"
 game_tip_003 = "你可以随意撤回小镇，即使是在地牢中，你也可以使用小镇卷轴来撤回小镇。"
 game_tip_004 = "你可以在卡牌上长按鼠标右键来直接使用卡牌槽中的物品卡牌。"
-game_tip_004_pad = "你可以通过长按\sa，来直接使用卡牌槽中的物品卡牌。"
+game_tip_004_pad = "你可以通过长按\sd，来直接使用卡牌槽中的物品卡牌。"
 game_tip_005 = "你可以随时通过追随你的脚印，找到关卡入口。"
 game_tip_006 = "当被蜘蛛网击中时，你的卡牌可能会缠住，暂时无法使用。"
 game_tip_007 = "被放电怪物击中后，快速点击倾斜的卡牌可将其修复。"
@@ -1991,8 +2006,8 @@ bod_tutv2_109_c2_pad = "Every level gives you \^ffff00one point\^^ which can be 
 bod_tutv2_110_titl= "Casting Monsters"
 bod_tutv2_110_c0 = "Some monsters \^ffff00cast\^^ skills"
 bod_tutv2_110_c1 = "During casting monsters are \^ffff00immune\^^ to damage"
-bod_tutv2_110_c2 = "\^ffff00Click-and-hold\^^ a skill bubble to \^ffff00break\^^ the spell"
-bod_tutv2_110_c2_pad = "\^ffff00Hold\^^ \st to \^ffff00break\^^ the spell of selected monster"
+bod_tutv2_110_c2 = "\^ffff00Click-and-hold\^^ a skill bubble to \^ffff00break\^^ the skill of selected monster"
+bod_tutv2_110_c2_pad = "\^ffff00Hold\^^ \st to \^ffff00break\^^ the skill of selected monster"
 
 bod_tutv2_111_titl= "持盾Monsters"
 bod_tutv2_111_c0 = "Some armoured monsters are \^ffff00protected\^^ by shields"
@@ -2070,9 +2085,9 @@ bod_tutv2_126_titl= "Advanced Movement"
 bod_tutv2_126_c0 = "You can hold your position and \^ffff00disable auto-attack\^^ by holding the \^ffff00hold\^^ button (shift by default)"
 bod_tutv2_126_c1 = "You can highlight all objects using \^ffff00alt\^^ key, or toggle it using \^ffff00caps lock\^^."
 bod_tutv2_126_c2 = "You can also move using \^ffff00wasd\^^ keys (all keyboard controls can be remapped in options)."
-bod_tutv2_126_c0_pad = "\nYou can hold your position and \^ffff00disable auto-attack\^^ with \sz3."
-bod_tutv2_126_c1_pad = "\^FF4832(Not available for gamepad yet)\^^\nYou can highlight all objects using \^ffff00alt\^^ key, or toggle it using \^ffff00caps lock\^^."
-bod_tutv2_126_c2_pad = "You can check controls in the options window."
+bod_tutv2_126_c0_pad = "You can hold your position and \^ffff00disable auto-attack\^^ with \sz3."
+bod_tutv2_126_c1_pad = "You can \^ffff00toggle highlight\^^ of all objects by pressing \sz5 key."
+bod_tutv2_126_c2_pad = "To \^ffff00check controls\^^ open options window."
 
 bod_tutv2_127_titl= "Re-entering a level"
 bod_tutv2_127_c0 = "After you take the stairs down, you can \^ffff00re-enter the level from the back by clicking on the right side of the level\^^"
@@ -2294,6 +2309,8 @@ bod_csc_summoned = "Summon spark"
 bod_csc_spore = "Slimy Spore"
 bod_csc_erectus = "Statue"
 
+automap_title = "\1 - Dungeon \2 - Level \3 of \4"
+automap_diff = "Difficulty: \1"
 
 #################################
 ## Review Window 
